@@ -4,7 +4,7 @@ from __future__ import annotations
 from datetime import datetime, timedelta
 
 from . import __version__
-from .util import iso, now
+from .util import iso, now, short_credit
 
 
 def brief(day: dict, ctx: dict, cfg: dict) -> dict:
@@ -45,14 +45,15 @@ def brief(day: dict, ctx: dict, cfg: dict) -> dict:
     rep_phrase = ""
     if with_reports:
         e = with_reports[0]["evidence"][0]
-        rep_phrase = f" Recent reports ({e.get('credit') or e.get('source')}, {e['date']}) mention {sp[with_reports[0]['species']]['name'].lower()} around {locs[with_reports[0]['location']]['short']}."
+        credit = short_credit(e.get("credit") or e.get("source"))
+        when = _nice_date(e["date"])
+        rep_phrase = f" {credit} reported {sp[with_reports[0]['species']].get('short', sp[with_reports[0]['species']]['name']).lower()} around {locs[with_reports[0]['location']]['short']} on {when}."
     else:
         rep_phrase = " No recent public reports support today's picks — they rest on conditions and season."
     wind_phrase = wind_phrase[0].upper() + wind_phrase[1:]
-    summary = (f"{wind_phrase}{seas}. Best bet is {sp[best['species']]['name'].lower()} at "
+    summary = (f"{wind_phrase}{seas}. Best bet is {sp[best['species']].get('short', sp[best['species']]['name']).lower()} at "
                f"{loc['short']} {best['window']['start']}–{best['window']['end']}"
-               + (f" on the {stage_word}" if stage_word else "") + f" (suitability {best['score']}/100, {best['confidence']} confidence)."
-               + rep_phrase)
+               + (f" on the {stage_word}" if stage_word else "") + "." + rep_phrase)
     warn = [a["title"] for a in alerts][:4] + sorted({w for r in top[:5] for w in r["warnings"]})[:3]
     if ctx.get("marine_warning"):
         warn.insert(0, "BOM marine warning current — check the coastal waters forecast before heading out")
@@ -68,6 +69,14 @@ def brief(day: dict, ctx: dict, cfg: dict) -> dict:
     }
 
 
+def _nice_date(d: str) -> str:
+    try:
+        dt = datetime.strptime(d, "%Y-%m-%d")
+        return f"{dt.day} {dt.strftime('%b')}"
+    except ValueError:
+        return d
+
+
 def _drivers(r: dict) -> list[str]:
     f = r["factors"]
     labels = {"tide": "Tide stage", "wind": "Wind vs shore", "swell": "Swell/seas", "light": "Time of day",
@@ -81,14 +90,13 @@ def species_scanner(days: list[dict], ctx: dict, cfg: dict) -> list[dict]:
     out = []
     today = days[0]
     for s in cfg["species"]["species"]:
-        rows = [r for d in days[:3] for r in d["top"] if r["species"] == s["id"]]
-        # include all opportunities (not only top) for today for better ranking
+        rows = [dict(r, species=s["id"]) for d in days[:3] for r in d.get("species_best", {}).get(s["id"], [])]
         best_locs: dict[str, dict] = {}
         for r in rows:
             cur = best_locs.get(r["location"])
             if not cur or r["score"] > cur["score"]:
                 best_locs[r["location"]] = {"location": r["location"], "name": locs[r["location"]]["short"], "score": r["score"],
-                                            "window": r["window"], "date": r["window"]["start_iso"][:10]}
+                                            "window": r["window"], "date": r["window"]["start_iso"][:10], "confidence": r["confidence"]}
         ranked = sorted(best_locs.values(), key=lambda x: -x["score"])[:4]
         obs = [o for o in ctx["observations"] if s["id"] in o.get("species", [])]
         obs.sort(key=lambda o: o.get("report_date", ""), reverse=True)
@@ -112,7 +120,7 @@ def species_scanner(days: list[dict], ctx: dict, cfg: dict) -> list[dict]:
             "days_since_report": (ctx["today"].date() - datetime.strptime(obs[0]["report_date"], "%Y-%m-%d").date()).days if obs else None,
             "legal": s.get("legal", {}), "legal_note": s.get("legal_note"), "closure_note": s.get("closure_note"), "closures": closures,
             "techniques": s.get("techniques", []),
-            "confidence": ranked and next((r["confidence"] for r in rows if r["location"] == ranked[0]["location"]), "low") or "none",
+            "confidence": ranked[0]["confidence"] if ranked else "none",
             "basis": "reports + conditions" if recent and any((ctx["today"].date() - datetime.strptime(r["date"], "%Y-%m-%d").date()).days <= 14 for r in recent) else "conditions + season",
         })
     out.sort(key=lambda x: -(x["top_score"] or 0))

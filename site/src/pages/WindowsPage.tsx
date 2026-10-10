@@ -24,19 +24,19 @@ export default function WindowsPage({ data, locName, spName, onRate }: { data: L
   let lastDate = "";
   return (
     <div className="wrap">
-      <h2 style={{ marginTop: 10 }}>Next 72 hours</h2>
+      <div className="section"><h2>Next 72 hours</h2><span>{rows.length} windows</span></div>
       <div className="filters">
         <select value={style} onChange={(e) => setStyle(e.target.value)} aria-label="Fishing style"><option value="any">Any style</option><option value="surf">Surf & headland</option><option value="estuary">Estuary & strait</option></select>
         <select value={loc} onChange={(e) => setLoc(e.target.value)} aria-label="Location"><option value="all">All locations</option>{data.locations.map((l) => <option key={l.id} value={l.id}>{l.short}</option>)}</select>
         <select value={sp} onChange={(e) => setSp(e.target.value)} aria-label="Species"><option value="all">All species</option>{data.species.map((s) => <option key={s.id} value={s.id}>{s.name}</option>)}</select>
       </div>
-      {rows.length === 0 && <p className="empty">Nothing matches. Widen the filters, or check the data status on Home.</p>}
+      {rows.length === 0 && <div className="card empty">Nothing matches. Widen the filters, or check the data status on Home.</div>}
       <ul className="rows">
         {rows.map(({ date, o }) => {
           const head = date !== lastDate; lastDate = date;
           return (
             <div key={date + o.location + o.species + o.window.start}>
-              {head && <h3 style={{ margin: "16px 0 6px" }}>{fmtDate(date)}</h3>}
+              {head && <h3 style={{ margin: "18px 0 8px", color: "var(--ink-3)", fontWeight: 600 }}>{fmtDate(date)}</h3>}
               <OppRow o={o} locName={locName} spName={spName} onRate={onRate} />
             </div>
           );

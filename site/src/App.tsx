@@ -56,14 +56,16 @@ export default function App() {
   const stale = genH != null && genH > 30;
   const closures = data.alerts.filter((a) => a.severity === "closure");
   const bigWarn = data.bom.marine_warning || closures.length > 0;
-  const notices = data.alerts.filter((a) => a.severity !== "closure").length;
   const page = route.page;
   return (
     <>
       {page !== "map" && (
         <header className="topbar">
-          <div className="brand">Inskip Scanner<small>Rainbow Beach to Tin Can Bay</small></div>
-          <div className={`updated ${stale ? "stale" : ""}`}>{offline ? "offline copy · " : ""}{stale ? "stale · " : ""}{fmtAgo(data.generated_at)}</div>
+          <div className="brand">
+            <span className="mark" aria-hidden><svg width="18" height="18" viewBox="0 0 32 32"><path d="M4 20c4-6 8-6 12 0s8 6 12 0" stroke="#4fd1c7" strokeWidth="3.5" fill="none" strokeLinecap="round" /><path d="M4 12c4-6 8-6 12 0s8 6 12 0" stroke="#4fd1c7" strokeWidth="3.5" fill="none" strokeLinecap="round" opacity=".45" /></svg></span>
+            <span>Inskip Scanner<small>Rainbow Beach to Tin Can Bay</small></span>
+          </div>
+          <div className={`updated ${stale ? "stale" : ""}`}><span className="dot" />{offline ? "offline copy · " : ""}{stale ? "stale · " : ""}{fmtAgo(data.generated_at)}</div>
         </header>
       )}
       {page === "home" && bigWarn && (
@@ -72,9 +74,7 @@ export default function App() {
           {closures.length > 0 && <ul>{closures.slice(0, 3).map((a) => <li key={a.id}>{a.title}</li>)}</ul>}
         </div>
       )}
-      {page === "home" && !bigWarn && notices > 0 && (
-        <div className="wrap"><p className="small muted" style={{ margin: "6px 0 0" }}>{notices} park notice{notices > 1 ? "s" : ""} for the area — see Access & safety below.</p></div>
-      )}
+
       {page === "home" && <Home data={data} dayIndex={0} locName={locName} spName={spName} onRate={onRate} />}
       {page === "map" && <Suspense fallback={<div className="wrap"><p className="muted" style={{ marginTop: 40 }}>Loading map…</p></div>}><MapPage data={data} dayIndex={dayIndex} locName={locName} spName={spName} selected={selected} setSelected={setSelected} onRate={onRate} /></Suspense>}
       {page === "species" && <SpeciesPage data={data} locName={locName} />}

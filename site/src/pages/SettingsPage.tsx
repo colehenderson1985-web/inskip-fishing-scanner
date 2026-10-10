@@ -29,14 +29,13 @@ export default function SettingsPage({ data, prefill }: { data: Latest; prefill:
 
   return (
     <div className="wrap">
-      <h2 style={{ marginTop: 10 }}>Settings</h2>
-      <label>Display</label>
-      <div className="filters">
-        <button className={`btn ${prefs.theme === "day" ? "" : "secondary"}`} onClick={() => setPrefs({ ...prefs, theme: "day" })}>Daylight</button>
-        <button className={`btn ${prefs.theme === "dawn" ? "" : "secondary"}`} onClick={() => setPrefs({ ...prefs, theme: "dawn" })}>Dawn (dark)</button>
+      <div className="section"><h2>Display</h2></div>
+      <div className="segment" role="radiogroup" aria-label="Theme">
+        <button className={prefs.theme === "day" ? "on" : ""} role="radio" aria-checked={prefs.theme === "day"} onClick={() => setPrefs({ ...prefs, theme: "day" })}>Daylight</button>
+        <button className={prefs.theme === "dawn" ? "on" : ""} role="radio" aria-checked={prefs.theme === "dawn"} onClick={() => setPrefs({ ...prefs, theme: "dawn" })}>Dawn · dark</button>
       </div>
 
-      <h2 id="report">Add a report</h2>
+      <div className="section" id="report"><h2>Add a report</h2><span>Facebook posts, messages, notes</span></div>
       <p className="small">Paste a shop's Facebook post, a mate's message, or your own notes. It's credited to the source, dated, and feeds the scanner on the next refresh. You'll be taken to GitHub to post it — sign in once, then it's one tap.</p>
       <label htmlFor="src">Source</label>
       <select id="src" value={src} onChange={(e) => setSrc(e.target.value)}>{inboxSources.map((s) => <option key={s.id} value={s.id}>{s.name}</option>)}</select>
@@ -46,9 +45,9 @@ export default function SettingsPage({ data, prefill }: { data: Latest; prefill:
       <textarea id="ptext" value={text} onChange={(e) => setText(e.target.value)} placeholder="Paste the report text here…" />
       <label htmlFor="purl">Link (optional)</label>
       <input id="purl" type="url" value={url} onChange={(e) => setUrl(e.target.value)} placeholder="https://" style={{ width: "100%" }} />
-      <p style={{ marginTop: 12 }}><a className="btn" href={text.trim().length > 20 ? reportUrl : undefined} target="_blank" rel="noopener" aria-disabled={text.trim().length <= 20} style={text.trim().length <= 20 ? { opacity: .5, pointerEvents: "none" } : {}}>Submit report</a></p>
+      <p style={{ marginTop: 12 }}><a className="btn teal" href={text.trim().length > 20 ? reportUrl : undefined} target="_blank" rel="noopener" aria-disabled={text.trim().length <= 20} style={text.trim().length <= 20 ? { opacity: .5, pointerEvents: "none" } : {}}>Submit report</a></p>
 
-      <h2 id="rate">Rate a session</h2>
+      <div className="section" id="rate"><h2>Rate a session</h2><span>one tap after you fish</span></div>
       <p className="small">One tap after you fish. This is what teaches the scanner which recommendations were any good.</p>
       <label htmlFor="rloc">Location</label>
       <select id="rloc" value={rLoc} onChange={(e) => setRLoc(e.target.value)}>{data.locations.map((l) => <option key={l.id} value={l.id}>{l.short}</option>)}</select>
@@ -59,9 +58,9 @@ export default function SettingsPage({ data, prefill }: { data: Latest; prefill:
       <label>How was it?</label>
       <div className="rating" role="radiogroup" aria-label="Rating 1 to 5">{[1, 2, 3, 4, 5].map((n) => <button key={n} className={rating === n ? "on" : ""} onClick={() => setRating(n)} role="radio" aria-checked={rating === n}>{n}</button>)}</div>
       <input type="text" value={rText} onChange={(e) => setRText(e.target.value)} placeholder="Optional: what you caught, bait, notes" style={{ width: "100%" }} />
-      <p style={{ marginTop: 12 }}><a className="btn" href={rating ? ratingUrl : undefined} target="_blank" rel="noopener" style={!rating ? { opacity: .5, pointerEvents: "none" } : {}}>Submit rating</a></p>
+      <p style={{ marginTop: 12 }}><a className="btn teal" href={rating ? ratingUrl : undefined} target="_blank" rel="noopener" style={!rating ? { opacity: .5, pointerEvents: "none" } : {}}>Submit rating</a></p>
 
-      <h2>Admin</h2>
+      <div className="section"><h2>Admin</h2></div>
       <p className="small">
         <a href={`${REPO}/actions/workflows/refresh.yml`} target="_blank" rel="noopener">Run a manual refresh</a> (GitHub Actions → Run workflow) ·{" "}
         <a href={`${REPO}/issues?q=label%3Apipeline`} target="_blank" rel="noopener">pipeline issues</a> ·{" "}

@@ -139,3 +139,17 @@ class StepResult(dict):
                  fetched_at: datetime | None = None, note: str | None = None):
         super().__init__(source=source, ok=ok, items=items, error=error,
                          fetched_at=iso(fetched_at or now()), note=note)
+
+
+def short_credit(c: str | None) -> str:
+    """Compact source credit for prose."""
+    c = (c or "a local report").replace(" (via admin)", "")
+    if "Chandlery" in c:
+        return "The Chandlery (Coastwatch)"
+    if c.startswith("Coastwatch"):
+        return "Coastwatch"
+    if "Fisho" in c:
+        return "Fisho's Tackle World"
+    if "Gardiners" in c:
+        return "Gardiners Tackle World"
+    return c.split(" (")[0]

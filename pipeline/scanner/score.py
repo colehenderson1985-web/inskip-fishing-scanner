@@ -252,6 +252,7 @@ def _rain(wx: dict, t: datetime, hours: int) -> float | None:
 
 def explain(loc, species, f, exp, stage, period, evidence, warnings, hs, wind_kn) -> str:
     parts = []
+    sname = species.get("short", species["name"]).lower()
     rel = exp.get("relation")
     comp = exp.get("compass") or ""
     if rel == "offshore":
@@ -263,20 +264,21 @@ def explain(loc, species, f, exp, stage, period, evidence, warnings, hs, wind_kn
     if stage:
         word = STAGE_WORDS.get(stage["stage"], stage["stage"])
         liked = stage["stage"] in species.get("tide_pref", [])
-        parts.append(f"the window covers {word}" + (f", which suits {species['name'].lower()}" if liked else ""))
+        parts.append(f"the window covers {word}" + (f", which suits {sname}" if liked else ""))
     if period in species.get("light_pref", []):
         parts.append(f"{period} is a preferred time for this species")
     if loc["type"] in ("surf_beach", "headland") and hs is not None:
         parts.append(f"seas around {hs:.1f} m")
     if f["season"] >= 1.0:
-        parts.append(f"{species['name'].lower()} are in peak season")
+        parts.append(f"{sname} are in peak season")
     elif f["season"] <= 0.2:
-        parts.append(f"{species['name'].lower()} are out of season")
+        parts.append(f"{sname} are out of season")
     if evidence:
         e = evidence[0]
-        who = e.get("credit") or e.get("source")
+        from .util import short_credit
+        who = short_credit(e.get("credit") or e.get("source"))
         n = len(evidence)
-        parts.append(f"{n} recent report{'s' if n > 1 else ''} mention{'' if n > 1 else 's'} {species['name'].lower()} nearby (latest {who}, {e['date']})")
+        parts.append(f"{n} recent report{'s' if n > 1 else ''} mention{'' if n > 1 else 's'} {sname} nearby (latest {who}, {e['date']})")
     else:
         parts.append("no recent public reports for this species here — ranking rests on conditions and seasonal patterns")
     text = "; ".join(parts)
@@ -337,5 +339,11 @@ def score_day(day: datetime, ctx: dict) -> dict:
             break
     for i, r in enumerate(top, 1):
         r["rank"] = i
+    species_best: dict[str, list[dict]] = {}
+    for r in opportunities:  # already sorted by score desc
+        lst = species_best.setdefault(r["species"], [])
+        if any(x["location"] == r["location"] for x in lst) or len(lst) >= 4:
+            continue
+        lst.append({"location": r["location"], "score": r["score"], "window": r["window"], "confidence": r["confidence"], "colour": r["colour"]})
     return {"date": day.strftime("%Y-%m-%d"), "astro": astro, "top": top,
-            "locations": per_loc, "all_count": len(opportunities)}
+            "locations": per_loc, "all_count": len(opportunities), "species_best": species_best}

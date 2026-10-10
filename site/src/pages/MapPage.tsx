@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import maplibregl from "maplibre-gl";
 import type { Latest, Location } from "../types";
-import OppRow from "../components/OppRow";
+import OppRow, { ScoreChip } from "../components/OppRow";
 import type { Opportunity } from "../types";
 
 const STYLE = "https://tiles.openfreemap.org/styles/liberty";
@@ -117,12 +117,12 @@ export function LocationSheet({ loc, ld, data, day, locName, spName, onClose, on
       <div className="grab" />
       <button className="close" onClick={onClose} aria-label="Close">×</button>
       <div style={{ display: "flex", gap: 12, alignItems: "flex-start" }}>
-        <div className={`score ${ld.colour}`}>{ld.score ?? "–"}<small>{ld.colour === "grey" ? "no data" : ld.colour}</small></div>
+        <ScoreChip score={ld.score} colour={ld.colour} />
         <div style={{ minWidth: 0 }}>
           <h3>{loc.name}</h3>
           <div className="small muted">{loc.access_point} · {loc.approx ? "approximate" : ""}</div>
           <div className="small" style={{ marginTop: 4 }}>
-            <span className={`conf ${ld.confidence}`}>{ld.confidence} confidence</span>
+            <span className={`tag conf-${ld.confidence}`}>{ld.confidence} confidence</span>
             {ld.best_window && <> · best {ld.best_window.start}–{ld.best_window.end}</>}
           </div>
         </div>
@@ -138,7 +138,7 @@ export function LocationSheet({ loc, ld, data, day, locName, spName, onClose, on
       </div>
       {loc.hazards.length > 0 && <p className="small muted">Hazards: {loc.hazards.map((h) => h.replace(/_/g, " ")).join(", ")}. {loc.notes}</p>}
       {opps.length > 0 && <ul className="rows">{opps.map((o) => <OppRow key={o.species + o.window.start} o={o} locName={locName} spName={spName} showLocation={false} onRate={onRate} />)}</ul>}
-      <p style={{ marginTop: 10 }}><button className="btn secondary" onClick={share}>Share this location</button></p>
+      <p style={{ marginTop: 12 }}><button className="btn secondary" onClick={share}>Share this location</button></p>
     </div>
   );
 }

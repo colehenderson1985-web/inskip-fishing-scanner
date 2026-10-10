@@ -164,8 +164,8 @@ def season_factor(month: int, species: dict) -> float:
     if month in s.get("peak", []):
         return 1.0
     if month in s.get("shoulder", []):
-        return 0.6
-    return 0.2
+        return 0.5
+    return 0.15
 
 
 def light_factor(period: str, species: dict) -> float:

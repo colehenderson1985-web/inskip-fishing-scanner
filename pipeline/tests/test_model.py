@@ -57,8 +57,8 @@ def test_swell_band():
 def test_season_factor():
     sp = {"season": {"peak": [5, 6, 7], "shoulder": [4, 8]}}
     assert model.season_factor(6, sp) == 1.0
-    assert model.season_factor(8, sp) == 0.6
-    assert model.season_factor(1, sp) == 0.2
+    assert model.season_factor(8, sp) == 0.5
+    assert model.season_factor(1, sp) == 0.15
 
 
 def test_parse_hilo_csv_msq_layout():

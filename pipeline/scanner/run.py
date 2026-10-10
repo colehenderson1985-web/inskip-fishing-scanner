@@ -31,7 +31,8 @@ def refresh(offline: bool = False, days: int = 7) -> dict:
         coastal = read_json(CACHE / "bom_coastal.json", {})
         obs_bom = read_json(CACHE / "bom_obs.json", {})
         prev_health = read_json(DATA / "health.json", {})
-        results = [v | {"source": k} for k, v in (prev_health.get("sources") or {}).items()]
+        results = [{"source": k, "ok": v.get("ok", False), "items": v.get("items", 0), "error": v.get("error"),
+                    "fetched_at": v.get("last_success"), "note": v.get("note")} for k, v in (prev_health.get("sources") or {}).items()]
     else:
         weather, r = open_meteo.fetch_weather(locs, days=days + 3); results.append(r)
         marine, r = open_meteo.fetch_marine(region["marine_points"], days=8); results.append(r)
