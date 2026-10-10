@@ -48,9 +48,16 @@ def append_observations(new: list[dict]) -> int:
     return added
 
 
+SECTION_DEFAULT_LOCS = {"tin can bay": ["tin_can_bay", "carlo_point", "inskip_bay"]}
+
+
 def make_observation(source: str, source_name: str, provenance: str, url: str | None,
-                     report_date: datetime, text: str, credit: str, section: str = "", local: bool = False) -> dict:
+                     report_date: datetime, text: str, credit: str, section: str = "", local: bool = False,
+                     default_locations: list[str] | None = None) -> dict:
     catch_date, note = extract.infer_catch_date(text, report_date)
+    if default_locations is None:
+        default_locations = SECTION_DEFAULT_LOCS.get((section or "").lower().split("/")[0].strip(), []) if local else []
+    pairs = extract.species_location_pairs(text, local=local, default_locations=default_locations)
     kind = "report" if source in ("coastwatch", "fishos", "group_rating") or provenance != "automated" else extract.classify_kind(section, text)
     locations = extract.find_locations(text, local=local)
     if local:
@@ -70,6 +77,7 @@ def make_observation(source: str, source_name: str, provenance: str, url: str | 
         "locations": locations,
         "local_source": local,
         "kind": kind,
+        "pairs": pairs,
         "text": text[:1500],
         "credit": credit,
         "ingested_at": now().isoformat(timespec="seconds"),

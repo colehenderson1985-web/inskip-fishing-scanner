@@ -66,7 +66,7 @@ export const STAGE: Record<string, string> = {
 };
 
 export const FACTOR_LABEL: Record<string, string> = {
-  tide: "Tide", wind: "Wind", swell: "Swell", light: "Light", season: "Season", reports: "Reports", pressure: "Pressure", rain: "Rain", lunar: "Moon",
+  tide: "Tide", wind: "Wind", swell: "Swell", light: "Light", season: "Season", reports: "Reports", pressure: "Pressure", rain: "Rain", lunar: "Moon", water_temp: "Water temp",
 };
 
 export function usePrefs() {

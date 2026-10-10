@@ -61,6 +61,13 @@ def tide_stage(t: datetime, hilo: list[dict]) -> dict | None:
     }
 
 
+def tide_prefs_for(species: dict, loc_type: str) -> list[str]:
+    tp = species.get("tide_pref", [])
+    if isinstance(tp, dict):
+        return tp.get(loc_type) or tp.get("default") or []
+    return tp
+
+
 def tide_factor(stage: dict | None, prefs: list[str]) -> float:
     if not stage:
         return 0.5
@@ -73,12 +80,12 @@ def tide_factor(stage: dict | None, prefs: list[str]) -> float:
     if s in prefs:
         base = 1.0
     elif any(a in prefs for a in adjacent[s]):
-        base = 0.65
+        base = 0.55
     else:
-        base = 0.3
+        base = 0.2
     # bigger range → stronger flow; mild effect
     rng_bonus = min(stage["range_m"], 2.0) / 2.0 * 0.1
-    return min(1.0, base * 0.9 + rng_bonus)
+    return round(min(1.0, base * 0.9 + rng_bonus), 2)
 
 
 # ------------------------------------------------------------------ wind
@@ -117,20 +124,22 @@ def wind_factor(exp: dict, species: dict, loc_type: str) -> float:
     rel = exp["relation"]
     max_on = species.get("wind", {}).get("max_onshore_kn", 20)
     if rel == "offshore":
-        f = 1.0 if kn <= 15 else max(0.4, 1.0 - (kn - 15) / 25)
-        if species.get("wind", {}).get("offshore_bonus"):
+        f = 1.0 if kn <= 12 else max(0.35, 1.0 - (kn - 12) / 22)
+        if species.get("wind", {}).get("offshore_bonus") and kn <= 15:
             f = min(1.0, f + 0.05)
     elif rel == "cross":
-        f = 0.85 if kn <= 12 else max(0.3, 0.85 - (kn - 12) / 25)
-    else:  # onshore
-        if kn <= max_on * 0.5:
-            f = 0.75
-        elif kn <= max_on:
+        f = 0.8 if kn <= 10 else max(0.25, 0.8 - (kn - 10) / 20)
+    else:  # onshore — hurts quickly on open beaches
+        if kn <= 6:
+            f = 0.7
+        elif kn <= max_on * 0.6:
             f = 0.55
+        elif kn <= max_on:
+            f = 0.35
         else:
-            f = max(0.1, 0.55 - (kn - max_on) / 20)
+            f = max(0.08, 0.35 - (kn - max_on) / 15)
     if loc_type in ("estuary", "sheltered_strait"):
-        f = 0.5 + 0.5 * f   # wind matters less inside
+        f = 0.45 + 0.55 * f   # wind matters less inside, but still matters
     return round(f, 2)
 
 
@@ -147,11 +156,11 @@ def swell_factor(hs: float | None, period: float | None, species: dict, loc_type
     if lo <= hs <= hi:
         f = 1.0
     elif mn <= hs < lo:
-        f = 0.7 + 0.3 * (hs - mn) / max(lo - mn, 0.01)
+        f = 0.55 + 0.45 * (hs - mn) / max(lo - mn, 0.01)
     elif hi < hs <= mx:
-        f = 1.0 - 0.6 * (hs - hi) / max(mx - hi, 0.01)
+        f = 1.0 - 0.65 * (hs - hi) / max(mx - hi, 0.01)
     else:
-        f = 0.25 if hs > mx else 0.6
+        f = 0.2 if hs > mx else 0.45
     if period and period >= 10 and loc_type == "surf_beach":
         f = min(1.0, f + 0.05)
     return round(max(0.1, f), 2)
@@ -175,8 +184,8 @@ def light_factor(period: str, species: dict) -> float:
     if period in ("dawn", "dusk") and "day" in prefs:
         return 0.8
     if period == "night" and ("dusk" in prefs or "dawn" in prefs):
-        return 0.6
-    return 0.4
+        return 0.55
+    return 0.3
 
 
 def lunar_factor(astro: dict) -> float:
@@ -200,3 +209,16 @@ def rain_factor(rain_24h_mm: float | None, rain_72h_mm: float | None, species: d
     if clarity == "clear" and r24 > 25:
         return 0.45
     return 0.7
+
+
+def sst_factor(sst_c: float | None, species: dict) -> float | None:
+    """Warm-water species (jacks, mackerel, cobia) switch on above a threshold. None = not applicable."""
+    cfg = species.get("sst")
+    if not cfg or sst_c is None:
+        return None
+    mn, ideal = cfg.get("min_c", 21), cfg.get("ideal_c", 24)
+    if sst_c >= ideal:
+        return 1.0
+    if sst_c <= mn - 2:
+        return 0.25
+    return round(0.25 + 0.75 * (sst_c - (mn - 2)) / max(ideal - (mn - 2), 0.1), 2)

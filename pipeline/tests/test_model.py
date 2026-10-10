@@ -44,7 +44,9 @@ def test_wind_factor_prefers_offshore():
     sp = {"wind": {"max_onshore_kn": 20}}
     off = model.wind_factor({"relation": "offshore", "effective_kn": 8}, sp, "surf_beach")
     on = model.wind_factor({"relation": "onshore", "effective_kn": 25}, sp, "surf_beach")
-    assert off > on
+    mild_on = model.wind_factor({"relation": "onshore", "effective_kn": 10}, sp, "surf_beach")
+    assert off > mild_on > on
+    assert on < 0.15
 
 
 def test_swell_band():
@@ -117,3 +119,32 @@ def test_classify_report_vs_guide():
     assert extract.classify_kind("Weekly Fishing Report: Rainbow Beach 26 Sept", "...") == "report"
     assert extract.classify_kind("Choosing the Right Bait for Fishing Around Rainbow Beach", "Beach worms work well for whiting.") == "guide"
     assert extract.classify_kind("Big week on the beach", "Tailor were caught in numbers this week and jew landed after dark.") == "report"
+
+
+def test_tide_prefs_by_environment():
+    sp = {"tide_pref": {"surf_beach": ["low_turn"], "default": ["high_turn"]}}
+    assert model.tide_prefs_for(sp, "surf_beach") == ["low_turn"]
+    assert model.tide_prefs_for(sp, "estuary") == ["high_turn"]
+    assert model.tide_prefs_for({"tide_pref": ["x"]}, "estuary") == ["x"]
+
+
+def test_calibration_curve():
+    from scanner.score import calibrate
+    assert calibrate(0.40) == 0 and calibrate(0.675) == 50 and calibrate(0.95) == 100 and calibrate(0.99) == 100
+    assert calibrate(0.80) < calibrate(0.85) < calibrate(0.90)
+
+
+def test_sst_factor():
+    sp = {"sst": {"min_c": 21, "ideal_c": 24}}
+    assert model.sst_factor(25, sp) == 1.0
+    assert model.sst_factor(18, sp) == 0.25
+    assert model.sst_factor(None, sp) is None
+    assert model.sst_factor(22, {}) is None
+
+
+def test_sentence_level_pairs():
+    txt = "Whiting are on the flats near the mangroves. School mackerel have been reported near Big Mick and Inskip Point."
+    pairs = extract.species_location_pairs(txt, local=True, default_locations=["tin_can_bay"])
+    assert ["whiting", "tin_can_bay"] in pairs
+    assert ["mackerel", "inskip_ocean"] in pairs
+    assert ["whiting", "inskip_ocean"] not in pairs

@@ -115,3 +115,19 @@ def classify_kind(title: str, text: str) -> str:
     if any(k in t for k in ("tips", "guide", "choosing", "how to", "discover", "ultimate", "welcome")) and hits < 3:
         return "guide"
     return "report" if hits >= 2 else "guide"
+
+
+def species_location_pairs(text: str, local: bool = False, default_locations: list[str] | None = None) -> list[list[str]]:
+    """Sentence-level pairing: a species counts at a location only when the same sentence names both
+    (or names the species while the section's default location applies)."""
+    pairs: list[list[str]] = []
+    for sent in re.split(r"(?<=[.!?])\s+", text):
+        sp = find_species(sent)
+        if not sp:
+            continue
+        locs = find_locations(sent, local=local) or (default_locations or [])
+        for a in sp:
+            for b in locs:
+                if [a, b] not in pairs:
+                    pairs.append([a, b])
+    return pairs

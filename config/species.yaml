@@ -13,7 +13,10 @@ species:
     short: Tailor
     envs: [surf_beach, headland]
     season: {peak: [5, 6, 7, 8, 9], shoulder: [4, 10, 11]}
-    tide_pref: [rising_late, high_turn, falling_early]
+    tide_pref:
+      surf_beach: [rising_early, rising_late, high_turn]      # "sunrise and sunset on the incoming tides" (BNB K'gari tailor run)
+      headland: [rising_late, high_turn, falling_early]
+      default: [rising_late, high_turn, falling_early]
     light_pref: [dawn, dusk, night]
     wind: {max_onshore_kn: 20, offshore_bonus: true}
     swell: {min_m: 0.5, ideal: [0.8, 1.8], max_m: 2.5}
@@ -30,7 +33,9 @@ species:
     short: Dart
     envs: [surf_beach, headland]
     season: {peak: [10, 11, 12, 1, 2, 3], shoulder: [4, 9]}
-    tide_pref: [rising_early, rising_late, high_turn]
+    tide_pref:
+      surf_beach: [rising_late, high_turn, falling_early]     # "deeper water at high tide, when big schools come in" (Fishing Monthly)
+      default: [rising_late, high_turn]
     light_pref: [day, dawn, dusk]
     wind: {max_onshore_kn: 18}
     swell: {min_m: 0.3, ideal: [0.5, 1.5], max_m: 2.2}
@@ -45,7 +50,11 @@ species:
     short: Whiting
     envs: [surf_beach, estuary, sheltered_strait]
     season: {peak: [10, 11, 12, 1, 2, 3], shoulder: [4, 9]}
-    tide_pref: [rising_early, rising_late, high_turn]
+    tide_pref:
+      surf_beach: [low_turn, falling_late, rising_early]      # "hour before and after low tide" in the gutters (BNB K'gari)
+      estuary: [rising_early, rising_late, high_turn]         # flood over the flats; worms/yabbies "work best on the flood" (BNB TCB)
+      sheltered_strait: [rising_early, rising_late, high_turn]
+      default: [rising_early, rising_late, high_turn]
     light_pref: [day, dawn]
     wind: {max_onshore_kn: 15}
     swell: {min_m: 0.0, ideal: [0.2, 1.0], max_m: 1.8}
@@ -75,7 +84,8 @@ species:
     short: Flathead
     envs: [estuary, sheltered_strait, surf_beach]
     season: {peak: [9, 10, 11, 12, 1], shoulder: [2, 3, 8]}
-    tide_pref: [falling_early, falling_late, low_turn]
+    tide_pref:
+      default: [falling_early, falling_late, rising_early]    # "best on the falling tide and first two hours of the rise" (Fishing Monthly, flats)
     light_pref: [day, dawn, dusk]
     wind: {max_onshore_kn: 18}
     swell: {min_m: 0.0, ideal: [0.0, 1.0], max_m: 1.6}
@@ -91,7 +101,9 @@ species:
     short: Mulloway
     envs: [surf_beach, headland, estuary]
     season: {peak: [5, 6, 7, 8, 9], shoulder: [3, 4, 10, 11]}
-    tide_pref: [high_turn, falling_early, low_turn, rising_late]
+    tide_pref:
+      surf_beach: [high_turn, falling_early, rising_late]     # "high tide to peak slightly before or after dark" (BNB K'gari)
+      default: [high_turn, falling_early, low_turn, rising_late]
     light_pref: [night, dusk, dawn]
     wind: {max_onshore_kn: 22}
     swell: {min_m: 0.8, ideal: [1.0, 2.2], max_m: 3.0}
@@ -106,7 +118,10 @@ species:
     short: Trevally
     envs: [surf_beach, headland, estuary, sheltered_strait]
     season: {peak: [11, 12, 1, 2, 3, 4], shoulder: [5, 10]}
-    tide_pref: [rising_late, high_turn, falling_early]
+    tide_pref:
+      estuary: [falling_early, high_turn]                     # creek pelagics "first couple of hours of a run-out" on big tides (BNB TCB)
+      sheltered_strait: [falling_early, high_turn]
+      default: [rising_late, high_turn, falling_early]
     light_pref: [dawn, dusk]
     wind: {max_onshore_kn: 20}
     swell: {min_m: 0.3, ideal: [0.5, 1.8], max_m: 2.5}
@@ -119,9 +134,11 @@ species:
   - id: mangrove_jack
     name: Mangrove jack
     short: Mangrove jack
+    sst: {min_c: 21, ideal_c: 24}                              # slow when water swings 19.5–24°C; fire after summer storms (BNB TCB)
     envs: [estuary, sheltered_strait]
     season: {peak: [11, 12, 1, 2, 3], shoulder: [10, 4]}
-    tide_pref: [falling_early, falling_late, rising_late]
+    tide_pref:
+      default: [falling_early, falling_late, rising_late]     # snags on the back of the run-out (Coastwatch TCB)
     light_pref: [night, dusk, dawn]
     wind: {max_onshore_kn: 25}
     swell: {min_m: 0.0, ideal: [0.0, 1.0], max_m: 2.0}
@@ -165,6 +182,7 @@ species:
   - id: cobia
     name: Cobia
     short: Cobia
+    sst: {min_c: 21, ideal_c: 24}
     envs: [headland, surf_beach]
     season: {peak: [10, 11, 12, 1, 2, 3], shoulder: [4, 9]}
     tide_pref: [rising_late, high_turn]
@@ -179,6 +197,7 @@ species:
   - id: mackerel
     name: Spotted / school mackerel
     short: Mackerel
+    sst: {min_c: 21, ideal_c: 24}
     envs: [headland, surf_beach]
     season: {peak: [10, 11, 12, 1, 2, 3], shoulder: [4, 9]}
     tide_pref: [rising_late, high_turn, falling_early]

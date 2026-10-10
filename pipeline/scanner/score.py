@@ -24,6 +24,14 @@ STAGE_WORDS = {
 }
 
 
+# ------------------------------------------------------------------ calibration
+
+def calibrate(raw: float) -> int:
+    """Map the weighted factor mean (typically 0.45–0.95) onto 0–100 so that 90+ is exceptional.
+    raw 0.40 → 0 · 0.65 → 45 · 0.80 → 73 · 0.95 → 100. Steep on purpose: only near-perfect alignment scores 90+."""
+    return int(round(max(0.0, min(1.0, (raw - 0.40) / 0.55)) * 100))
+
+
 # ------------------------------------------------------------------ evidence
 
 def report_evidence(obs: list[dict], loc_id: str, species_id: str, on: datetime, rules: dict) -> tuple[float, list[dict]]:
@@ -35,10 +43,13 @@ def report_evidence(obs: list[dict], loc_id: str, species_id: str, on: datetime,
     for o in obs:
         if o.get("kind", "report") != "report":
             continue
-        if species_id not in o.get("species", []):
-            continue
-        if loc_id not in o.get("locations", []):
-            continue
+        pairs = o.get("pairs")
+        if pairs is not None:
+            if [species_id, loc_id] not in pairs and (species_id, loc_id) not in {tuple(p) for p in pairs}:
+                continue
+        else:
+            if species_id not in o.get("species", []) or loc_id not in o.get("locations", []):
+                continue
         d = o.get("catch_date") or o.get("report_date")
         try:
             age = (on.date() - datetime.strptime(d, "%Y-%m-%d").date()).days
@@ -170,7 +181,7 @@ def score_window(loc: dict, species: dict, win: tuple, day: datetime, ctx: dict)
     rules = ctx["rules"]
 
     f = {
-        "tide": model.tide_factor(stage, species.get("tide_pref", [])),
+        "tide": model.tide_factor(stage, model.tide_prefs_for(species, loc["type"])),
         "wind": model.wind_factor(exp, species, loc["type"]),
         "swell": model.swell_factor(hs, swell_p, species, loc["type"]),
         "light": model.light_factor(period, species),
@@ -181,9 +192,21 @@ def score_window(loc: dict, species: dict, win: tuple, day: datetime, ctx: dict)
     }
     rep, evidence = report_evidence(ctx["observations"], loc["id"], species["id"], day, rules)
     f["reports"] = round(0.35 + 0.65 * rep, 2)   # no reports ≠ bad; it's just unknown
-    w = WEIGHTS[loc["type"]]
-    raw = sum(w[k] * f[k] for k in w)
-    score = round(100 * raw)
+    sstf = model.sst_factor(sst, species)
+    w = dict(WEIGHTS[loc["type"]])
+    if sstf is not None:                           # warm-water species: borrow weight from lunar+pressure
+        f["water_temp"] = sstf
+        w["water_temp"] = 0.08
+        w["lunar"] = max(0.0, w["lunar"] - 0.02); w["pressure"] = max(0.0, w["pressure"] - 0.02); w["season"] = max(0.0, w["season"] - 0.04)
+    raw = sum(w[k] * f[k] for k in w) / sum(w.values())
+    score = calibrate(raw)
+    # a bad fundamental can't be averaged away
+    fundamentals = ["tide", "wind"] + (["swell"] if loc["type"] in ("surf_beach", "headland") else [])
+    weakest = min(f[k] for k in fundamentals)
+    if weakest < 0.35:
+        score = min(score, 55)
+    elif weakest < 0.5:
+        score = min(score, 70)
 
     g = gate(loc, species, day, ctx)
     warnings = list(g["reasons"])
@@ -265,12 +288,14 @@ def explain(loc, species, f, exp, stage, period, evidence, warnings, hs, wind_kn
         parts.append(f"{comp} wind at ~{round(wind_kn)} kn is onshore" + (" but the spot is well sheltered" if exp.get("shelter", 1) < 0.5 else ""))
     if stage:
         word = STAGE_WORDS.get(stage["stage"], stage["stage"])
-        liked = stage["stage"] in species.get("tide_pref", [])
+        liked = stage["stage"] in model.tide_prefs_for(species, loc["type"])
         parts.append(f"the window covers {word}" + (f", which suits {sname}" if liked else ""))
     if period in species.get("light_pref", []):
         parts.append(f"{period} is a preferred time for this species")
     if loc["type"] in ("surf_beach", "headland") and hs is not None:
-        parts.append(f"seas around {hs:.1f} m")
+        parts.append(f"seas around {hs:.1f} m" + (" — on the flat side for this species" if f["swell"] < 0.7 and hs < 0.8 else ""))
+    if f.get("water_temp") is not None and f["water_temp"] < 0.6:
+        parts.append("water still on the cool side for this species")
     if f["season"] >= 1.0:
         parts.append(f"{sname} are in peak season")
     elif f["season"] <= 0.2:

@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.3.0 — 2026-10-10
+- Score separation: steeper calibration curve (raw 0.95 → 100, 0.80 → 73, 0.65 → 45), more demanding wind/swell/tide/light
+  factors, and a cap when any fundamental (tide, wind, swell) is poor. Real-data spread now 40–100, median ~76.
+- Environment-specific tide preferences per species, sourced from Fishing Monthly / Bush 'n Beach guides
+  (whiting: low tide on the surf, flood on the flats; dart on the high; flathead on the fall; mulloway on a high near dark).
+- Water-temperature factor for warm-water species (jack, mackerel, cobia).
+- Sentence-level species↔location pairing in report extraction; reports classified as report vs guide (guides carry no evidence weight).
+- New source: Gardiner's Tackle World blog (Shopify Atom feed). Push notifications via ntfy with WhatsApp share action.
+
 ## 0.2.0 — 2026-10-10
 - Visual redesign: sea-ink hero with the tide ribbon inside it, stat row, score chips, white cards on a soft ground,
   styled controls, refined tab bar, dawn (dark) theme tokens.

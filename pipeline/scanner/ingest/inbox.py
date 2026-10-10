@@ -45,5 +45,10 @@ def ingest_payload(payload: dict) -> dict:
             obs["locations"].insert(0, payload["location"])
         if payload.get("species") and payload["species"] not in obs["species"]:
             obs["species"].insert(0, payload["species"])
+        if payload.get("location"):
+            # an explicitly chosen location applies to every species the post names
+            for sp_ in obs["species"]:
+                if [sp_, payload["location"]] not in obs["pairs"]:
+                    obs["pairs"].append([sp_, payload["location"]])
     added = append_observations([obs])
     return {"added": added, "observation": obs}
