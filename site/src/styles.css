@@ -90,7 +90,8 @@ p { margin: 0 0 10px; max-width: 64ch; }
 .pill.conf-medium { background: rgba(240,167,58,.18); color: #ffd27f; border-color: rgba(240,167,58,.35); }
 .pill.conf-low, .pill.conf-none { background: rgba(255,255,255,.08); color: #b8c6cc; border-color: rgba(255,255,255,.12); }
 .hero .ghost { margin-left: auto; background: rgba(255,255,255,.08); color: #fff; border: 1px solid rgba(255,255,255,.14); border-radius: 999px; padding: 6px 12px; font-size: 13px; font-weight: 600; cursor: pointer; }
-.hero .ghost:hover { background: rgba(255,255,255,.14); }
+.hero .ghost:hover { background: rgba(255,255,255,.14); text-decoration: none; }
+.hero .ghost.wa { display: inline-flex; align-items: center; gap: 6px; background: rgba(37,211,102,.18); border-color: rgba(37,211,102,.35); color: #9cf0bb; }
 
 /* ───────────────── tide ribbon (inside hero) ───────────────── */
 .ribbon { margin-top: 12px; background: rgba(0,0,0,.18); border-top: 1px solid rgba(255,255,255,.06); }

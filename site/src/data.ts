@@ -80,3 +80,41 @@ export function usePrefs() {
   }, [prefs]);
   return [prefs, setPrefs] as const;
 }
+
+
+/** Compose the "peak bite times" message for a day — used by the WhatsApp share. */
+export function biteMessage(data: import("./types").Latest, dayIndex: number, locName: (id: string) => string, spName: (id: string) => string): string {
+  const day = data.days[dayIndex];
+  const b = day.brief;
+  const seen = new Set<string>();
+  const lines: string[] = [];
+  for (const o of day.top) {
+    const key = `${o.location}|${o.window.start}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    lines.push(`• ${o.window.start}–${o.window.end} ${spName(o.species)} @ ${locName(o.location)} (${o.score})`);
+    if (lines.length >= 4) break;
+  }
+  const loc = b.best_location ? data.locations.find((l) => l.id === b.best_location!.id) : null;
+  const tides = (data.tides[loc?.tide_ref ?? "noosa_head"] ?? []).filter((t) => t.t.startsWith(day.date))
+    .map((t) => `${t.type === "H" ? "H" : "L"} ${t.t.slice(11, 16)}`).join(" · ");
+  const c = day.top[0]?.conditions;
+  const wx = c ? `${c.wind_dir ?? ""} ${c.wind_kn} kn${c.seas_m != null ? `, seas ${c.seas_m} m` : ""}` : "";
+  const url = `${location.href.split("#")[0]}#/day/${day.date}`;
+  return [
+    `🎣 Inskip Scanner — ${fmtDate(day.date)}`,
+    `${b.headline}. ${b.summary}`,
+    "",
+    "Peak bite windows:",
+    ...lines,
+    "",
+    `Tides (${(loc?.tide_ref ?? "noosa_head").replace("_", " ")}): ${tides}`,
+    wx ? `Wind ${wx}` : "",
+    `${b.confidence} confidence · suitability, not a guarantee`,
+    url,
+  ].filter((l) => l !== undefined).join("\n");
+}
+
+export function whatsappUrl(text: string): string {
+  return `https://wa.me/?text=${encodeURIComponent(text)}`;
+}
