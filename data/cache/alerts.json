@@ -13,22 +13,12 @@
   "source": "QPWS park alerts"
  },
  {
-  "id": "https://parks.qld.gov.au/park-alerts/26880?v=3",
-  "title": "Ex HMAS Tobruk public mooring temporary closed (update 28 Sep)",
-  "summary": "Visitors are advised that the Ex HMAS Tobruk public mooring is temporarily closed due to mooring line repairs. Affected parks: Great Sandy Marine Park",
-  "link": "https://parks.qld.gov.au/park-alerts/26880",
-  "published": "2026-09-28T09:41:21+10:00",
-  "severity": "closure",
-  "locations": [],
-  "source": "QPWS park alerts"
- },
- {
   "id": "https://parks.qld.gov.au/park-alerts/26960?v=2",
   "title": "Inskip hazardous trees and campground maintenance - Temporary closures (update)",
   "summary": "Planned site rehabilitation, maintenance and hazardous tree works in the Inskip Peninsula Recreation Area will commence Monday 26th 2026 October until Friday 12th March 2027. Affected parks: Inskip Peninsula Recreation Area",
   "link": "https://parks.qld.gov.au/park-alerts/26960",
   "published": "2026-09-23T10:10:15+10:00",
-  "severity": "closure",
+  "severity": "warning",
   "locations": [
    "inskip_ocean",
    "inskip_bay"
@@ -110,7 +100,7 @@
   "summary": "Recent flooding events in the Upper Noosa River have caused damage to the southern day-use jetty at Campsite 3. The jetty has been closed until repairs can be completed. Affected parks: Cooloola (Noosa River) Resources Reserve; Cooloola Recreation Area, Great Sandy National Park",
   "link": "https://parks.qld.gov.au/park-alerts/26456",
   "published": "2026-04-24T15:26:36+10:00",
-  "severity": "closure",
+  "severity": "warning",
   "locations": [
    "rainbow_to_dip",
    "dip_north",
