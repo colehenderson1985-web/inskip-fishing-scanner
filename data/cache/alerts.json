@@ -1,0 +1,164 @@
+[
+ {
+  "id": "https://parks.qld.gov.au/park-alerts/27055?v=1",
+  "title": "Inskip Peninsula Recreation Area revegetation project",
+  "summary": "Vegetation rehabilitation works are being undertaken at the M.V. Beagle camping area, Inskip Peninsula, on 6 October 2026. Affected parks: Inskip Peninsula Recreation Area",
+  "link": "https://parks.qld.gov.au/park-alerts/27055",
+  "published": "2026-10-06T10:50:42+10:00",
+  "severity": "info",
+  "locations": [
+   "inskip_ocean",
+   "inskip_bay"
+  ],
+  "source": "QPWS park alerts"
+ },
+ {
+  "id": "https://parks.qld.gov.au/park-alerts/26880?v=3",
+  "title": "Ex HMAS Tobruk public mooring temporary closed (update 28 Sep)",
+  "summary": "Visitors are advised that the Ex HMAS Tobruk public mooring is temporarily closed due to mooring line repairs. Affected parks: Great Sandy Marine Park",
+  "link": "https://parks.qld.gov.au/park-alerts/26880",
+  "published": "2026-09-28T09:41:21+10:00",
+  "severity": "closure",
+  "locations": [],
+  "source": "QPWS park alerts"
+ },
+ {
+  "id": "https://parks.qld.gov.au/park-alerts/26960?v=2",
+  "title": "Inskip hazardous trees and campground maintenance - Temporary closures (update)",
+  "summary": "Planned site rehabilitation, maintenance and hazardous tree works in the Inskip Peninsula Recreation Area will commence Monday 26th 2026 October until Friday 12th March 2027. Affected parks: Inskip Peninsula Recreation Area",
+  "link": "https://parks.qld.gov.au/park-alerts/26960",
+  "published": "2026-09-23T10:10:15+10:00",
+  "severity": "closure",
+  "locations": [
+   "inskip_ocean",
+   "inskip_bay"
+  ],
+  "source": "QPWS park alerts"
+ },
+ {
+  "id": "https://parks.qld.gov.au/park-alerts/26992?v=1",
+  "title": "Pest Control Program in Cooloola Recreation Area",
+  "summary": "QPWS rangers and contractors will be conducting a feral animal control program from 31 October 2026 through to 28 November 2026 within the Teewah Beach and Freshwater camping areas. Firearms, poisons or traps may be in use. Affected parks: Cooloola Recreation Area, Great Sandy National Park",
+  "link": "https://parks.qld.gov.au/park-alerts/26992",
+  "published": "2026-09-17T09:38:11+10:00",
+  "severity": "info",
+  "locations": [
+   "teewah",
+   "rainbow_to_dip",
+   "dip_north"
+  ],
+  "source": "QPWS park alerts"
+ },
+ {
+  "id": "https://parks.qld.gov.au/park-alerts/26964?v=1",
+  "title": "Water across Cooloola Wilderness Trail",
+  "summary": "Walkers on the Cooloola Wilderness Trail are advised of water across the track in multiple sections Affected parks: Cooloola Recreation Area, Great Sandy National Park",
+  "link": "https://parks.qld.gov.au/park-alerts/26964",
+  "published": "2026-09-08T10:08:30+10:00",
+  "severity": "info",
+  "locations": [
+   "rainbow_to_dip",
+   "dip_north",
+   "teewah"
+  ],
+  "source": "QPWS park alerts"
+ },
+ {
+  "id": "https://parks.qld.gov.au/park-alerts/20766?v=15",
+  "title": "Permanent fire prohibition on Teewah Beach (update 3 Jul)",
+  "summary": "A QPWS imposed fire prohibition is in place in the Cooloola Recreation Area, except at Poverty Point camping area. Camp fires must not be lit anywhere else in the recreation area including in the Teewah Beach camping zones 1-7. Affected parks: Cooloola Recreation Area, Great Sandy National Park",
+  "link": "https://parks.qld.gov.au/park-alerts/20766",
+  "published": "2026-07-03T12:01:45+10:00",
+  "severity": "info",
+  "locations": [
+   "teewah",
+   "rainbow_to_dip",
+   "dip_north"
+  ],
+  "source": "QPWS park alerts"
+ },
+ {
+  "id": "https://parks.qld.gov.au/park-alerts/26370?v=3",
+  "title": "SEVERE EROSION – Inskip barge landing beach access tracks (update 30 Jun)",
+  "summary": "Severe erosion has occurred at the Inskip barge landing beach access tracks due to natural coastal processes and ongoing tidal inundation. Affected parks: Inskip Peninsula Recreation Area; K'gari Great Walk; K'gari, Great Sandy National Park",
+  "link": "https://parks.qld.gov.au/park-alerts/26370",
+  "published": "2026-06-30T12:12:00+10:00",
+  "severity": "warning",
+  "locations": [
+   "inskip_ocean",
+   "inskip_bay"
+  ],
+  "source": "QPWS park alerts"
+ },
+ {
+  "id": "https://parks.qld.gov.au/park-alerts/25995?v=4",
+  "title": "Natural Sand Movement and access to Double Island Point (update 28 May)",
+  "summary": "Deep hole formations which may restrict access to and from Double Island Point Affected parks: Cooloola Recreation Area, Great Sandy National Park",
+  "link": "https://parks.qld.gov.au/park-alerts/25995",
+  "published": "2026-05-28T10:13:06+10:00",
+  "severity": "warning",
+  "locations": [
+   "dip_north",
+   "rainbow_to_dip",
+   "teewah"
+  ],
+  "source": "QPWS park alerts"
+ },
+ {
+  "id": "https://parks.qld.gov.au/park-alerts/26456?v=1",
+  "title": "Upper Noosa River – Campsite 3 – partial jetty closure",
+  "summary": "Recent flooding events in the Upper Noosa River have caused damage to the southern day-use jetty at Campsite 3. The jetty has been closed until repairs can be completed. Affected parks: Cooloola (Noosa River) Resources Reserve; Cooloola Recreation Area, Great Sandy National Park",
+  "link": "https://parks.qld.gov.au/park-alerts/26456",
+  "published": "2026-04-24T15:26:36+10:00",
+  "severity": "closure",
+  "locations": [
+   "rainbow_to_dip",
+   "dip_north",
+   "teewah"
+  ],
+  "source": "QPWS park alerts"
+ },
+ {
+  "id": "https://parks.qld.gov.au/park-alerts/25139?v=2",
+  "title": "Exposed sand cliff and dune landslide danger (update)",
+  "summary": "Exposed sand cliffs and dunes along Teewah Beach, Rainbow Beach and Double Island Point are unstable and can collapse without warning. Affected parks: Cooloola Recreation Area, Great Sandy National Park",
+  "link": "https://parks.qld.gov.au/park-alerts/25139",
+  "published": "2026-03-25T09:58:34+10:00",
+  "severity": "warning",
+  "locations": [
+   "rainbow_town",
+   "rainbow_north",
+   "dip_north",
+   "rainbow_to_dip",
+   "teewah"
+  ],
+  "source": "QPWS park alerts"
+ },
+ {
+  "id": "https://parks.qld.gov.au/park-alerts/26138?v=1",
+  "title": "Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek",
+  "summary": "The Kin Kin Creek pedestrian bridge, which links Elanda Point to Figtree Point on the Cooloola Wilderness Trail, has been washed away during previous flood events. As a result, there is no pedestrian access across Kin Kin Creek currently. Affected parks: Cooloola Recreation Area, Great Sandy National Park; Cooloola (Noosa River) Resources Reserve",
+  "link": "https://parks.qld.gov.au/park-alerts/26138",
+  "published": "2026-01-27T13:46:15+10:00",
+  "severity": "closure",
+  "locations": [
+   "rainbow_to_dip",
+   "dip_north",
+   "teewah"
+  ],
+  "source": "QPWS park alerts"
+ },
+ {
+  "id": "https://parks.qld.gov.au/park-alerts/25920?v=2",
+  "title": "Inskip Peninsula camping area boundary realignment and access changes following severe weather damage, combined with shoreline retrogression (update)",
+  "summary": "A combination of ex-Tropical Cyclone Alfred damage, storm surges, swell, and shoreline retrogression has eroded the eastern-facing beaches of Inskip Peninsula, and caused loss of sand, destabilisation of the dunes and loss of existing campground border fencing. Affected parks: Inskip Peninsula Recreation Area",
+  "link": "https://parks.qld.gov.au/park-alerts/25920",
+  "published": "2025-12-02T15:17:41+10:00",
+  "severity": "info",
+  "locations": [
+   "inskip_ocean",
+   "inskip_bay"
+  ],
+  "source": "QPWS park alerts"
+ }
+]
