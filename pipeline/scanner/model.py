@@ -21,6 +21,12 @@ def angle_diff(a: float, b: float) -> float:
 
 # ------------------------------------------------------------------ tide
 
+def _aware(s: str) -> datetime:
+    from zoneinfo import ZoneInfo
+    d = datetime.fromisoformat(s)
+    return d if d.tzinfo else d.replace(tzinfo=ZoneInfo("Australia/Brisbane"))
+
+
 def tide_stage(t: datetime, hilo: list[dict]) -> dict | None:
     """Classify t relative to surrounding high/low: stage name, minutes to next turn, range."""
     prev = nxt = None
@@ -33,7 +39,7 @@ def tide_stage(t: datetime, hilo: list[dict]) -> dict | None:
             break
     if not prev or not nxt:
         return None
-    pt = datetime.fromisoformat(prev["t"]); nt = datetime.fromisoformat(nxt["t"])
+    pt = _aware(prev["t"]); nt = _aware(nxt["t"])
     total = (nt - pt).total_seconds() / 60
     elapsed = (t - pt).total_seconds() / 60
     frac = elapsed / total if total else 0

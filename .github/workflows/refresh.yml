@@ -43,7 +43,20 @@ jobs:
         working-directory: pipeline
         run: |
           python -m scanner.run refresh --days 7 | tee refresh.out
-          echo "overall=$(python -c "import json;print(json.load(open('../data/health.json'))['overall'])")" >> "$GITHUB_OUTPUT"
+          python - >> "$GITHUB_OUTPUT" <<'EOF'
+          import json, os
+          try:
+              h = json.load(open('../data/health.json'))
+              print("overall=" + h.get("overall", "unknown"))
+              with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as s:
+                  s.write(f"## Refresh: {h.get('overall')}\n\n| source | ok | items | error |\n|---|---|---|---|\n")
+                  for k, v in h["sources"].items():
+                      s.write(f"| {k} | {'✅' if v['ok'] else '❌'} | {v.get('items')} | {(v.get('error') or v.get('note') or '')[:160]} |\n")
+                  for e in h.get("errors", []):
+                      s.write(f"\n- ⚠ {e}")
+          except Exception as e:
+              print("overall=failed")
+          EOF
 
       - name: Tests (post-run sanity)
         working-directory: pipeline

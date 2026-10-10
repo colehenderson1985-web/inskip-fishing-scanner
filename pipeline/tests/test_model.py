@@ -61,10 +61,19 @@ def test_season_factor():
     assert model.season_factor(1, sp) == 0.2
 
 
-def test_parse_hilo_csv_variants():
-    csv = "Date,Time,Height,Type\n01/01/2026,03:12,1.55,H\n01/01/2026,09:40,0.41,L\n2026-01-01 15:50,1.62,HIGH\n"
+def test_parse_hilo_csv_msq_layout():
+    csv = "﻿Date,Time,Ind,Reading\n01/01/2026,06:07,1,2.090\n01/01/2026,12:42,-1,0.670\n02/01/2026,00:12,-1,0.330\n"
     rows = parse_hilo_csv(csv)
-    assert len(rows) == 3 and rows[0]["type"] == "H" and rows[1]["type"] == "L" and rows[2]["h"] == 1.62
+    assert len(rows) == 3 and rows[0]["type"] == "H" and rows[1]["type"] == "L" and rows[1]["h"] == 0.67
+    assert rows[0]["t"] == "2026-01-01T06:07+10:00"
+
+
+def test_parse_datastore_records():
+    from scanner.ingest.tides import parse_records
+    recs = [{"_id": 1, "Date": "01/01/2026", "Time": "06:07", "Ind": "1", "Reading": "2.090"},
+            {"_id": 2, "Date": "01/01/2026", "Time": "12:42", "Ind": "-1", "Reading": "0.670"}]
+    rows = parse_records(recs)
+    assert [r["type"] for r in rows] == ["H", "L"]
 
 
 def test_extrema_fallback():

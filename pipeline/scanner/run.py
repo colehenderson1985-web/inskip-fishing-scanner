@@ -10,7 +10,7 @@ import sys
 from datetime import timedelta
 
 from . import publish, score
-from .ingest import astro as astro_mod, bom, inbox, open_meteo, qpws, reports, tides
+from .ingest import astro as astro_mod, bom, inbox, open_meteo, qpws, reports, tides, zones
 from .util import CACHE, DATA, DERIVED, load_config, log, now, read_json, today, write_json
 
 
@@ -41,6 +41,7 @@ def refresh(offline: bool = False, days: int = 7) -> dict:
         obs_bom, r = bom.fetch_obs(sources, region["obs_station"]["id"]); results.append(r)
         added, rs = reports.fetch_all(sources); results += rs
         log.info("reports: %d new observations", added)
+        results.append(zones.fetch_zones(region["bbox"]))
 
     prev_health = read_json(DATA / "health.json", {})
     hlth = publish.health([dict(r) for r in results], sources, prev_health)
@@ -63,9 +64,16 @@ def refresh(offline: bool = False, days: int = 7) -> dict:
     day_results, briefs = [], []
     for i in range(days + 1):
         d = t0 + timedelta(days=i)
-        sd = score.score_day(d, ctx)
+        try:
+            sd = score.score_day(d, ctx)
+        except Exception as e:  # noqa: BLE001
+            log.exception("scoring failed for %s", d.date())
+            hlth.setdefault("errors", []).append(f"scoring {d.date()}: {e}")
+            sd = {"date": d.strftime("%Y-%m-%d"), "astro": ctx["astro"][d.strftime("%Y-%m-%d")], "top": [], "locations": {}, "all_count": 0}
         day_results.append(sd)
         briefs.append(publish.brief(sd, ctx, cfg))
+    if hlth.get("errors"):
+        hlth["overall"] = "degraded"
     species = publish.species_scanner(day_results, ctx, cfg)
     latest = publish.build_latest(day_results, briefs, species, ctx, cfg, hlth)
 

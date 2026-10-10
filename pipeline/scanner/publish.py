@@ -122,7 +122,7 @@ def health(results: list[dict], sources_cfg: dict, prev: dict | None) -> dict:
     cats = {
         "weather": ["open_meteo_forecast"], "marine": ["open_meteo_marine"],
         "bom": ["bom_coastal", "bom_obs"], "tides": [r["source"] for r in results if r["source"].startswith("tides_")],
-        "alerts": ["qpws_alerts"], "reports": ["coastwatch", "fishos", "noosa_today"],
+        "alerts": ["qpws_alerts"], "reports": ["coastwatch", "fishos", "noosa_today"], "map": ["gsmp_zones"],
     }
     by = {r["source"]: r for r in results}
     prev_src = (prev or {}).get("sources", {})

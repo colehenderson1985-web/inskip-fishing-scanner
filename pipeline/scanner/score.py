@@ -108,7 +108,7 @@ def candidate_windows(day: datetime, astro: dict, hilo: list[dict]) -> list[tupl
     wins.append((ss - timedelta(minutes=90), ss + timedelta(minutes=60), "dusk"))
     d0, d1 = day, day + timedelta(days=1)
     for r in hilo:
-        t = datetime.fromisoformat(r["t"])
+        t = model._aware(r["t"])
         if d0 <= t < d1:
             wins.append((t - timedelta(minutes=90), t + timedelta(minutes=60), f"{'high' if r['type']=='H' else 'low'} tide {t.strftime('%H:%M')}"))
     wins.sort()

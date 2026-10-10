@@ -18,7 +18,7 @@ from email.utils import parsedate_to_datetime
 import feedparser
 from bs4 import BeautifulSoup
 
-from ..util import OBS, StepResult, TZ, archive_raw, get, log, now, sha
+from ..util import BROWSER_UA, OBS, StepResult, TZ, archive_raw, get, log, now, sha
 from . import extract
 
 MONTHS = {m: i for i, m in enumerate(
@@ -79,7 +79,7 @@ def _coastwatch_date(title: str) -> datetime | None:
 
 def fetch_coastwatch(cfg: dict) -> tuple[list[dict], StepResult]:
     try:
-        r = get(cfg["list_url"], timeout=30)
+        r = get(cfg["list_url"], timeout=30, ua=BROWSER_UA)
         archive_raw("coastwatch", "list.html", r.content)
         soup = BeautifulSoup(r.content, "lxml")
         candidates = []
@@ -94,7 +94,7 @@ def fetch_coastwatch(cfg: dict) -> tuple[list[dict], StepResult]:
         candidates.sort(reverse=True)
         d, href, title = candidates[0]
         time.sleep(cfg.get("crawl_delay_s", 10))
-        art = get(href, timeout=30)
+        art = get(href, timeout=30, ua=BROWSER_UA)
         archive_raw("coastwatch", f"{d.date()}.html", art.content)
         sections = split_coastwatch_sections(art.content)
         obs = []
@@ -135,7 +135,7 @@ def split_coastwatch_sections(html: bytes) -> dict[str, str]:
 
 def fetch_feed(source_id: str, cfg: dict, match_terms: list[str] | None = None, limit: int = 3) -> tuple[list[dict], StepResult]:
     try:
-        r = get(cfg["feed_url"], timeout=30)
+        r = get(cfg["feed_url"], timeout=30, ua=BROWSER_UA)
         archive_raw(source_id, "feed.xml", r.content)
         feed = feedparser.parse(r.content)
         obs = []

@@ -17,7 +17,7 @@ import json
 import re
 import xml.etree.ElementTree as ET
 
-from ..util import CACHE, StepResult, archive_raw, log, read_json, write_json, now
+from ..util import BROWSER_UA, CACHE, StepResult, archive_raw, get, log, now, read_json, write_json
 
 
 def _ftp_get(host: str, path: str, name: str, timeout: int = 40) -> bytes:
@@ -86,7 +86,24 @@ def fetch_obs(sources: dict, station: str) -> tuple[dict, StepResult]:
     cfg = sources["weather"]["bom_ftp"]
     name = cfg["obs_product_template"].format(station=station)
     try:
-        raw = _ftp_get(cfg["host"], cfg["path"], name)
+        raw = None
+        errors = []
+        # 1) FTP copy if present
+        try:
+            raw = _ftp_get(cfg["host"], cfg["path"], name)
+        except Exception as e:  # noqa: BLE001
+            errors.append(f"ftp: {e}")
+        # 2) legacy HTTP JSON (same product); BOM's WAF dislikes non-browser agents
+        if raw is None:
+            try:
+                r = get(f"https://www.bom.gov.au/fwo/{name.split('.')[0]}/{name}", timeout=30, ua=BROWSER_UA)
+                if "json" not in r.headers.get("content-type", "") and not r.content.lstrip().startswith(b"{"):
+                    raise RuntimeError(f"non-JSON response ({r.headers.get('content-type')})")
+                raw = r.content
+            except Exception as e:  # noqa: BLE001
+                errors.append(f"http: {e}")
+        if raw is None:
+            raise RuntimeError("; ".join(errors))
         archive_raw("bom", name, raw)
         j = json.loads(raw)
         data = j.get("observations", {}).get("data", [])

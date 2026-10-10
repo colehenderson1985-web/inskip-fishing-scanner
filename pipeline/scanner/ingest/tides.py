@@ -1,35 +1,30 @@
 """Tide predictions.
 
-Primary: Maritime Safety Queensland yearly high/low CSVs (BOM-produced) on
-data.qld.gov.au, discovered via the CKAN API and cached in data/cache so the
-pipeline keeps working if the portal is down.
+Primary: Maritime Safety Queensland yearly high/low predictions (BOM-produced,
+CC BY 4.0) on data.qld.gov.au. We discover the current year's resource via the
+CKAN API and read rows from the CKAN datastore (JSON), falling back to the CSV
+download. Rows: Date dd/mm/yyyy, Time HH:MM, Ind 1 (high) / -1 (low), Reading m.
+Results are cached in data/cache so the pipeline keeps working if the portal is down.
 
-Fallback: Open-Meteo Marine `sea_level_height_msl` hourly series → local
-extrema, labelled "modelled" (lower confidence).
-
-The MSQ CSV layout is parsed tolerantly: any row with a parseable date/time,
-a numeric height and (optionally) an H/L marker is accepted. The first live
-run archives the raw file so the parser can be tightened against reality.
+Fallback: Open-Meteo Marine `sea_level_height_msl` hourly series → local extrema,
+labelled "modelled" (lower confidence).
 """
 from __future__ import annotations
 
 import csv
 import io
 import re
-from datetime import datetime, timedelta
+from datetime import datetime
 
-from ..util import CACHE, StepResult, TZ, archive_raw, get, log, now, read_json, write_json
+from ..util import BROWSER_UA, CACHE, StepResult, TZ, archive_raw, get, log, now, read_json, write_json
 
-CKAN = "https://www.data.qld.gov.au/api/3/action/package_show"
+CKAN = "https://www.data.qld.gov.au/api/3/action"
 
-DATE_PATTERNS = [
-    "%d/%m/%Y %H:%M", "%d/%m/%Y %H:%M:%S", "%Y-%m-%d %H:%M", "%Y-%m-%d %H:%M:%S",
-    "%Y-%m-%dT%H:%M", "%Y-%m-%dT%H:%M:%S", "%d-%m-%Y %H:%M", "%d %b %Y %H:%M",
-]
+DATE_PATTERNS = ["%d/%m/%Y %H:%M", "%d/%m/%Y %H:%M:%S", "%Y-%m-%d %H:%M", "%Y-%m-%d %H:%M:%S", "%Y-%m-%dT%H:%M", "%d-%m-%Y %H:%M"]
 
 
 def _parse_dt(s: str) -> datetime | None:
-    s = s.strip().replace("  ", " ")
+    s = s.strip()
     for p in DATE_PATTERNS:
         try:
             return datetime.strptime(s, p).replace(tzinfo=TZ)
@@ -38,60 +33,68 @@ def _parse_dt(s: str) -> datetime | None:
     return None
 
 
+def _row(date: str, time: str, ind: str, reading: str) -> dict | None:
+    dt = _parse_dt(f"{date} {time}")
+    if not dt:
+        return None
+    try:
+        h = float(reading)
+    except (TypeError, ValueError):
+        return None
+    i = str(ind).strip().upper()
+    kind = "H" if i in ("1", "H", "HIGH", "HW") else "L" if i in ("-1", "L", "LOW", "LW") else None
+    return {"t": dt.isoformat(timespec="minutes"), "h": round(h, 2), "type": kind}
+
+
+def parse_records(records: list[dict]) -> list[dict]:
+    rows = []
+    for r in records:
+        k = {str(a).strip().lower(): b for a, b in r.items()}
+        row = _row(k.get("date", ""), k.get("time", ""), k.get("ind", ""), k.get("reading", ""))
+        if row:
+            rows.append(row)
+    return _finish(rows)
+
+
 def parse_hilo_csv(text: str) -> list[dict]:
-    """Return [{'t': iso, 'h': float, 'type': 'H'|'L'}], sorted by time."""
     rows: list[dict] = []
-    reader = csv.reader(io.StringIO(text))
+    reader = csv.reader(io.StringIO(text.lstrip("﻿")))
+    header = None
     for raw in reader:
-        if not raw or all(not c.strip() for c in raw):
-            continue
         cells = [c.strip() for c in raw]
-        dt = None
-        # try combined datetime in any cell, else date + time in adjacent cells
-        for i, c in enumerate(cells):
-            dt = _parse_dt(c)
-            if dt:
-                break
-            if i + 1 < len(cells):
-                dt = _parse_dt(f"{c} {cells[i+1]}")
-                if dt:
-                    break
-        if not dt:
+        if not any(cells):
             continue
-        h = None
-        for c in cells:
-            if re.fullmatch(r"-?\d+(\.\d+)?", c):
-                v = float(c)
-                if -1 < v < 5:
-                    h = v
-        if h is None:
+        if header is None and any(c.lower() == "date" for c in cells):
+            header = [c.lower() for c in cells]
             continue
-        kind = None
-        for c in cells:
-            cu = c.upper()
-            if cu in ("H", "HIGH", "HW", "HIGH WATER"):
-                kind = "H"
-            elif cu in ("L", "LOW", "LW", "LOW WATER"):
-                kind = "L"
-        rows.append({"t": dt.isoformat(timespec="minutes"), "h": h, "type": kind})
+        if header and len(cells) >= 4:
+            d = dict(zip(header, cells))
+            row = _row(d.get("date", ""), d.get("time", ""), d.get("ind", ""), d.get("reading", ""))
+        else:
+            # tolerant positional fallback: date, time, ind, reading
+            row = _row(cells[0], cells[1], cells[2], cells[3]) if len(cells) >= 4 else None
+            if not row and len(cells) >= 3:
+                row = _row(cells[0], cells[1], "", cells[2])
+        if row:
+            rows.append(row)
+    return _finish(rows)
+
+
+def _finish(rows: list[dict]) -> list[dict]:
     rows.sort(key=lambda r: r["t"])
-    # infer H/L from neighbours where missing
     for i, r in enumerate(rows):
         if r["type"] is None:
-            prev_h = rows[i - 1]["h"] if i > 0 else None
-            next_h = rows[i + 1]["h"] if i + 1 < len(rows) else None
-            ref = prev_h if prev_h is not None else next_h
+            ref = rows[i - 1]["h"] if i > 0 else (rows[i + 1]["h"] if i + 1 < len(rows) else None)
             r["type"] = "H" if (ref is not None and r["h"] >= ref) else "L"
     return rows
 
 
-def _discover_hilo_url(dataset: str, year: int) -> str | None:
-    r = get(CKAN, params={"id": dataset}, timeout=30, ua=None)
-    j = r.json()
-    for res in j.get("result", {}).get("resources", []):
-        name = (res.get("name") or "") + " " + (res.get("url") or "")
-        if str(year) in name and res.get("url", "").lower().endswith(".csv"):
-            return res["url"]
+def _find_resource(dataset: str, year: int) -> dict | None:
+    r = get(f"{CKAN}/package_show", params={"id": dataset}, timeout=30, ua=BROWSER_UA)
+    for res in r.json().get("result", {}).get("resources", []):
+        name = f"{res.get('name') or ''} {res.get('url') or ''}"
+        if str(year) in name:
+            return res
     return None
 
 
@@ -101,37 +104,51 @@ def fetch_station(station_id: str, cfg: dict, year: int) -> tuple[list[dict], St
     if cached and len(cached) > 300:
         return cached, StepResult(f"tides_{station_id}", True, items=len(cached), note="cached")
     try:
-        url = cfg.get(f"hilo_{year}_url") or _discover_hilo_url(cfg["hilo_dataset"], year)
-        if not url:
-            raise RuntimeError(f"no {year} hi/lo CSV found for {cfg['hilo_dataset']}")
-        r = get(url, timeout=60)
-        archive_raw("tides", f"{station_id}_{year}.csv", r.content)
-        rows = parse_hilo_csv(r.content.decode("utf-8", errors="replace"))
+        res = _find_resource(cfg["hilo_dataset"], year)
+        if not res:
+            raise RuntimeError(f"no {year} resource in {cfg['hilo_dataset']}")
+        rows: list[dict] = []
+        note = ""
+        try:
+            r = get(f"{CKAN}/datastore_search", params={"resource_id": res["id"], "limit": 5000}, timeout=60, ua=BROWSER_UA)
+            archive_raw("tides", f"{station_id}_{year}_datastore.json", r.content)
+            rows = parse_records(r.json().get("result", {}).get("records", []))
+            note = f"datastore {res['id']}"
+        except Exception as e:  # noqa: BLE001
+            log.warning("datastore failed for %s (%s); trying CSV", station_id, e)
         if len(rows) < 300:
-            raise RuntimeError(f"parsed only {len(rows)} tide rows from {url}")
+            r = get(res["url"], timeout=60, ua=BROWSER_UA)
+            archive_raw("tides", f"{station_id}_{year}.csv", r.content)
+            ct = r.headers.get("content-type", "")
+            if "html" in ct.lower():
+                raise RuntimeError(f"CSV download returned HTML ({ct}) from {res['url']}")
+            rows = parse_hilo_csv(r.content.decode("utf-8", errors="replace"))
+            note = res["url"]
+        if len(rows) < 300:
+            raise RuntimeError(f"parsed only {len(rows)} tide rows for {station_id} {year}")
         write_json(cache, rows)
-        return rows, StepResult(f"tides_{station_id}", True, items=len(rows), note=url)
+        return rows, StepResult(f"tides_{station_id}", True, items=len(rows), note=note)
     except Exception as e:  # noqa: BLE001
         log.exception("tide fetch failed for %s", station_id)
         return cached or [], StepResult(f"tides_{station_id}", False, items=len(cached or []), error=str(e))
 
 
 def extrema_from_series(times: list[str], heights: list[float | None]) -> list[dict]:
-    """Local maxima/minima of an hourly sea-level series (fallback, 'modelled')."""
+    """Local maxima/minima of an hourly sea-level series (fallback, 'modelled'). Times → AEST-aware ISO."""
     out = []
     for i in range(1, len(heights) - 1):
         a, b, c = heights[i - 1], heights[i], heights[i + 1]
         if None in (a, b, c):
             continue
+        t = times[i] if re.search(r"[+-]\d{2}:\d{2}$", times[i]) else times[i] + "+10:00"
         if b >= a and b > c:
-            out.append({"t": times[i], "h": round(b, 2), "type": "H", "modelled": True})
+            out.append({"t": t, "h": round(b, 2), "type": "H", "modelled": True})
         elif b <= a and b < c:
-            out.append({"t": times[i], "h": round(b, 2), "type": "L", "modelled": True})
+            out.append({"t": t, "h": round(b, 2), "type": "L", "modelled": True})
     return out
 
 
 def fetch_all(sources: dict, marine: dict | None = None) -> tuple[dict, list[StepResult]]:
-    """Return {station_id: [hilo...]} covering this and (if available) next year."""
     results: list[StepResult] = []
     out: dict[str, list[dict]] = {}
     y = now().year
@@ -144,15 +161,9 @@ def fetch_all(sources: dict, marine: dict | None = None) -> tuple[dict, list[Ste
                 rows = rows + nxt
             results.append(res2)
         if not rows and marine:
-            # fallback: modelled sea level at the bar/ocean point
             mp = marine.get("bar") or next(iter(marine.values()), None)
             if mp and mp.get("sea_level_height_msl"):
                 rows = extrema_from_series(mp["time"], mp["sea_level_height_msl"])
                 results.append(StepResult(f"tides_{sid}_fallback", True, items=len(rows), note="open-meteo modelled sea level"))
         out[sid] = rows
     return out, results
-
-
-def window(rows: list[dict], start: datetime, end: datetime) -> list[dict]:
-    s, e = start.isoformat(timespec="minutes"), end.isoformat(timespec="minutes")
-    return [r for r in rows if s <= r["t"] <= e]
