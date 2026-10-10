@@ -1,0 +1,7 @@
+requests>=2.31
+PyYAML>=6.0
+astral>=3.2
+feedparser>=6.0
+beautifulsoup4>=4.12
+lxml>=5.0
+pytest>=8.0

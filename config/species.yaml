@@ -1,0 +1,181 @@
+# Species — local seasonality, preferences and legal limits (Queensland tidal waters).
+# season.peak/shoulder are month numbers. Preferences are heuristics used by the
+# scoring model; they are hypotheses to be calibrated with logged results.
+# legal values verified against qld.gov.au limits-tidal (updated 25 Sep 2026)
+# and DPI closed seasons (updated 25 Sep 2026). Always link users to the source.
+
+legal_source: https://www.qld.gov.au/recreation/activities/boating-fishing/rec-fishing/rules/limits-tidal
+closures_source: https://www.dpi.qld.gov.au/business-priorities/fisheries/closures/tidal/seasons
+
+species:
+  - id: tailor
+    name: Tailor
+    envs: [surf_beach, headland]
+    season: {peak: [5, 6, 7, 8, 9], shoulder: [4, 10, 11]}
+    tide_pref: [rising_late, high_turn, falling_early]
+    light_pref: [dawn, dusk, night]
+    wind: {max_onshore_kn: 20, offshore_bonus: true}
+    swell: {min_m: 0.5, ideal: [0.8, 1.8], max_m: 2.5}
+    clarity: moderate
+    legal: {min_cm: 35, possession: 20, closures: []}
+    closure_note: "K'gari eastern beach closure (Indian Head–Waddy Point, 1 Aug–29 Sep) does not apply to mainland sites."
+    techniques:
+      - "Ganged pilchards (4/0–5/0) on a running sinker in gutters at dawn/dusk"
+      - "Metal slugs 20–40 g cast past the break, fast retrieve"
+      - "Surface lures over shallow gutters on the rising tide"
+
+  - id: dart
+    name: Swallowtail dart
+    envs: [surf_beach, headland]
+    season: {peak: [10, 11, 12, 1, 2, 3], shoulder: [4, 9]}
+    tide_pref: [rising_early, rising_late, high_turn]
+    light_pref: [day, dawn, dusk]
+    wind: {max_onshore_kn: 18}
+    swell: {min_m: 0.3, ideal: [0.5, 1.5], max_m: 2.2}
+    clarity: clear
+    legal: {min_cm: 30, possession: 30, closures: []}
+    techniques:
+      - "Beach worms or pipis on size 2–1/0 long shank in the shore break"
+      - "Small metal slices and soft plastics cast at the edge of gutters"
+
+  - id: whiting
+    name: Sand (summer) whiting
+    envs: [surf_beach, estuary, sheltered_strait]
+    season: {peak: [10, 11, 12, 1, 2, 3], shoulder: [4, 9]}
+    tide_pref: [rising_early, rising_late, high_turn]
+    light_pref: [day, dawn]
+    wind: {max_onshore_kn: 15}
+    swell: {min_m: 0.0, ideal: [0.2, 1.0], max_m: 1.8}
+    clarity: clear
+    legal: {min_cm: 23, possession: 30, closures: []}
+    techniques:
+      - "Live beach worms or yabbies on light line, long shank hooks, in shallow water on the flood"
+      - "Surface poppers/stickbaits over flats on calm mornings"
+
+  - id: bream
+    name: Yellowfin bream
+    envs: [estuary, sheltered_strait, surf_beach, headland]
+    season: {peak: [5, 6, 7, 8], shoulder: [4, 9, 10]}
+    tide_pref: [falling_early, falling_late, low_turn, rising_early]
+    light_pref: [dusk, night, dawn]
+    wind: {max_onshore_kn: 20}
+    swell: {min_m: 0.0, ideal: [0.0, 1.2], max_m: 2.0}
+    clarity: any
+    legal: {min_cm: 25, possession: 30, closures: []}
+    techniques:
+      - "Lightly weighted prawn, mullet strip or chicken gut around structure on the run-out"
+      - "2–3 inch soft plastics and small hardbodies along rock walls and snags"
+
+  - id: flathead
+    name: Dusky flathead
+    envs: [estuary, sheltered_strait, surf_beach]
+    season: {peak: [9, 10, 11, 12, 1], shoulder: [2, 3, 8]}
+    tide_pref: [falling_early, falling_late, low_turn]
+    light_pref: [day, dawn, dusk]
+    wind: {max_onshore_kn: 18}
+    swell: {min_m: 0.0, ideal: [0.0, 1.0], max_m: 1.6}
+    clarity: any
+    legal: {min_cm: 40, max_cm: 75, possession: 5, closures: []}
+    legal_note: "Slot limit 40–75 cm; possession limit is combined across all flathead species."
+    techniques:
+      - "Soft plastics (3–5 inch) hopped along drop-offs and drains on the run-out"
+      - "Live or fresh bait drifted across sand flats near weed edges"
+
+  - id: mulloway
+    name: Mulloway (jewfish)
+    envs: [surf_beach, headland, estuary]
+    season: {peak: [5, 6, 7, 8, 9], shoulder: [3, 4, 10, 11]}
+    tide_pref: [high_turn, falling_early, low_turn, rising_late]
+    light_pref: [night, dusk, dawn]
+    wind: {max_onshore_kn: 22}
+    swell: {min_m: 0.8, ideal: [1.0, 2.2], max_m: 3.0}
+    clarity: any
+    legal: {min_cm: 75, possession: 2, closures: []}
+    techniques:
+      - "Large fresh baits (mullet fillet, squid, live yakka) in deep gutters after dark"
+      - "Big soft plastics worked slowly through the deepest water near the bar/headland"
+
+  - id: trevally
+    name: Trevally (GT / golden)
+    envs: [surf_beach, headland, estuary, sheltered_strait]
+    season: {peak: [11, 12, 1, 2, 3, 4], shoulder: [5, 10]}
+    tide_pref: [rising_late, high_turn, falling_early]
+    light_pref: [dawn, dusk]
+    wind: {max_onshore_kn: 20}
+    swell: {min_m: 0.3, ideal: [0.5, 1.8], max_m: 2.5}
+    clarity: moderate
+    legal: {min_cm: null, possession: 20, closures: []}
+    techniques:
+      - "Metal slugs and poppers worked fast at first light"
+      - "Live bait or fresh strips around current lines and the bar"
+
+  - id: mangrove_jack
+    name: Mangrove jack
+    envs: [estuary, sheltered_strait]
+    season: {peak: [11, 12, 1, 2, 3], shoulder: [10, 4]}
+    tide_pref: [falling_early, falling_late, rising_late]
+    light_pref: [night, dusk, dawn]
+    wind: {max_onshore_kn: 25}
+    swell: {min_m: 0.0, ideal: [0.0, 1.0], max_m: 2.0}
+    clarity: any
+    legal: {min_cm: 35, possession: 5, closures: []}
+    techniques:
+      - "3–5 inch soft plastics or hardbodies tight to snags on the back of the run-out"
+      - "Live bait (herring, prawn) on heavy leader at night"
+
+  - id: grunter
+    name: Barred javelin (grunter)
+    envs: [estuary, sheltered_strait]
+    season: {peak: [10, 11, 12, 1, 2, 3], shoulder: [4, 9]}
+    tide_pref: [rising_late, high_turn, falling_early]
+    light_pref: [night, dusk, dawn]
+    wind: {max_onshore_kn: 25}
+    swell: {min_m: 0.0, ideal: [0.0, 1.0], max_m: 2.0}
+    clarity: any
+    legal: {min_cm: 40, possession: 10, closures: []}
+    techniques:
+      - "Prawn-profile plastics and soft vibes in creek channels"
+      - "Fresh squid, prawn or mullet strips on the flood in the creeks"
+
+  - id: snapper
+    name: Snapper
+    envs: [headland, surf_beach]
+    season: {peak: [5, 6, 7, 8, 9], shoulder: [4, 10]}
+    tide_pref: [high_turn, falling_early, rising_late]
+    light_pref: [dawn, dusk, night]
+    wind: {max_onshore_kn: 15}
+    swell: {min_m: 0.3, ideal: [0.5, 1.5], max_m: 2.2}
+    clarity: moderate
+    legal: {min_cm: 35, possession: 4, closures: [snapper_closure]}
+    legal_note: "Possession 4, max 1 over 70 cm. Closed season 15 Jul–15 Aug."
+    techniques:
+      - "Lightly weighted pilchard or squid floated out from deep rock ledges or Inskip's deep water"
+      - "5–7 inch soft plastics on light jig heads at first light"
+
+  - id: cobia
+    name: Cobia
+    envs: [headland, surf_beach]
+    season: {peak: [10, 11, 12, 1, 2, 3], shoulder: [4, 9]}
+    tide_pref: [rising_late, high_turn]
+    light_pref: [day, dawn]
+    wind: {max_onshore_kn: 15}
+    swell: {min_m: 0.3, ideal: [0.3, 1.5], max_m: 2.0}
+    clarity: clear
+    legal: {min_cm: 75, possession: 2, closures: []}
+    techniques:
+      - "Live bait under a float from Inskip's deep water or the headland"
+
+  - id: mackerel
+    name: Spotted / school mackerel
+    envs: [headland, surf_beach]
+    season: {peak: [10, 11, 12, 1, 2, 3], shoulder: [4, 9]}
+    tide_pref: [rising_late, high_turn, falling_early]
+    light_pref: [dawn, day]
+    wind: {max_onshore_kn: 15}
+    swell: {min_m: 0.2, ideal: [0.3, 1.2], max_m: 1.8}
+    clarity: clear
+    legal: {min_cm: 60, possession: 5, closures: []}
+    legal_note: "Spotted mackerel 60 cm / 5; school mackerel 50 cm / 10. Spanish mackerel 75 cm / 1 with closures 1–21 Feb and 1–21 Mar."
+    techniques:
+      - "Metal slugs cast and retrieved fast at dawn; pilchards on gangs under a float"
+      - "Reported near Big Mick and Inskip Point on the turn of the tide (Coastwatch, Oct 2026)"

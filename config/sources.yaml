@@ -1,0 +1,88 @@
+# Data sources. Each has an id, category, access method and freshness threshold (hours).
+# provenance: automated | admin_submitted | group
+
+weather:
+  open_meteo_forecast:
+    name: Open-Meteo Forecast API
+    url: https://api.open-meteo.com/v1/forecast
+    attribution: "Weather data by Open-Meteo.com (CC BY 4.0)"
+    stale_after_h: 30
+    terms: https://open-meteo.com/en/terms
+  open_meteo_marine:
+    name: Open-Meteo Marine API
+    url: https://marine-api.open-meteo.com/v1/marine
+    attribution: "Marine data by Open-Meteo.com (CC BY 4.0)"
+    stale_after_h: 30
+  bom_ftp:
+    name: Bureau of Meteorology (anonymous FTP)
+    host: ftp.bom.gov.au
+    path: /anon/gen/fwo/
+    coastal_waters_product: IDQ11290.xml
+    obs_product_template: "IDQ60801.{station}.json"
+    marine_warnings_product: IDQ20065.xml   # Qld marine warnings summary — verified at first live run
+    attribution: "Forecasts and warnings © Bureau of Meteorology"
+    stale_after_h: 30
+    terms: https://www.bom.gov.au/other/copyright.shtml
+
+tides:
+  msq:
+    name: Maritime Safety Queensland tide predictions (BOM-produced)
+    attribution: "Tide predictions © Bureau of Meteorology, published by Maritime Safety Queensland"
+    ckan_api: https://www.data.qld.gov.au/api/3/action/package_show
+    stations:
+      noosa_head:
+        name: Noosa Head
+        hilo_dataset: noosa-head-tide-gauge-predicted-high-low-data
+        interval_dataset: noosa-head-tide-gauge-predicted-interval-data
+        hilo_2026_url: https://www.data.qld.gov.au/dataset/dca61f49-0a97-4999-9348-42f83417eacc/resource/1977d083-3119-41aa-8758-3980f3eb8a3f/download/q012023a_noosa-head_2026_hilo.csv
+      tin_can_bay:
+        name: Tin Can Bay (Snapper Creek)
+        hilo_dataset: tin-can-bay-snapper-creek-tide-gauge-predicted-high-low-data
+        interval_dataset: tin-can-bay-snapper-creek-tide-gauge-predicted-interval-data
+    fallback: open_meteo_sea_level     # marine API sea_level_height_msl → derived hi/lo, labelled "modelled"
+
+alerts:
+  qpws_rss:
+    name: QPWS park alerts — Sunshine Coast region
+    url: https://parks.qld.gov.au/xml/rss/parkalerts-sunshine-coast.xml
+    match_terms: [inskip, cooloola, rainbow beach, double island, teewah, great sandy, tin can]
+    stale_after_h: 168
+  cooloola_conditions_rss:
+    name: QPWS Cooloola conditions report
+    url: https://parks.qld.gov.au/parks/cooloola/conditions-report/subscribe.xml
+    stale_after_h: 168
+
+regulations:
+  limits_page: https://www.qld.gov.au/recreation/activities/boating-fishing/rec-fishing/rules/limits-tidal
+  seasons_page: https://www.dpi.qld.gov.au/business-priorities/fisheries/closures/tidal/seasons
+  waters_page: https://www.dpi.qld.gov.au/business-priorities/fisheries/closures/tidal/waters
+  check_every_days: 7
+
+reports:
+  coastwatch:
+    name: Coastwatch weekly fishing report
+    list_url: https://coastwatch.com.au/fishing-reports/
+    sections: ["Tin Can Bay", "Hervey Bay / Fraser Island", "Noosa"]
+    crawl_delay_s: 10
+    provenance: automated
+    credit: "Coastwatch (Tin Can Bay section by The Chandlery Bait & Tackle)"
+  fishos:
+    name: Fisho's Tackle World Hervey Bay weekly report
+    feed_url: https://www.fishostackleworld.com.au/blogs/weekly-fishing-report.atom
+    provenance: automated
+    credit: "Fisho's Tackle World Hervey Bay"
+  noosa_today:
+    name: Noosa Today (Gardiners Tackle World column, if published)
+    feed_url: https://noosatoday.com.au/feed/
+    match_terms: [fishing, tailor, inskip, rainbow beach, double island]
+    provenance: automated
+    credit: "Noosa Today"
+
+# Manual / assisted sources available in the Report Inbox dropdown
+inbox_sources:
+  - {id: gardiners_fb, name: "Gardiners Tackle World Rainbow Beach (Facebook)", provenance: admin_submitted}
+  - {id: chandlery_fb, name: "The Chandlery Bait & Tackle, Tin Can Bay (Facebook)", provenance: admin_submitted}
+  - {id: rb_charters_fb, name: "Rainbow Beach fishing charters (Facebook)", provenance: admin_submitted}
+  - {id: mate, name: "Friend / group message", provenance: admin_submitted}
+  - {id: own, name: "Own session", provenance: group_catch}
+  - {id: other, name: "Other (name it in the notes)", provenance: admin_submitted}

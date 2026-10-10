@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
+site/dist/
+site/node_modules/
+.env
+*.tmp
+# raw payload archive is kept in the repo for provenance, but ignore huge/binary junk
+data/raw/**/*.zip

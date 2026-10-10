@@ -1,0 +1,204 @@
+# Fishing locations — Inskip Point / Rainbow Beach / Tin Can Bay / Cooloola
+#
+# Coordinates are APPROXIMATE centre points near publicly known access
+# (ramps, track exits, headlands). They do not identify verified fishing spots.
+# aspect_deg = compass direction the shore FACES (water side). Wind blowing
+# FROM aspect_deg is dead onshore; from aspect_deg+180 is dead offshore.
+# shelter_from = wind directions the location is substantially protected from.
+# zone ids reference Great Sandy Marine Park Zoning Plan 2024.
+
+region:
+  id: inskip_rainbow
+  name: Inskip Point & Rainbow Beach
+  timezone: Australia/Brisbane
+  bbox: [[-26.10, 152.95], [-25.78, 153.25]]
+  marine_points:            # Open-Meteo marine sample points (must be sea cells)
+    ocean: {lat: -25.90, lon: 153.22, name: "Offshore Rainbow Beach"}
+    bar:   {lat: -25.78, lon: 153.12, name: "Wide Bay Bar approaches"}
+  obs_station: {id: "94584", name: "Double Island Point AWS", bom_product: "IDQ60801"}
+  bom_coastal_zones:
+    - {id: "QLD_MW009", name: "K'gari Coast (Sandy Cape to Double Island Point)"}
+    - {id: "QLD_MW010", name: "Sunshine Coast Waters (Double Island Point to Cape Moreton)"}
+
+locations:
+  - id: rainbow_town
+    name: Rainbow Beach — town beach
+    short: Rainbow (town)
+    type: surf_beach
+    centre: [-25.905, 153.097]
+    approx: true
+    access_point: "Rainbow Beach main beach access, foot of Clarkson Dr"
+    aspect_deg: 75
+    shelter_from: [W, SW, NW]
+    shelter_degree: 0.8
+    tide_ref: noosa_head
+    marine_point: ocean
+    zone: GUZ13
+    zone_name: General Use
+    line_limit: {lines: 3, hooks: 6}
+    access: {vehicle: walk, permit: none, tide_window: "any; beach narrows near high tide"}
+    hazards: [surf, rips]
+    species: [tailor, dart, whiting, bream, flathead, mulloway, trevally]
+    notes: "Patrolled beach in season; fish away from flagged area. Gutters shift — read the beach at low tide."
+
+  - id: rainbow_north
+    name: Rainbow Beach — north toward Inskip
+    short: Rainbow (north)
+    type: surf_beach
+    centre: [-25.870, 153.085]
+    approx: true
+    access_point: "Beach access tracks between town and Inskip Peninsula"
+    aspect_deg: 70
+    shelter_from: [W, SW, NW]
+    shelter_degree: 0.8
+    tide_ref: noosa_head
+    marine_point: ocean
+    zone: GUZ13
+    zone_name: General Use (verify HPZ26 nearshore strip)
+    line_limit: {lines: 3, hooks: 6}
+    access: {vehicle: 4wd, permit: none, tide_window: "avoid 2 h either side of high tide"}
+    hazards: [soft_sand, high_tide_cutoff, surf]
+    species: [tailor, dart, whiting, bream, flathead, mulloway, trevally]
+    notes: "Long open beach, fewer people. Drive on the hard sand near low tide."
+
+  - id: inskip_ocean
+    name: Inskip Point — ocean beach
+    short: Inskip (ocean)
+    type: surf_beach
+    centre: [-25.815, 153.065]
+    approx: true
+    access_point: "Inskip Peninsula Rd beach entries (ocean side)"
+    aspect_deg: 60
+    shelter_from: [W, SW, NW, S]
+    shelter_degree: 0.7
+    tide_ref: noosa_head
+    tide_note: "Estimated — Inskip has no official secondary port; ocean side treated as Noosa Head."
+    marine_point: bar
+    zone: GUZ13
+    zone_name: General Use (verify HPZ25 nearshore strip)
+    line_limit: {lines: 3, hooks: 6}
+    access: {vehicle: 4wd, permit: none, tide_window: "avoid 2 h either side of high tide"}
+    hazards: [sinkholes, strong_current, soft_sand, barge_traffic, surf]
+    species: [tailor, dart, whiting, mulloway, trevally, mackerel, cobia, snapper]
+    notes: "QPWS: sand depressions (nearshore landslips) can develop anytime on any Inskip beach. Deep water close to shore near the bar — strong currents."
+
+  - id: inskip_bay
+    name: Inskip Point — bay side / Pelican Bay
+    short: Inskip (bay)
+    type: sheltered_strait
+    centre: [-25.820, 153.040]
+    approx: true
+    access_point: "Pelican Bay camping area tracks"
+    aspect_deg: 300
+    shelter_from: [E, SE, NE, S]
+    shelter_degree: 0.9
+    tide_ref: tin_can_bay
+    tide_note: "Estimated — bay side lags toward Tin Can Bay (Snapper Creek) timings."
+    marine_point: bar
+    zone: CPZ21
+    zone_name: Conservation Park (yellow)
+    line_limit: {lines: 2, hooks: 2}
+    access: {vehicle: 4wd, permit: none, tide_window: "any; some tracks soft at high tide"}
+    hazards: [sinkholes, barge_traffic, strong_current]
+    species: [whiting, bream, flathead, trevally, grunter, mangrove_jack]
+    notes: "Conservation Park zone — max 2 hand-held lines, 2 hooks per person. Inskip campground closures and barge-landing erosion alerts apply Oct 2026–Mar 2027."
+
+  - id: carlo_point
+    name: Carlo Point
+    short: Carlo Point
+    type: estuary
+    centre: [-25.900, 153.045]
+    approx: true
+    access_point: "Carlo Point boat ramp and foreshore"
+    aspect_deg: 20
+    shelter_from: [S, SW, W, SE]
+    shelter_degree: 0.9
+    tide_ref: tin_can_bay
+    marine_point: bar
+    zone: CPZ21
+    zone_name: Conservation Park (yellow)
+    line_limit: {lines: 2, hooks: 2}
+    access: {vehicle: 2wd, permit: none, tide_window: any}
+    hazards: [boat_traffic]
+    species: [whiting, bream, flathead, trevally, grunter, mangrove_jack]
+    notes: "Sealed road access, ramp, foreshore fishing. Conservation Park limits apply."
+
+  - id: tin_can_bay
+    name: Tin Can Bay — foreshore & Snapper Creek
+    short: Tin Can Bay
+    type: estuary
+    centre: [-25.912, 153.003]
+    approx: true
+    access_point: "Tin Can Bay foreshore, Norman Point, Snapper Creek ramp"
+    aspect_deg: 60
+    shelter_from: [W, SW, S, NW]
+    shelter_degree: 0.95
+    tide_ref: tin_can_bay
+    marine_point: bar
+    zone: CPZ25
+    zone_name: Conservation Park (yellow)
+    line_limit: {lines: 2, hooks: 2}
+    access: {vehicle: 2wd, permit: none, tide_window: any}
+    hazards: [boat_traffic, crocodile_advisory]
+    species: [whiting, bream, flathead, grunter, mangrove_jack, trevally]
+    notes: "Most sheltered option in strong easterlies. Conservation Park limits apply."
+
+  - id: rainbow_to_dip
+    name: Rainbow Beach → Double Island Point (south of Mudlo Rocks)
+    short: Rainbow→DIP
+    type: surf_beach
+    centre: [-25.925, 153.145]
+    approx: true
+    access_point: "Beach south of Mudlo Rocks (Cooloola Recreation Area)"
+    aspect_deg: 40
+    shelter_from: [W, SW, S]
+    shelter_degree: 0.7
+    tide_ref: noosa_head
+    marine_point: ocean
+    zone: GUZ13
+    zone_name: General Use
+    line_limit: {lines: 3, hooks: 6}
+    access: {vehicle: 4wd, permit: cooloola_vap, tide_window: "drive within 2 h either side of low tide; Mudlo Rocks impassable near high"}
+    hazards: [high_tide_cutoff, rocks, soft_sand, surf]
+    species: [tailor, dart, whiting, mulloway, trevally]
+    notes: "Cooloola Vehicle Access Permit required. Mudlo Rocks is a known trap — plan the return before you go."
+
+  - id: dip_north
+    name: Double Island Point — north side & lagoon
+    short: DIP (north)
+    type: headland
+    centre: [-25.933, 153.185]
+    approx: true
+    access_point: "Beach below the headland (Leisha Track / beach route)"
+    aspect_deg: 350
+    shelter_from: [S, SE, SW]
+    shelter_degree: 0.85
+    tide_ref: noosa_head
+    marine_point: ocean
+    zone: CPZ27
+    zone_name: Conservation Park (yellow) — Teewah; go-slow area
+    line_limit: {lines: 2, hooks: 2}
+    access: {vehicle: 4wd, permit: cooloola_vap, tide_window: "drive within 2 h either side of low tide; lagoon sand movement can block access"}
+    hazards: [rocks, rock_fishing, high_tide_cutoff, sharks]
+    species: [tailor, dart, trevally, mulloway, snapper, cobia, mackerel]
+    notes: "Sheltered from southerlies. Headland and lighthouse on foot only. Wolf Rock (offshore) is a green zone — no fishing."
+
+  - id: teewah
+    name: Teewah Beach (Cooloola)
+    short: Teewah
+    type: surf_beach
+    centre: [-26.05, 153.125]
+    approx: true
+    access_point: "Teewah Beach via Noosa North Shore ferry or Freshwater Rd"
+    aspect_deg: 65
+    shelter_from: [W, SW, NW]
+    shelter_degree: 0.8
+    tide_ref: noosa_head
+    marine_point: ocean
+    zone: OUTSIDE
+    zone_name: Outside marine park — Fisheries rules apply
+    line_limit: {lines: 3, hooks: 6}
+    access: {vehicle: 4wd, permit: cooloola_vap, tide_window: "drive within 2 h either side of low tide"}
+    hazards: [high_tide_cutoff, soft_sand, surf]
+    species: [tailor, dart, whiting, bream, mulloway, trevally]
+    notes: "Long run of beach; shorebird no-entry areas and camping zones apply. VAP required."

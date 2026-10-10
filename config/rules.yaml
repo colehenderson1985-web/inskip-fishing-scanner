@@ -1,0 +1,82 @@
+# Legal closures, zone rules and safety gates.
+# Dates verified Oct 2026 against DPI Queensland pages; the pipeline hashes
+# the source pages weekly and flags any change for review.
+
+closures:
+  - id: snapper_closure
+    name: Snapper & pearl perch closed season
+    species: [snapper]
+    annual: {start: "07-15", end: "08-15"}
+    scope: all_qld_tidal
+    source: https://www.dpi.qld.gov.au/business-priorities/fisheries/closures/tidal/seasons
+
+  - id: spanish_mackerel_closure
+    name: Spanish mackerel closed periods (south of 22°S)
+    species: [spanish_mackerel]
+    annual_multi: [{start: "02-01", end: "02-21"}, {start: "03-01", end: "03-21"}]
+    scope: all_qld_tidal
+    source: https://www.dpi.qld.gov.au/business-priorities/fisheries/closures/tidal/seasons
+
+  - id: black_jewfish_closure
+    name: Black jewfish closed season (east coast)
+    species: [black_jewfish]
+    annual: {start: "11-01", end: "01-31"}
+    scope: all_qld_tidal
+    source: https://www.dpi.qld.gov.au/business-priorities/fisheries/closures/tidal/seasons
+
+  - id: kgari_tailor_closure
+    name: K'gari eastern beach fin-fish closure (Indian Head – Waddy Point)
+    species: [all]
+    annual: {start: "08-01", end: "09-29"}
+    scope: locations
+    locations: []            # no mainland location is inside this closure
+    source: https://www.dpi.qld.gov.au/business-priorities/fisheries/closures/tidal/waters
+
+zones:
+  GUZ13: {name: General Use, fishing: allowed, lines: 3, hooks: 6, colour: lightblue}
+  HPZ25: {name: Habitat Protection (Inskip), fishing: allowed, lines: 3, hooks: 6, colour: darkblue}
+  HPZ26: {name: Habitat Protection (Rainbow Beach), fishing: allowed, lines: 3, hooks: 6, colour: darkblue}
+  CPZ21: {name: Conservation Park (Great Sandy Strait), fishing: restricted, lines: 2, hooks: 2, colour: yellow}
+  CPZ25: {name: Conservation Park (Snapper Creek), fishing: restricted, lines: 2, hooks: 2, colour: yellow}
+  CPZ27: {name: Conservation Park (Teewah), fishing: restricted, lines: 2, hooks: 2, colour: yellow}
+  MNP27: {name: Marine National Park (Wolf Rock), fishing: prohibited, colour: green}
+  OUTSIDE: {name: Outside marine park, fishing: allowed, lines: 3, hooks: 6, colour: none}
+zones_source: https://parks.qld.gov.au/parks/great-sandy-marine/management-and-zoning/provisions-table
+
+permits:
+  cooloola_vap:
+    name: Cooloola Recreation Area Vehicle Access Permit
+    required_for: "Beach driving south of Middle Rocks (Rainbow→DIP), Teewah, Freshwater, Leisha Track"
+    not_required_for: "Inskip Peninsula; Rainbow Beach township to Middle Rocks"
+    cost: "$15.40/day online, $39.25/week, $311/year (Sep 2026)"
+    buy: https://book.parks.qld.gov.au/vehicle-permits
+    source: https://parks.qld.gov.au/management/managed-areas/recreation/vehicle-permits
+
+# Safety gate thresholds
+safety:
+  marine_warning_caps:        # when a BOM marine warning is current for the zone
+    surf_beach: {cap: 30, colour: red}
+    headland: {cap: 25, colour: red}
+    estuary: {cap: 70, colour: amber}
+    sheltered_strait: {cap: 60, colour: amber}
+  swell_hard_limits:          # significant wave height (m) beyond which surf/headland capped
+    surf_beach: {cap_above_m: 3.0, cap: 35}
+    headland: {cap_above_m: 2.5, cap: 30}
+  wind_hard_limits_kn:        # sustained wind beyond which fishing is impractical
+    surf_beach: 30
+    headland: 28
+    estuary: 35
+    sheltered_strait: 32
+  access_tide_cap: {cap: 45, colour: amber}   # window conflicts with a 4WD access tide rule
+  alert_keywords_close: ["closed", "closure", "no access", "impassable"]
+  alert_keywords_warn: ["erosion", "landslip", "sinkhole", "hazard", "danger", "sand movement", "crocodile", "shark"]
+
+# Evidence decay for reports (days to halve)
+reports:
+  half_life_days: 7
+  max_age_days: 28
+  provenance_weight:
+    automated: 1.0
+    admin_submitted: 1.0
+    group_rating: 0.8
+    group_catch: 1.2
