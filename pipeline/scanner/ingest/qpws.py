@@ -29,9 +29,10 @@ def fetch_alerts(sources: dict, rules: dict) -> tuple[list[dict], StepResult]:
             except Exception:  # noqa: BLE001
                 pass
             sev = "info"
-            if any(k in text for k in close_kw):
+            access_kw = ("beach", "access", "track", "road", "vehicle", "ramp", "park closed", "area closed", "day use")
+            if any(k in text for k in close_kw) and any(k in text for k in access_kw):
                 sev = "closure"
-            elif any(k in text for k in warn_kw):
+            elif any(k in text for k in warn_kw) or any(k in text for k in close_kw):
                 sev = "warning"
             out.append({
                 "id": e.get("id") or e.get("link"),

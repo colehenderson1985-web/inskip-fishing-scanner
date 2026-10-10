@@ -49,16 +49,25 @@ def append_observations(new: list[dict]) -> int:
 
 
 def make_observation(source: str, source_name: str, provenance: str, url: str | None,
-                     report_date: datetime, text: str, credit: str, section: str = "") -> dict:
+                     report_date: datetime, text: str, credit: str, section: str = "", local: bool = False) -> dict:
     catch_date, note = extract.infer_catch_date(text, report_date)
+    locations = extract.find_locations(text, local=local)
+    if local:
+        species = extract.find_species(text)
+    else:
+        # regional source: only species named in the same sentence as one of our places count as local evidence
+        place_terms = [t for terms in extract.LOCATION_TERMS.values() for t in terms]
+        local_sents = extract.sentences_mentioning(text, place_terms)
+        species = extract.find_species(" ".join(local_sents)) if local_sents else []
     return {
         "id": sha(f"{source}|{url}|{section}|{report_date.date()}"),
         "source": source, "source_name": source_name, "provenance": provenance,
         "url": url, "section": section,
         "report_date": report_date.strftime("%Y-%m-%d"),
         "catch_date": catch_date, "catch_date_note": note,
-        "species": extract.find_species(text),
-        "locations": extract.find_locations(text),
+        "species": species,
+        "locations": locations,
+        "local_source": local,
         "text": text[:1500],
         "credit": credit,
         "ingested_at": now().isoformat(timespec="seconds"),
@@ -102,7 +111,7 @@ def fetch_coastwatch(cfg: dict) -> tuple[list[dict], StepResult]:
             body = next((v for k, v in sections.items() if k.lower().startswith(name.lower().split("/")[0].strip())), None)
             if body:
                 obs.append(make_observation("coastwatch", cfg["name"], cfg["provenance"], href, d, body,
-                                            cfg["credit"], section=name))
+                                            cfg["credit"], section=name, local=name.lower().startswith("tin can")))
         return obs, StepResult("coastwatch", True, items=len(obs), note=title)
     except Exception as e:  # noqa: BLE001
         log.exception("coastwatch failed")

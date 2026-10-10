@@ -25,16 +25,29 @@ SPECIES_TERMS: dict[str, list[str]] = {
     "mackerel": ["mackerel", "spotties", "spotty", "spotted mackerel", "school mackerel", "schoolies", "spanish"],
 }
 
+# Unambiguous place names — safe for any source (regional reports, feeds).
 LOCATION_TERMS: dict[str, list[str]] = {
-    "inskip_ocean": ["inskip", "inskip point", "the bar", "wide bay bar", "big mick"],
-    "inskip_bay": ["pelican bay", "inskip bay side", "the straits", "straits", "ida island", "panikan"],
-    "rainbow_town": ["rainbow beach", "rainbow", "town beach", "carlo sandblow"],
-    "rainbow_north": ["rainbow beach", "northern beach", "north of town"],
-    "carlo_point": ["carlo point", "carlo"],
-    "tin_can_bay": ["tin can bay", "tin can", "snapper creek", "crab creek", "norman point", "the creeks", "the flats", "dinnies", "kauri creek"],
-    "rainbow_to_dip": ["mudlo", "double island", "dip", "southern beach"],
-    "dip_north": ["double island point", "dip", "the lighthouse", "wolf rock", "the point"],
-    "teewah": ["teewah", "freshwater", "cooloola"],
+    "inskip_ocean": ["inskip", "inskip point", "wide bay bar", "big mick"],
+    "inskip_bay": ["pelican bay", "inskip bay side", "ida island", "panikan"],
+    "rainbow_town": ["rainbow beach", "carlo sandblow"],
+    "rainbow_north": ["rainbow beach"],
+    "carlo_point": ["carlo point"],
+    "tin_can_bay": ["tin can bay", "snapper creek", "crab creek", "norman point", "kauri creek", "dinnies"],
+    "rainbow_to_dip": ["mudlo", "double island point"],
+    "dip_north": ["double island point", "wolf rock", "leisha"],
+    "teewah": ["teewah", "freshwater camp", "cooloola"],
+}
+# Local shorthand — only trusted when the source is itself local (Coastwatch TCB section, inbox).
+LOCAL_TERMS: dict[str, list[str]] = {
+    "inskip_ocean": ["the bar", "the point"],
+    "inskip_bay": ["the straits", "straits", "bay side"],
+    "rainbow_town": ["rainbow", "town beach"],
+    "rainbow_north": ["northern beach", "north of town"],
+    "carlo_point": ["carlo"],
+    "tin_can_bay": ["tin can", "the creeks", "the flats", "the inlet"],
+    "rainbow_to_dip": ["double island", "dip", "southern beach"],
+    "dip_north": ["double island", "dip", "the lighthouse"],
+    "teewah": ["freshwater"],
 }
 
 WORD = re.compile(r"[a-z]+(?:\s[a-z]+)?")
@@ -51,11 +64,12 @@ def find_species(text: str) -> list[str]:
     return hits
 
 
-def find_locations(text: str) -> list[str]:
+def find_locations(text: str, local: bool = False) -> list[str]:
     t = " " + re.sub(r"[^a-z0-9 ]", " ", text.lower()) + " "
     hits = []
     for lid, terms in LOCATION_TERMS.items():
-        for term in terms:
+        allterms = terms + (LOCAL_TERMS.get(lid, []) if local else [])
+        for term in allterms:
             if f" {term} " in t:
                 hits.append(lid)
                 break

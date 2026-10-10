@@ -40,7 +40,7 @@ def ingest_payload(payload: dict) -> dict:
     else:
         d = datetime.strptime(payload["post_date"], "%Y-%m-%d").replace(tzinfo=TZ)
         obs = make_observation(src["id"], src["name"], src["provenance"], payload.get("url") or None,
-                               d, payload["text"], f"{src['name']} (via admin)", section=payload.get("title", "")[:80])
+                               d, payload["text"], f"{src['name']} (via admin)", section=payload.get("title", "")[:80], local=True)
         if payload.get("location") and payload["location"] not in obs["locations"]:
             obs["locations"].insert(0, payload["location"])
         if payload.get("species") and payload["species"] not in obs["species"]:

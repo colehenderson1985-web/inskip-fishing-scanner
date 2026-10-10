@@ -45,7 +45,7 @@ alerts:
   qpws_rss:
     name: QPWS park alerts — Sunshine Coast region
     url: https://parks.qld.gov.au/xml/rss/parkalerts-sunshine-coast.xml
-    match_terms: [inskip, cooloola, rainbow beach, double island, teewah, great sandy, tin can]
+    match_terms: [inskip, cooloola, rainbow beach, double island, teewah, tin can]
     stale_after_h: 168
   cooloola_conditions_rss:
     name: QPWS Cooloola conditions report

@@ -65,11 +65,23 @@ def http() -> requests.Session:
     return _session
 
 
-def get(url: str, *, timeout: int = 30, ua: str | None = None, **kw) -> requests.Response:
-    headers = {"User-Agent": ua} if ua else {}
-    r = http().get(url, timeout=timeout, headers=headers, **kw)
-    r.raise_for_status()
-    return r
+def get(url: str, *, timeout: int = 30, ua: str | None = None, retries: int = 1, **kw) -> requests.Response:
+    headers = {}
+    if ua:
+        headers = {"User-Agent": ua, "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                   "Accept-Language": "en-AU,en;q=0.9", "Cache-Control": "no-cache"}
+    last = None
+    for attempt in range(retries + 1):
+        try:
+            r = http().get(url, timeout=timeout, headers=headers, **kw)
+            r.raise_for_status()
+            return r
+        except requests.HTTPError as e:  # retry 5xx once
+            last = e
+            if attempt < retries and e.response is not None and e.response.status_code >= 500:
+                import time; time.sleep(5); continue
+            raise
+    raise last  # pragma: no cover
 
 
 def archive_raw(category: str, name: str, content: bytes | str) -> Path:
