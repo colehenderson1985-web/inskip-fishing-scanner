@@ -9,7 +9,7 @@ export default function OppRow({ o, locName, spName, showLocation = true, onRate
   return (
     <li>
       <button className={`row ${open ? "open" : ""}`} onClick={() => setOpen(!open)} aria-expanded={open}>
-        <div className={`score ${o.colour}`}>{o.score}<small>{o.colour === "grey" ? "no data" : o.colour === "green" ? "favourable" : o.colour === "amber" ? "mixed" : "poor"}</small></div>
+        <div className={`score ${o.colour}`}>{o.score}<small>{o.colour === "grey" ? "no data" : o.colour === "green" ? "good" : o.colour === "amber" ? "mixed" : "poor"}</small></div>
         <div className="main">
           <div className="title">{spName(o.species)}{showLocation && <span className="muted"> · {locName(o.location)}</span>}</div>
           <div className="sub">

@@ -10,6 +10,7 @@ closures_source: https://www.dpi.qld.gov.au/business-priorities/fisheries/closur
 species:
   - id: tailor
     name: Tailor
+    short: Tailor
     envs: [surf_beach, headland]
     season: {peak: [5, 6, 7, 8, 9], shoulder: [4, 10, 11]}
     tide_pref: [rising_late, high_turn, falling_early]
@@ -26,6 +27,7 @@ species:
 
   - id: dart
     name: Swallowtail dart
+    short: Dart
     envs: [surf_beach, headland]
     season: {peak: [10, 11, 12, 1, 2, 3], shoulder: [4, 9]}
     tide_pref: [rising_early, rising_late, high_turn]
@@ -40,6 +42,7 @@ species:
 
   - id: whiting
     name: Sand (summer) whiting
+    short: Whiting
     envs: [surf_beach, estuary, sheltered_strait]
     season: {peak: [10, 11, 12, 1, 2, 3], shoulder: [4, 9]}
     tide_pref: [rising_early, rising_late, high_turn]
@@ -54,6 +57,7 @@ species:
 
   - id: bream
     name: Yellowfin bream
+    short: Bream
     envs: [estuary, sheltered_strait, surf_beach, headland]
     season: {peak: [5, 6, 7, 8], shoulder: [4, 9, 10]}
     tide_pref: [falling_early, falling_late, low_turn, rising_early]
@@ -68,6 +72,7 @@ species:
 
   - id: flathead
     name: Dusky flathead
+    short: Flathead
     envs: [estuary, sheltered_strait, surf_beach]
     season: {peak: [9, 10, 11, 12, 1], shoulder: [2, 3, 8]}
     tide_pref: [falling_early, falling_late, low_turn]
@@ -83,6 +88,7 @@ species:
 
   - id: mulloway
     name: Mulloway (jewfish)
+    short: Mulloway
     envs: [surf_beach, headland, estuary]
     season: {peak: [5, 6, 7, 8, 9], shoulder: [3, 4, 10, 11]}
     tide_pref: [high_turn, falling_early, low_turn, rising_late]
@@ -97,6 +103,7 @@ species:
 
   - id: trevally
     name: Trevally (GT / golden)
+    short: Trevally
     envs: [surf_beach, headland, estuary, sheltered_strait]
     season: {peak: [11, 12, 1, 2, 3, 4], shoulder: [5, 10]}
     tide_pref: [rising_late, high_turn, falling_early]
@@ -111,6 +118,7 @@ species:
 
   - id: mangrove_jack
     name: Mangrove jack
+    short: Mangrove jack
     envs: [estuary, sheltered_strait]
     season: {peak: [11, 12, 1, 2, 3], shoulder: [10, 4]}
     tide_pref: [falling_early, falling_late, rising_late]
@@ -125,6 +133,7 @@ species:
 
   - id: grunter
     name: Barred javelin (grunter)
+    short: Grunter
     envs: [estuary, sheltered_strait]
     season: {peak: [10, 11, 12, 1, 2, 3], shoulder: [4, 9]}
     tide_pref: [rising_late, high_turn, falling_early]
@@ -139,6 +148,7 @@ species:
 
   - id: snapper
     name: Snapper
+    short: Snapper
     envs: [headland, surf_beach]
     season: {peak: [5, 6, 7, 8, 9], shoulder: [4, 10]}
     tide_pref: [high_turn, falling_early, rising_late]
@@ -154,6 +164,7 @@ species:
 
   - id: cobia
     name: Cobia
+    short: Cobia
     envs: [headland, surf_beach]
     season: {peak: [10, 11, 12, 1, 2, 3], shoulder: [4, 9]}
     tide_pref: [rising_late, high_turn]
@@ -167,6 +178,7 @@ species:
 
   - id: mackerel
     name: Spotted / school mackerel
+    short: Mackerel
     envs: [headland, surf_beach]
     season: {peak: [10, 11, 12, 1, 2, 3], shoulder: [4, 9]}
     tide_pref: [rising_late, high_turn, falling_early]

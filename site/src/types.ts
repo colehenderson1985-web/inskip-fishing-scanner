@@ -50,7 +50,7 @@ export interface Location {
 }
 
 export interface Species {
-  id: string; name: string; outlook: string; top_score: number | null; season: "peak" | "shoulder" | "off";
+  id: string; name: string; short?: string; outlook: string; top_score: number | null; season: "peak" | "shoulder" | "off";
   season_months: { peak: number[]; shoulder?: number[] };
   best_locations: { location: string; name: string; score: number; window: Window; date: string }[];
   recent_reports: { source: string; date: string; catch_date: string | null; url: string | null; provenance: string; locations: string[]; excerpt: string }[];

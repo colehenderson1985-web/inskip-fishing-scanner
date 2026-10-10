@@ -48,7 +48,8 @@ def brief(day: dict, ctx: dict, cfg: dict) -> dict:
         rep_phrase = f" Recent reports ({e.get('credit') or e.get('source')}, {e['date']}) mention {sp[with_reports[0]['species']]['name'].lower()} around {locs[with_reports[0]['location']]['short']}."
     else:
         rep_phrase = " No recent public reports support today's picks — they rest on conditions and season."
-    summary = (f"{outlook_words}. {wind_phrase}{seas}. Best bet is {sp[best['species']]['name'].lower()} at "
+    wind_phrase = wind_phrase[0].upper() + wind_phrase[1:]
+    summary = (f"{wind_phrase}{seas}. Best bet is {sp[best['species']]['name'].lower()} at "
                f"{loc['short']} {best['window']['start']}–{best['window']['end']}"
                + (f" on the {stage_word}" if stage_word else "") + f" (suitability {best['score']}/100, {best['confidence']} confidence)."
                + rep_phrase)
@@ -105,7 +106,7 @@ def species_scanner(days: list[dict], ctx: dict, cfg: dict) -> list[dict]:
                 from .score import closure_active
                 closures.append({"name": c["name"], "active": closure_active(c, ctx["today"]), "source": c["source"]})
         out.append({
-            "id": s["id"], "name": s["name"], "outlook": outlook, "top_score": top_score,
+            "id": s["id"], "name": s["name"], "short": s.get("short", s["name"]), "outlook": outlook, "top_score": top_score,
             "season": season, "season_months": s["season"],
             "best_locations": ranked, "recent_reports": recent,
             "days_since_report": (ctx["today"].date() - datetime.strptime(obs[0]["report_date"], "%Y-%m-%d").date()).days if obs else None,

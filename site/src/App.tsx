@@ -46,7 +46,7 @@ export default function App() {
   useEffect(() => { document.documentElement.dataset.theme = prefs.theme; }, [prefs.theme]);
 
   const locName = useMemo(() => { const m = new Map(data?.locations.map((l) => [l.id, l.short])); return (id: string) => m.get(id) ?? id; }, [data]);
-  const spName = useMemo(() => { const m = new Map(data?.species.map((s) => [s.id, s.name])); return (id: string) => m.get(id) ?? id; }, [data]);
+  const spName = useMemo(() => { const m = new Map(data?.species.map((s) => [s.id, s.short ?? s.name])); return (id: string) => m.get(id) ?? id; }, [data]);
   const onRate = (o: Opportunity) => { setPrefill(o); location.hash = "#/settings"; setTimeout(() => document.getElementById("rate")?.scrollIntoView({ behavior: "smooth" }), 50); };
 
   if (error) return <div className="wrap"><h1 style={{ marginTop: 40 }}>Can't load the scanner</h1><p>{error}. If this is a fresh deployment, the first daily refresh hasn't run yet — it runs at 04:30 AEST, or can be started from GitHub Actions.</p></div>;
@@ -54,21 +54,26 @@ export default function App() {
 
   const genH = hoursAgo(data.generated_at);
   const stale = genH != null && genH > 30;
-  const bigWarn = data.bom.marine_warning || data.brief.warnings.length > 0;
+  const closures = data.alerts.filter((a) => a.severity === "closure");
+  const bigWarn = data.bom.marine_warning || closures.length > 0;
+  const notices = data.alerts.filter((a) => a.severity !== "closure").length;
   const page = route.page;
   return (
     <>
       {page !== "map" && (
         <header className="topbar">
-          <div className="brand">Inskip Scanner<small>Rainbow Beach · Tin Can Bay</small></div>
+          <div className="brand">Inskip Scanner<small>Rainbow Beach to Tin Can Bay</small></div>
           <div className={`updated ${stale ? "stale" : ""}`}>{offline ? "offline copy · " : ""}{stale ? "stale · " : ""}{fmtAgo(data.generated_at)}</div>
         </header>
       )}
       {page === "home" && bigWarn && (
         <div className={`warnbar ${data.bom.marine_warning ? "" : "amber"}`}>
-          {data.bom.marine_warning ? "BOM marine warning current for this coast." : "Access or safety notices today."}
-          <ul>{data.brief.warnings.slice(0, 4).map((w, i) => <li key={i}>{w}</li>)}</ul>
+          {data.bom.marine_warning ? "BOM marine warning current for this coast — check the coastal waters forecast." : "Access closures in force."}
+          {closures.length > 0 && <ul>{closures.slice(0, 3).map((a) => <li key={a.id}>{a.title}</li>)}</ul>}
         </div>
+      )}
+      {page === "home" && !bigWarn && notices > 0 && (
+        <div className="wrap"><p className="small muted" style={{ margin: "6px 0 0" }}>{notices} park notice{notices > 1 ? "s" : ""} for the area — see Access & safety below.</p></div>
       )}
       {page === "home" && <Home data={data} dayIndex={0} locName={locName} spName={spName} onRate={onRate} />}
       {page === "map" && <Suspense fallback={<div className="wrap"><p className="muted" style={{ marginTop: 40 }}>Loading map…</p></div>}><MapPage data={data} dayIndex={dayIndex} locName={locName} spName={spName} selected={selected} setSelected={setSelected} onRate={onRate} /></Suspense>}
