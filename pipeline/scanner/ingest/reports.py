@@ -142,7 +142,7 @@ def split_coastwatch_sections(html: bytes) -> dict[str, str]:
 
 # ---------------------------------------------------------------- Atom / RSS feeds
 
-def fetch_feed(source_id: str, cfg: dict, match_terms: list[str] | None = None, limit: int = 3) -> tuple[list[dict], StepResult]:
+def fetch_feed(source_id: str, cfg: dict, match_terms: list[str] | None = None, limit: int = 3, local: bool = False) -> tuple[list[dict], StepResult]:
     try:
         r = get(cfg["feed_url"], timeout=30, ua=BROWSER_UA)
         archive_raw(source_id, "feed.xml", r.content)
@@ -168,7 +168,7 @@ def fetch_feed(source_id: str, cfg: dict, match_terms: list[str] | None = None, 
             if not d:
                 continue
             obs.append(make_observation(source_id, cfg["name"], cfg["provenance"], e.get("link"), d,
-                                        f"{title}. {text}", cfg["credit"], section=title[:80]))
+                                        f"{title}. {text}", cfg["credit"], section=title[:80], local=local))
             if len(obs) >= limit:
                 break
         return obs, StepResult(source_id, True, items=len(obs))
@@ -182,6 +182,8 @@ def fetch_all(sources: dict) -> tuple[int, list[StepResult]]:
     new: list[dict] = []
     o, r = fetch_coastwatch(sources["reports"]["coastwatch"]); new += o; results.append(r)
     o, r = fetch_feed("fishos", sources["reports"]["fishos"]); new += o; results.append(r)
+    gb = sources["reports"]["gardiners_blog"]
+    o, r = fetch_feed("gardiners_blog", gb, match_terms=gb.get("match_terms"), local=True, limit=4); new += o; results.append(r)
     nt = sources["reports"]["noosa_today"]
     o, r = fetch_feed("noosa_today", nt, match_terms=nt.get("match_terms")); new += o; results.append(r)
     added = append_observations(new)

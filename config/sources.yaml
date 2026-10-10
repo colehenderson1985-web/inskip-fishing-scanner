@@ -71,6 +71,13 @@ reports:
     feed_url: https://www.fishostackleworld.com.au/blogs/weekly-fishing-report.atom
     provenance: automated
     credit: "Fisho's Tackle World Hervey Bay"
+  gardiners_blog:
+    name: Gardiner's Tackle World Rainbow Beach — blog
+    feed_url: https://tackleworldrainbow.com.au/blogs/news.atom
+    match_terms: [fishing report, report, tailor, whiting, flathead, mackerel, jew, dart, inskip, bar, beach, bait]
+    local: true
+    provenance: automated
+    credit: "Gardiner's Tackle World Rainbow Beach"
   noosa_today:
     name: Noosa Today (Gardiners Tackle World column, if published)
     feed_url: https://noosatoday.com.au/feed/

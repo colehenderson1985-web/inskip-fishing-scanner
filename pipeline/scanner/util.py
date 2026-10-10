@@ -150,6 +150,6 @@ def short_credit(c: str | None) -> str:
         return "Coastwatch"
     if "Fisho" in c:
         return "Fisho's Tackle World"
-    if "Gardiners" in c:
-        return "Gardiners Tackle World"
+    if "Gardiner" in c:
+        return "Gardiner's Tackle World"
     return c.split(" (")[0]
