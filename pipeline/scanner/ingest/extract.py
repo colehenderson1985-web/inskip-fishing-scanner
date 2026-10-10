@@ -99,3 +99,19 @@ def sentences_mentioning(text: str, terms: list[str]) -> list[str]:
         if any(term in sl for term in terms):
             out.append(s.strip())
     return out
+
+
+CATCH_PHRASES = ["this week", "last week", "over the weekend", "caught", "landed", "on the chew", "fishing well", "being caught",
+                 "have been", "were taken", "reports of", "reported", "biting", "firing", "turned up", "coming through"]
+
+
+def classify_kind(title: str, text: str) -> str:
+    """'report' = dated observations of what's being caught; 'guide' = evergreen how-to/promo content."""
+    t = (title or "").lower()
+    if "report" in t:
+        return "report"
+    body = (text or "").lower()
+    hits = sum(1 for p in CATCH_PHRASES if p in body)
+    if any(k in t for k in ("tips", "guide", "choosing", "how to", "discover", "ultimate", "welcome")) and hits < 3:
+        return "guide"
+    return "report" if hits >= 2 else "guide"

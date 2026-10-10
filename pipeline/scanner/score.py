@@ -33,6 +33,8 @@ def report_evidence(obs: list[dict], loc_id: str, species_id: str, on: datetime,
     pw = rules["reports"]["provenance_weight"]
     total, ev = 0.0, []
     for o in obs:
+        if o.get("kind", "report") != "report":
+            continue
         if species_id not in o.get("species", []):
             continue
         if loc_id not in o.get("locations", []):

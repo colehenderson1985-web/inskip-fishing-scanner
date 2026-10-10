@@ -98,7 +98,7 @@ def species_scanner(days: list[dict], ctx: dict, cfg: dict) -> list[dict]:
                 best_locs[r["location"]] = {"location": r["location"], "name": locs[r["location"]]["short"], "score": r["score"],
                                             "window": r["window"], "date": r["window"]["start_iso"][:10], "confidence": r["confidence"]}
         ranked = sorted(best_locs.values(), key=lambda x: -x["score"])[:4]
-        obs = [o for o in ctx["observations"] if s["id"] in o.get("species", [])]
+        obs = [o for o in ctx["observations"] if s["id"] in o.get("species", []) and o.get("kind", "report") == "report"]
         obs.sort(key=lambda o: o.get("report_date", ""), reverse=True)
         recent = [{"source": o.get("credit") or o.get("source_name"), "date": o.get("report_date"), "catch_date": o.get("catch_date"),
                    "url": o.get("url"), "provenance": o.get("provenance"), "locations": o.get("locations", []),
@@ -193,7 +193,7 @@ def _slim(series: dict) -> dict:
 
 def _days_since_local(obs: list[dict], today: datetime) -> int | None:
     for o in obs:
-        if o.get("locations"):
+        if o.get("locations") and o.get("kind", "report") == "report":
             try:
                 return (today.date() - datetime.strptime(o["report_date"], "%Y-%m-%d").date()).days
             except ValueError:

@@ -111,3 +111,9 @@ def test_timezone_is_aest_no_dst():
     jan = datetime(2026, 1, 15, 12, tzinfo=TZ).utcoffset().total_seconds() / 3600
     jul = datetime(2026, 7, 15, 12, tzinfo=TZ).utcoffset().total_seconds() / 3600
     assert jan == 10 and jul == 10
+
+
+def test_classify_report_vs_guide():
+    assert extract.classify_kind("Weekly Fishing Report: Rainbow Beach 26 Sept", "...") == "report"
+    assert extract.classify_kind("Choosing the Right Bait for Fishing Around Rainbow Beach", "Beach worms work well for whiting.") == "guide"
+    assert extract.classify_kind("Big week on the beach", "Tailor were caught in numbers this week and jew landed after dark.") == "report"

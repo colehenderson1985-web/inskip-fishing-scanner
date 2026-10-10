@@ -51,6 +51,7 @@ def append_observations(new: list[dict]) -> int:
 def make_observation(source: str, source_name: str, provenance: str, url: str | None,
                      report_date: datetime, text: str, credit: str, section: str = "", local: bool = False) -> dict:
     catch_date, note = extract.infer_catch_date(text, report_date)
+    kind = "report" if source in ("coastwatch", "fishos", "group_rating") or provenance != "automated" else extract.classify_kind(section, text)
     locations = extract.find_locations(text, local=local)
     if local:
         species = extract.find_species(text)
@@ -68,6 +69,7 @@ def make_observation(source: str, source_name: str, provenance: str, url: str | 
         "species": species,
         "locations": locations,
         "local_source": local,
+        "kind": kind,
         "text": text[:1500],
         "credit": credit,
         "ingested_at": now().isoformat(timespec="seconds"),

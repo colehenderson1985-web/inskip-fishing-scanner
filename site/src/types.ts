@@ -62,7 +62,7 @@ export interface Species {
 export interface Report {
   id: string; source: string; source_name: string; provenance: string; url: string | null; section: string;
   report_date: string; catch_date: string | null; catch_date_note: string; species: string[]; locations: string[];
-  text: string; credit: string; rating?: number;
+  text: string; credit: string; rating?: number; kind?: string;
 }
 
 export interface Alert { id: string; title: string; summary: string; link: string; published: string | null; severity: string; locations: string[]; source: string }

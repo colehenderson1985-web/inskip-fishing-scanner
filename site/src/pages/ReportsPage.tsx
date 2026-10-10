@@ -14,6 +14,7 @@ export default function ReportsPage({ data, locName, spName }: { data: Latest; l
           <li key={r.id} className={`card report ${open === r.id ? "open" : ""}`} onClick={() => setOpen(open === r.id ? null : r.id)}>
             <div className="t">
               <span className={`tag ${r.provenance === "automated" ? "teal" : r.provenance === "group_rating" ? "green" : "amber"}`}>{r.provenance === "automated" ? "automated" : r.provenance === "group_rating" ? "group" : "submitted"}</span>
+              {r.kind === "guide" && <span className="tag">guide</span>}
               <span>{r.credit || r.source_name}{r.section && <span className="muted"> · {r.section}</span>}</span>
             </div>
             <div className="d">Reported {r.report_date}{r.catch_date ? ` · fished ${r.catch_date}` : ""} · {r.catch_date_note}{r.rating != null && <> · rated {r.rating}/5</>}</div>
