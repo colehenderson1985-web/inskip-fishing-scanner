@@ -30,8 +30,8 @@ export default function MapPage({ data, dayIndex, locName, spName, selected, set
           const gj = await r.json();
           map.addSource("zones", { type: "geojson", data: gj });
           map.addLayer({ id: "zones-fill", type: "fill", source: "zones", paint: {
-            "fill-color": ["match", ["get", "zone_type"], "Marine National Park", ZONE_COLOURS["Marine National Park"], "Conservation Park", ZONE_COLOURS["Conservation Park"], "Habitat Protection", ZONE_COLOURS["Habitat Protection"], ZONE_COLOURS["General Use"]],
-            "fill-opacity": 0.22 } });
+            "fill-color": ["match", ["get", "zone_type"], "Marine National Park Zone", ZONE_COLOURS["Marine National Park"], "Conservation Park Zone", ZONE_COLOURS["Conservation Park"], "Habitat Protection Zone", ZONE_COLOURS["Habitat Protection"], ZONE_COLOURS["General Use"]],
+            "fill-opacity": ["match", ["get", "zone_type"], "Marine National Park Zone", 0.45, "Conservation Park Zone", 0.3, 0.18] } });
           map.addLayer({ id: "zones-line", type: "line", source: "zones", paint: { "line-color": "#0b6e7a", "line-width": 1, "line-opacity": 0.5 } });
           map.on("click", "zones-fill", (ev) => {
             const f = ev.features?.[0]; if (!f) return;
@@ -87,6 +87,7 @@ export default function MapPage({ data, dayIndex, locName, spName, selected, set
         <span><i style={{ background: "var(--red)" }} />poor</span>{" "}
         <span><i style={{ background: "var(--grey)" }} />no data</span>
         <div className="muted" style={{ fontSize: 11 }}>Pins are approximate access areas, not exact spots.</div>
+        {zones && <div style={{ fontSize: 11, marginTop: 2 }}><i style={{ background: "#1b9e4b", borderRadius: 2 }} />no-take <i style={{ background: "#e0b400", borderRadius: 2 }} />2 lines <i style={{ background: "#1f4e8c", opacity: .5, borderRadius: 2 }} />habitat <i style={{ background: "#7fb3d5", borderRadius: 2 }} />general</div>}
       </div>
       <div className="map-toggles">
         <button className={zones ? "on" : ""} onClick={() => setZones(!zones)} aria-pressed={zones}>Marine park zones</button>

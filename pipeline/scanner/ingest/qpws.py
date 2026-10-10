@@ -29,7 +29,9 @@ def fetch_alerts(sources: dict, rules: dict) -> tuple[list[dict], StepResult]:
             except Exception:  # noqa: BLE001
                 pass
             sev = "info"
-            access_kw = ("beach", "access", "track", "road", "vehicle", "ramp", "park closed", "area closed", "day use")
+            access_kw = ("beach", "beach access", "4wd", "track", "road", "vehicle", "ramp", "recreation area closed", "area closed", "camping area")
+            if "wilderness trail" in text or "walking track" in text or "hiking" in text:
+                access_kw = ()
             if any(k in text for k in close_kw) and any(k in text for k in access_kw):
                 sev = "closure"
             elif any(k in text for k in warn_kw) or any(k in text for k in close_kw):
