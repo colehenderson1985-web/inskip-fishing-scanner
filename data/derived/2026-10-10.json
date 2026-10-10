@@ -202,14 +202,14 @@
      "rank": 3
     },
     {
-     "location": "rainbow_town",
-     "species": "flathead",
+     "location": "teewah",
+     "species": "dart",
      "window": {
-      "start": "12:07",
-      "end": "14:37",
-      "label": "low tide 13:37",
-      "start_iso": "2026-10-10T12:07+10:00",
-      "end_iso": "2026-10-10T14:37+10:00"
+      "start": "04:18",
+      "end": "08:32",
+      "label": "dawn + high tide 07:32",
+      "start_iso": "2026-10-10T04:18+10:00",
+      "end_iso": "2026-10-10T08:32+10:00"
      },
      "score": 88,
      "colour": "green",
@@ -219,7 +219,7 @@
       "season"
      ],
      "factors": {
-      "tide": 0.9725,
+      "tide": 0.9785,
       "wind": 0.85,
       "swell": 1.0,
       "light": 1.0,
@@ -231,31 +231,31 @@
      },
      "warnings": [],
      "conditions": {
-      "wind_kn": 7,
-      "gust_kn": 19,
-      "wind_dir": "N",
+      "wind_kn": 6,
+      "gust_kn": 14,
+      "wind_dir": "NW",
       "wind_relation": "cross",
-      "effective_wind_kn": 7.4,
-      "seas_m": 1.0,
-      "swell_m": 0.7,
+      "effective_wind_kn": 1.3,
+      "seas_m": 1.1,
+      "swell_m": 0.8,
       "swell_period_s": 9,
-      "sst_c": 22.7,
-      "tide_stage": "low_turn",
-      "tide_range_m": 1.45,
+      "sst_c": 22.5,
+      "tide_stage": "rising_late",
+      "tide_range_m": 1.57,
       "tide_next": {
-       "t": "2026-10-10T13:37+10:00",
-       "h": 0.39,
-       "type": "L"
+       "t": "2026-10-10T07:32+10:00",
+       "h": 1.84,
+       "type": "H"
       },
-      "light": "day",
-      "rain_24h_mm": 0.3
+      "light": "dawn",
+      "rain_24h_mm": 0.1
      },
      "evidence": [],
-     "explain": "N wind at ~7 kn is across the beach; the window covers the bottom of the tide, which suits dusky flathead; day is a preferred time for this species; seas around 1.0 m; dusky flathead are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "NW wind at ~6 kn is across the beach; the window covers the last of the run-in, which suits swallowtail dart; dawn is a preferred time for this species; seas around 1.1 m; swallowtail dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "rank": 4
     },
     {
-     "location": "rainbow_north",
+     "location": "rainbow_town",
      "species": "flathead",
      "window": {
       "start": "12:07",
@@ -308,6 +308,112 @@
      "rank": 5
     },
     {
+     "location": "rainbow_north",
+     "species": "flathead",
+     "window": {
+      "start": "12:07",
+      "end": "14:37",
+      "label": "low tide 13:37",
+      "start_iso": "2026-10-10T12:07+10:00",
+      "end_iso": "2026-10-10T14:37+10:00"
+     },
+     "score": 88,
+     "colour": "green",
+     "confidence": "medium",
+     "basis": [
+      "conditions",
+      "season"
+     ],
+     "factors": {
+      "tide": 0.9725,
+      "wind": 0.85,
+      "swell": 1.0,
+      "light": 1.0,
+      "season": 1.0,
+      "pressure": 0.8,
+      "rain": 0.7,
+      "lunar": 0.7,
+      "reports": 0.35
+     },
+     "warnings": [],
+     "conditions": {
+      "wind_kn": 7,
+      "gust_kn": 19,
+      "wind_dir": "N",
+      "wind_relation": "cross",
+      "effective_wind_kn": 7.4,
+      "seas_m": 1.0,
+      "swell_m": 0.7,
+      "swell_period_s": 9,
+      "sst_c": 22.7,
+      "tide_stage": "low_turn",
+      "tide_range_m": 1.45,
+      "tide_next": {
+       "t": "2026-10-10T13:37+10:00",
+       "h": 0.39,
+       "type": "L"
+      },
+      "light": "day",
+      "rain_24h_mm": 0.3
+     },
+     "evidence": [],
+     "explain": "N wind at ~7 kn is across the beach; the window covers the bottom of the tide, which suits dusky flathead; day is a preferred time for this species; seas around 1.0 m; dusky flathead are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "rank": 6
+    },
+    {
+     "location": "dip_north",
+     "species": "dart",
+     "window": {
+      "start": "04:18",
+      "end": "08:32",
+      "label": "dawn + high tide 07:32",
+      "start_iso": "2026-10-10T04:18+10:00",
+      "end_iso": "2026-10-10T08:32+10:00"
+     },
+     "score": 87,
+     "colour": "green",
+     "confidence": "medium",
+     "basis": [
+      "conditions",
+      "season"
+     ],
+     "factors": {
+      "tide": 0.9785,
+      "wind": 0.75,
+      "swell": 1.0,
+      "light": 1.0,
+      "season": 1.0,
+      "pressure": 0.8,
+      "rain": 0.7,
+      "lunar": 0.7,
+      "reports": 0.35
+     },
+     "warnings": [],
+     "conditions": {
+      "wind_kn": 8,
+      "gust_kn": 18,
+      "wind_dir": "NNW",
+      "wind_relation": "onshore",
+      "effective_wind_kn": 8.3,
+      "seas_m": 1.1,
+      "swell_m": 0.8,
+      "swell_period_s": 9,
+      "sst_c": 22.5,
+      "tide_stage": "rising_late",
+      "tide_range_m": 1.57,
+      "tide_next": {
+       "t": "2026-10-10T07:32+10:00",
+       "h": 1.84,
+       "type": "H"
+      },
+      "light": "dawn",
+      "rain_24h_mm": 0
+     },
+     "evidence": [],
+     "explain": "NNW wind at ~8 kn is onshore; the window covers the last of the run-in, which suits swallowtail dart; dawn is a preferred time for this species; seas around 1.1 m; swallowtail dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "rank": 7
+    },
+    {
      "location": "inskip_bay",
      "species": "whiting",
      "window": {
@@ -358,7 +464,7 @@
      },
      "evidence": [],
      "explain": "NNW wind at ~5 kn is onshore; the window covers the last of the run-in, which suits sand (summer) whiting; dawn is a preferred time for this species; sand (summer) whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
-     "rank": 6
+     "rank": 8
     },
     {
      "location": "inskip_bay",
@@ -411,7 +517,7 @@
      },
      "evidence": [],
      "explain": "NNW wind at ~5 kn is onshore; the window covers the last of the run-in, which suits barred javelin (grunter); dawn is a preferred time for this species; barred javelin (grunter) are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
-     "rank": 7
+     "rank": 9
     },
     {
      "location": "carlo_point",
@@ -464,125 +570,6 @@
      },
      "evidence": [],
      "explain": "NNW wind at ~6 kn is onshore; the window covers the last of the run-in, which suits sand (summer) whiting; dawn is a preferred time for this species; sand (summer) whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
-     "rank": 8
-    },
-    {
-     "location": "carlo_point",
-     "species": "grunter",
-     "window": {
-      "start": "04:18",
-      "end": "06:48",
-      "label": "dawn",
-      "start_iso": "2026-10-10T04:18+10:00",
-      "end_iso": "2026-10-10T06:48+10:00"
-     },
-     "score": 86,
-     "colour": "green",
-     "confidence": "medium",
-     "basis": [
-      "conditions",
-      "season"
-     ],
-     "factors": {
-      "tide": 0.9915,
-      "wind": 0.88,
-      "swell": 0.8,
-      "light": 1.0,
-      "season": 1.0,
-      "pressure": 0.8,
-      "rain": 0.7,
-      "lunar": 0.7,
-      "reports": 0.35
-     },
-     "warnings": [],
-     "conditions": {
-      "wind_kn": 6,
-      "gust_kn": 11,
-      "wind_dir": "NNW",
-      "wind_relation": "onshore",
-      "effective_wind_kn": 6.2,
-      "seas_m": 0.7,
-      "swell_m": 0.5,
-      "swell_period_s": 8,
-      "sst_c": 22.5,
-      "tide_stage": "rising_late",
-      "tide_range_m": 1.83,
-      "tide_next": {
-       "t": "2026-10-10T09:06+10:00",
-       "h": 2.3,
-       "type": "H"
-      },
-      "light": "dawn",
-      "rain_24h_mm": 0
-     },
-     "evidence": [],
-     "explain": "NNW wind at ~6 kn is onshore; the window covers the last of the run-in, which suits barred javelin (grunter); dawn is a preferred time for this species; barred javelin (grunter) are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
-     "rank": 9
-    },
-    {
-     "location": "inskip_ocean",
-     "species": "whiting",
-     "window": {
-      "start": "12:07",
-      "end": "14:37",
-      "label": "low tide 13:37",
-      "start_iso": "2026-10-10T12:07+10:00",
-      "end_iso": "2026-10-10T14:37+10:00"
-     },
-     "score": 85,
-     "colour": "green",
-     "confidence": "high",
-     "basis": [
-      "conditions",
-      "season",
-      "reports"
-     ],
-     "factors": {
-      "tide": 0.6575000000000001,
-      "wind": 0.85,
-      "swell": 1.0,
-      "light": 1.0,
-      "season": 1.0,
-      "pressure": 0.8,
-      "rain": 0.7,
-      "lunar": 0.7,
-      "reports": 0.74
-     },
-     "warnings": [],
-     "conditions": {
-      "wind_kn": 7,
-      "gust_kn": 18,
-      "wind_dir": "N",
-      "wind_relation": "cross",
-      "effective_wind_kn": 6.8,
-      "seas_m": 0.7,
-      "swell_m": 0.4,
-      "swell_period_s": 9,
-      "sst_c": 22.7,
-      "tide_stage": "low_turn",
-      "tide_range_m": 1.45,
-      "tide_next": {
-       "t": "2026-10-10T13:37+10:00",
-       "h": 0.39,
-       "type": "L"
-      },
-      "light": "day",
-      "rain_24h_mm": 0.5
-     },
-     "evidence": [
-      {
-       "source": "Coastwatch weekly fishing report",
-       "credit": "Coastwatch (Tin Can Bay section by The Chandlery Bait & Tackle)",
-       "date": "2026-10-09",
-       "catch_date": null,
-       "url": "https://coastwatch.com.au/articles/fishing-report-for-9-october-2026/",
-       "provenance": "automated",
-       "age_days": 1,
-       "weight": 0.91,
-       "excerpt": "The big evening high tides will be ideal for chasing quality whiting up on the flats tight against the mangroves."
-      }
-     ],
-     "explain": "N wind at ~7 kn is across the beach; the window covers the bottom of the tide; day is a preferred time for this species; seas around 0.7 m; sand (summer) whiting are in peak season; 1 recent report mentions sand (summer) whiting nearby (latest Coastwatch (Tin Can Bay section by The Chandlery Bait & Tackle), 2026-10-09).",
      "rank": 10
     }
    ],
@@ -1032,13 +1019,13 @@
      ]
     },
     "rainbow_to_dip": {
-     "score": 20,
-     "colour": "red",
+     "score": 83,
+     "colour": "green",
      "confidence": "medium",
      "best_species": [
       {
-       "species": "tailor",
-       "score": 20,
+       "species": "mulloway",
+       "score": 83,
        "window": {
         "start": "00:00",
         "end": "02:17",
@@ -1049,7 +1036,7 @@
       },
       {
        "species": "dart",
-       "score": 20,
+       "score": 76,
        "window": {
         "start": "00:00",
         "end": "02:17",
@@ -1060,13 +1047,13 @@
       },
       {
        "species": "whiting",
-       "score": 20,
+       "score": 75,
        "window": {
-        "start": "00:00",
-        "end": "02:17",
-        "label": "low tide 01:17",
-        "start_iso": "2026-10-10T00:00+10:00",
-        "end_iso": "2026-10-10T02:17+10:00"
+        "start": "12:07",
+        "end": "14:37",
+        "label": "low tide 13:37",
+        "start_iso": "2026-10-10T12:07+10:00",
+        "end_iso": "2026-10-10T14:37+10:00"
        }
       }
      ],
@@ -1097,155 +1084,148 @@
       "light": "night",
       "rain_24h_mm": 0
      },
-     "warnings": [
-      "QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek",
-      "Window sits around high tide — beach driving access restricted"
-     ],
-     "explain": "N wind at ~10 kn is across the beach; the window covers the bottom of the tide; night is a preferred time for this species; seas around 1.2 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns. ⚠ QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek",
+     "warnings": [],
+     "explain": "N wind at ~10 kn is across the beach; the window covers the bottom of the tide, which suits mulloway (jewfish); night is a preferred time for this species; seas around 1.2 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "dip_north": {
-     "score": 20,
-     "colour": "red",
+     "score": 87,
+     "colour": "green",
      "confidence": "medium",
      "best_species": [
       {
-       "species": "tailor",
-       "score": 20,
-       "window": {
-        "start": "00:00",
-        "end": "02:17",
-        "label": "low tide 01:17",
-        "start_iso": "2026-10-10T00:00+10:00",
-        "end_iso": "2026-10-10T02:17+10:00"
-       }
-      },
-      {
        "species": "dart",
-       "score": 20,
+       "score": 87,
        "window": {
-        "start": "00:00",
-        "end": "02:17",
-        "label": "low tide 01:17",
-        "start_iso": "2026-10-10T00:00+10:00",
-        "end_iso": "2026-10-10T02:17+10:00"
+        "start": "04:18",
+        "end": "08:32",
+        "label": "dawn + high tide 07:32",
+        "start_iso": "2026-10-10T04:18+10:00",
+        "end_iso": "2026-10-10T08:32+10:00"
        }
       },
       {
-       "species": "trevally",
-       "score": 20,
+       "species": "cobia",
+       "score": 84,
        "window": {
-        "start": "00:00",
-        "end": "02:17",
-        "label": "low tide 01:17",
-        "start_iso": "2026-10-10T00:00+10:00",
-        "end_iso": "2026-10-10T02:17+10:00"
+        "start": "16:21",
+        "end": "20:36",
+        "label": "dusk + high tide 19:36",
+        "start_iso": "2026-10-10T16:21+10:00",
+        "end_iso": "2026-10-10T20:36+10:00"
+       }
+      },
+      {
+       "species": "mackerel",
+       "score": 84,
+       "window": {
+        "start": "16:21",
+        "end": "20:36",
+        "label": "dusk + high tide 19:36",
+        "start_iso": "2026-10-10T16:21+10:00",
+        "end_iso": "2026-10-10T20:36+10:00"
        }
       }
      ],
      "best_window": {
-      "start": "00:00",
-      "end": "02:17",
-      "label": "low tide 01:17",
-      "start_iso": "2026-10-10T00:00+10:00",
-      "end_iso": "2026-10-10T02:17+10:00"
+      "start": "04:18",
+      "end": "08:32",
+      "label": "dawn + high tide 07:32",
+      "start_iso": "2026-10-10T04:18+10:00",
+      "end_iso": "2026-10-10T08:32+10:00"
      },
      "conditions": {
-      "wind_kn": 10,
-      "gust_kn": 19,
-      "wind_dir": "N",
+      "wind_kn": 8,
+      "gust_kn": 18,
+      "wind_dir": "NNW",
       "wind_relation": "onshore",
-      "effective_wind_kn": 9.6,
-      "seas_m": 1.2,
+      "effective_wind_kn": 8.3,
+      "seas_m": 1.1,
       "swell_m": 0.8,
       "swell_period_s": 9,
       "sst_c": 22.5,
-      "tide_stage": "low_turn",
-      "tide_range_m": 1.61,
+      "tide_stage": "rising_late",
+      "tide_range_m": 1.57,
       "tide_next": {
-       "t": "2026-10-10T01:17+10:00",
-       "h": 0.27,
-       "type": "L"
+       "t": "2026-10-10T07:32+10:00",
+       "h": 1.84,
+       "type": "H"
       },
-      "light": "night",
+      "light": "dawn",
       "rain_24h_mm": 0
      },
-     "warnings": [
-      "QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek"
-     ],
-     "explain": "N wind at ~10 kn is onshore; the window covers the bottom of the tide; night is a preferred time for this species; seas around 1.2 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns. ⚠ QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek",
+     "warnings": [],
+     "explain": "NNW wind at ~8 kn is onshore; the window covers the last of the run-in, which suits swallowtail dart; dawn is a preferred time for this species; seas around 1.1 m; swallowtail dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "teewah": {
-     "score": 20,
-     "colour": "red",
+     "score": 88,
+     "colour": "green",
      "confidence": "medium",
      "best_species": [
       {
-       "species": "tailor",
-       "score": 20,
-       "window": {
-        "start": "00:00",
-        "end": "02:17",
-        "label": "low tide 01:17",
-        "start_iso": "2026-10-10T00:00+10:00",
-        "end_iso": "2026-10-10T02:17+10:00"
-       }
-      },
-      {
        "species": "dart",
-       "score": 20,
+       "score": 88,
        "window": {
-        "start": "00:00",
-        "end": "02:17",
-        "label": "low tide 01:17",
-        "start_iso": "2026-10-10T00:00+10:00",
-        "end_iso": "2026-10-10T02:17+10:00"
+        "start": "04:18",
+        "end": "08:32",
+        "label": "dawn + high tide 07:32",
+        "start_iso": "2026-10-10T04:18+10:00",
+        "end_iso": "2026-10-10T08:32+10:00"
        }
       },
       {
        "species": "whiting",
-       "score": 20,
+       "score": 86,
        "window": {
-        "start": "00:00",
-        "end": "02:17",
-        "label": "low tide 01:17",
-        "start_iso": "2026-10-10T00:00+10:00",
-        "end_iso": "2026-10-10T02:17+10:00"
+        "start": "04:18",
+        "end": "08:32",
+        "label": "dawn + high tide 07:32",
+        "start_iso": "2026-10-10T04:18+10:00",
+        "end_iso": "2026-10-10T08:32+10:00"
+       }
+      },
+      {
+       "species": "tailor",
+       "score": 83,
+       "window": {
+        "start": "04:18",
+        "end": "08:32",
+        "label": "dawn + high tide 07:32",
+        "start_iso": "2026-10-10T04:18+10:00",
+        "end_iso": "2026-10-10T08:32+10:00"
        }
       }
      ],
      "best_window": {
-      "start": "00:00",
-      "end": "02:17",
-      "label": "low tide 01:17",
-      "start_iso": "2026-10-10T00:00+10:00",
-      "end_iso": "2026-10-10T02:17+10:00"
+      "start": "04:18",
+      "end": "08:32",
+      "label": "dawn + high tide 07:32",
+      "start_iso": "2026-10-10T04:18+10:00",
+      "end_iso": "2026-10-10T08:32+10:00"
      },
      "conditions": {
-      "wind_kn": 8,
-      "gust_kn": 17,
-      "wind_dir": "N",
+      "wind_kn": 6,
+      "gust_kn": 14,
+      "wind_dir": "NW",
       "wind_relation": "cross",
-      "effective_wind_kn": 8.3,
-      "seas_m": 1.2,
+      "effective_wind_kn": 1.3,
+      "seas_m": 1.1,
       "swell_m": 0.8,
       "swell_period_s": 9,
       "sst_c": 22.5,
-      "tide_stage": "low_turn",
-      "tide_range_m": 1.61,
+      "tide_stage": "rising_late",
+      "tide_range_m": 1.57,
       "tide_next": {
-       "t": "2026-10-10T01:17+10:00",
-       "h": 0.27,
-       "type": "L"
+       "t": "2026-10-10T07:32+10:00",
+       "h": 1.84,
+       "type": "H"
       },
-      "light": "night",
+      "light": "dawn",
       "rain_24h_mm": 0.1
      },
-     "warnings": [
-      "QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek"
-     ],
-     "explain": "N wind at ~8 kn is across the beach; the window covers the bottom of the tide; night is a preferred time for this species; seas around 1.2 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns. ⚠ QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek",
+     "warnings": [],
+     "explain": "NW wind at ~6 kn is across the beach; the window covers the last of the run-in, which suits swallowtail dart; dawn is a preferred time for this species; seas around 1.1 m; swallowtail dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     }
    },
@@ -1440,6 +1420,112 @@
      "rank": 3
     },
     {
+     "location": "teewah",
+     "species": "dart",
+     "window": {
+      "start": "04:17",
+      "end": "09:11",
+      "label": "dawn + high tide 08:11",
+      "start_iso": "2026-10-11T04:17+10:00",
+      "end_iso": "2026-10-11T09:11+10:00"
+     },
+     "score": 91,
+     "colour": "green",
+     "confidence": "medium",
+     "basis": [
+      "conditions",
+      "season"
+     ],
+     "factors": {
+      "tide": 0.9815,
+      "wind": 1.0,
+      "swell": 1.0,
+      "light": 1.0,
+      "season": 1.0,
+      "pressure": 0.8,
+      "rain": 0.7,
+      "lunar": 0.7,
+      "reports": 0.35
+     },
+     "warnings": [],
+     "conditions": {
+      "wind_kn": 4,
+      "gust_kn": 10,
+      "wind_dir": "WNW",
+      "wind_relation": "offshore",
+      "effective_wind_kn": 0.7,
+      "seas_m": 0.8,
+      "swell_m": 0.5,
+      "swell_period_s": 7,
+      "sst_c": 22.7,
+      "tide_stage": "rising_late",
+      "tide_range_m": 1.63,
+      "tide_next": {
+       "t": "2026-10-11T08:11+10:00",
+       "h": 1.89,
+       "type": "H"
+      },
+      "light": "day",
+      "rain_24h_mm": 1.6
+     },
+     "evidence": [],
+     "explain": "WNW wind at ~4 kn is offshore for this beach; the window covers the last of the run-in, which suits swallowtail dart; day is a preferred time for this species; seas around 0.8 m; swallowtail dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "rank": 4
+    },
+    {
+     "location": "teewah",
+     "species": "whiting",
+     "window": {
+      "start": "04:17",
+      "end": "09:11",
+      "label": "dawn + high tide 08:11",
+      "start_iso": "2026-10-11T04:17+10:00",
+      "end_iso": "2026-10-11T09:11+10:00"
+     },
+     "score": 91,
+     "colour": "green",
+     "confidence": "medium",
+     "basis": [
+      "conditions",
+      "season"
+     ],
+     "factors": {
+      "tide": 0.9815,
+      "wind": 1.0,
+      "swell": 1.0,
+      "light": 1.0,
+      "season": 1.0,
+      "pressure": 0.8,
+      "rain": 0.7,
+      "lunar": 0.7,
+      "reports": 0.35
+     },
+     "warnings": [],
+     "conditions": {
+      "wind_kn": 4,
+      "gust_kn": 10,
+      "wind_dir": "WNW",
+      "wind_relation": "offshore",
+      "effective_wind_kn": 0.7,
+      "seas_m": 0.8,
+      "swell_m": 0.5,
+      "swell_period_s": 7,
+      "sst_c": 22.7,
+      "tide_stage": "rising_late",
+      "tide_range_m": 1.63,
+      "tide_next": {
+       "t": "2026-10-11T08:11+10:00",
+       "h": 1.89,
+       "type": "H"
+      },
+      "light": "day",
+      "rain_24h_mm": 1.6
+     },
+     "evidence": [],
+     "explain": "WNW wind at ~4 kn is offshore for this beach; the window covers the last of the run-in, which suits sand (summer) whiting; day is a preferred time for this species; seas around 0.8 m; sand (summer) whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "rank": 5
+    },
+    {
      "location": "tin_can_bay",
      "species": "whiting",
      "window": {
@@ -1503,7 +1589,113 @@
       }
      ],
      "explain": "N wind at ~4 kn is across the beach; the window covers the top of the tide, which suits sand (summer) whiting; day is a preferred time for this species; sand (summer) whiting are in peak season; 1 recent report mentions sand (summer) whiting nearby (latest Coastwatch (Tin Can Bay section by The Chandlery Bait & Tackle), 2026-10-09).",
-     "rank": 4
+     "rank": 6
+    },
+    {
+     "location": "dip_north",
+     "species": "dart",
+     "window": {
+      "start": "04:17",
+      "end": "09:11",
+      "label": "dawn + high tide 08:11",
+      "start_iso": "2026-10-11T04:17+10:00",
+      "end_iso": "2026-10-11T09:11+10:00"
+     },
+     "score": 88,
+     "colour": "green",
+     "confidence": "medium",
+     "basis": [
+      "conditions",
+      "season"
+     ],
+     "factors": {
+      "tide": 0.9815,
+      "wind": 0.85,
+      "swell": 1.0,
+      "light": 1.0,
+      "season": 1.0,
+      "pressure": 0.8,
+      "rain": 0.7,
+      "lunar": 0.7,
+      "reports": 0.35
+     },
+     "warnings": [],
+     "conditions": {
+      "wind_kn": 4,
+      "gust_kn": 11,
+      "wind_dir": "WNW",
+      "wind_relation": "cross",
+      "effective_wind_kn": 4.2,
+      "seas_m": 0.8,
+      "swell_m": 0.5,
+      "swell_period_s": 7,
+      "sst_c": 22.7,
+      "tide_stage": "rising_late",
+      "tide_range_m": 1.63,
+      "tide_next": {
+       "t": "2026-10-11T08:11+10:00",
+       "h": 1.89,
+       "type": "H"
+      },
+      "light": "day",
+      "rain_24h_mm": 0.6
+     },
+     "evidence": [],
+     "explain": "WNW wind at ~4 kn is across the beach; the window covers the last of the run-in, which suits swallowtail dart; day is a preferred time for this species; seas around 0.8 m; swallowtail dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "rank": 7
+    },
+    {
+     "location": "dip_north",
+     "species": "cobia",
+     "window": {
+      "start": "04:17",
+      "end": "09:11",
+      "label": "dawn + high tide 08:11",
+      "start_iso": "2026-10-11T04:17+10:00",
+      "end_iso": "2026-10-11T09:11+10:00"
+     },
+     "score": 88,
+     "colour": "green",
+     "confidence": "medium",
+     "basis": [
+      "conditions",
+      "season"
+     ],
+     "factors": {
+      "tide": 0.9815,
+      "wind": 0.85,
+      "swell": 1.0,
+      "light": 1.0,
+      "season": 1.0,
+      "pressure": 0.8,
+      "rain": 0.7,
+      "lunar": 0.7,
+      "reports": 0.35
+     },
+     "warnings": [],
+     "conditions": {
+      "wind_kn": 4,
+      "gust_kn": 11,
+      "wind_dir": "WNW",
+      "wind_relation": "cross",
+      "effective_wind_kn": 4.2,
+      "seas_m": 0.8,
+      "swell_m": 0.5,
+      "swell_period_s": 7,
+      "sst_c": 22.7,
+      "tide_stage": "rising_late",
+      "tide_range_m": 1.63,
+      "tide_next": {
+       "t": "2026-10-11T08:11+10:00",
+       "h": 1.89,
+       "type": "H"
+      },
+      "light": "day",
+      "rain_24h_mm": 0.6
+     },
+     "evidence": [],
+     "explain": "WNW wind at ~4 kn is across the beach; the window covers the last of the run-in, which suits cobia; day is a preferred time for this species; seas around 0.8 m; cobia are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "rank": 8
     },
     {
      "location": "inskip_bay",
@@ -1556,7 +1748,7 @@
      },
      "evidence": [],
      "explain": "WNW wind at ~2 kn is onshore; the window covers the early run-in, which suits sand (summer) whiting; dawn is a preferred time for this species; sand (summer) whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
-     "rank": 5
+     "rank": 9
     },
     {
      "location": "carlo_point",
@@ -1609,218 +1801,6 @@
      },
      "evidence": [],
      "explain": "WNW wind at ~3 kn is across the beach; the window covers the early run-in, which suits sand (summer) whiting; dawn is a preferred time for this species; sand (summer) whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
-     "rank": 6
-    },
-    {
-     "location": "inskip_bay",
-     "species": "whiting",
-     "window": {
-      "start": "08:15",
-      "end": "10:45",
-      "label": "high tide 09:45",
-      "start_iso": "2026-10-11T08:15+10:00",
-      "end_iso": "2026-10-11T10:45+10:00"
-     },
-     "score": 86,
-     "colour": "green",
-     "confidence": "medium",
-     "basis": [
-      "conditions",
-      "season"
-     ],
-     "factors": {
-      "tide": 0.996,
-      "wind": 0.93,
-      "swell": 0.8,
-      "light": 1.0,
-      "season": 1.0,
-      "pressure": 0.8,
-      "rain": 0.7,
-      "lunar": 0.7,
-      "reports": 0.35
-     },
-     "warnings": [],
-     "conditions": {
-      "wind_kn": 4,
-      "gust_kn": 12,
-      "wind_dir": "NNE",
-      "wind_relation": "cross",
-      "effective_wind_kn": 4.1,
-      "seas_m": 0.5,
-      "swell_m": 0.3,
-      "swell_period_s": 7,
-      "sst_c": 22.7,
-      "tide_stage": "high_turn",
-      "tide_range_m": 1.92,
-      "tide_next": {
-       "t": "2026-10-11T09:45+10:00",
-       "h": 2.36,
-       "type": "H"
-      },
-      "light": "day",
-      "rain_24h_mm": 0.5
-     },
-     "evidence": [],
-     "explain": "NNE wind at ~4 kn is across the beach; the window covers the top of the tide, which suits sand (summer) whiting; day is a preferred time for this species; sand (summer) whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
-     "rank": 7
-    },
-    {
-     "location": "carlo_point",
-     "species": "whiting",
-     "window": {
-      "start": "08:15",
-      "end": "10:45",
-      "label": "high tide 09:45",
-      "start_iso": "2026-10-11T08:15+10:00",
-      "end_iso": "2026-10-11T10:45+10:00"
-     },
-     "score": 86,
-     "colour": "green",
-     "confidence": "medium",
-     "basis": [
-      "conditions",
-      "season"
-     ],
-     "factors": {
-      "tide": 0.996,
-      "wind": 0.88,
-      "swell": 0.8,
-      "light": 1.0,
-      "season": 1.0,
-      "pressure": 0.8,
-      "rain": 0.7,
-      "lunar": 0.7,
-      "reports": 0.35
-     },
-     "warnings": [],
-     "conditions": {
-      "wind_kn": 5,
-      "gust_kn": 14,
-      "wind_dir": "NNE",
-      "wind_relation": "onshore",
-      "effective_wind_kn": 5.1,
-      "seas_m": 0.5,
-      "swell_m": 0.3,
-      "swell_period_s": 7,
-      "sst_c": 22.7,
-      "tide_stage": "high_turn",
-      "tide_range_m": 1.92,
-      "tide_next": {
-       "t": "2026-10-11T09:45+10:00",
-       "h": 2.36,
-       "type": "H"
-      },
-      "light": "day",
-      "rain_24h_mm": 0.2
-     },
-     "evidence": [],
-     "explain": "NNE wind at ~5 kn is onshore; the window covers the top of the tide, which suits sand (summer) whiting; day is a preferred time for this species; sand (summer) whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
-     "rank": 8
-    },
-    {
-     "location": "rainbow_north",
-     "species": "flathead",
-     "window": {
-      "start": "12:48",
-      "end": "15:18",
-      "label": "low tide 14:18",
-      "start_iso": "2026-10-11T12:48+10:00",
-      "end_iso": "2026-10-11T15:18+10:00"
-     },
-     "score": 86,
-     "colour": "green",
-     "confidence": "medium",
-     "basis": [
-      "conditions",
-      "season"
-     ],
-     "factors": {
-      "tide": 0.9725,
-      "wind": 0.75,
-      "swell": 1.0,
-      "light": 1.0,
-      "season": 1.0,
-      "pressure": 0.8,
-      "rain": 0.7,
-      "lunar": 0.7,
-      "reports": 0.35
-     },
-     "warnings": [],
-     "conditions": {
-      "wind_kn": 9,
-      "gust_kn": 22,
-      "wind_dir": "NE",
-      "wind_relation": "onshore",
-      "effective_wind_kn": 9.0,
-      "seas_m": 0.8,
-      "swell_m": 0.4,
-      "swell_period_s": 10,
-      "sst_c": 23.0,
-      "tide_stage": "low_turn",
-      "tide_range_m": 1.45,
-      "tide_next": {
-       "t": "2026-10-11T14:18+10:00",
-       "h": 0.44,
-       "type": "L"
-      },
-      "light": "day",
-      "rain_24h_mm": 0
-     },
-     "evidence": [],
-     "explain": "NE wind at ~9 kn is onshore; the window covers the bottom of the tide, which suits dusky flathead; day is a preferred time for this species; seas around 0.8 m; dusky flathead are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
-     "rank": 9
-    },
-    {
-     "location": "rainbow_north",
-     "species": "bream",
-     "window": {
-      "start": "00:18",
-      "end": "02:48",
-      "label": "low tide 01:48",
-      "start_iso": "2026-10-11T00:18+10:00",
-      "end_iso": "2026-10-11T02:48+10:00"
-     },
-     "score": 83,
-     "colour": "green",
-     "confidence": "medium",
-     "basis": [
-      "conditions",
-      "season"
-     ],
-     "factors": {
-      "tide": 0.9775,
-      "wind": 0.85,
-      "swell": 1.0,
-      "light": 1.0,
-      "season": 0.6,
-      "pressure": 0.8,
-      "rain": 0.7,
-      "lunar": 0.7,
-      "reports": 0.35
-     },
-     "warnings": [],
-     "conditions": {
-      "wind_kn": 5,
-      "gust_kn": 9,
-      "wind_dir": "NNW",
-      "wind_relation": "cross",
-      "effective_wind_kn": 4.9,
-      "seas_m": 0.9,
-      "swell_m": 0.6,
-      "swell_period_s": 5,
-      "sst_c": 22.6,
-      "tide_stage": "low_turn",
-      "tide_range_m": 1.55,
-      "tide_next": {
-       "t": "2026-10-11T01:48+10:00",
-       "h": 0.26,
-       "type": "L"
-      },
-      "light": "night",
-      "rain_24h_mm": 0.3
-     },
-     "evidence": [],
-     "explain": "NNW wind at ~5 kn is across the beach; the window covers the bottom of the tide, which suits yellowfin bream; night is a preferred time for this species; seas around 0.9 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "rank": 10
     }
    ],
@@ -2258,13 +2238,13 @@
      ]
     },
     "rainbow_to_dip": {
-     "score": 20,
-     "colour": "red",
+     "score": 80,
+     "colour": "green",
      "confidence": "medium",
      "best_species": [
       {
-       "species": "tailor",
-       "score": 20,
+       "species": "mulloway",
+       "score": 80,
        "window": {
         "start": "00:18",
         "end": "02:48",
@@ -2275,7 +2255,7 @@
       },
       {
        "species": "dart",
-       "score": 20,
+       "score": 76,
        "window": {
         "start": "00:18",
         "end": "02:48",
@@ -2286,7 +2266,7 @@
       },
       {
        "species": "whiting",
-       "score": 20,
+       "score": 76,
        "window": {
         "start": "00:18",
         "end": "02:48",
@@ -2323,115 +2303,110 @@
       "light": "night",
       "rain_24h_mm": 0.6
      },
-     "warnings": [
-      "QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek",
-      "Window sits around high tide — beach driving access restricted"
-     ],
-     "explain": "NNW wind at ~7 kn is across the beach; the window covers the bottom of the tide; night is a preferred time for this species; seas around 0.9 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns. ⚠ QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek",
+     "warnings": [],
+     "explain": "NNW wind at ~7 kn is across the beach; the window covers the bottom of the tide, which suits mulloway (jewfish); night is a preferred time for this species; seas around 0.9 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "dip_north": {
-     "score": 20,
-     "colour": "red",
+     "score": 88,
+     "colour": "green",
      "confidence": "medium",
      "best_species": [
       {
-       "species": "tailor",
-       "score": 20,
-       "window": {
-        "start": "00:18",
-        "end": "02:48",
-        "label": "low tide 01:48",
-        "start_iso": "2026-10-11T00:18+10:00",
-        "end_iso": "2026-10-11T02:48+10:00"
-       }
-      },
-      {
        "species": "dart",
-       "score": 20,
+       "score": 88,
        "window": {
-        "start": "00:18",
-        "end": "02:48",
-        "label": "low tide 01:48",
-        "start_iso": "2026-10-11T00:18+10:00",
-        "end_iso": "2026-10-11T02:48+10:00"
+        "start": "04:17",
+        "end": "09:11",
+        "label": "dawn + high tide 08:11",
+        "start_iso": "2026-10-11T04:17+10:00",
+        "end_iso": "2026-10-11T09:11+10:00"
        }
       },
       {
-       "species": "trevally",
-       "score": 20,
+       "species": "cobia",
+       "score": 88,
        "window": {
-        "start": "00:18",
-        "end": "02:48",
-        "label": "low tide 01:48",
-        "start_iso": "2026-10-11T00:18+10:00",
-        "end_iso": "2026-10-11T02:48+10:00"
+        "start": "04:17",
+        "end": "09:11",
+        "label": "dawn + high tide 08:11",
+        "start_iso": "2026-10-11T04:17+10:00",
+        "end_iso": "2026-10-11T09:11+10:00"
+       }
+      },
+      {
+       "species": "mackerel",
+       "score": 88,
+       "window": {
+        "start": "04:17",
+        "end": "09:11",
+        "label": "dawn + high tide 08:11",
+        "start_iso": "2026-10-11T04:17+10:00",
+        "end_iso": "2026-10-11T09:11+10:00"
        }
       }
      ],
      "best_window": {
-      "start": "00:18",
-      "end": "02:48",
-      "label": "low tide 01:48",
-      "start_iso": "2026-10-11T00:18+10:00",
-      "end_iso": "2026-10-11T02:48+10:00"
+      "start": "04:17",
+      "end": "09:11",
+      "label": "dawn + high tide 08:11",
+      "start_iso": "2026-10-11T04:17+10:00",
+      "end_iso": "2026-10-11T09:11+10:00"
      },
      "conditions": {
-      "wind_kn": 7,
-      "gust_kn": 13,
-      "wind_dir": "NNW",
-      "wind_relation": "onshore",
-      "effective_wind_kn": 6.6,
-      "seas_m": 0.9,
-      "swell_m": 0.6,
-      "swell_period_s": 5,
-      "sst_c": 22.6,
-      "tide_stage": "low_turn",
-      "tide_range_m": 1.55,
+      "wind_kn": 4,
+      "gust_kn": 11,
+      "wind_dir": "WNW",
+      "wind_relation": "cross",
+      "effective_wind_kn": 4.2,
+      "seas_m": 0.8,
+      "swell_m": 0.5,
+      "swell_period_s": 7,
+      "sst_c": 22.7,
+      "tide_stage": "rising_late",
+      "tide_range_m": 1.63,
       "tide_next": {
-       "t": "2026-10-11T01:48+10:00",
-       "h": 0.26,
-       "type": "L"
+       "t": "2026-10-11T08:11+10:00",
+       "h": 1.89,
+       "type": "H"
       },
-      "light": "night",
+      "light": "day",
       "rain_24h_mm": 0.6
      },
-     "warnings": [
-      "QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek"
-     ],
-     "explain": "NNW wind at ~7 kn is onshore; the window covers the bottom of the tide; night is a preferred time for this species; seas around 0.9 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns. ⚠ QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek",
+     "warnings": [],
+     "explain": "WNW wind at ~4 kn is across the beach; the window covers the last of the run-in, which suits swallowtail dart; day is a preferred time for this species; seas around 0.8 m; swallowtail dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "teewah": {
-     "score": 20,
-     "colour": "red",
+     "score": 91,
+     "colour": "green",
      "confidence": "medium",
      "best_species": [
       {
-       "species": "tailor",
-       "score": 20,
-       "window": {
-        "start": "00:18",
-        "end": "02:48",
-        "label": "low tide 01:48",
-        "start_iso": "2026-10-11T00:18+10:00",
-        "end_iso": "2026-10-11T02:48+10:00"
-       }
-      },
-      {
        "species": "dart",
-       "score": 20,
+       "score": 91,
        "window": {
-        "start": "00:18",
-        "end": "02:48",
-        "label": "low tide 01:48",
-        "start_iso": "2026-10-11T00:18+10:00",
-        "end_iso": "2026-10-11T02:48+10:00"
+        "start": "04:17",
+        "end": "09:11",
+        "label": "dawn + high tide 08:11",
+        "start_iso": "2026-10-11T04:17+10:00",
+        "end_iso": "2026-10-11T09:11+10:00"
        }
       },
       {
        "species": "whiting",
-       "score": 20,
+       "score": 91,
+       "window": {
+        "start": "04:17",
+        "end": "09:11",
+        "label": "dawn + high tide 08:11",
+        "start_iso": "2026-10-11T04:17+10:00",
+        "end_iso": "2026-10-11T09:11+10:00"
+       }
+      },
+      {
+       "species": "bream",
+       "score": 83,
        "window": {
         "start": "00:18",
         "end": "02:48",
@@ -2442,36 +2417,34 @@
       }
      ],
      "best_window": {
-      "start": "00:18",
-      "end": "02:48",
-      "label": "low tide 01:48",
-      "start_iso": "2026-10-11T00:18+10:00",
-      "end_iso": "2026-10-11T02:48+10:00"
+      "start": "04:17",
+      "end": "09:11",
+      "label": "dawn + high tide 08:11",
+      "start_iso": "2026-10-11T04:17+10:00",
+      "end_iso": "2026-10-11T09:11+10:00"
      },
      "conditions": {
-      "wind_kn": 6,
-      "gust_kn": 12,
-      "wind_dir": "NNW",
-      "wind_relation": "cross",
-      "effective_wind_kn": 5.6,
-      "seas_m": 0.9,
-      "swell_m": 0.6,
-      "swell_period_s": 5,
-      "sst_c": 22.6,
-      "tide_stage": "low_turn",
-      "tide_range_m": 1.55,
+      "wind_kn": 4,
+      "gust_kn": 10,
+      "wind_dir": "WNW",
+      "wind_relation": "offshore",
+      "effective_wind_kn": 0.7,
+      "seas_m": 0.8,
+      "swell_m": 0.5,
+      "swell_period_s": 7,
+      "sst_c": 22.7,
+      "tide_stage": "rising_late",
+      "tide_range_m": 1.63,
       "tide_next": {
-       "t": "2026-10-11T01:48+10:00",
-       "h": 0.26,
-       "type": "L"
+       "t": "2026-10-11T08:11+10:00",
+       "h": 1.89,
+       "type": "H"
       },
-      "light": "night",
+      "light": "day",
       "rain_24h_mm": 1.6
      },
-     "warnings": [
-      "QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek"
-     ],
-     "explain": "NNW wind at ~6 kn is across the beach; the window covers the bottom of the tide; night is a preferred time for this species; seas around 0.9 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns. ⚠ QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek",
+     "warnings": [],
+     "explain": "WNW wind at ~4 kn is offshore for this beach; the window covers the last of the run-in, which suits swallowtail dart; day is a preferred time for this species; seas around 0.8 m; swallowtail dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     }
    },
@@ -2626,6 +2599,112 @@
      "rank": 2
     },
     {
+     "location": "teewah",
+     "species": "dart",
+     "window": {
+      "start": "04:16",
+      "end": "06:46",
+      "label": "dawn",
+      "start_iso": "2026-10-12T04:16+10:00",
+      "end_iso": "2026-10-12T06:46+10:00"
+     },
+     "score": 91,
+     "colour": "green",
+     "confidence": "medium",
+     "basis": [
+      "conditions",
+      "season"
+     ],
+     "factors": {
+      "tide": 0.9805,
+      "wind": 1.0,
+      "swell": 1.0,
+      "light": 1.0,
+      "season": 1.0,
+      "pressure": 0.8,
+      "rain": 0.7,
+      "lunar": 0.7,
+      "reports": 0.35
+     },
+     "warnings": [],
+     "conditions": {
+      "wind_kn": 2,
+      "gust_kn": 5,
+      "wind_dir": "WNW",
+      "wind_relation": "offshore",
+      "effective_wind_kn": 0.3,
+      "seas_m": 0.8,
+      "swell_m": 0.6,
+      "swell_period_s": 4,
+      "sst_c": 22.8,
+      "tide_stage": "rising_early",
+      "tide_range_m": 1.61,
+      "tide_next": {
+       "t": "2026-10-12T08:47+10:00",
+       "h": 1.9,
+       "type": "H"
+      },
+      "light": "dawn",
+      "rain_24h_mm": 0.7
+     },
+     "evidence": [],
+     "explain": "WNW wind at ~2 kn is offshore for this beach; the window covers the early run-in, which suits swallowtail dart; dawn is a preferred time for this species; seas around 0.8 m; swallowtail dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "rank": 3
+    },
+    {
+     "location": "teewah",
+     "species": "whiting",
+     "window": {
+      "start": "04:16",
+      "end": "06:46",
+      "label": "dawn",
+      "start_iso": "2026-10-12T04:16+10:00",
+      "end_iso": "2026-10-12T06:46+10:00"
+     },
+     "score": 91,
+     "colour": "green",
+     "confidence": "medium",
+     "basis": [
+      "conditions",
+      "season"
+     ],
+     "factors": {
+      "tide": 0.9805,
+      "wind": 1.0,
+      "swell": 1.0,
+      "light": 1.0,
+      "season": 1.0,
+      "pressure": 0.8,
+      "rain": 0.7,
+      "lunar": 0.7,
+      "reports": 0.35
+     },
+     "warnings": [],
+     "conditions": {
+      "wind_kn": 2,
+      "gust_kn": 5,
+      "wind_dir": "WNW",
+      "wind_relation": "offshore",
+      "effective_wind_kn": 0.3,
+      "seas_m": 0.8,
+      "swell_m": 0.6,
+      "swell_period_s": 4,
+      "sst_c": 22.8,
+      "tide_stage": "rising_early",
+      "tide_range_m": 1.61,
+      "tide_next": {
+       "t": "2026-10-12T08:47+10:00",
+       "h": 1.9,
+       "type": "H"
+      },
+      "light": "dawn",
+      "rain_24h_mm": 0.7
+     },
+     "evidence": [],
+     "explain": "WNW wind at ~2 kn is offshore for this beach; the window covers the early run-in, which suits sand (summer) whiting; dawn is a preferred time for this species; seas around 0.8 m; sand (summer) whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "rank": 4
+    },
+    {
      "location": "tin_can_bay",
      "species": "whiting",
      "window": {
@@ -2689,116 +2768,10 @@
       }
      ],
      "explain": "NE wind at ~5 kn is onshore; the window covers the top of the tide, which suits sand (summer) whiting; day is a preferred time for this species; sand (summer) whiting are in peak season; 1 recent report mentions sand (summer) whiting nearby (latest Coastwatch (Tin Can Bay section by The Chandlery Bait & Tackle), 2026-10-09).",
-     "rank": 3
-    },
-    {
-     "location": "rainbow_town",
-     "species": "dart",
-     "window": {
-      "start": "04:16",
-      "end": "06:46",
-      "label": "dawn",
-      "start_iso": "2026-10-12T04:16+10:00",
-      "end_iso": "2026-10-12T06:46+10:00"
-     },
-     "score": 88,
-     "colour": "green",
-     "confidence": "medium",
-     "basis": [
-      "conditions",
-      "season"
-     ],
-     "factors": {
-      "tide": 0.9805,
-      "wind": 0.85,
-      "swell": 1.0,
-      "light": 1.0,
-      "season": 1.0,
-      "pressure": 0.8,
-      "rain": 0.7,
-      "lunar": 0.7,
-      "reports": 0.35
-     },
-     "warnings": [],
-     "conditions": {
-      "wind_kn": 0,
-      "gust_kn": 2,
-      "wind_dir": "S",
-      "wind_relation": "cross",
-      "effective_wind_kn": 0.4,
-      "seas_m": 0.8,
-      "swell_m": 0.6,
-      "swell_period_s": 4,
-      "sst_c": 22.8,
-      "tide_stage": "rising_early",
-      "tide_range_m": 1.61,
-      "tide_next": {
-       "t": "2026-10-12T08:47+10:00",
-       "h": 1.9,
-       "type": "H"
-      },
-      "light": "dawn",
-      "rain_24h_mm": 0.2
-     },
-     "evidence": [],
-     "explain": "S wind at ~0 kn is across the beach; the window covers the early run-in, which suits swallowtail dart; dawn is a preferred time for this species; seas around 0.8 m; swallowtail dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
-     "rank": 4
-    },
-    {
-     "location": "rainbow_town",
-     "species": "whiting",
-     "window": {
-      "start": "04:16",
-      "end": "06:46",
-      "label": "dawn",
-      "start_iso": "2026-10-12T04:16+10:00",
-      "end_iso": "2026-10-12T06:46+10:00"
-     },
-     "score": 88,
-     "colour": "green",
-     "confidence": "medium",
-     "basis": [
-      "conditions",
-      "season"
-     ],
-     "factors": {
-      "tide": 0.9805,
-      "wind": 0.85,
-      "swell": 1.0,
-      "light": 1.0,
-      "season": 1.0,
-      "pressure": 0.8,
-      "rain": 0.7,
-      "lunar": 0.7,
-      "reports": 0.35
-     },
-     "warnings": [],
-     "conditions": {
-      "wind_kn": 0,
-      "gust_kn": 2,
-      "wind_dir": "S",
-      "wind_relation": "cross",
-      "effective_wind_kn": 0.4,
-      "seas_m": 0.8,
-      "swell_m": 0.6,
-      "swell_period_s": 4,
-      "sst_c": 22.8,
-      "tide_stage": "rising_early",
-      "tide_range_m": 1.61,
-      "tide_next": {
-       "t": "2026-10-12T08:47+10:00",
-       "h": 1.9,
-       "type": "H"
-      },
-      "light": "dawn",
-      "rain_24h_mm": 0.2
-     },
-     "evidence": [],
-     "explain": "S wind at ~0 kn is across the beach; the window covers the early run-in, which suits sand (summer) whiting; dawn is a preferred time for this species; seas around 0.8 m; sand (summer) whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "rank": 5
     },
     {
-     "location": "rainbow_north",
+     "location": "rainbow_town",
      "species": "dart",
      "window": {
       "start": "04:16",
@@ -2851,7 +2824,7 @@
      "rank": 6
     },
     {
-     "location": "rainbow_north",
+     "location": "rainbow_town",
      "species": "whiting",
      "window": {
       "start": "04:16",
@@ -2904,6 +2877,112 @@
      "rank": 7
     },
     {
+     "location": "rainbow_north",
+     "species": "dart",
+     "window": {
+      "start": "04:16",
+      "end": "06:46",
+      "label": "dawn",
+      "start_iso": "2026-10-12T04:16+10:00",
+      "end_iso": "2026-10-12T06:46+10:00"
+     },
+     "score": 88,
+     "colour": "green",
+     "confidence": "medium",
+     "basis": [
+      "conditions",
+      "season"
+     ],
+     "factors": {
+      "tide": 0.9805,
+      "wind": 0.85,
+      "swell": 1.0,
+      "light": 1.0,
+      "season": 1.0,
+      "pressure": 0.8,
+      "rain": 0.7,
+      "lunar": 0.7,
+      "reports": 0.35
+     },
+     "warnings": [],
+     "conditions": {
+      "wind_kn": 0,
+      "gust_kn": 2,
+      "wind_dir": "S",
+      "wind_relation": "cross",
+      "effective_wind_kn": 0.4,
+      "seas_m": 0.8,
+      "swell_m": 0.6,
+      "swell_period_s": 4,
+      "sst_c": 22.8,
+      "tide_stage": "rising_early",
+      "tide_range_m": 1.61,
+      "tide_next": {
+       "t": "2026-10-12T08:47+10:00",
+       "h": 1.9,
+       "type": "H"
+      },
+      "light": "dawn",
+      "rain_24h_mm": 0.2
+     },
+     "evidence": [],
+     "explain": "S wind at ~0 kn is across the beach; the window covers the early run-in, which suits swallowtail dart; dawn is a preferred time for this species; seas around 0.8 m; swallowtail dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "rank": 8
+    },
+    {
+     "location": "rainbow_north",
+     "species": "whiting",
+     "window": {
+      "start": "04:16",
+      "end": "06:46",
+      "label": "dawn",
+      "start_iso": "2026-10-12T04:16+10:00",
+      "end_iso": "2026-10-12T06:46+10:00"
+     },
+     "score": 88,
+     "colour": "green",
+     "confidence": "medium",
+     "basis": [
+      "conditions",
+      "season"
+     ],
+     "factors": {
+      "tide": 0.9805,
+      "wind": 0.85,
+      "swell": 1.0,
+      "light": 1.0,
+      "season": 1.0,
+      "pressure": 0.8,
+      "rain": 0.7,
+      "lunar": 0.7,
+      "reports": 0.35
+     },
+     "warnings": [],
+     "conditions": {
+      "wind_kn": 0,
+      "gust_kn": 2,
+      "wind_dir": "S",
+      "wind_relation": "cross",
+      "effective_wind_kn": 0.4,
+      "seas_m": 0.8,
+      "swell_m": 0.6,
+      "swell_period_s": 4,
+      "sst_c": 22.8,
+      "tide_stage": "rising_early",
+      "tide_range_m": 1.61,
+      "tide_next": {
+       "t": "2026-10-12T08:47+10:00",
+       "h": 1.9,
+       "type": "H"
+      },
+      "light": "dawn",
+      "rain_24h_mm": 0.2
+     },
+     "evidence": [],
+     "explain": "S wind at ~0 kn is across the beach; the window covers the early run-in, which suits sand (summer) whiting; dawn is a preferred time for this species; seas around 0.8 m; sand (summer) whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "rank": 9
+    },
+    {
      "location": "inskip_ocean",
      "species": "dart",
      "window": {
@@ -2954,112 +3033,6 @@
      },
      "evidence": [],
      "explain": "SE wind at ~0 kn is across the beach; the window covers the early run-in, which suits swallowtail dart; dawn is a preferred time for this species; seas around 0.5 m; swallowtail dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
-     "rank": 8
-    },
-    {
-     "location": "inskip_bay",
-     "species": "whiting",
-     "window": {
-      "start": "04:16",
-      "end": "06:46",
-      "label": "dawn",
-      "start_iso": "2026-10-12T04:16+10:00",
-      "end_iso": "2026-10-12T06:46+10:00"
-     },
-     "score": 87,
-     "colour": "green",
-     "confidence": "medium",
-     "basis": [
-      "conditions",
-      "season"
-     ],
-     "factors": {
-      "tide": 0.997,
-      "wind": 1.0,
-      "swell": 0.8,
-      "light": 1.0,
-      "season": 1.0,
-      "pressure": 0.8,
-      "rain": 0.7,
-      "lunar": 0.7,
-      "reports": 0.35
-     },
-     "warnings": [],
-     "conditions": {
-      "wind_kn": 0,
-      "gust_kn": 2,
-      "wind_dir": "SE",
-      "wind_relation": "offshore",
-      "effective_wind_kn": 0.0,
-      "seas_m": 0.5,
-      "swell_m": 0.4,
-      "swell_period_s": 4,
-      "sst_c": 22.8,
-      "tide_stage": "rising_early",
-      "tide_range_m": 1.94,
-      "tide_next": {
-       "t": "2026-10-12T10:22+10:00",
-       "h": 2.38,
-       "type": "H"
-      },
-      "light": "dawn",
-      "rain_24h_mm": 0.7
-     },
-     "evidence": [],
-     "explain": "SE wind at ~0 kn is offshore for this shore; the window covers the early run-in, which suits sand (summer) whiting; dawn is a preferred time for this species; sand (summer) whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
-     "rank": 9
-    },
-    {
-     "location": "carlo_point",
-     "species": "whiting",
-     "window": {
-      "start": "04:16",
-      "end": "06:46",
-      "label": "dawn",
-      "start_iso": "2026-10-12T04:16+10:00",
-      "end_iso": "2026-10-12T06:46+10:00"
-     },
-     "score": 87,
-     "colour": "green",
-     "confidence": "medium",
-     "basis": [
-      "conditions",
-      "season"
-     ],
-     "factors": {
-      "tide": 0.997,
-      "wind": 1.0,
-      "swell": 0.8,
-      "light": 1.0,
-      "season": 1.0,
-      "pressure": 0.8,
-      "rain": 0.7,
-      "lunar": 0.7,
-      "reports": 0.35
-     },
-     "warnings": [],
-     "conditions": {
-      "wind_kn": 0,
-      "gust_kn": 2,
-      "wind_dir": "S",
-      "wind_relation": "offshore",
-      "effective_wind_kn": 0.0,
-      "seas_m": 0.5,
-      "swell_m": 0.4,
-      "swell_period_s": 4,
-      "sst_c": 22.8,
-      "tide_stage": "rising_early",
-      "tide_range_m": 1.94,
-      "tide_next": {
-       "t": "2026-10-12T10:22+10:00",
-       "h": 2.38,
-       "type": "H"
-      },
-      "light": "dawn",
-      "rain_24h_mm": 0.2
-     },
-     "evidence": [],
-     "explain": "S wind at ~0 kn is offshore for this shore; the window covers the early run-in, which suits sand (summer) whiting; dawn is a preferred time for this species; sand (summer) whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "rank": 10
     }
    ],
@@ -3509,35 +3482,35 @@
      ]
     },
     "rainbow_to_dip": {
-     "score": 20,
-     "colour": "red",
+     "score": 88,
+     "colour": "green",
      "confidence": "medium",
      "best_species": [
       {
-       "species": "tailor",
-       "score": 20,
-       "window": {
-        "start": "00:48",
-        "end": "03:18",
-        "label": "low tide 02:18",
-        "start_iso": "2026-10-12T00:48+10:00",
-        "end_iso": "2026-10-12T03:18+10:00"
-       }
-      },
-      {
        "species": "dart",
-       "score": 20,
+       "score": 88,
        "window": {
-        "start": "00:48",
-        "end": "03:18",
-        "label": "low tide 02:18",
-        "start_iso": "2026-10-12T00:48+10:00",
-        "end_iso": "2026-10-12T03:18+10:00"
+        "start": "04:16",
+        "end": "06:46",
+        "label": "dawn",
+        "start_iso": "2026-10-12T04:16+10:00",
+        "end_iso": "2026-10-12T06:46+10:00"
        }
       },
       {
        "species": "whiting",
-       "score": 20,
+       "score": 88,
+       "window": {
+        "start": "04:16",
+        "end": "06:46",
+        "label": "dawn",
+        "start_iso": "2026-10-12T04:16+10:00",
+        "end_iso": "2026-10-12T06:46+10:00"
+       }
+      },
+      {
+       "species": "mulloway",
+       "score": 77,
        "window": {
         "start": "00:48",
         "end": "03:18",
@@ -3548,181 +3521,174 @@
       }
      ],
      "best_window": {
-      "start": "00:48",
-      "end": "03:18",
-      "label": "low tide 02:18",
-      "start_iso": "2026-10-12T00:48+10:00",
-      "end_iso": "2026-10-12T03:18+10:00"
+      "start": "04:16",
+      "end": "06:46",
+      "label": "dawn",
+      "start_iso": "2026-10-12T04:16+10:00",
+      "end_iso": "2026-10-12T06:46+10:00"
      },
      "conditions": {
-      "wind_kn": 5,
-      "gust_kn": 11,
-      "wind_dir": "NNW",
+      "wind_kn": 2,
+      "gust_kn": 5,
+      "wind_dir": "NW",
       "wind_relation": "cross",
-      "effective_wind_kn": 4.8,
+      "effective_wind_kn": 2.0,
       "seas_m": 0.8,
       "swell_m": 0.6,
       "swell_period_s": 4,
-      "sst_c": 22.7,
-      "tide_stage": "low_turn",
-      "tide_range_m": 1.42,
+      "sst_c": 22.8,
+      "tide_stage": "rising_early",
+      "tide_range_m": 1.61,
       "tide_next": {
-       "t": "2026-10-12T02:18+10:00",
-       "h": 0.29,
-       "type": "L"
+       "t": "2026-10-12T08:47+10:00",
+       "h": 1.9,
+       "type": "H"
       },
-      "light": "night",
+      "light": "dawn",
       "rain_24h_mm": 0.1
      },
-     "warnings": [
-      "QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek",
-      "Window sits around high tide — beach driving access restricted"
-     ],
-     "explain": "NNW wind at ~5 kn is across the beach; the window covers the bottom of the tide; night is a preferred time for this species; seas around 0.8 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns. ⚠ QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek",
+     "warnings": [],
+     "explain": "NW wind at ~2 kn is across the beach; the window covers the early run-in, which suits swallowtail dart; dawn is a preferred time for this species; seas around 0.8 m; swallowtail dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "dip_north": {
-     "score": 20,
-     "colour": "red",
+     "score": 87,
+     "colour": "green",
      "confidence": "medium",
      "best_species": [
       {
-       "species": "tailor",
-       "score": 20,
-       "window": {
-        "start": "00:48",
-        "end": "03:18",
-        "label": "low tide 02:18",
-        "start_iso": "2026-10-12T00:48+10:00",
-        "end_iso": "2026-10-12T03:18+10:00"
-       }
-      },
-      {
        "species": "dart",
-       "score": 20,
+       "score": 87,
        "window": {
-        "start": "00:48",
-        "end": "03:18",
-        "label": "low tide 02:18",
-        "start_iso": "2026-10-12T00:48+10:00",
-        "end_iso": "2026-10-12T03:18+10:00"
+        "start": "04:16",
+        "end": "06:46",
+        "label": "dawn",
+        "start_iso": "2026-10-12T04:16+10:00",
+        "end_iso": "2026-10-12T06:46+10:00"
        }
       },
       {
-       "species": "trevally",
-       "score": 20,
+       "species": "cobia",
+       "score": 87,
        "window": {
-        "start": "00:48",
-        "end": "03:18",
-        "label": "low tide 02:18",
-        "start_iso": "2026-10-12T00:48+10:00",
-        "end_iso": "2026-10-12T03:18+10:00"
+        "start": "07:17",
+        "end": "09:47",
+        "label": "high tide 08:47",
+        "start_iso": "2026-10-12T07:17+10:00",
+        "end_iso": "2026-10-12T09:47+10:00"
+       }
+      },
+      {
+       "species": "mackerel",
+       "score": 87,
+       "window": {
+        "start": "07:17",
+        "end": "09:47",
+        "label": "high tide 08:47",
+        "start_iso": "2026-10-12T07:17+10:00",
+        "end_iso": "2026-10-12T09:47+10:00"
        }
       }
      ],
      "best_window": {
-      "start": "00:48",
-      "end": "03:18",
-      "label": "low tide 02:18",
-      "start_iso": "2026-10-12T00:48+10:00",
-      "end_iso": "2026-10-12T03:18+10:00"
+      "start": "04:16",
+      "end": "06:46",
+      "label": "dawn",
+      "start_iso": "2026-10-12T04:16+10:00",
+      "end_iso": "2026-10-12T06:46+10:00"
      },
      "conditions": {
-      "wind_kn": 5,
-      "gust_kn": 11,
-      "wind_dir": "NNW",
+      "wind_kn": 2,
+      "gust_kn": 5,
+      "wind_dir": "NW",
       "wind_relation": "onshore",
-      "effective_wind_kn": 4.8,
+      "effective_wind_kn": 2.0,
       "seas_m": 0.8,
       "swell_m": 0.6,
       "swell_period_s": 4,
-      "sst_c": 22.7,
-      "tide_stage": "low_turn",
-      "tide_range_m": 1.42,
+      "sst_c": 22.8,
+      "tide_stage": "rising_early",
+      "tide_range_m": 1.61,
       "tide_next": {
-       "t": "2026-10-12T02:18+10:00",
-       "h": 0.29,
-       "type": "L"
+       "t": "2026-10-12T08:47+10:00",
+       "h": 1.9,
+       "type": "H"
       },
-      "light": "night",
+      "light": "dawn",
       "rain_24h_mm": 0.1
      },
-     "warnings": [
-      "QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek"
-     ],
-     "explain": "NNW wind at ~5 kn is onshore; the window covers the bottom of the tide; night is a preferred time for this species; seas around 0.8 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns. ⚠ QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek",
+     "warnings": [],
+     "explain": "NW wind at ~2 kn is onshore; the window covers the early run-in, which suits swallowtail dart; dawn is a preferred time for this species; seas around 0.8 m; swallowtail dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "teewah": {
-     "score": 20,
-     "colour": "red",
+     "score": 91,
+     "colour": "green",
      "confidence": "medium",
      "best_species": [
       {
-       "species": "tailor",
-       "score": 20,
-       "window": {
-        "start": "00:48",
-        "end": "03:18",
-        "label": "low tide 02:18",
-        "start_iso": "2026-10-12T00:48+10:00",
-        "end_iso": "2026-10-12T03:18+10:00"
-       }
-      },
-      {
        "species": "dart",
-       "score": 20,
+       "score": 91,
        "window": {
-        "start": "00:48",
-        "end": "03:18",
-        "label": "low tide 02:18",
-        "start_iso": "2026-10-12T00:48+10:00",
-        "end_iso": "2026-10-12T03:18+10:00"
+        "start": "04:16",
+        "end": "06:46",
+        "label": "dawn",
+        "start_iso": "2026-10-12T04:16+10:00",
+        "end_iso": "2026-10-12T06:46+10:00"
        }
       },
       {
        "species": "whiting",
-       "score": 20,
+       "score": 91,
        "window": {
-        "start": "00:48",
-        "end": "03:18",
-        "label": "low tide 02:18",
-        "start_iso": "2026-10-12T00:48+10:00",
-        "end_iso": "2026-10-12T03:18+10:00"
+        "start": "04:16",
+        "end": "06:46",
+        "label": "dawn",
+        "start_iso": "2026-10-12T04:16+10:00",
+        "end_iso": "2026-10-12T06:46+10:00"
+       }
+      },
+      {
+       "species": "bream",
+       "score": 86,
+       "window": {
+        "start": "04:16",
+        "end": "06:46",
+        "label": "dawn",
+        "start_iso": "2026-10-12T04:16+10:00",
+        "end_iso": "2026-10-12T06:46+10:00"
        }
       }
      ],
      "best_window": {
-      "start": "00:48",
-      "end": "03:18",
-      "label": "low tide 02:18",
-      "start_iso": "2026-10-12T00:48+10:00",
-      "end_iso": "2026-10-12T03:18+10:00"
+      "start": "04:16",
+      "end": "06:46",
+      "label": "dawn",
+      "start_iso": "2026-10-12T04:16+10:00",
+      "end_iso": "2026-10-12T06:46+10:00"
      },
      "conditions": {
-      "wind_kn": 4,
-      "gust_kn": 8,
-      "wind_dir": "NNW",
-      "wind_relation": "cross",
-      "effective_wind_kn": 0.7,
+      "wind_kn": 2,
+      "gust_kn": 5,
+      "wind_dir": "WNW",
+      "wind_relation": "offshore",
+      "effective_wind_kn": 0.3,
       "seas_m": 0.8,
       "swell_m": 0.6,
       "swell_period_s": 4,
-      "sst_c": 22.7,
-      "tide_stage": "low_turn",
-      "tide_range_m": 1.42,
+      "sst_c": 22.8,
+      "tide_stage": "rising_early",
+      "tide_range_m": 1.61,
       "tide_next": {
-       "t": "2026-10-12T02:18+10:00",
-       "h": 0.29,
-       "type": "L"
+       "t": "2026-10-12T08:47+10:00",
+       "h": 1.9,
+       "type": "H"
       },
-      "light": "night",
+      "light": "dawn",
       "rain_24h_mm": 0.7
      },
-     "warnings": [
-      "QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek"
-     ],
-     "explain": "NNW wind at ~4 kn is across the beach; the window covers the bottom of the tide; night is a preferred time for this species; seas around 0.8 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns. ⚠ QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek",
+     "warnings": [],
+     "explain": "WNW wind at ~2 kn is offshore for this beach; the window covers the early run-in, which suits swallowtail dart; dawn is a preferred time for this species; seas around 0.8 m; swallowtail dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     }
    },
@@ -4208,16 +4174,16 @@
      "rank": 8
     },
     {
-     "location": "inskip_bay",
-     "species": "flathead",
+     "location": "rainbow_to_dip",
+     "species": "dart",
      "window": {
-      "start": "02:00",
+      "start": "04:15",
       "end": "06:45",
-      "label": "low tide 03:30 + dawn",
-      "start_iso": "2026-10-13T02:00+10:00",
+      "label": "dawn",
+      "start_iso": "2026-10-13T04:15+10:00",
       "end_iso": "2026-10-13T06:45+10:00"
      },
-     "score": 86,
+     "score": 88,
      "colour": "green",
      "confidence": "low",
      "basis": [
@@ -4225,9 +4191,9 @@
       "season"
      ],
      "factors": {
-      "tide": 0.9945,
-      "wind": 0.93,
-      "swell": 0.8,
+      "tide": 0.9770000000000001,
+      "wind": 0.85,
+      "swell": 1.0,
       "light": 1.0,
       "season": 1.0,
       "pressure": 0.8,
@@ -4237,40 +4203,40 @@
      },
      "warnings": [],
      "conditions": {
-      "wind_kn": 4,
-      "gust_kn": 7,
-      "wind_dir": "N",
+      "wind_kn": 6,
+      "gust_kn": 13,
+      "wind_dir": "NNW",
       "wind_relation": "cross",
-      "effective_wind_kn": 4.1,
-      "seas_m": 0.5,
-      "swell_m": 0.4,
+      "effective_wind_kn": 6.5,
+      "seas_m": 0.7,
+      "swell_m": 0.6,
       "swell_period_s": 4,
       "sst_c": 22.8,
-      "tide_stage": "low_turn",
-      "tide_range_m": 1.89,
+      "tide_stage": "rising_early",
+      "tide_range_m": 1.54,
       "tide_next": {
-       "t": "2026-10-13T10:57+10:00",
-       "h": 2.35,
+       "t": "2026-10-13T09:23+10:00",
+       "h": 1.88,
        "type": "H"
       },
       "light": "dawn",
-      "rain_24h_mm": 2.1
+      "rain_24h_mm": 0.4
      },
      "evidence": [],
-     "explain": "N wind at ~4 kn is across the beach; the window covers the bottom of the tide, which suits dusky flathead; dawn is a preferred time for this species; dusky flathead are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "NNW wind at ~6 kn is across the beach; the window covers the early run-in, which suits swallowtail dart; dawn is a preferred time for this species; seas around 0.7 m; swallowtail dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "rank": 9
     },
     {
-     "location": "carlo_point",
-     "species": "flathead",
+     "location": "rainbow_to_dip",
+     "species": "whiting",
      "window": {
-      "start": "02:00",
+      "start": "04:15",
       "end": "06:45",
-      "label": "low tide 03:30 + dawn",
-      "start_iso": "2026-10-13T02:00+10:00",
+      "label": "dawn",
+      "start_iso": "2026-10-13T04:15+10:00",
       "end_iso": "2026-10-13T06:45+10:00"
      },
-     "score": 86,
+     "score": 88,
      "colour": "green",
      "confidence": "low",
      "basis": [
@@ -4278,9 +4244,9 @@
       "season"
      ],
      "factors": {
-      "tide": 0.9945,
-      "wind": 0.88,
-      "swell": 0.8,
+      "tide": 0.9770000000000001,
+      "wind": 0.85,
+      "swell": 1.0,
       "light": 1.0,
       "season": 1.0,
       "pressure": 0.8,
@@ -4290,27 +4256,27 @@
      },
      "warnings": [],
      "conditions": {
-      "wind_kn": 5,
-      "gust_kn": 9,
-      "wind_dir": "N",
-      "wind_relation": "onshore",
-      "effective_wind_kn": 4.9,
-      "seas_m": 0.5,
-      "swell_m": 0.4,
+      "wind_kn": 6,
+      "gust_kn": 13,
+      "wind_dir": "NNW",
+      "wind_relation": "cross",
+      "effective_wind_kn": 6.5,
+      "seas_m": 0.7,
+      "swell_m": 0.6,
       "swell_period_s": 4,
       "sst_c": 22.8,
-      "tide_stage": "low_turn",
-      "tide_range_m": 1.89,
+      "tide_stage": "rising_early",
+      "tide_range_m": 1.54,
       "tide_next": {
-       "t": "2026-10-13T10:57+10:00",
-       "h": 2.35,
+       "t": "2026-10-13T09:23+10:00",
+       "h": 1.88,
        "type": "H"
       },
       "light": "dawn",
-      "rain_24h_mm": 0.7
+      "rain_24h_mm": 0.4
      },
      "evidence": [],
-     "explain": "N wind at ~5 kn is onshore; the window covers the bottom of the tide, which suits dusky flathead; dawn is a preferred time for this species; dusky flathead are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "NNW wind at ~6 kn is across the beach; the window covers the early run-in, which suits sand (summer) whiting; dawn is a preferred time for this species; seas around 0.7 m; sand (summer) whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "rank": 10
     }
    ],
@@ -4760,35 +4726,35 @@
      ]
     },
     "rainbow_to_dip": {
-     "score": 20,
-     "colour": "red",
+     "score": 88,
+     "colour": "green",
      "confidence": "low",
      "best_species": [
       {
-       "species": "tailor",
-       "score": 20,
-       "window": {
-        "start": "01:16",
-        "end": "03:46",
-        "label": "low tide 02:46",
-        "start_iso": "2026-10-13T01:16+10:00",
-        "end_iso": "2026-10-13T03:46+10:00"
-       }
-      },
-      {
        "species": "dart",
-       "score": 20,
+       "score": 88,
        "window": {
-        "start": "01:16",
-        "end": "03:46",
-        "label": "low tide 02:46",
-        "start_iso": "2026-10-13T01:16+10:00",
-        "end_iso": "2026-10-13T03:46+10:00"
+        "start": "04:15",
+        "end": "06:45",
+        "label": "dawn",
+        "start_iso": "2026-10-13T04:15+10:00",
+        "end_iso": "2026-10-13T06:45+10:00"
        }
       },
       {
        "species": "whiting",
-       "score": 20,
+       "score": 88,
+       "window": {
+        "start": "04:15",
+        "end": "06:45",
+        "label": "dawn",
+        "start_iso": "2026-10-13T04:15+10:00",
+        "end_iso": "2026-10-13T06:45+10:00"
+       }
+      },
+      {
+       "species": "mulloway",
+       "score": 77,
        "window": {
         "start": "01:16",
         "end": "03:46",
@@ -4799,181 +4765,174 @@
       }
      ],
      "best_window": {
-      "start": "01:16",
-      "end": "03:46",
-      "label": "low tide 02:46",
-      "start_iso": "2026-10-13T01:16+10:00",
-      "end_iso": "2026-10-13T03:46+10:00"
-     },
-     "conditions": {
-      "wind_kn": 7,
-      "gust_kn": 14,
-      "wind_dir": "NNW",
-      "wind_relation": "cross",
-      "effective_wind_kn": 7.0,
-      "seas_m": 0.8,
-      "swell_m": 0.6,
-      "swell_period_s": 4,
-      "sst_c": 22.8,
-      "tide_stage": "low_turn",
-      "tide_range_m": 1.26,
-      "tide_next": {
-       "t": "2026-10-13T02:46+10:00",
-       "h": 0.34,
-       "type": "L"
-      },
-      "light": "night",
-      "rain_24h_mm": 0.4
-     },
-     "warnings": [
-      "QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek",
-      "Window sits around high tide — beach driving access restricted"
-     ],
-     "explain": "NNW wind at ~7 kn is across the beach; the window covers the bottom of the tide; night is a preferred time for this species; seas around 0.8 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns. ⚠ QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek",
-     "evidence": []
-    },
-    "dip_north": {
-     "score": 20,
-     "colour": "red",
-     "confidence": "low",
-     "best_species": [
-      {
-       "species": "tailor",
-       "score": 20,
-       "window": {
-        "start": "01:16",
-        "end": "03:46",
-        "label": "low tide 02:46",
-        "start_iso": "2026-10-13T01:16+10:00",
-        "end_iso": "2026-10-13T03:46+10:00"
-       }
-      },
-      {
-       "species": "dart",
-       "score": 20,
-       "window": {
-        "start": "01:16",
-        "end": "03:46",
-        "label": "low tide 02:46",
-        "start_iso": "2026-10-13T01:16+10:00",
-        "end_iso": "2026-10-13T03:46+10:00"
-       }
-      },
-      {
-       "species": "trevally",
-       "score": 20,
-       "window": {
-        "start": "01:16",
-        "end": "03:46",
-        "label": "low tide 02:46",
-        "start_iso": "2026-10-13T01:16+10:00",
-        "end_iso": "2026-10-13T03:46+10:00"
-       }
-      }
-     ],
-     "best_window": {
-      "start": "01:16",
-      "end": "03:46",
-      "label": "low tide 02:46",
-      "start_iso": "2026-10-13T01:16+10:00",
-      "end_iso": "2026-10-13T03:46+10:00"
-     },
-     "conditions": {
-      "wind_kn": 7,
-      "gust_kn": 14,
-      "wind_dir": "NNW",
-      "wind_relation": "onshore",
-      "effective_wind_kn": 7.0,
-      "seas_m": 0.8,
-      "swell_m": 0.6,
-      "swell_period_s": 4,
-      "sst_c": 22.8,
-      "tide_stage": "low_turn",
-      "tide_range_m": 1.26,
-      "tide_next": {
-       "t": "2026-10-13T02:46+10:00",
-       "h": 0.34,
-       "type": "L"
-      },
-      "light": "night",
-      "rain_24h_mm": 0.4
-     },
-     "warnings": [
-      "QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek"
-     ],
-     "explain": "NNW wind at ~7 kn is onshore; the window covers the bottom of the tide; night is a preferred time for this species; seas around 0.8 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns. ⚠ QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek",
-     "evidence": []
-    },
-    "teewah": {
-     "score": 20,
-     "colour": "red",
-     "confidence": "low",
-     "best_species": [
-      {
-       "species": "tailor",
-       "score": 20,
-       "window": {
-        "start": "01:16",
-        "end": "03:46",
-        "label": "low tide 02:46",
-        "start_iso": "2026-10-13T01:16+10:00",
-        "end_iso": "2026-10-13T03:46+10:00"
-       }
-      },
-      {
-       "species": "dart",
-       "score": 20,
-       "window": {
-        "start": "01:16",
-        "end": "03:46",
-        "label": "low tide 02:46",
-        "start_iso": "2026-10-13T01:16+10:00",
-        "end_iso": "2026-10-13T03:46+10:00"
-       }
-      },
-      {
-       "species": "whiting",
-       "score": 20,
-       "window": {
-        "start": "01:16",
-        "end": "03:46",
-        "label": "low tide 02:46",
-        "start_iso": "2026-10-13T01:16+10:00",
-        "end_iso": "2026-10-13T03:46+10:00"
-       }
-      }
-     ],
-     "best_window": {
-      "start": "01:16",
-      "end": "03:46",
-      "label": "low tide 02:46",
-      "start_iso": "2026-10-13T01:16+10:00",
-      "end_iso": "2026-10-13T03:46+10:00"
+      "start": "04:15",
+      "end": "06:45",
+      "label": "dawn",
+      "start_iso": "2026-10-13T04:15+10:00",
+      "end_iso": "2026-10-13T06:45+10:00"
      },
      "conditions": {
       "wind_kn": 6,
-      "gust_kn": 11,
+      "gust_kn": 13,
       "wind_dir": "NNW",
       "wind_relation": "cross",
-      "effective_wind_kn": 5.5,
-      "seas_m": 0.8,
+      "effective_wind_kn": 6.5,
+      "seas_m": 0.7,
       "swell_m": 0.6,
       "swell_period_s": 4,
       "sst_c": 22.8,
-      "tide_stage": "low_turn",
-      "tide_range_m": 1.26,
+      "tide_stage": "rising_early",
+      "tide_range_m": 1.54,
       "tide_next": {
-       "t": "2026-10-13T02:46+10:00",
-       "h": 0.34,
-       "type": "L"
+       "t": "2026-10-13T09:23+10:00",
+       "h": 1.88,
+       "type": "H"
       },
-      "light": "night",
+      "light": "dawn",
+      "rain_24h_mm": 0.4
+     },
+     "warnings": [],
+     "explain": "NNW wind at ~6 kn is across the beach; the window covers the early run-in, which suits swallowtail dart; dawn is a preferred time for this species; seas around 0.7 m; swallowtail dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "evidence": []
+    },
+    "dip_north": {
+     "score": 86,
+     "colour": "green",
+     "confidence": "low",
+     "best_species": [
+      {
+       "species": "dart",
+       "score": 86,
+       "window": {
+        "start": "04:15",
+        "end": "06:45",
+        "label": "dawn",
+        "start_iso": "2026-10-13T04:15+10:00",
+        "end_iso": "2026-10-13T06:45+10:00"
+       }
+      },
+      {
+       "species": "cobia",
+       "score": 83,
+       "window": {
+        "start": "07:53",
+        "end": "10:23",
+        "label": "high tide 09:23",
+        "start_iso": "2026-10-13T07:53+10:00",
+        "end_iso": "2026-10-13T10:23+10:00"
+       }
+      },
+      {
+       "species": "mackerel",
+       "score": 83,
+       "window": {
+        "start": "07:53",
+        "end": "10:23",
+        "label": "high tide 09:23",
+        "start_iso": "2026-10-13T07:53+10:00",
+        "end_iso": "2026-10-13T10:23+10:00"
+       }
+      }
+     ],
+     "best_window": {
+      "start": "04:15",
+      "end": "06:45",
+      "label": "dawn",
+      "start_iso": "2026-10-13T04:15+10:00",
+      "end_iso": "2026-10-13T06:45+10:00"
+     },
+     "conditions": {
+      "wind_kn": 6,
+      "gust_kn": 13,
+      "wind_dir": "NNW",
+      "wind_relation": "onshore",
+      "effective_wind_kn": 6.5,
+      "seas_m": 0.7,
+      "swell_m": 0.6,
+      "swell_period_s": 4,
+      "sst_c": 22.8,
+      "tide_stage": "rising_early",
+      "tide_range_m": 1.54,
+      "tide_next": {
+       "t": "2026-10-13T09:23+10:00",
+       "h": 1.88,
+       "type": "H"
+      },
+      "light": "dawn",
+      "rain_24h_mm": 0.4
+     },
+     "warnings": [],
+     "explain": "NNW wind at ~6 kn is onshore; the window covers the early run-in, which suits swallowtail dart; dawn is a preferred time for this species; seas around 0.7 m; swallowtail dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "evidence": []
+    },
+    "teewah": {
+     "score": 88,
+     "colour": "green",
+     "confidence": "low",
+     "best_species": [
+      {
+       "species": "dart",
+       "score": 88,
+       "window": {
+        "start": "04:15",
+        "end": "06:45",
+        "label": "dawn",
+        "start_iso": "2026-10-13T04:15+10:00",
+        "end_iso": "2026-10-13T06:45+10:00"
+       }
+      },
+      {
+       "species": "whiting",
+       "score": 88,
+       "window": {
+        "start": "04:15",
+        "end": "06:45",
+        "label": "dawn",
+        "start_iso": "2026-10-13T04:15+10:00",
+        "end_iso": "2026-10-13T06:45+10:00"
+       }
+      },
+      {
+       "species": "bream",
+       "score": 83,
+       "window": {
+        "start": "01:16",
+        "end": "03:46",
+        "label": "low tide 02:46",
+        "start_iso": "2026-10-13T01:16+10:00",
+        "end_iso": "2026-10-13T03:46+10:00"
+       }
+      }
+     ],
+     "best_window": {
+      "start": "04:15",
+      "end": "06:45",
+      "label": "dawn",
+      "start_iso": "2026-10-13T04:15+10:00",
+      "end_iso": "2026-10-13T06:45+10:00"
+     },
+     "conditions": {
+      "wind_kn": 5,
+      "gust_kn": 11,
+      "wind_dir": "NNW",
+      "wind_relation": "cross",
+      "effective_wind_kn": 1.0,
+      "seas_m": 0.7,
+      "swell_m": 0.6,
+      "swell_period_s": 4,
+      "sst_c": 22.8,
+      "tide_stage": "rising_early",
+      "tide_range_m": 1.54,
+      "tide_next": {
+       "t": "2026-10-13T09:23+10:00",
+       "h": 1.88,
+       "type": "H"
+      },
+      "light": "dawn",
       "rain_24h_mm": 1.6
      },
-     "warnings": [
-      "QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek"
-     ],
-     "explain": "NNW wind at ~6 kn is across the beach; the window covers the bottom of the tide; night is a preferred time for this species; seas around 0.8 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns. ⚠ QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek",
+     "warnings": [],
+     "explain": "NNW wind at ~5 kn is across the beach; the window covers the early run-in, which suits swallowtail dart; dawn is a preferred time for this species; seas around 0.7 m; swallowtail dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     }
    },
@@ -5406,113 +5365,7 @@
      "rank": 7
     },
     {
-     "location": "carlo_point",
-     "species": "whiting",
-     "window": {
-      "start": "10:00",
-      "end": "12:30",
-      "label": "high tide 11:30",
-      "start_iso": "2026-10-14T10:00+10:00",
-      "end_iso": "2026-10-14T12:30+10:00"
-     },
-     "score": 88,
-     "colour": "green",
-     "confidence": "low",
-     "basis": [
-      "conditions",
-      "season"
-     ],
-     "factors": {
-      "tide": 0.9885,
-      "wind": 1.0,
-      "swell": 0.8,
-      "light": 1.0,
-      "season": 1.0,
-      "pressure": 0.8,
-      "rain": 0.85,
-      "lunar": 0.5,
-      "reports": 0.35
-     },
-     "warnings": [],
-     "conditions": {
-      "wind_kn": 4,
-      "gust_kn": 17,
-      "wind_dir": "SW",
-      "wind_relation": "offshore",
-      "effective_wind_kn": 0.4,
-      "seas_m": 0.5,
-      "swell_m": 0.4,
-      "swell_period_s": 6,
-      "sst_c": 23.1,
-      "tide_stage": "high_turn",
-      "tide_range_m": 1.77,
-      "tide_next": {
-       "t": "2026-10-14T11:30+10:00",
-       "h": 2.29,
-       "type": "H"
-      },
-      "light": "day",
-      "rain_24h_mm": 11.4
-     },
-     "evidence": [],
-     "explain": "SW wind at ~4 kn is offshore for this shore; the window covers the top of the tide, which suits sand (summer) whiting; day is a preferred time for this species; sand (summer) whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
-     "rank": 8
-    },
-    {
-     "location": "carlo_point",
-     "species": "flathead",
-     "window": {
-      "start": "02:29",
-      "end": "06:44",
-      "label": "low tide 03:59 + dawn",
-      "start_iso": "2026-10-14T02:29+10:00",
-      "end_iso": "2026-10-14T06:44+10:00"
-     },
-     "score": 87,
-     "colour": "green",
-     "confidence": "low",
-     "basis": [
-      "conditions",
-      "season"
-     ],
-     "factors": {
-      "tide": 0.9885,
-      "wind": 0.93,
-      "swell": 0.8,
-      "light": 1.0,
-      "season": 1.0,
-      "pressure": 0.8,
-      "rain": 0.85,
-      "lunar": 0.5,
-      "reports": 0.35
-     },
-     "warnings": [],
-     "conditions": {
-      "wind_kn": 6,
-      "gust_kn": 13,
-      "wind_dir": "NW",
-      "wind_relation": "cross",
-      "effective_wind_kn": 6.3,
-      "seas_m": 0.5,
-      "swell_m": 0.3,
-      "swell_period_s": 6,
-      "sst_c": 22.9,
-      "tide_stage": "low_turn",
-      "tide_range_m": 1.77,
-      "tide_next": {
-       "t": "2026-10-14T11:30+10:00",
-       "h": 2.29,
-       "type": "H"
-      },
-      "light": "dawn",
-      "rain_24h_mm": 8.3
-     },
-     "evidence": [],
-     "explain": "NW wind at ~6 kn is across the beach; the window covers the bottom of the tide, which suits dusky flathead; dawn is a preferred time for this species; dusky flathead are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
-     "rank": 9
-    },
-    {
-     "location": "inskip_ocean",
+     "location": "teewah",
      "species": "dart",
      "window": {
       "start": "04:14",
@@ -5521,7 +5374,113 @@
       "start_iso": "2026-10-14T04:14+10:00",
       "end_iso": "2026-10-14T06:44+10:00"
      },
-     "score": 87,
+     "score": 90,
+     "colour": "green",
+     "confidence": "low",
+     "basis": [
+      "conditions",
+      "season"
+     ],
+     "factors": {
+      "tide": 0.9715,
+      "wind": 1.0,
+      "swell": 1.0,
+      "light": 1.0,
+      "season": 1.0,
+      "pressure": 0.8,
+      "rain": 0.7,
+      "lunar": 0.5,
+      "reports": 0.35
+     },
+     "warnings": [],
+     "conditions": {
+      "wind_kn": 6,
+      "gust_kn": 16,
+      "wind_dir": "NW",
+      "wind_relation": "offshore",
+      "effective_wind_kn": 1.1,
+      "seas_m": 0.8,
+      "swell_m": 0.6,
+      "swell_period_s": 6,
+      "sst_c": 22.9,
+      "tide_stage": "rising_early",
+      "tide_range_m": 1.43,
+      "tide_next": {
+       "t": "2026-10-14T09:59+10:00",
+       "h": 1.84,
+       "type": "H"
+      },
+      "light": "dawn",
+      "rain_24h_mm": 11.7
+     },
+     "evidence": [],
+     "explain": "NW wind at ~6 kn is offshore for this beach; the window covers the early run-in, which suits swallowtail dart; dawn is a preferred time for this species; seas around 0.8 m; swallowtail dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "rank": 8
+    },
+    {
+     "location": "teewah",
+     "species": "whiting",
+     "window": {
+      "start": "04:14",
+      "end": "06:44",
+      "label": "dawn",
+      "start_iso": "2026-10-14T04:14+10:00",
+      "end_iso": "2026-10-14T06:44+10:00"
+     },
+     "score": 90,
+     "colour": "green",
+     "confidence": "low",
+     "basis": [
+      "conditions",
+      "season"
+     ],
+     "factors": {
+      "tide": 0.9715,
+      "wind": 1.0,
+      "swell": 1.0,
+      "light": 1.0,
+      "season": 1.0,
+      "pressure": 0.8,
+      "rain": 0.7,
+      "lunar": 0.5,
+      "reports": 0.35
+     },
+     "warnings": [],
+     "conditions": {
+      "wind_kn": 6,
+      "gust_kn": 16,
+      "wind_dir": "NW",
+      "wind_relation": "offshore",
+      "effective_wind_kn": 1.1,
+      "seas_m": 0.8,
+      "swell_m": 0.6,
+      "swell_period_s": 6,
+      "sst_c": 22.9,
+      "tide_stage": "rising_early",
+      "tide_range_m": 1.43,
+      "tide_next": {
+       "t": "2026-10-14T09:59+10:00",
+       "h": 1.84,
+       "type": "H"
+      },
+      "light": "dawn",
+      "rain_24h_mm": 11.7
+     },
+     "evidence": [],
+     "explain": "NW wind at ~6 kn is offshore for this beach; the window covers the early run-in, which suits sand (summer) whiting; dawn is a preferred time for this species; seas around 0.8 m; sand (summer) whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "rank": 9
+    },
+    {
+     "location": "dip_north",
+     "species": "dart",
+     "window": {
+      "start": "08:29",
+      "end": "10:59",
+      "label": "high tide 09:59",
+      "start_iso": "2026-10-14T08:29+10:00",
+      "end_iso": "2026-10-14T10:59+10:00"
+     },
+     "score": 88,
      "colour": "green",
      "confidence": "low",
      "basis": [
@@ -5541,27 +5500,27 @@
      },
      "warnings": [],
      "conditions": {
-      "wind_kn": 6,
-      "gust_kn": 12,
-      "wind_dir": "NW",
+      "wind_kn": 4,
+      "gust_kn": 16,
+      "wind_dir": "WNW",
       "wind_relation": "cross",
-      "effective_wind_kn": 1.8,
-      "seas_m": 0.5,
-      "swell_m": 0.3,
+      "effective_wind_kn": 3.7,
+      "seas_m": 0.7,
+      "swell_m": 0.6,
       "swell_period_s": 6,
-      "sst_c": 22.9,
-      "tide_stage": "rising_early",
+      "sst_c": 23.1,
+      "tide_stage": "high_turn",
       "tide_range_m": 1.43,
       "tide_next": {
        "t": "2026-10-14T09:59+10:00",
        "h": 1.84,
        "type": "H"
       },
-      "light": "dawn",
-      "rain_24h_mm": 6.5
+      "light": "day",
+      "rain_24h_mm": 7.3
      },
      "evidence": [],
-     "explain": "NW wind at ~6 kn is across the beach; the window covers the early run-in, which suits swallowtail dart; dawn is a preferred time for this species; seas around 0.5 m; swallowtail dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "WNW wind at ~4 kn is across the beach; the window covers the top of the tide, which suits swallowtail dart; day is a preferred time for this species; seas around 0.7 m; swallowtail dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "rank": 10
     }
    ],
@@ -6011,220 +5970,213 @@
      ]
     },
     "rainbow_to_dip": {
-     "score": 20,
-     "colour": "red",
+     "score": 87,
+     "colour": "green",
      "confidence": "low",
      "best_species": [
       {
-       "species": "tailor",
-       "score": 20,
-       "window": {
-        "start": "01:44",
-        "end": "04:14",
-        "label": "low tide 03:14",
-        "start_iso": "2026-10-14T01:44+10:00",
-        "end_iso": "2026-10-14T04:14+10:00"
-       }
-      },
-      {
        "species": "dart",
-       "score": 20,
+       "score": 87,
        "window": {
-        "start": "01:44",
-        "end": "04:14",
-        "label": "low tide 03:14",
-        "start_iso": "2026-10-14T01:44+10:00",
-        "end_iso": "2026-10-14T04:14+10:00"
+        "start": "04:14",
+        "end": "06:44",
+        "label": "dawn",
+        "start_iso": "2026-10-14T04:14+10:00",
+        "end_iso": "2026-10-14T06:44+10:00"
        }
       },
       {
        "species": "whiting",
-       "score": 20,
+       "score": 87,
        "window": {
-        "start": "01:44",
-        "end": "04:14",
-        "label": "low tide 03:14",
-        "start_iso": "2026-10-14T01:44+10:00",
-        "end_iso": "2026-10-14T04:14+10:00"
+        "start": "04:14",
+        "end": "06:44",
+        "label": "dawn",
+        "start_iso": "2026-10-14T04:14+10:00",
+        "end_iso": "2026-10-14T06:44+10:00"
+       }
+      },
+      {
+       "species": "mulloway",
+       "score": 85,
+       "window": {
+        "start": "14:47",
+        "end": "18:53",
+        "label": "low tide 16:17 + dusk",
+        "start_iso": "2026-10-14T14:47+10:00",
+        "end_iso": "2026-10-14T18:53+10:00"
        }
       }
      ],
      "best_window": {
-      "start": "01:44",
-      "end": "04:14",
-      "label": "low tide 03:14",
-      "start_iso": "2026-10-14T01:44+10:00",
-      "end_iso": "2026-10-14T04:14+10:00"
-     },
-     "conditions": {
-      "wind_kn": 8,
-      "gust_kn": 19,
-      "wind_dir": "NW",
-      "wind_relation": "cross",
-      "effective_wind_kn": 8.5,
-      "seas_m": 0.8,
-      "swell_m": 0.6,
-      "swell_period_s": 7,
-      "sst_c": 22.9,
-      "tide_stage": "low_turn",
-      "tide_range_m": 1.08,
-      "tide_next": {
-       "t": "2026-10-14T03:14+10:00",
-       "h": 0.41,
-       "type": "L"
-      },
-      "light": "night",
-      "rain_24h_mm": 4.4
-     },
-     "warnings": [
-      "QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek",
-      "Window sits around high tide — beach driving access restricted"
-     ],
-     "explain": "NW wind at ~8 kn is across the beach; the window covers the bottom of the tide; night is a preferred time for this species; seas around 0.8 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns. ⚠ QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek",
-     "evidence": []
-    },
-    "dip_north": {
-     "score": 20,
-     "colour": "red",
-     "confidence": "low",
-     "best_species": [
-      {
-       "species": "tailor",
-       "score": 20,
-       "window": {
-        "start": "01:44",
-        "end": "04:14",
-        "label": "low tide 03:14",
-        "start_iso": "2026-10-14T01:44+10:00",
-        "end_iso": "2026-10-14T04:14+10:00"
-       }
-      },
-      {
-       "species": "dart",
-       "score": 20,
-       "window": {
-        "start": "01:44",
-        "end": "04:14",
-        "label": "low tide 03:14",
-        "start_iso": "2026-10-14T01:44+10:00",
-        "end_iso": "2026-10-14T04:14+10:00"
-       }
-      },
-      {
-       "species": "trevally",
-       "score": 20,
-       "window": {
-        "start": "01:44",
-        "end": "04:14",
-        "label": "low tide 03:14",
-        "start_iso": "2026-10-14T01:44+10:00",
-        "end_iso": "2026-10-14T04:14+10:00"
-       }
-      }
-     ],
-     "best_window": {
-      "start": "01:44",
-      "end": "04:14",
-      "label": "low tide 03:14",
-      "start_iso": "2026-10-14T01:44+10:00",
-      "end_iso": "2026-10-14T04:14+10:00"
-     },
-     "conditions": {
-      "wind_kn": 8,
-      "gust_kn": 19,
-      "wind_dir": "NW",
-      "wind_relation": "onshore",
-      "effective_wind_kn": 8.5,
-      "seas_m": 0.8,
-      "swell_m": 0.6,
-      "swell_period_s": 7,
-      "sst_c": 22.9,
-      "tide_stage": "low_turn",
-      "tide_range_m": 1.08,
-      "tide_next": {
-       "t": "2026-10-14T03:14+10:00",
-       "h": 0.41,
-       "type": "L"
-      },
-      "light": "night",
-      "rain_24h_mm": 4.4
-     },
-     "warnings": [
-      "QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek"
-     ],
-     "explain": "NW wind at ~8 kn is onshore; the window covers the bottom of the tide; night is a preferred time for this species; seas around 0.8 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns. ⚠ QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek",
-     "evidence": []
-    },
-    "teewah": {
-     "score": 20,
-     "colour": "red",
-     "confidence": "low",
-     "best_species": [
-      {
-       "species": "tailor",
-       "score": 20,
-       "window": {
-        "start": "01:44",
-        "end": "04:14",
-        "label": "low tide 03:14",
-        "start_iso": "2026-10-14T01:44+10:00",
-        "end_iso": "2026-10-14T04:14+10:00"
-       }
-      },
-      {
-       "species": "dart",
-       "score": 20,
-       "window": {
-        "start": "01:44",
-        "end": "04:14",
-        "label": "low tide 03:14",
-        "start_iso": "2026-10-14T01:44+10:00",
-        "end_iso": "2026-10-14T04:14+10:00"
-       }
-      },
-      {
-       "species": "whiting",
-       "score": 20,
-       "window": {
-        "start": "01:44",
-        "end": "04:14",
-        "label": "low tide 03:14",
-        "start_iso": "2026-10-14T01:44+10:00",
-        "end_iso": "2026-10-14T04:14+10:00"
-       }
-      }
-     ],
-     "best_window": {
-      "start": "01:44",
-      "end": "04:14",
-      "label": "low tide 03:14",
-      "start_iso": "2026-10-14T01:44+10:00",
-      "end_iso": "2026-10-14T04:14+10:00"
+      "start": "04:14",
+      "end": "06:44",
+      "label": "dawn",
+      "start_iso": "2026-10-14T04:14+10:00",
+      "end_iso": "2026-10-14T06:44+10:00"
      },
      "conditions": {
       "wind_kn": 7,
-      "gust_kn": 17,
-      "wind_dir": "NNW",
+      "gust_kn": 18,
+      "wind_dir": "NW",
       "wind_relation": "cross",
-      "effective_wind_kn": 1.3,
+      "effective_wind_kn": 7.4,
       "seas_m": 0.8,
       "swell_m": 0.6,
-      "swell_period_s": 7,
+      "swell_period_s": 6,
       "sst_c": 22.9,
-      "tide_stage": "low_turn",
-      "tide_range_m": 1.08,
+      "tide_stage": "rising_early",
+      "tide_range_m": 1.43,
       "tide_next": {
-       "t": "2026-10-14T03:14+10:00",
-       "h": 0.41,
-       "type": "L"
+       "t": "2026-10-14T09:59+10:00",
+       "h": 1.84,
+       "type": "H"
       },
-      "light": "night",
+      "light": "dawn",
       "rain_24h_mm": 7.3
      },
-     "warnings": [
-      "QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek"
+     "warnings": [],
+     "explain": "NW wind at ~7 kn is across the beach; the window covers the early run-in, which suits swallowtail dart; dawn is a preferred time for this species; seas around 0.8 m; swallowtail dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "evidence": []
+    },
+    "dip_north": {
+     "score": 88,
+     "colour": "green",
+     "confidence": "low",
+     "best_species": [
+      {
+       "species": "dart",
+       "score": 88,
+       "window": {
+        "start": "08:29",
+        "end": "10:59",
+        "label": "high tide 09:59",
+        "start_iso": "2026-10-14T08:29+10:00",
+        "end_iso": "2026-10-14T10:59+10:00"
+       }
+      },
+      {
+       "species": "cobia",
+       "score": 88,
+       "window": {
+        "start": "08:29",
+        "end": "10:59",
+        "label": "high tide 09:59",
+        "start_iso": "2026-10-14T08:29+10:00",
+        "end_iso": "2026-10-14T10:59+10:00"
+       }
+      },
+      {
+       "species": "mackerel",
+       "score": 88,
+       "window": {
+        "start": "08:29",
+        "end": "10:59",
+        "label": "high tide 09:59",
+        "start_iso": "2026-10-14T08:29+10:00",
+        "end_iso": "2026-10-14T10:59+10:00"
+       }
+      }
      ],
-     "explain": "NNW wind at ~7 kn is across the beach; the window covers the bottom of the tide; night is a preferred time for this species; seas around 0.8 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns. ⚠ QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek",
+     "best_window": {
+      "start": "08:29",
+      "end": "10:59",
+      "label": "high tide 09:59",
+      "start_iso": "2026-10-14T08:29+10:00",
+      "end_iso": "2026-10-14T10:59+10:00"
+     },
+     "conditions": {
+      "wind_kn": 4,
+      "gust_kn": 16,
+      "wind_dir": "WNW",
+      "wind_relation": "cross",
+      "effective_wind_kn": 3.7,
+      "seas_m": 0.7,
+      "swell_m": 0.6,
+      "swell_period_s": 6,
+      "sst_c": 23.1,
+      "tide_stage": "high_turn",
+      "tide_range_m": 1.43,
+      "tide_next": {
+       "t": "2026-10-14T09:59+10:00",
+       "h": 1.84,
+       "type": "H"
+      },
+      "light": "day",
+      "rain_24h_mm": 7.3
+     },
+     "warnings": [],
+     "explain": "WNW wind at ~4 kn is across the beach; the window covers the top of the tide, which suits swallowtail dart; day is a preferred time for this species; seas around 0.7 m; swallowtail dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "evidence": []
+    },
+    "teewah": {
+     "score": 90,
+     "colour": "green",
+     "confidence": "low",
+     "best_species": [
+      {
+       "species": "dart",
+       "score": 90,
+       "window": {
+        "start": "04:14",
+        "end": "06:44",
+        "label": "dawn",
+        "start_iso": "2026-10-14T04:14+10:00",
+        "end_iso": "2026-10-14T06:44+10:00"
+       }
+      },
+      {
+       "species": "whiting",
+       "score": 90,
+       "window": {
+        "start": "04:14",
+        "end": "06:44",
+        "label": "dawn",
+        "start_iso": "2026-10-14T04:14+10:00",
+        "end_iso": "2026-10-14T06:44+10:00"
+       }
+      },
+      {
+       "species": "bream",
+       "score": 86,
+       "window": {
+        "start": "04:14",
+        "end": "06:44",
+        "label": "dawn",
+        "start_iso": "2026-10-14T04:14+10:00",
+        "end_iso": "2026-10-14T06:44+10:00"
+       }
+      }
+     ],
+     "best_window": {
+      "start": "04:14",
+      "end": "06:44",
+      "label": "dawn",
+      "start_iso": "2026-10-14T04:14+10:00",
+      "end_iso": "2026-10-14T06:44+10:00"
+     },
+     "conditions": {
+      "wind_kn": 6,
+      "gust_kn": 16,
+      "wind_dir": "NW",
+      "wind_relation": "offshore",
+      "effective_wind_kn": 1.1,
+      "seas_m": 0.8,
+      "swell_m": 0.6,
+      "swell_period_s": 6,
+      "sst_c": 22.9,
+      "tide_stage": "rising_early",
+      "tide_range_m": 1.43,
+      "tide_next": {
+       "t": "2026-10-14T09:59+10:00",
+       "h": 1.84,
+       "type": "H"
+      },
+      "light": "dawn",
+      "rain_24h_mm": 11.7
+     },
+     "warnings": [],
+     "explain": "NW wind at ~6 kn is offshore for this beach; the window covers the early run-in, which suits swallowtail dart; dawn is a preferred time for this species; seas around 0.8 m; swallowtail dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     }
    },
@@ -6591,6 +6543,112 @@
      "rank": 6
     },
     {
+     "location": "dip_north",
+     "species": "mulloway",
+     "window": {
+      "start": "21:00",
+      "end": "23:30",
+      "label": "high tide 22:30",
+      "start_iso": "2026-10-15T21:00+10:00",
+      "end_iso": "2026-10-15T23:30+10:00"
+     },
+     "score": 85,
+     "colour": "green",
+     "confidence": "low",
+     "basis": [
+      "conditions",
+      "season"
+     ],
+     "factors": {
+      "tide": 0.9265,
+      "wind": 1.0,
+      "swell": 0.99,
+      "light": 1.0,
+      "season": 0.6,
+      "pressure": 0.8,
+      "rain": 0.7,
+      "lunar": 0.5,
+      "reports": 0.35
+     },
+     "warnings": [],
+     "conditions": {
+      "wind_kn": 13,
+      "gust_kn": 30,
+      "wind_dir": "ESE",
+      "wind_relation": "offshore",
+      "effective_wind_kn": 12.7,
+      "seas_m": 2.2,
+      "swell_m": 1.4,
+      "swell_period_s": 7,
+      "sst_c": 23.1,
+      "tide_stage": "high_turn",
+      "tide_range_m": 0.53,
+      "tide_next": {
+       "t": "2026-10-15T22:30+10:00",
+       "h": 1.29,
+       "type": "H"
+      },
+      "light": "night",
+      "rain_24h_mm": 0.3
+     },
+     "evidence": [],
+     "explain": "ESE wind at ~13 kn is offshore for this shore; the window covers the top of the tide, which suits mulloway (jewfish); night is a preferred time for this species; seas around 2.2 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "rank": 7
+    },
+    {
+     "location": "dip_north",
+     "species": "mulloway",
+     "window": {
+      "start": "15:32",
+      "end": "18:53",
+      "label": "low tide 17:02 + dusk",
+      "start_iso": "2026-10-15T15:32+10:00",
+      "end_iso": "2026-10-15T18:53+10:00"
+     },
+     "score": 84,
+     "colour": "green",
+     "confidence": "low",
+     "basis": [
+      "conditions",
+      "season"
+     ],
+     "factors": {
+      "tide": 0.9265,
+      "wind": 1.0,
+      "swell": 0.95,
+      "light": 1.0,
+      "season": 0.6,
+      "pressure": 0.8,
+      "rain": 0.7,
+      "lunar": 0.5,
+      "reports": 0.35
+     },
+     "warnings": [],
+     "conditions": {
+      "wind_kn": 15,
+      "gust_kn": 37,
+      "wind_dir": "SE",
+      "wind_relation": "offshore",
+      "effective_wind_kn": 2.3,
+      "seas_m": 2.3,
+      "swell_m": 1.2,
+      "swell_period_s": 7,
+      "sst_c": 23.1,
+      "tide_stage": "low_turn",
+      "tide_range_m": 0.53,
+      "tide_next": {
+       "t": "2026-10-15T22:30+10:00",
+       "h": 1.29,
+       "type": "H"
+      },
+      "light": "dusk",
+      "rain_24h_mm": 2.0
+     },
+     "evidence": [],
+     "explain": "SE wind at ~15 kn is offshore for this shore; the window covers the bottom of the tide, which suits mulloway (jewfish); dusk is a preferred time for this species; seas around 2.3 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "rank": 8
+    },
+    {
      "location": "inskip_ocean",
      "species": "mulloway",
      "window": {
@@ -6641,125 +6699,19 @@
      },
      "evidence": [],
      "explain": "SE wind at ~12 kn is across the beach; the window covers the bottom of the tide, which suits mulloway (jewfish); dawn is a preferred time for this species; seas around 1.7 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
-     "rank": 7
-    },
-    {
-     "location": "inskip_ocean",
-     "species": "mulloway",
-     "window": {
-      "start": "15:32",
-      "end": "18:53",
-      "label": "low tide 17:02 + dusk",
-      "start_iso": "2026-10-15T15:32+10:00",
-      "end_iso": "2026-10-15T18:53+10:00"
-     },
-     "score": 80,
-     "colour": "green",
-     "confidence": "low",
-     "basis": [
-      "conditions",
-      "season"
-     ],
-     "factors": {
-      "tide": 0.9265,
-      "wind": 0.79,
-      "swell": 1.0,
-      "light": 1.0,
-      "season": 0.6,
-      "pressure": 0.8,
-      "rain": 0.7,
-      "lunar": 0.5,
-      "reports": 0.35
-     },
-     "warnings": [],
-     "conditions": {
-      "wind_kn": 13,
-      "gust_kn": 33,
-      "wind_dir": "ESE",
-      "wind_relation": "cross",
-      "effective_wind_kn": 13.4,
-      "seas_m": 1.6,
-      "swell_m": 1.0,
-      "swell_period_s": 7,
-      "sst_c": 23.1,
-      "tide_stage": "low_turn",
-      "tide_range_m": 0.53,
-      "tide_next": {
-       "t": "2026-10-15T22:30+10:00",
-       "h": 1.29,
-       "type": "H"
-      },
-      "light": "dusk",
-      "rain_24h_mm": 0.5
-     },
-     "evidence": [],
-     "explain": "ESE wind at ~13 kn is across the beach; the window covers the bottom of the tide, which suits mulloway (jewfish); dusk is a preferred time for this species; seas around 1.6 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
-     "rank": 8
-    },
-    {
-     "location": "rainbow_town",
-     "species": "mulloway",
-     "window": {
-      "start": "15:32",
-      "end": "18:53",
-      "label": "low tide 17:02 + dusk",
-      "start_iso": "2026-10-15T15:32+10:00",
-      "end_iso": "2026-10-15T18:53+10:00"
-     },
-     "score": 79,
-     "colour": "green",
-     "confidence": "low",
-     "basis": [
-      "conditions",
-      "season"
-     ],
-     "factors": {
-      "tide": 0.9265,
-      "wind": 0.76,
-      "swell": 0.95,
-      "light": 1.0,
-      "season": 0.6,
-      "pressure": 0.8,
-      "rain": 0.7,
-      "lunar": 0.5,
-      "reports": 0.35
-     },
-     "warnings": [],
-     "conditions": {
-      "wind_kn": 14,
-      "gust_kn": 33,
-      "wind_dir": "ESE",
-      "wind_relation": "cross",
-      "effective_wind_kn": 14.3,
-      "seas_m": 2.3,
-      "swell_m": 1.2,
-      "swell_period_s": 7,
-      "sst_c": 23.1,
-      "tide_stage": "low_turn",
-      "tide_range_m": 0.53,
-      "tide_next": {
-       "t": "2026-10-15T22:30+10:00",
-       "h": 1.29,
-       "type": "H"
-      },
-      "light": "dusk",
-      "rain_24h_mm": 0.5
-     },
-     "evidence": [],
-     "explain": "ESE wind at ~14 kn is across the beach; the window covers the bottom of the tide, which suits mulloway (jewfish); dusk is a preferred time for this species; seas around 2.3 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "rank": 9
     },
     {
-     "location": "rainbow_north",
+     "location": "teewah",
      "species": "mulloway",
      "window": {
-      "start": "15:32",
-      "end": "18:53",
-      "label": "low tide 17:02 + dusk",
-      "start_iso": "2026-10-15T15:32+10:00",
-      "end_iso": "2026-10-15T18:53+10:00"
+      "start": "21:00",
+      "end": "23:30",
+      "label": "high tide 22:30",
+      "start_iso": "2026-10-15T21:00+10:00",
+      "end_iso": "2026-10-15T23:30+10:00"
      },
-     "score": 79,
+     "score": 82,
      "colour": "green",
      "confidence": "low",
      "basis": [
@@ -6768,8 +6720,8 @@
      ],
      "factors": {
       "tide": 0.9265,
-      "wind": 0.76,
-      "swell": 0.95,
+      "wind": 0.85,
+      "swell": 0.99,
       "light": 1.0,
       "season": 0.6,
       "pressure": 0.8,
@@ -6779,27 +6731,27 @@
      },
      "warnings": [],
      "conditions": {
-      "wind_kn": 14,
-      "gust_kn": 33,
+      "wind_kn": 11,
+      "gust_kn": 27,
       "wind_dir": "ESE",
       "wind_relation": "cross",
-      "effective_wind_kn": 14.3,
-      "seas_m": 2.3,
-      "swell_m": 1.2,
+      "effective_wind_kn": 10.7,
+      "seas_m": 2.2,
+      "swell_m": 1.4,
       "swell_period_s": 7,
       "sst_c": 23.1,
-      "tide_stage": "low_turn",
+      "tide_stage": "high_turn",
       "tide_range_m": 0.53,
       "tide_next": {
        "t": "2026-10-15T22:30+10:00",
        "h": 1.29,
        "type": "H"
       },
-      "light": "dusk",
-      "rain_24h_mm": 0.5
+      "light": "night",
+      "rain_24h_mm": 0.6
      },
      "evidence": [],
-     "explain": "ESE wind at ~14 kn is across the beach; the window covers the bottom of the tide, which suits mulloway (jewfish); dusk is a preferred time for this species; seas around 2.3 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "ESE wind at ~11 kn is across the beach; the window covers the top of the tide, which suits mulloway (jewfish); night is a preferred time for this species; seas around 2.2 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "rank": 10
     }
    ],
@@ -7237,24 +7189,24 @@
      ]
     },
     "rainbow_to_dip": {
-     "score": 20,
-     "colour": "red",
+     "score": 78,
+     "colour": "green",
      "confidence": "low",
      "best_species": [
       {
-       "species": "tailor",
-       "score": 20,
+       "species": "mulloway",
+       "score": 78,
        "window": {
-        "start": "02:14",
-        "end": "06:43",
-        "label": "low tide 03:44 + dawn",
-        "start_iso": "2026-10-15T02:14+10:00",
-        "end_iso": "2026-10-15T06:43+10:00"
+        "start": "15:32",
+        "end": "18:53",
+        "label": "low tide 17:02 + dusk",
+        "start_iso": "2026-10-15T15:32+10:00",
+        "end_iso": "2026-10-15T18:53+10:00"
        }
       },
       {
        "species": "dart",
-       "score": 20,
+       "score": 66,
        "window": {
         "start": "02:14",
         "end": "06:43",
@@ -7265,7 +7217,7 @@
       },
       {
        "species": "whiting",
-       "score": 20,
+       "score": 66,
        "window": {
         "start": "02:14",
         "end": "06:43",
@@ -7276,182 +7228,174 @@
       }
      ],
      "best_window": {
-      "start": "02:14",
-      "end": "06:43",
-      "label": "low tide 03:44 + dawn",
-      "start_iso": "2026-10-15T02:14+10:00",
-      "end_iso": "2026-10-15T06:43+10:00"
+      "start": "15:32",
+      "end": "18:53",
+      "label": "low tide 17:02 + dusk",
+      "start_iso": "2026-10-15T15:32+10:00",
+      "end_iso": "2026-10-15T18:53+10:00"
      },
      "conditions": {
-      "wind_kn": 16,
-      "gust_kn": 35,
+      "wind_kn": 15,
+      "gust_kn": 37,
       "wind_dir": "SE",
       "wind_relation": "cross",
-      "effective_wind_kn": 16.0,
-      "seas_m": 2.5,
-      "swell_m": 0.6,
-      "swell_period_s": 8,
+      "effective_wind_kn": 15.2,
+      "seas_m": 2.3,
+      "swell_m": 1.2,
+      "swell_period_s": 7,
       "sst_c": 23.1,
       "tide_stage": "low_turn",
-      "tide_range_m": 1.28,
+      "tide_range_m": 0.53,
       "tide_next": {
-       "t": "2026-10-15T10:38+10:00",
-       "h": 1.77,
+       "t": "2026-10-15T22:30+10:00",
+       "h": 1.29,
        "type": "H"
       },
-      "light": "dawn",
-      "rain_24h_mm": 17.1
+      "light": "dusk",
+      "rain_24h_mm": 2.0
      },
-     "warnings": [
-      "QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek",
-      "Window sits around high tide — beach driving access restricted"
-     ],
-     "explain": "SE wind at ~16 kn is across the beach; the window covers the bottom of the tide; dawn is a preferred time for this species; seas around 2.5 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns. ⚠ QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek",
+     "warnings": [],
+     "explain": "SE wind at ~15 kn is across the beach; the window covers the bottom of the tide, which suits mulloway (jewfish); dusk is a preferred time for this species; seas around 2.3 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "dip_north": {
-     "score": 20,
-     "colour": "red",
+     "score": 85,
+     "colour": "green",
      "confidence": "low",
      "best_species": [
       {
-       "species": "tailor",
-       "score": 20,
+       "species": "mulloway",
+       "score": 85,
        "window": {
-        "start": "02:14",
-        "end": "06:43",
-        "label": "low tide 03:44 + dawn",
-        "start_iso": "2026-10-15T02:14+10:00",
-        "end_iso": "2026-10-15T06:43+10:00"
+        "start": "21:00",
+        "end": "23:30",
+        "label": "high tide 22:30",
+        "start_iso": "2026-10-15T21:00+10:00",
+        "end_iso": "2026-10-15T23:30+10:00"
        }
       },
       {
-       "species": "dart",
-       "score": 20,
+       "species": "tailor",
+       "score": 78,
        "window": {
-        "start": "02:14",
-        "end": "06:43",
-        "label": "low tide 03:44 + dawn",
-        "start_iso": "2026-10-15T02:14+10:00",
-        "end_iso": "2026-10-15T06:43+10:00"
+        "start": "21:00",
+        "end": "23:30",
+        "label": "high tide 22:30",
+        "start_iso": "2026-10-15T21:00+10:00",
+        "end_iso": "2026-10-15T23:30+10:00"
        }
       },
       {
        "species": "trevally",
-       "score": 20,
+       "score": 74,
        "window": {
-        "start": "02:14",
-        "end": "06:43",
-        "label": "low tide 03:44 + dawn",
-        "start_iso": "2026-10-15T02:14+10:00",
-        "end_iso": "2026-10-15T06:43+10:00"
+        "start": "21:00",
+        "end": "23:30",
+        "label": "high tide 22:30",
+        "start_iso": "2026-10-15T21:00+10:00",
+        "end_iso": "2026-10-15T23:30+10:00"
        }
       }
      ],
      "best_window": {
-      "start": "02:14",
-      "end": "06:43",
-      "label": "low tide 03:44 + dawn",
-      "start_iso": "2026-10-15T02:14+10:00",
-      "end_iso": "2026-10-15T06:43+10:00"
+      "start": "21:00",
+      "end": "23:30",
+      "label": "high tide 22:30",
+      "start_iso": "2026-10-15T21:00+10:00",
+      "end_iso": "2026-10-15T23:30+10:00"
      },
      "conditions": {
-      "wind_kn": 16,
-      "gust_kn": 35,
-      "wind_dir": "SE",
+      "wind_kn": 13,
+      "gust_kn": 30,
+      "wind_dir": "ESE",
       "wind_relation": "offshore",
-      "effective_wind_kn": 2.4,
-      "seas_m": 2.5,
-      "swell_m": 0.6,
-      "swell_period_s": 8,
+      "effective_wind_kn": 12.7,
+      "seas_m": 2.2,
+      "swell_m": 1.4,
+      "swell_period_s": 7,
       "sst_c": 23.1,
-      "tide_stage": "low_turn",
-      "tide_range_m": 1.28,
+      "tide_stage": "high_turn",
+      "tide_range_m": 0.53,
       "tide_next": {
-       "t": "2026-10-15T10:38+10:00",
-       "h": 1.77,
+       "t": "2026-10-15T22:30+10:00",
+       "h": 1.29,
        "type": "H"
       },
-      "light": "dawn",
-      "rain_24h_mm": 17.1
+      "light": "night",
+      "rain_24h_mm": 0.3
      },
-     "warnings": [
-      "QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek",
-      "Seas ~2.5 m — dangerous surf"
-     ],
-     "explain": "SE wind at ~16 kn is offshore for this shore; the window covers the bottom of the tide; dawn is a preferred time for this species; seas around 2.5 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns. ⚠ QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek",
+     "warnings": [],
+     "explain": "ESE wind at ~13 kn is offshore for this shore; the window covers the top of the tide, which suits mulloway (jewfish); night is a preferred time for this species; seas around 2.2 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "teewah": {
-     "score": 20,
-     "colour": "red",
+     "score": 82,
+     "colour": "green",
      "confidence": "low",
      "best_species": [
       {
-       "species": "tailor",
-       "score": 20,
+       "species": "mulloway",
+       "score": 82,
        "window": {
-        "start": "02:14",
-        "end": "06:43",
-        "label": "low tide 03:44 + dawn",
-        "start_iso": "2026-10-15T02:14+10:00",
-        "end_iso": "2026-10-15T06:43+10:00"
+        "start": "21:00",
+        "end": "23:30",
+        "label": "high tide 22:30",
+        "start_iso": "2026-10-15T21:00+10:00",
+        "end_iso": "2026-10-15T23:30+10:00"
+       }
+      },
+      {
+       "species": "tailor",
+       "score": 76,
+       "window": {
+        "start": "21:00",
+        "end": "23:30",
+        "label": "high tide 22:30",
+        "start_iso": "2026-10-15T21:00+10:00",
+        "end_iso": "2026-10-15T23:30+10:00"
        }
       },
       {
        "species": "dart",
-       "score": 20,
+       "score": 74,
        "window": {
-        "start": "02:14",
-        "end": "06:43",
-        "label": "low tide 03:44 + dawn",
-        "start_iso": "2026-10-15T02:14+10:00",
-        "end_iso": "2026-10-15T06:43+10:00"
-       }
-      },
-      {
-       "species": "whiting",
-       "score": 20,
-       "window": {
-        "start": "02:14",
-        "end": "06:43",
-        "label": "low tide 03:44 + dawn",
-        "start_iso": "2026-10-15T02:14+10:00",
-        "end_iso": "2026-10-15T06:43+10:00"
+        "start": "09:08",
+        "end": "11:38",
+        "label": "high tide 10:38",
+        "start_iso": "2026-10-15T09:08+10:00",
+        "end_iso": "2026-10-15T11:38+10:00"
        }
       }
      ],
      "best_window": {
-      "start": "02:14",
-      "end": "06:43",
-      "label": "low tide 03:44 + dawn",
-      "start_iso": "2026-10-15T02:14+10:00",
-      "end_iso": "2026-10-15T06:43+10:00"
+      "start": "21:00",
+      "end": "23:30",
+      "label": "high tide 22:30",
+      "start_iso": "2026-10-15T21:00+10:00",
+      "end_iso": "2026-10-15T23:30+10:00"
      },
      "conditions": {
-      "wind_kn": 14,
-      "gust_kn": 32,
-      "wind_dir": "SE",
+      "wind_kn": 11,
+      "gust_kn": 27,
+      "wind_dir": "ESE",
       "wind_relation": "cross",
-      "effective_wind_kn": 14.0,
-      "seas_m": 2.5,
-      "swell_m": 0.6,
-      "swell_period_s": 8,
+      "effective_wind_kn": 10.7,
+      "seas_m": 2.2,
+      "swell_m": 1.4,
+      "swell_period_s": 7,
       "sst_c": 23.1,
-      "tide_stage": "low_turn",
-      "tide_range_m": 1.28,
+      "tide_stage": "high_turn",
+      "tide_range_m": 0.53,
       "tide_next": {
-       "t": "2026-10-15T10:38+10:00",
-       "h": 1.77,
+       "t": "2026-10-15T22:30+10:00",
+       "h": 1.29,
        "type": "H"
       },
-      "light": "dawn",
-      "rain_24h_mm": 17.4
+      "light": "night",
+      "rain_24h_mm": 0.6
      },
-     "warnings": [
-      "QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek"
-     ],
-     "explain": "SE wind at ~14 kn is across the beach; the window covers the bottom of the tide; dawn is a preferred time for this species; seas around 2.5 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns. ⚠ QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek",
+     "warnings": [],
+     "explain": "ESE wind at ~11 kn is across the beach; the window covers the top of the tide, which suits mulloway (jewfish); night is a preferred time for this species; seas around 2.2 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     }
    },
@@ -7818,7 +7762,7 @@
      "rank": 6
     },
     {
-     "location": "rainbow_town",
+     "location": "dip_north",
      "species": "mulloway",
      "window": {
       "start": "02:49",
@@ -7827,7 +7771,7 @@
       "start_iso": "2026-10-16T02:49+10:00",
       "end_iso": "2026-10-16T06:42+10:00"
      },
-     "score": 80,
+     "score": 85,
      "colour": "green",
      "confidence": "low",
      "basis": [
@@ -7836,7 +7780,7 @@
      ],
      "factors": {
       "tide": 0.9560000000000001,
-      "wind": 0.75,
+      "wind": 1.0,
       "swell": 1.0,
       "light": 1.0,
       "season": 0.6,
@@ -7847,11 +7791,11 @@
      },
      "warnings": [],
      "conditions": {
-      "wind_kn": 10,
-      "gust_kn": 24,
+      "wind_kn": 12,
+      "gust_kn": 27,
       "wind_dir": "ESE",
-      "wind_relation": "onshore",
-      "effective_wind_kn": 10.5,
+      "wind_relation": "offshore",
+      "effective_wind_kn": 11.7,
       "seas_m": 2.1,
       "swell_m": 1.4,
       "swell_period_s": 6,
@@ -7867,11 +7811,11 @@
       "rain_24h_mm": 0
      },
      "evidence": [],
-     "explain": "ESE wind at ~10 kn is onshore; the window covers the bottom of the tide, which suits mulloway (jewfish); dawn is a preferred time for this species; seas around 2.1 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "ESE wind at ~12 kn is offshore for this shore; the window covers the bottom of the tide, which suits mulloway (jewfish); dawn is a preferred time for this species; seas around 2.1 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "rank": 7
     },
     {
-     "location": "rainbow_north",
+     "location": "rainbow_to_dip",
      "species": "mulloway",
      "window": {
       "start": "02:49",
@@ -7880,7 +7824,7 @@
       "start_iso": "2026-10-16T02:49+10:00",
       "end_iso": "2026-10-16T06:42+10:00"
      },
-     "score": 80,
+     "score": 82,
      "colour": "green",
      "confidence": "low",
      "basis": [
@@ -7889,7 +7833,7 @@
      ],
      "factors": {
       "tide": 0.9560000000000001,
-      "wind": 0.75,
+      "wind": 0.85,
       "swell": 1.0,
       "light": 1.0,
       "season": 0.6,
@@ -7900,11 +7844,11 @@
      },
      "warnings": [],
      "conditions": {
-      "wind_kn": 10,
-      "gust_kn": 24,
+      "wind_kn": 12,
+      "gust_kn": 27,
       "wind_dir": "ESE",
-      "wind_relation": "onshore",
-      "effective_wind_kn": 10.5,
+      "wind_relation": "cross",
+      "effective_wind_kn": 11.7,
       "seas_m": 2.1,
       "swell_m": 1.4,
       "swell_period_s": 6,
@@ -7920,64 +7864,11 @@
       "rain_24h_mm": 0
      },
      "evidence": [],
-     "explain": "ESE wind at ~10 kn is onshore; the window covers the bottom of the tide, which suits mulloway (jewfish); dawn is a preferred time for this species; seas around 2.1 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "ESE wind at ~12 kn is across the beach; the window covers the bottom of the tide, which suits mulloway (jewfish); dawn is a preferred time for this species; seas around 2.1 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "rank": 8
     },
     {
-     "location": "inskip_ocean",
-     "species": "mulloway",
-     "window": {
-      "start": "02:49",
-      "end": "06:42",
-      "label": "low tide 04:19 + dawn",
-      "start_iso": "2026-10-16T02:49+10:00",
-      "end_iso": "2026-10-16T06:42+10:00"
-     },
-     "score": 80,
-     "colour": "green",
-     "confidence": "low",
-     "basis": [
-      "conditions",
-      "season"
-     ],
-     "factors": {
-      "tide": 0.9560000000000001,
-      "wind": 0.75,
-      "swell": 1.0,
-      "light": 1.0,
-      "season": 0.6,
-      "pressure": 0.8,
-      "rain": 0.7,
-      "lunar": 0.5,
-      "reports": 0.35
-     },
-     "warnings": [],
-     "conditions": {
-      "wind_kn": 9,
-      "gust_kn": 23,
-      "wind_dir": "ESE",
-      "wind_relation": "onshore",
-      "effective_wind_kn": 9.2,
-      "seas_m": 1.6,
-      "swell_m": 1.2,
-      "swell_period_s": 6,
-      "sst_c": 23.0,
-      "tide_stage": "low_turn",
-      "tide_range_m": 1.12,
-      "tide_next": {
-       "t": "2026-10-16T11:22+10:00",
-       "h": 1.7,
-       "type": "H"
-      },
-      "light": "dawn",
-      "rain_24h_mm": 0
-     },
-     "evidence": [],
-     "explain": "ESE wind at ~9 kn is onshore; the window covers the bottom of the tide, which suits mulloway (jewfish); dawn is a preferred time for this species; seas around 1.6 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
-     "rank": 9
-    },
-    {
-     "location": "rainbow_town",
+     "location": "rainbow_to_dip",
      "species": "mulloway",
      "window": {
       "start": "16:24",
@@ -7986,7 +7877,7 @@
       "start_iso": "2026-10-16T16:24+10:00",
       "end_iso": "2026-10-16T18:59+10:00"
      },
-     "score": 80,
+     "score": 82,
      "colour": "green",
      "confidence": "low",
      "basis": [
@@ -7995,7 +7886,7 @@
      ],
      "factors": {
       "tide": 0.9440000000000001,
-      "wind": 0.75,
+      "wind": 0.85,
       "swell": 1.0,
       "light": 1.0,
       "season": 0.6,
@@ -8007,10 +7898,10 @@
      "warnings": [],
      "conditions": {
       "wind_kn": 10,
-      "gust_kn": 27,
+      "gust_kn": 30,
       "wind_dir": "E",
-      "wind_relation": "onshore",
-      "effective_wind_kn": 9.9,
+      "wind_relation": "cross",
+      "effective_wind_kn": 10.1,
       "seas_m": 2.0,
       "swell_m": 1.8,
       "swell_period_s": 6,
@@ -8026,7 +7917,60 @@
       "rain_24h_mm": 1.8
      },
      "evidence": [],
-     "explain": "E wind at ~10 kn is onshore; the window covers the bottom of the tide, which suits mulloway (jewfish); dusk is a preferred time for this species; seas around 2.0 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "E wind at ~10 kn is across the beach; the window covers the bottom of the tide, which suits mulloway (jewfish); dusk is a preferred time for this species; seas around 2.0 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "rank": 9
+    },
+    {
+     "location": "dip_north",
+     "species": "mulloway",
+     "window": {
+      "start": "16:24",
+      "end": "18:59",
+      "label": "dusk + low tide 17:59",
+      "start_iso": "2026-10-16T16:24+10:00",
+      "end_iso": "2026-10-16T18:59+10:00"
+     },
+     "score": 82,
+     "colour": "green",
+     "confidence": "low",
+     "basis": [
+      "conditions",
+      "season"
+     ],
+     "factors": {
+      "tide": 0.9440000000000001,
+      "wind": 0.85,
+      "swell": 1.0,
+      "light": 1.0,
+      "season": 0.6,
+      "pressure": 0.8,
+      "rain": 0.7,
+      "lunar": 0.5,
+      "reports": 0.35
+     },
+     "warnings": [],
+     "conditions": {
+      "wind_kn": 10,
+      "gust_kn": 30,
+      "wind_dir": "E",
+      "wind_relation": "cross",
+      "effective_wind_kn": 10.1,
+      "seas_m": 2.0,
+      "swell_m": 1.8,
+      "swell_period_s": 6,
+      "sst_c": 22.8,
+      "tide_stage": "low_turn",
+      "tide_range_m": 0.88,
+      "tide_next": {
+       "t": "2026-10-16T17:59+10:00",
+       "h": 0.82,
+       "type": "L"
+      },
+      "light": "dusk",
+      "rain_24h_mm": 1.8
+     },
+     "evidence": [],
+     "explain": "E wind at ~10 kn is across the beach; the window covers the bottom of the tide, which suits mulloway (jewfish); dusk is a preferred time for this species; seas around 2.0 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "rank": 10
     }
    ],
@@ -8464,13 +8408,13 @@
      ]
     },
     "rainbow_to_dip": {
-     "score": 20,
-     "colour": "red",
+     "score": 82,
+     "colour": "green",
      "confidence": "low",
      "best_species": [
       {
-       "species": "tailor",
-       "score": 20,
+       "species": "mulloway",
+       "score": 82,
        "window": {
         "start": "02:49",
         "end": "06:42",
@@ -8481,18 +8425,18 @@
       },
       {
        "species": "dart",
-       "score": 20,
+       "score": 73,
        "window": {
-        "start": "02:49",
-        "end": "06:42",
-        "label": "low tide 04:19 + dawn",
-        "start_iso": "2026-10-16T02:49+10:00",
-        "end_iso": "2026-10-16T06:42+10:00"
+        "start": "16:24",
+        "end": "18:59",
+        "label": "dusk + low tide 17:59",
+        "start_iso": "2026-10-16T16:24+10:00",
+        "end_iso": "2026-10-16T18:59+10:00"
        }
       },
       {
        "species": "whiting",
-       "score": 20,
+       "score": 69,
        "window": {
         "start": "02:49",
         "end": "06:42",
@@ -8529,49 +8473,46 @@
       "light": "dawn",
       "rain_24h_mm": 0
      },
-     "warnings": [
-      "QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek",
-      "Window sits around high tide — beach driving access restricted"
-     ],
-     "explain": "ESE wind at ~12 kn is across the beach; the window covers the bottom of the tide; dawn is a preferred time for this species; seas around 2.1 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns. ⚠ QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek",
+     "warnings": [],
+     "explain": "ESE wind at ~12 kn is across the beach; the window covers the bottom of the tide, which suits mulloway (jewfish); dawn is a preferred time for this species; seas around 2.1 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "dip_north": {
-     "score": 20,
-     "colour": "red",
+     "score": 85,
+     "colour": "green",
      "confidence": "low",
      "best_species": [
       {
-       "species": "tailor",
-       "score": 20,
+       "species": "mulloway",
+       "score": 85,
        "window": {
         "start": "02:49",
         "end": "06:42",
         "label": "low tide 04:19 + dawn",
         "start_iso": "2026-10-16T02:49+10:00",
         "end_iso": "2026-10-16T06:42+10:00"
+       }
+      },
+      {
+       "species": "tailor",
+       "score": 79,
+       "window": {
+        "start": "21:46",
+        "end": "23:59",
+        "label": "high tide 23:16",
+        "start_iso": "2026-10-16T21:46+10:00",
+        "end_iso": "2026-10-16T23:59+10:00"
        }
       },
       {
        "species": "dart",
-       "score": 20,
+       "score": 78,
        "window": {
-        "start": "02:49",
-        "end": "06:42",
-        "label": "low tide 04:19 + dawn",
-        "start_iso": "2026-10-16T02:49+10:00",
-        "end_iso": "2026-10-16T06:42+10:00"
-       }
-      },
-      {
-       "species": "trevally",
-       "score": 20,
-       "window": {
-        "start": "02:49",
-        "end": "06:42",
-        "label": "low tide 04:19 + dawn",
-        "start_iso": "2026-10-16T02:49+10:00",
-        "end_iso": "2026-10-16T06:42+10:00"
+        "start": "09:52",
+        "end": "12:22",
+        "label": "high tide 11:22",
+        "start_iso": "2026-10-16T09:52+10:00",
+        "end_iso": "2026-10-16T12:22+10:00"
        }
       }
      ],
@@ -8602,48 +8543,46 @@
       "light": "dawn",
       "rain_24h_mm": 0
      },
-     "warnings": [
-      "QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek"
-     ],
-     "explain": "ESE wind at ~12 kn is offshore for this shore; the window covers the bottom of the tide; dawn is a preferred time for this species; seas around 2.1 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns. ⚠ QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek",
+     "warnings": [],
+     "explain": "ESE wind at ~12 kn is offshore for this shore; the window covers the bottom of the tide, which suits mulloway (jewfish); dawn is a preferred time for this species; seas around 2.1 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "teewah": {
-     "score": 20,
-     "colour": "red",
+     "score": 80,
+     "colour": "green",
      "confidence": "low",
      "best_species": [
       {
-       "species": "tailor",
-       "score": 20,
+       "species": "mulloway",
+       "score": 80,
        "window": {
         "start": "02:49",
         "end": "06:42",
         "label": "low tide 04:19 + dawn",
         "start_iso": "2026-10-16T02:49+10:00",
         "end_iso": "2026-10-16T06:42+10:00"
+       }
+      },
+      {
+       "species": "tailor",
+       "score": 77,
+       "window": {
+        "start": "21:46",
+        "end": "23:59",
+        "label": "high tide 23:16",
+        "start_iso": "2026-10-16T21:46+10:00",
+        "end_iso": "2026-10-16T23:59+10:00"
        }
       },
       {
        "species": "dart",
-       "score": 20,
+       "score": 73,
        "window": {
-        "start": "02:49",
-        "end": "06:42",
-        "label": "low tide 04:19 + dawn",
-        "start_iso": "2026-10-16T02:49+10:00",
-        "end_iso": "2026-10-16T06:42+10:00"
-       }
-      },
-      {
-       "species": "whiting",
-       "score": 20,
-       "window": {
-        "start": "02:49",
-        "end": "06:42",
-        "label": "low tide 04:19 + dawn",
-        "start_iso": "2026-10-16T02:49+10:00",
-        "end_iso": "2026-10-16T06:42+10:00"
+        "start": "09:52",
+        "end": "12:22",
+        "label": "high tide 11:22",
+        "start_iso": "2026-10-16T09:52+10:00",
+        "end_iso": "2026-10-16T12:22+10:00"
        }
       }
      ],
@@ -8674,10 +8613,8 @@
       "light": "dawn",
       "rain_24h_mm": 0.3
      },
-     "warnings": [
-      "QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek"
-     ],
-     "explain": "ESE wind at ~10 kn is onshore; the window covers the bottom of the tide; dawn is a preferred time for this species; seas around 2.1 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns. ⚠ QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek",
+     "warnings": [],
+     "explain": "ESE wind at ~10 kn is onshore; the window covers the bottom of the tide, which suits mulloway (jewfish); dawn is a preferred time for this species; seas around 2.1 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     }
    },
@@ -9044,7 +8981,7 @@
      "rank": 6
     },
     {
-     "location": "rainbow_town",
+     "location": "rainbow_to_dip",
      "species": "mulloway",
      "window": {
       "start": "03:32",
@@ -9053,7 +8990,7 @@
       "start_iso": "2026-10-17T03:32+10:00",
       "end_iso": "2026-10-17T06:41+10:00"
      },
-     "score": 80,
+     "score": 82,
      "colour": "green",
      "confidence": "low",
      "basis": [
@@ -9062,7 +8999,7 @@
      ],
      "factors": {
       "tide": 0.9470000000000001,
-      "wind": 0.75,
+      "wind": 0.85,
       "swell": 1.0,
       "light": 1.0,
       "season": 0.6,
@@ -9073,11 +9010,11 @@
      },
      "warnings": [],
      "conditions": {
-      "wind_kn": 10,
-      "gust_kn": 21,
+      "wind_kn": 11,
+      "gust_kn": 23,
       "wind_dir": "E",
-      "wind_relation": "onshore",
-      "effective_wind_kn": 9.7,
+      "wind_relation": "cross",
+      "effective_wind_kn": 11.1,
       "seas_m": 2.1,
       "swell_m": 1.7,
       "swell_period_s": 7,
@@ -9090,14 +9027,14 @@
        "type": "H"
       },
       "light": "dawn",
-      "rain_24h_mm": 2.4
+      "rain_24h_mm": 2.3
      },
      "evidence": [],
-     "explain": "E wind at ~10 kn is onshore; the window covers the bottom of the tide, which suits mulloway (jewfish); dawn is a preferred time for this species; seas around 2.1 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "E wind at ~11 kn is across the beach; the window covers the bottom of the tide, which suits mulloway (jewfish); dawn is a preferred time for this species; seas around 2.1 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "rank": 7
     },
     {
-     "location": "rainbow_north",
+     "location": "dip_north",
      "species": "mulloway",
      "window": {
       "start": "03:32",
@@ -9106,7 +9043,7 @@
       "start_iso": "2026-10-17T03:32+10:00",
       "end_iso": "2026-10-17T06:41+10:00"
      },
-     "score": 80,
+     "score": 82,
      "colour": "green",
      "confidence": "low",
      "basis": [
@@ -9115,7 +9052,7 @@
      ],
      "factors": {
       "tide": 0.9470000000000001,
-      "wind": 0.75,
+      "wind": 0.85,
       "swell": 1.0,
       "light": 1.0,
       "season": 0.6,
@@ -9126,11 +9063,11 @@
      },
      "warnings": [],
      "conditions": {
-      "wind_kn": 10,
-      "gust_kn": 21,
+      "wind_kn": 11,
+      "gust_kn": 23,
       "wind_dir": "E",
-      "wind_relation": "onshore",
-      "effective_wind_kn": 9.7,
+      "wind_relation": "cross",
+      "effective_wind_kn": 11.1,
       "seas_m": 2.1,
       "swell_m": 1.7,
       "swell_period_s": 7,
@@ -9143,67 +9080,14 @@
        "type": "H"
       },
       "light": "dawn",
-      "rain_24h_mm": 2.4
+      "rain_24h_mm": 2.3
      },
      "evidence": [],
-     "explain": "E wind at ~10 kn is onshore; the window covers the bottom of the tide, which suits mulloway (jewfish); dawn is a preferred time for this species; seas around 2.1 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "E wind at ~11 kn is across the beach; the window covers the bottom of the tide, which suits mulloway (jewfish); dawn is a preferred time for this species; seas around 2.1 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "rank": 8
     },
     {
-     "location": "inskip_ocean",
-     "species": "mulloway",
-     "window": {
-      "start": "03:32",
-      "end": "06:41",
-      "label": "low tide 05:02 + dawn",
-      "start_iso": "2026-10-17T03:32+10:00",
-      "end_iso": "2026-10-17T06:41+10:00"
-     },
-     "score": 80,
-     "colour": "green",
-     "confidence": "low",
-     "basis": [
-      "conditions",
-      "season"
-     ],
-     "factors": {
-      "tide": 0.9470000000000001,
-      "wind": 0.75,
-      "swell": 1.0,
-      "light": 1.0,
-      "season": 0.6,
-      "pressure": 0.8,
-      "rain": 0.7,
-      "lunar": 0.5,
-      "reports": 0.35
-     },
-     "warnings": [],
-     "conditions": {
-      "wind_kn": 8,
-      "gust_kn": 19,
-      "wind_dir": "E",
-      "wind_relation": "onshore",
-      "effective_wind_kn": 8.3,
-      "seas_m": 1.6,
-      "swell_m": 1.4,
-      "swell_period_s": 6,
-      "sst_c": 22.8,
-      "tide_stage": "low_turn",
-      "tide_range_m": 0.94,
-      "tide_next": {
-       "t": "2026-10-17T12:16+10:00",
-       "h": 1.62,
-       "type": "H"
-      },
-      "light": "dawn",
-      "rain_24h_mm": 3.2
-     },
-     "evidence": [],
-     "explain": "E wind at ~8 kn is onshore; the window covers the bottom of the tide, which suits mulloway (jewfish); dawn is a preferred time for this species; seas around 1.6 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
-     "rank": 9
-    },
-    {
-     "location": "rainbow_town",
+     "location": "rainbow_to_dip",
      "species": "mulloway",
      "window": {
       "start": "16:24",
@@ -9212,7 +9096,7 @@
       "start_iso": "2026-10-17T16:24+10:00",
       "end_iso": "2026-10-17T20:16+10:00"
      },
-     "score": 80,
+     "score": 82,
      "colour": "green",
      "confidence": "low",
      "basis": [
@@ -9221,7 +9105,7 @@
      ],
      "factors": {
       "tide": 0.9380000000000001,
-      "wind": 0.75,
+      "wind": 0.85,
       "swell": 1.0,
       "light": 1.0,
       "season": 0.6,
@@ -9232,11 +9116,11 @@
      },
      "warnings": [],
      "conditions": {
-      "wind_kn": 10,
-      "gust_kn": 25,
+      "wind_kn": 11,
+      "gust_kn": 27,
       "wind_dir": "E",
-      "wind_relation": "onshore",
-      "effective_wind_kn": 10.3,
+      "wind_relation": "cross",
+      "effective_wind_kn": 11.1,
       "seas_m": 2.1,
       "swell_m": 1.8,
       "swell_period_s": 6,
@@ -9249,10 +9133,63 @@
        "type": "L"
       },
       "light": "dusk",
-      "rain_24h_mm": 4.0
+      "rain_24h_mm": 4.4
      },
      "evidence": [],
-     "explain": "E wind at ~10 kn is onshore; the window covers the bottom of the tide, which suits mulloway (jewfish); dusk is a preferred time for this species; seas around 2.1 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "E wind at ~11 kn is across the beach; the window covers the bottom of the tide, which suits mulloway (jewfish); dusk is a preferred time for this species; seas around 2.1 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "rank": 9
+    },
+    {
+     "location": "dip_north",
+     "species": "mulloway",
+     "window": {
+      "start": "16:24",
+      "end": "20:16",
+      "label": "dusk + low tide 19:16",
+      "start_iso": "2026-10-17T16:24+10:00",
+      "end_iso": "2026-10-17T20:16+10:00"
+     },
+     "score": 82,
+     "colour": "green",
+     "confidence": "low",
+     "basis": [
+      "conditions",
+      "season"
+     ],
+     "factors": {
+      "tide": 0.9380000000000001,
+      "wind": 0.85,
+      "swell": 1.0,
+      "light": 1.0,
+      "season": 0.6,
+      "pressure": 0.8,
+      "rain": 0.7,
+      "lunar": 0.5,
+      "reports": 0.35
+     },
+     "warnings": [],
+     "conditions": {
+      "wind_kn": 11,
+      "gust_kn": 27,
+      "wind_dir": "E",
+      "wind_relation": "cross",
+      "effective_wind_kn": 11.1,
+      "seas_m": 2.1,
+      "swell_m": 1.8,
+      "swell_period_s": 6,
+      "sst_c": 22.8,
+      "tide_stage": "low_turn",
+      "tide_range_m": 0.76,
+      "tide_next": {
+       "t": "2026-10-17T19:16+10:00",
+       "h": 0.86,
+       "type": "L"
+      },
+      "light": "dusk",
+      "rain_24h_mm": 4.4
+     },
+     "evidence": [],
+     "explain": "E wind at ~11 kn is across the beach; the window covers the bottom of the tide, which suits mulloway (jewfish); dusk is a preferred time for this species; seas around 2.1 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "rank": 10
     }
    ],
@@ -9690,13 +9627,13 @@
      ]
     },
     "rainbow_to_dip": {
-     "score": 20,
-     "colour": "red",
+     "score": 82,
+     "colour": "green",
      "confidence": "low",
      "best_species": [
       {
-       "species": "tailor",
-       "score": 20,
+       "species": "mulloway",
+       "score": 82,
        "window": {
         "start": "03:32",
         "end": "06:41",
@@ -9707,7 +9644,7 @@
       },
       {
        "species": "dart",
-       "score": 20,
+       "score": 73,
        "window": {
         "start": "03:32",
         "end": "06:41",
@@ -9718,7 +9655,7 @@
       },
       {
        "species": "whiting",
-       "score": 20,
+       "score": 69,
        "window": {
         "start": "03:32",
         "end": "06:41",
@@ -9755,21 +9692,18 @@
       "light": "dawn",
       "rain_24h_mm": 2.3
      },
-     "warnings": [
-      "QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek",
-      "Window sits around high tide — beach driving access restricted"
-     ],
-     "explain": "E wind at ~11 kn is across the beach; the window covers the bottom of the tide; dawn is a preferred time for this species; seas around 2.1 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns. ⚠ QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek",
+     "warnings": [],
+     "explain": "E wind at ~11 kn is across the beach; the window covers the bottom of the tide, which suits mulloway (jewfish); dawn is a preferred time for this species; seas around 2.1 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "dip_north": {
-     "score": 20,
-     "colour": "red",
+     "score": 82,
+     "colour": "green",
      "confidence": "low",
      "best_species": [
       {
-       "species": "tailor",
-       "score": 20,
+       "species": "mulloway",
+       "score": 82,
        "window": {
         "start": "03:32",
         "end": "06:41",
@@ -9780,24 +9714,24 @@
       },
       {
        "species": "dart",
-       "score": 20,
+       "score": 79,
        "window": {
-        "start": "03:32",
-        "end": "06:41",
-        "label": "low tide 05:02 + dawn",
-        "start_iso": "2026-10-17T03:32+10:00",
-        "end_iso": "2026-10-17T06:41+10:00"
+        "start": "10:46",
+        "end": "13:16",
+        "label": "high tide 12:16",
+        "start_iso": "2026-10-17T10:46+10:00",
+        "end_iso": "2026-10-17T13:16+10:00"
        }
       },
       {
-       "species": "trevally",
-       "score": 20,
+       "species": "cobia",
+       "score": 74,
        "window": {
-        "start": "03:32",
-        "end": "06:41",
-        "label": "low tide 05:02 + dawn",
-        "start_iso": "2026-10-17T03:32+10:00",
-        "end_iso": "2026-10-17T06:41+10:00"
+        "start": "10:46",
+        "end": "13:16",
+        "label": "high tide 12:16",
+        "start_iso": "2026-10-17T10:46+10:00",
+        "end_iso": "2026-10-17T13:16+10:00"
        }
       }
      ],
@@ -9828,20 +9762,18 @@
       "light": "dawn",
       "rain_24h_mm": 2.3
      },
-     "warnings": [
-      "QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek"
-     ],
-     "explain": "E wind at ~11 kn is across the beach; the window covers the bottom of the tide; dawn is a preferred time for this species; seas around 2.1 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns. ⚠ QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek",
+     "warnings": [],
+     "explain": "E wind at ~11 kn is across the beach; the window covers the bottom of the tide, which suits mulloway (jewfish); dawn is a preferred time for this species; seas around 2.1 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "teewah": {
-     "score": 20,
-     "colour": "red",
+     "score": 80,
+     "colour": "green",
      "confidence": "low",
      "best_species": [
       {
-       "species": "tailor",
-       "score": 20,
+       "species": "mulloway",
+       "score": 80,
        "window": {
         "start": "03:32",
         "end": "06:41",
@@ -9852,24 +9784,24 @@
       },
       {
        "species": "dart",
-       "score": 20,
+       "score": 74,
        "window": {
-        "start": "03:32",
-        "end": "06:41",
-        "label": "low tide 05:02 + dawn",
-        "start_iso": "2026-10-17T03:32+10:00",
-        "end_iso": "2026-10-17T06:41+10:00"
+        "start": "10:46",
+        "end": "13:16",
+        "label": "high tide 12:16",
+        "start_iso": "2026-10-17T10:46+10:00",
+        "end_iso": "2026-10-17T13:16+10:00"
        }
       },
       {
        "species": "whiting",
-       "score": 20,
+       "score": 70,
        "window": {
-        "start": "03:32",
-        "end": "06:41",
-        "label": "low tide 05:02 + dawn",
-        "start_iso": "2026-10-17T03:32+10:00",
-        "end_iso": "2026-10-17T06:41+10:00"
+        "start": "10:46",
+        "end": "13:16",
+        "label": "high tide 12:16",
+        "start_iso": "2026-10-17T10:46+10:00",
+        "end_iso": "2026-10-17T13:16+10:00"
        }
       }
      ],
@@ -9900,10 +9832,8 @@
       "light": "dawn",
       "rain_24h_mm": 4.0
      },
-     "warnings": [
-      "QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek"
-     ],
-     "explain": "E wind at ~9 kn is onshore; the window covers the bottom of the tide; dawn is a preferred time for this species; seas around 2.1 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns. ⚠ QPWS alert: Partial Park closure – Cooloola Wilderness Trail: no pedestrian access across Kin Kin Creek",
+     "warnings": [],
+     "explain": "E wind at ~9 kn is onshore; the window covers the bottom of the tide, which suits mulloway (jewfish); dawn is a preferred time for this species; seas around 2.1 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     }
    },
@@ -9911,12 +9841,12 @@
   }
  ],
  "health": {
-  "generated_at": "2026-10-10T12:14:44+10:00",
+  "generated_at": "2026-10-10T12:22:44+10:00",
   "next_scheduled": "2026-10-11T04:30:00+10:00",
   "sources": {
    "open_meteo_forecast": {
     "ok": true,
-    "last_success": "2026-10-10T12:14:24+10:00",
+    "last_success": "2026-10-10T12:22:24+10:00",
     "items": 9,
     "note": null,
     "error": null,
@@ -9924,7 +9854,7 @@
    },
    "open_meteo_marine": {
     "ok": true,
-    "last_success": "2026-10-10T12:14:24+10:00",
+    "last_success": "2026-10-10T12:22:25+10:00",
     "items": 2,
     "note": null,
     "error": null,
@@ -9932,7 +9862,7 @@
    },
    "bom_coastal": {
     "ok": true,
-    "last_success": "2026-10-10T12:14:27+10:00",
+    "last_success": "2026-10-10T12:22:28+10:00",
     "items": 2,
     "note": null,
     "error": null,
@@ -9940,7 +9870,7 @@
    },
    "bom_obs": {
     "ok": true,
-    "last_success": "2026-10-10T12:14:30+10:00",
+    "last_success": "2026-10-10T12:22:31+10:00",
     "items": 72,
     "note": null,
     "error": null,
@@ -9948,7 +9878,7 @@
    },
    "tides_noosa_head": {
     "ok": true,
-    "last_success": "2026-10-10T12:14:24+10:00",
+    "last_success": "2026-10-10T12:22:25+10:00",
     "items": 1410,
     "note": "cached",
     "error": null,
@@ -9956,7 +9886,7 @@
    },
    "tides_tin_can_bay": {
     "ok": true,
-    "last_success": "2026-10-10T12:14:24+10:00",
+    "last_success": "2026-10-10T12:22:25+10:00",
     "items": 1411,
     "note": "cached",
     "error": null,
@@ -9964,7 +9894,7 @@
    },
    "qpws_alerts": {
     "ok": true,
-    "last_success": "2026-10-10T12:14:24+10:00",
+    "last_success": "2026-10-10T12:22:25+10:00",
     "items": 11,
     "note": null,
     "error": null,
@@ -9972,7 +9902,7 @@
    },
    "coastwatch": {
     "ok": true,
-    "last_success": "2026-10-10T12:14:43+10:00",
+    "last_success": "2026-10-10T12:22:43+10:00",
     "items": 3,
     "note": "Fishing Report for 9 October 2026",
     "error": null,
@@ -9980,7 +9910,7 @@
    },
    "fishos": {
     "ok": true,
-    "last_success": "2026-10-10T12:14:44+10:00",
+    "last_success": "2026-10-10T12:22:44+10:00",
     "items": 3,
     "note": null,
     "error": null,
@@ -9996,7 +9926,7 @@
    },
    "gsmp_zones": {
     "ok": true,
-    "last_success": "2026-10-10T12:14:44+10:00",
+    "last_success": "2026-10-10T12:22:44+10:00",
     "items": -1,
     "note": "cached",
     "error": null,
@@ -10006,5 +9936,5 @@
   "stale_categories": [],
   "overall": "ok"
  },
- "generated_at": "2026-10-10T12:14:46+10:00"
+ "generated_at": "2026-10-10T12:22:46+10:00"
 }
