@@ -80,3 +80,9 @@ reports:
     admin_submitted: 1.0
     group_rating: 0.8
     group_catch: 1.2
+
+# Push notifications (ntfy). Topic lives in the NTFY_TOPIC GitHub secret.
+alerts:
+  morning_min_score: 0        # always send the morning brief
+  evening_min_score: 70       # evening push only when tomorrow's best window scores at least this
+  high_priority_score: 85     # ntfy "high" priority (bypasses quiet mode on most phones)
