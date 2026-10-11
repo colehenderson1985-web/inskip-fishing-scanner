@@ -2,8 +2,9 @@ name: Daily refresh
 
 on:
   schedule:
-    - cron: "30 18 * * *"      # 04:30 AEST (Australia/Brisbane, UTC+10, no DST) — morning brief
-    - cron: "0 7 * * *"        # 17:00 AEST — evening preview of tomorrow (pushed only if it looks good)
+    # Off-peak minutes on purpose: GitHub queues :00/:30 schedules for hours (runs were landing 3-6 h late).
+    - cron: "17 18 * * *"      # 04:17 AEST (Australia/Brisbane, UTC+10, no DST) — morning brief, ready by 04:30
+    - cron: "47 6 * * *"       # 16:47 AEST — evening preview of tomorrow (pushed only if it looks good)
   workflow_dispatch:
     inputs:
       reason:
@@ -20,6 +21,7 @@ concurrency:
 permissions:
   contents: write
   issues: write
+  actions: write               # to start the Deploy site workflow after the data commit
 
 jobs:
   refresh:
@@ -82,6 +84,13 @@ jobs:
             git pull --rebase -X theirs origin main || true
             git push
           fi
+
+      # A push made with the workflow's own token does not trigger other workflows, so the
+      # refreshed data never reached GitHub Pages. Start the deploy explicitly instead.
+      - name: Publish refreshed data to the site
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --ref main
 
       - name: Open issue if degraded
         if: steps.refresh.outputs.overall != 'ok'

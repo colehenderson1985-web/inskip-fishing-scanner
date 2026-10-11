@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.1 — 2026-10-12
+- Fix: the daily refresh now publishes to the site. Refreshed data was being committed but never deployed
+  (pushes made by the workflow token do not trigger the Deploy workflow), so the site stayed on the last manual deploy.
+- Schedules moved off :00/:30 (04:17 and 16:47 AEST) because GitHub was starting them 3–6 hours late.
+
 ## 0.3.0 — 2026-10-10
 - Score separation: steeper calibration curve (raw 0.95 → 100, 0.80 → 73, 0.65 → 45), more demanding wind/swell/tide/light
   factors, and a cap when any fundamental (tide, wind, swell) is poor. Real-data spread now 40–100, median ~76.
