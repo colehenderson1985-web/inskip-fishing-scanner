@@ -252,3 +252,18 @@ label { display: block; font-size: 13px; font-weight: 600; margin: 14px 0 5px; c
 .report .x { font-size: 14px; margin-top: 8px; color: var(--ink-2); display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
 .report.open .x { -webkit-line-clamp: unset; }
 @media (min-width: 640px) { .hero h1 { font-size: 38px; } .ribbon svg { height: 220px; } .stats { gap: 10px; } }
+
+/* v0.4.0 — almanac-style moon rating and bite times */
+.stat.moon b { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; font-size: 15px; }
+.stat.moon .bites { display: inline; font-family: var(--font); font-size: 12.5px; color: #cfdbe0; margin: 0; font-weight: 500; }
+.rating { font-family: var(--font-c); font-weight: 700; font-size: 17px; }
+.rating.r-best { color: #3fc477; } .rating.r-good { color: #9be27a; } .rating.r-fair { color: #f0c46a; } .rating.r-poor { color: #9fb3bc; }
+.ribbon svg .bite.major { fill: #c9b6ff; opacity: .16; }
+.ribbon svg .bite.minor { fill: #c9b6ff; opacity: .08; }
+.tag.moon { background: #ece6ff; color: #4b3a8f; } .tag.moon.soft { background: #f4f1ff; color: #6b5ca8; }
+.daypick small.moonday { font-weight: 600; }
+.daypick small.moonday.r-best { color: var(--green-ink); } .daypick small.moonday.r-good { color: var(--green-ink); opacity: .8; }
+.daypick small.moonday.r-fair { color: var(--amber-ink); } .daypick small.moonday.r-poor { color: var(--ink-3); }
+:root[data-theme="dawn"] .tag.moon { background: #2e2750; color: #d8ccff; }
+:root[data-theme="dawn"] .tag.moon.soft { background: #251f40; color: #bdb0ec; }
+.daypick button.on small.moonday { color: #fff; opacity: .9; }

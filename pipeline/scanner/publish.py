@@ -80,7 +80,7 @@ def _nice_date(d: str) -> str:
 def _drivers(r: dict) -> list[str]:
     f = r["factors"]
     labels = {"tide": "Tide stage", "wind": "Wind vs shore", "swell": "Swell/seas", "light": "Time of day",
-              "season": "Season", "reports": "Recent reports", "pressure": "Pressure trend", "rain": "Rain/runoff", "lunar": "Moon", "water_temp": "Water temp"}
+              "season": "Season", "reports": "Recent reports", "pressure": "Pressure trend", "rain": "Rain/runoff", "lunar": "Moon / bite times", "water_temp": "Water temp"}
     ranked = sorted(f.items(), key=lambda kv: -kv[1])
     return [f"{labels[k]} ({'strong' if v >= .85 else 'ok' if v >= .6 else 'weak'})" for k, v in ranked[:4]]
 

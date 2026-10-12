@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.4.0 — 2026-10-13
+- Almanac-style lunar rating, computed locally (`pipeline/scanner/ingest/solunar.py`): each day rated Best / Good / Fair / Poor
+  from distance to new/full moon (quarters = Fair), nudged up near perigee and down near apogee.
+- Solunar bite times: major periods (2 h centred on moon overhead and underfoot) and minor periods (1 h around moonrise/moonset).
+  Major periods are now candidate fishing windows alongside dawn, dusk and tide turns.
+- Lunar factor now blends the day rating (60 %) with whether the window overlaps a bite time (40 %). Lunar weight raised
+  0.02 → 0.05 (taken from swell/light/pressure on surf, tide/light/rain inside) — still a modest-weight hypothesis for the
+  session ratings to confirm or reject.
+- Site: moon rating and bite times in the daily hero, bite bands on the tide ribbon, "major/minor bite" tags on windows,
+  moon rating under each day in Forecast; moon line added to WhatsApp share and ntfy pushes.
+- Labelled throughout as our own calculation, not the published Angler's Almanac (which is print-only and copyrighted).
+- 6 new tests (transit timing, full-moon rating, 2-h majors, no-DST times, Earth–Moon distance range, overlap factor). 28 passing.
+
 ## 0.3.1 — 2026-10-12
 - Fix: the daily refresh now publishes to the site. Refreshed data was being committed but never deployed
   (pushes made by the workflow token do not trigger the Deploy workflow), so the site stayed on the last manual deploy.

@@ -28,6 +28,15 @@ def nice_date(d: str) -> str:
     return dt.strftime("%a %-d %b")
 
 
+def moon_line(day: dict) -> str | None:
+    sol = (day.get("astro") or {}).get("solunar")
+    if not sol:
+        return None
+    majors = ", ".join(m["centre"][11:16] for m in sol.get("majors", []))
+    minors = ", ".join(m["centre"][11:16] for m in sol.get("minors", []))
+    return f"Moon: {sol['rating']} day · major {majors or '—'} · minor {minors or '—'}"
+
+
 def bite_message(latest: dict, day_index: int) -> tuple[str, str, int]:
     """Return (title, body, best_score) mirroring the site's WhatsApp share."""
     day = latest["days"][day_index]
@@ -57,6 +66,7 @@ def bite_message(latest: dict, day_index: int) -> tuple[str, str, int]:
         "", "Peak bite windows:", *lines, "",
         f"Tides ({ref.replace('_', ' ')}): {tides}",
         wx,
+        moon_line(day),
         f"{b['confidence']} confidence · suitability, not a guarantee",
         f"{SITE}#/day/{day['date']}",
     ] if x is not None)

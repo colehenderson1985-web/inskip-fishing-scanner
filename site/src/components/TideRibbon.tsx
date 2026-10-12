@@ -56,6 +56,14 @@ export default function TideRibbon({ date, tides, astro, windows, locName }:
         </defs>
         <rect className="night" x={x(d0)} y={top - 10} width={Math.max(0, x(sr) - x(d0))} height={bottom - top + 10} />
         <rect className="night" x={x(ss)} y={top - 10} width={Math.max(0, x(d1) - x(ss))} height={bottom - top + 10} />
+        {(astro.solunar?.majors ?? []).map((m, i) => {
+          const a = Math.max(d0, parseAEST(m.start)), b = Math.min(d1, parseAEST(m.end));
+          return b > a ? <rect key={`M${i}`} className="bite major" x={x(a)} y={top - 10} width={x(b) - x(a)} height={bottom - top + 10} /> : null;
+        })}
+        {(astro.solunar?.minors ?? []).map((m, i) => {
+          const a = Math.max(d0, parseAEST(m.start)), b = Math.min(d1, parseAEST(m.end));
+          return b > a ? <rect key={`m${i}`} className="bite minor" x={x(a)} y={top - 10} width={x(b) - x(a)} height={bottom - top + 10} /> : null;
+        })}
         <path className="fill" d={areaPath} />
         <path className="curve" d={path.join(" ")} vectorEffect="non-scaling-stroke" />
         {[0, 6, 12, 18].map((h) => {
@@ -95,6 +103,7 @@ export default function TideRibbon({ date, tides, astro, windows, locName }:
         <span><i style={{ background: "#4fd1c7" }} />tide</span>
         <span><i style={{ background: "#3fc477" }} />best windows by location</span>
         <span><i style={{ background: "#ff8a6b" }} />now</span>
+        {astro.solunar && <span><i style={{ background: "#c9b6ff" }} />bite times (major / minor)</span>}
         {pts.some((p) => p.mod) && <span>* modelled tide</span>}
       </div>
     </div>

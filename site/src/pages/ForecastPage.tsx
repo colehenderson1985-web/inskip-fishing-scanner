@@ -19,6 +19,7 @@ export default function ForecastPage({ data, dayIndex, setDayIndex, locName, spN
             <button key={d.date} className={i === dayIndex ? "on" : ""} onClick={() => setDayIndex(i)} role="tab" aria-selected={i === dayIndex}>
               {i === 0 ? "Today" : i === 1 ? "Tomorrow" : fmtDate(d.date).split(" ")[0]}
               <small>{d.brief.best_location ? `${d.brief.best_location.short} ${d.brief.best_location.score}` : "—"}</small>
+              {d.astro.solunar && <small className={`moonday r-${d.astro.solunar.rating.toLowerCase()}`}>☾ {d.astro.solunar.rating}</small>}
             </button>
           ))}
         </div>

@@ -8,14 +8,16 @@ import math
 from datetime import datetime, timedelta
 
 from . import model
+from .ingest import solunar
 from .ingest.astro import light_period
 from .ingest.open_meteo import at
 
 WEIGHTS = {
-    "surf_beach":       {"tide": .22, "wind": .20, "swell": .15, "light": .13, "season": .12, "reports": .10, "pressure": .04, "rain": .02, "lunar": .02},
-    "estuary":          {"tide": .28, "wind": .12, "swell": .03, "light": .15, "season": .14, "reports": .12, "pressure": .06, "rain": .08, "lunar": .02},
-    "sheltered_strait": {"tide": .28, "wind": .12, "swell": .03, "light": .15, "season": .14, "reports": .12, "pressure": .06, "rain": .08, "lunar": .02},
-    "headland":         {"tide": .22, "wind": .18, "swell": .18, "light": .12, "season": .12, "reports": .10, "pressure": .04, "rain": .02, "lunar": .02},
+    # lunar raised 0.02 → 0.05 in v0.4.0 (Almanac-style rating + solunar bite times); still a modest-weight hypothesis
+    "surf_beach":       {"tide": .22, "wind": .20, "swell": .14, "light": .12, "season": .12, "reports": .10, "pressure": .03, "rain": .02, "lunar": .05},
+    "estuary":          {"tide": .27, "wind": .12, "swell": .03, "light": .14, "season": .14, "reports": .12, "pressure": .06, "rain": .07, "lunar": .05},
+    "sheltered_strait": {"tide": .27, "wind": .12, "swell": .03, "light": .14, "season": .14, "reports": .12, "pressure": .06, "rain": .07, "lunar": .05},
+    "headland":         {"tide": .22, "wind": .17, "swell": .17, "light": .12, "season": .12, "reports": .10, "pressure": .03, "rain": .02, "lunar": .05},
 }
 
 STAGE_WORDS = {
@@ -120,6 +122,9 @@ def candidate_windows(day: datetime, astro: dict, hilo: list[dict]) -> list[tupl
     wins.append((sr - timedelta(minutes=60), sr + timedelta(minutes=90), "dawn"))
     wins.append((ss - timedelta(minutes=90), ss + timedelta(minutes=60), "dusk"))
     d0, d1 = day, day + timedelta(days=1)
+    for m in (astro.get("solunar") or {}).get("majors", []):
+        c = datetime.fromisoformat(m["centre"])
+        wins.append((c - timedelta(minutes=75), c + timedelta(minutes=75), f"major bite {c.strftime('%H:%M')}"))
     for r in hilo:
         t = model._aware(r["t"])
         if d0 <= t < d1:
@@ -188,8 +193,11 @@ def score_window(loc: dict, species: dict, win: tuple, day: datetime, ctx: dict)
         "season": model.season_factor(day.month, species),
         "pressure": model.pressure_factor(ctx.get("pressure_trend")),
         "rain": model.rain_factor(rain24, rain72, species, loc["type"]),
-        "lunar": model.lunar_factor(astro),
+        "lunar": 0.5,
     }
+    sol = astro.get("solunar")
+    ov = solunar.overlap(s, e, sol)
+    f["lunar"] = solunar.lunar_factor(sol, ov) if sol else model.lunar_factor(astro)
     rep, evidence = report_evidence(ctx["observations"], loc["id"], species["id"], day, rules)
     f["reports"] = round(0.35 + 0.65 * rep, 2)   # no reports ≠ bad; it's just unknown
     sstf = model.sst_factor(sst, species)
@@ -260,7 +268,10 @@ def score_window(loc: dict, species: dict, win: tuple, day: datetime, ctx: dict)
             "tide_next": stage["next"] if stage else None, "light": period, "rain_24h_mm": round(rain24 or 0, 1),
         },
         "evidence": evidence,
-        "explain": explain(loc, species, f, exp, stage, period, evidence, warnings, hs, wind_kn),
+        "solunar": {"day_rating": sol["rating"] if sol else None,
+                    "major": ov["major"]["kind"] if ov.get("major") else None,
+                    "minor": ov["minor"]["kind"] if ov.get("minor") else None},
+        "explain": explain(loc, species, f, exp, stage, period, evidence, warnings, hs, wind_kn, sol, ov),
     }
 
 
@@ -275,7 +286,7 @@ def _rain(wx: dict, t: datetime, hours: int) -> float | None:
 
 # ------------------------------------------------------------------ explanation
 
-def explain(loc, species, f, exp, stage, period, evidence, warnings, hs, wind_kn) -> str:
+def explain(loc, species, f, exp, stage, period, evidence, warnings, hs, wind_kn, sol=None, ov=None) -> str:
     parts = []
     sname = species.get("short", species["name"]).lower()
     rel = exp.get("relation")
@@ -296,6 +307,11 @@ def explain(loc, species, f, exp, stage, period, evidence, warnings, hs, wind_kn
         parts.append(f"seas around {hs:.1f} m" + (" — on the flat side for this species" if f["swell"] < 0.7 and hs < 0.8 else ""))
     if f.get("water_temp") is not None and f["water_temp"] < 0.6:
         parts.append("water still on the cool side for this species")
+    if ov and ov.get("major"):
+        where = "overhead" if ov["major"]["kind"] == "overhead" else "underfoot"
+        parts.append(f"the window also catches a major bite time (moon {where} {ov['major']['centre'][11:16]}) on a {sol['rating'].lower()} lunar day")
+    elif ov and ov.get("minor"):
+        parts.append(f"the window also catches a minor bite time ({ov['minor']['kind']} {ov['minor']['centre'][11:16]})")
     if f["season"] >= 1.0:
         parts.append(f"{sname} are in peak season")
     elif f["season"] <= 0.2:

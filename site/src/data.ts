@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import type { Latest } from "./types";
+import type { Astro, Latest, SolunarPeriod } from "./types";
 
 const DATA_URL = `${import.meta.env.BASE_URL}data/latest.json`;
 export const REPO = "https://github.com/colehenderson1985-web/inskip-fishing-scanner";
@@ -66,7 +66,7 @@ export const STAGE: Record<string, string> = {
 };
 
 export const FACTOR_LABEL: Record<string, string> = {
-  tide: "Tide", wind: "Wind", swell: "Swell", light: "Light", season: "Season", reports: "Reports", pressure: "Pressure", rain: "Rain", lunar: "Moon", water_temp: "Water temp",
+  tide: "Tide", wind: "Wind", swell: "Swell", light: "Light", season: "Season", reports: "Reports", pressure: "Pressure", rain: "Rain", lunar: "Moon/bite", water_temp: "Water temp",
 };
 
 export function usePrefs() {
@@ -110,9 +110,17 @@ export function biteMessage(data: import("./types").Latest, dayIndex: number, lo
     "",
     `Tides (${(loc?.tide_ref ?? "noosa_head").replace("_", " ")}): ${tides}`,
     wx ? `Wind ${wx}` : "",
+    moonLine(day.astro),
     `${b.confidence} confidence · suitability, not a guarantee`,
     url,
   ].filter((l) => l !== undefined).join("\n");
+}
+
+export function moonLine(a: Astro): string {
+  const s = a.solunar;
+  if (!s) return "";
+  const t = (p: SolunarPeriod[]) => p.map((x) => x.centre.slice(11, 16)).join(", ") || "—";
+  return `Moon: ${s.rating} day · major ${t(s.majors)} · minor ${t(s.minors)}`;
 }
 
 export function whatsappUrl(text: string): string {

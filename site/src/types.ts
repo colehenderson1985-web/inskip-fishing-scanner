@@ -19,6 +19,7 @@ export interface Opportunity {
   rank?: number; location: string; species: string; window: Window; score: number; colour: Colour;
   confidence: Confidence; basis: string[]; factors: Record<string, number>; warnings: string[];
   conditions: Conditions; evidence: Evidence[]; explain: string;
+  solunar?: { day_rating: string | null; major: string | null; minor: string | null };
 }
 
 export interface LocationDay {
@@ -27,9 +28,15 @@ export interface LocationDay {
   best_window?: Window; conditions?: Conditions; warnings: string[]; explain: string; evidence?: Evidence[];
 }
 
+export interface SolunarPeriod { kind: string; centre: string; start: string; end: string }
+export interface Solunar {
+  rating: "Best" | "Good" | "Fair" | "Poor"; base_rating: string; factor: number; days_from_new_or_full: number;
+  moon_distance_km: number; distance_note: "perigee" | "apogee" | null; majors: SolunarPeriod[]; minors: SolunarPeriod[]; label: string;
+}
+
 export interface Astro {
   date: string; dawn: string; sunrise: string; sunset: string; dusk: string; moonrise: string | null; moonset: string | null;
-  moon_phase_days: number; moon_illumination: number; moon_phase: string; near_new_or_full: boolean;
+  moon_phase_days: number; moon_illumination: number; moon_phase: string; near_new_or_full: boolean; solunar?: Solunar;
 }
 
 export interface Brief {

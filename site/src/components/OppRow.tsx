@@ -24,6 +24,8 @@ export default function OppRow({ o, locName, spName, showLocation = true, onRate
             <span>{c.wind_dir ?? "—"} {c.wind_kn} kn{c.wind_relation ? ` ${c.wind_relation}` : ""}</span>
             {c.seas_m != null && <span>· seas {c.seas_m} m</span>}
             {c.tide_stage && <span>· {STAGE[c.tide_stage]}</span>}
+            {o.solunar?.major && <span className="tag moon">major bite</span>}
+            {!o.solunar?.major && o.solunar?.minor && <span className="tag moon soft">minor bite</span>}
             <span className={`tag conf-${o.confidence}`}>{o.confidence} confidence</span>
           </div>
           <div className="why">{o.explain}</div>

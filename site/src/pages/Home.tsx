@@ -27,6 +27,14 @@ export default function Home({ data, dayIndex = 0, locName, spName, onRate }:
           <div className="stats">
             <div className="stat"><span>Best spot</span><b>{b.best_location?.short ?? "—"}</b></div>
             <div className="stat"><span>Target</span><b>{b.best_species ? spName(b.best_species.id) : "—"}</b></div>
+            {day.astro.solunar && (
+              <div className="stat wide moon" title={day.astro.solunar.label}>
+                <span>Moon · almanac-style</span>
+                <b><span className={`rating r-${day.astro.solunar.rating.toLowerCase()}`}>{day.astro.solunar.rating}</span>
+                  <span className="bites">major {day.astro.solunar.majors.map((m) => m.centre.slice(11, 16)).join(", ") || "—"}
+                  {" · "}minor {day.astro.solunar.minors.map((m) => m.centre.slice(11, 16)).join(", ") || "—"}</span></b>
+              </div>
+            )}
             <div className="stat wide"><span>Best window</span><b className="num">{best ? `${best.window.start}–${best.window.end}` : "—"}{best && <span style={{ display: "inline", fontSize: 12, marginLeft: 8 }}>{best.window.label}</span>}</b></div>
           </div>
           <div className="hero-actions">
@@ -50,7 +58,8 @@ export default function Home({ data, dayIndex = 0, locName, spName, onRate }:
             {day.top.map((o) => <OppRow key={`${o.location}-${o.species}-${o.window.start}`} o={o} locName={locName} spName={spName} onRate={onRate} />)}
           </ul>
         )}
-        <p className="small muted" style={{ marginTop: 10 }}>Scores are suitability ratings from conditions, season and dated reports — not catch probabilities.</p>
+        <p className="small muted" style={{ marginTop: 10 }}>Scores are suitability ratings from conditions, season and dated reports — not catch probabilities.
+          {day.astro.solunar && <> Moon rating and bite times are computed almanac-style (phase, perigee, moon overhead/underfoot, moonrise/set) — our own calculation, not the published Angler's Almanac, and given modest weight until your session ratings test it.</>}</p>
 
         {(closures.length > 0 || notices.length > 0) && (
           <>

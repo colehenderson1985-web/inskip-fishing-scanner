@@ -8,6 +8,7 @@ from astral import LocationInfo, moon
 from astral.sun import sun
 
 from ..util import TZ, iso
+from . import solunar
 
 
 def day_astro(date: datetime, lat: float, lon: float) -> dict:
@@ -26,6 +27,7 @@ def day_astro(date: datetime, lat: float, lon: float) -> dict:
     except Exception:  # noqa: BLE001
         ms = None
     near_new_full = min(phase_days, abs(phase_days - 14.77), abs(phase_days - 29.53)) <= 3.0
+    sol = solunar.day_solunar(date, lat, lon, iso(mr), iso(ms))
     return {
         "date": date.strftime("%Y-%m-%d"),
         "dawn": iso(s["dawn"]), "sunrise": iso(s["sunrise"]),
@@ -33,6 +35,7 @@ def day_astro(date: datetime, lat: float, lon: float) -> dict:
         "moonrise": iso(mr), "moonset": iso(ms),
         "moon_phase_days": round(phase_days, 1), "moon_illumination": round(illum, 2),
         "moon_phase": name, "near_new_or_full": near_new_full,
+        "solunar": sol,
     }
 
 
