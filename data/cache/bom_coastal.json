@@ -1,22 +1,22 @@
 {
- "issued": "2026-10-12T03:00:00+10:00",
+ "issued": "2026-10-12T21:30:42+10:00",
  "areas": {
   "K'gari Coast: Sandy Cape to Double Island Point": {
    "periods": [
     {
      "index": "0",
-     "start": "2026-10-12T03:00:00+10:00",
+     "start": "2026-10-12T21:00:00+10:00",
      "end": "2026-10-13T00:00:00+10:00",
-     "forecast_winds": "North to northeasterly about 10 knots increasing to 10 to 15 knots in the middle of the day.",
+     "forecast_winds": "Northerly 10 to 15 knots.",
      "forecast_seas": "Below 1 metre.",
-     "forecast_swell1": "Northeasterly below 1 metre.",
-     "forecast_weather": "Mostly sunny. The chance of a thunderstorm inshore this afternoon."
+     "forecast_swell1": "Northeast to southeasterly below 1 metre.",
+     "forecast_weather": "Mostly clear."
     },
     {
      "index": "1",
      "start": "2026-10-13T00:00:00+10:00",
      "end": "2026-10-14T00:00:00+10:00",
-     "forecast_winds": "Northerly 10 to 15 knots, reaching up to 20 knots offshore in the afternoon.",
+     "forecast_winds": "Northerly 15 to 20 knots turning northwesterly 10 to 15 knots in the late evening.",
      "forecast_seas": "Around 1 metre, increasing to 1 to 1.5 metres offshore during the afternoon.",
      "forecast_swell1": "East to northeasterly below 1 metre.",
      "forecast_weather": "Mostly sunny day. The chance of a thunderstorm in the evening."
@@ -25,10 +25,19 @@
      "index": "2",
      "start": "2026-10-14T00:00:00+10:00",
      "end": "2026-10-15T00:00:00+10:00",
-     "forecast_winds": "Northwesterly 10 to 15 knots shifting southeasterly 20 to 30 knots during the day.",
-     "forecast_seas": "Around 1 metre, increasing to 1.5 to 2 metres during the evening.",
+     "forecast_winds": "Northwesterly 15 to 20 knots shifting southeasterly 15 to 25 knots in the late morning and early afternoon then increasing to 20 to 30 knots in the late evening.",
+     "forecast_seas": "1 to 1.5 metres, increasing to 1.5 to 2 metres by early evening.",
      "forecast_swell1": "South to southeasterly around 1 metre.",
-     "forecast_weather": "Partly cloudy. 80% chance of showers. The chance of a thunderstorm in the afternoon and evening."
+     "forecast_weather": "Partly cloudy. 80% chance of showers. The chance of a thunderstorm."
+    },
+    {
+     "index": "3",
+     "start": "2026-10-15T00:00:00+10:00",
+     "end": "2026-10-16T00:00:00+10:00",
+     "forecast_winds": "Southeasterly 20 to 30 knots tending easterly 20 to 25 knots during the evening.",
+     "forecast_seas": "2 to 2.5 metres.",
+     "forecast_swell1": "Southeasterly 1 to 1.5 metres, increasing to 1.5 to 2 metres during the morning.",
+     "forecast_weather": "Cloudy. The chance of a thunderstorm in the evening."
     }
    ],
    "warning_summary": "",
@@ -38,30 +47,39 @@
    "periods": [
     {
      "index": "0",
-     "start": "2026-10-12T03:00:00+10:00",
+     "start": "2026-10-12T21:00:00+10:00",
      "end": "2026-10-13T00:00:00+10:00",
-     "forecast_winds": "Northerly 10 to 15 knots, reaching up to 20 knots offshore south of Maroochydore in the evening.",
+     "forecast_winds": "Northerly 10 to 15 knots, reaching up to 20 knots offshore south of Maroochydore.",
      "forecast_seas": "Around 1 metre.",
-     "forecast_swell1": "East to northeasterly below 1 metre.",
-     "forecast_weather": "Mostly sunny. The chance of a thunderstorm inshore this afternoon."
+     "forecast_swell1": "Below 0.5 metres.",
+     "forecast_weather": "Mostly clear."
     },
     {
      "index": "1",
      "start": "2026-10-13T00:00:00+10:00",
      "end": "2026-10-14T00:00:00+10:00",
-     "forecast_winds": "Northerly 15 to 20 knots tending northwesterly in the late evening.",
+     "forecast_winds": "North to northwesterly 15 to 20 knots.",
      "forecast_seas": "1 to 1.5 metres, decreasing to 1 metre during the morning, then increasing to 1 to 1.5 metres during the afternoon.",
      "forecast_swell1": "Below 0.5 metres.",
-     "forecast_weather": "Partly cloudy. 50% chance of showers. The chance of a thunderstorm in the late afternoon and evening."
+     "forecast_weather": "Mostly sunny. 50% chance of showers. The chance of a thunderstorm in the late afternoon and evening."
     },
     {
      "index": "2",
      "start": "2026-10-14T00:00:00+10:00",
      "end": "2026-10-15T00:00:00+10:00",
-     "forecast_winds": "Northwesterly 15 to 20 knots shifting southeasterly 20 to 30 knots during the morning.",
-     "forecast_seas": "1 to 1.5 metres, increasing to 1.5 to 2.5 metres during the afternoon or evening.",
-     "forecast_swell1": "South to southeasterly below 1 metre inshore, increasing to 1 to 1.5 metres offshore during the evening.",
-     "forecast_weather": "Cloudy. 80% chance of showers. The chance of a thunderstorm."
+     "forecast_winds": "Northwesterly 15 to 20 knots shifting southeasterly 20 to 30 knots in the late morning and early afternoon.",
+     "forecast_seas": "1 to 1.5 metres, increasing to 1.5 to 2.5 metres during the afternoon.",
+     "forecast_swell1": "South to southeasterly below 1 metre inshore, increasing to 1 to 1.5 metres offshore later in the evening.",
+     "forecast_weather": "Partly cloudy. 70% chance of showers. The chance of a thunderstorm in the morning and afternoon."
+    },
+    {
+     "index": "3",
+     "start": "2026-10-15T00:00:00+10:00",
+     "end": "2026-10-16T00:00:00+10:00",
+     "forecast_winds": "Southeasterly 20 to 30 knots tending easterly 15 to 20 knots during the evening.",
+     "forecast_seas": "1.5 to 2.5 metres.",
+     "forecast_swell1": "Southeasterly 1.5 metres, increasing to 1.5 to 2 metres during the morning.",
+     "forecast_weather": "Partly cloudy. The chance of a thunderstorm in the evening."
     }
    ],
    "warning_summary": "",
@@ -69,5 +87,5 @@
   }
  },
  "warning_active": false,
- "fetched_at": "2026-10-12T08:10:56+10:00"
+ "fetched_at": "2026-10-13T02:06:29+10:00"
 }
