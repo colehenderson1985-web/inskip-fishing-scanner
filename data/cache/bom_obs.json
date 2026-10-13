@@ -3,6 +3,51 @@
  "name": "Double Island Point",
  "obs": [
   {
+   "t": "20261013103000",
+   "wind_dir": "N",
+   "wind_kn": 5.9,
+   "gust_kn": 10.3,
+   "pressure_hpa": 1019.9,
+   "temp_c": 27.5,
+   "rain_mm": "0.0"
+  },
+  {
+   "t": "20261013100000",
+   "wind_dir": "N",
+   "wind_kn": 3.8,
+   "gust_kn": 4.9,
+   "pressure_hpa": 1020.2,
+   "temp_c": 27.8,
+   "rain_mm": "0.0"
+  },
+  {
+   "t": "20261013093000",
+   "wind_dir": "NNW",
+   "wind_kn": 3.2,
+   "gust_kn": 5.9,
+   "pressure_hpa": 1020.7,
+   "temp_c": 26.6,
+   "rain_mm": "0.0"
+  },
+  {
+   "t": "20261013090000",
+   "wind_dir": "NNW",
+   "wind_kn": 3.8,
+   "gust_kn": 7.0,
+   "pressure_hpa": 1020.8,
+   "temp_c": 26.6,
+   "rain_mm": "0.2"
+  },
+  {
+   "t": "20261013083000",
+   "wind_dir": "NNW",
+   "wind_kn": 3.8,
+   "gust_kn": 9.2,
+   "pressure_hpa": 1020.5,
+   "temp_c": 25.6,
+   "rain_mm": "0.2"
+  },
+  {
    "t": "20261013080000",
    "wind_dir": "NNW",
    "wind_kn": 4.9,
@@ -604,52 +649,7 @@
    "pressure_hpa": 1021.8,
    "temp_c": 21.8,
    "rain_mm": "0.0"
-  },
-  {
-   "t": "20261011223000",
-   "wind_dir": "SSW",
-   "wind_kn": 3.2,
-   "gust_kn": 4.9,
-   "pressure_hpa": 1021.9,
-   "temp_c": 21.8,
-   "rain_mm": "0.0"
-  },
-  {
-   "t": "20261011220000",
-   "wind_dir": "NE",
-   "wind_kn": 2.2,
-   "gust_kn": 4.9,
-   "pressure_hpa": 1022.1,
-   "temp_c": 22.0,
-   "rain_mm": "0.0"
-  },
-  {
-   "t": "20261011213000",
-   "wind_dir": "S",
-   "wind_kn": 1.1,
-   "gust_kn": 3.2,
-   "pressure_hpa": 1022.2,
-   "temp_c": 22.0,
-   "rain_mm": "0.0"
-  },
-  {
-   "t": "20261011210000",
-   "wind_dir": "SSW",
-   "wind_kn": 3.2,
-   "gust_kn": 4.9,
-   "pressure_hpa": 1021.9,
-   "temp_c": 22.0,
-   "rain_mm": "0.0"
-  },
-  {
-   "t": "20261011203000",
-   "wind_dir": "NW",
-   "wind_kn": 3.8,
-   "gust_kn": 7.0,
-   "pressure_hpa": 1021.8,
-   "temp_c": 21.9,
-   "rain_mm": "0.0"
   }
  ],
- "fetched_at": "2026-10-13T08:30:15+10:00"
+ "fetched_at": "2026-10-13T10:38:16+10:00"
 }
