@@ -1,5 +1,19 @@
 [
  {
+  "id": "https://parks.qld.gov.au/park-alerts/27091?v=1",
+  "title": "Seasonal closure – Cooloola Great Walk",
+  "summary": "The Cooloola Great Walk, including all associated walkers&#039; camps, will be seasonally closed from 1 December 2026 to 28 February 2027. Affected parks: Cooloola Recreation Area, Great Sandy National Park; Cooloola Great Walk",
+  "link": "https://parks.qld.gov.au/park-alerts/27091",
+  "published": "2026-10-14T14:20:23+10:00",
+  "severity": "warning",
+  "locations": [
+   "rainbow_to_dip",
+   "dip_north",
+   "teewah"
+  ],
+  "source": "QPWS park alerts"
+ },
+ {
   "id": "https://parks.qld.gov.au/park-alerts/26960?v=2",
   "title": "Inskip hazardous trees and campground maintenance - Temporary closures (update)",
   "summary": "Planned site rehabilitation, maintenance and hazardous tree works in the Inskip Peninsula Recreation Area will commence Monday 26th 2026 October until Friday 12th March 2027. Affected parks: Inskip Peninsula Recreation Area",
