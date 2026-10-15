@@ -1,38 +1,29 @@
 {
- "issued": "2026-10-15T21:00:00+10:00",
+ "issued": "2026-10-16T03:00:00+10:00",
  "areas": {
   "K'gari Coast: Sandy Cape to Double Island Point": {
    "periods": [
     {
      "index": "0",
-     "start": "2026-10-15T21:00:00+10:00",
-     "end": "2026-10-16T00:00:00+10:00",
-     "forecast_winds": "East to southeasterly 15 to 20 knots, reaching up to 25 knots offshore.",
-     "forecast_seas": "1.5 metres, increasing to 2 metres offshore.",
-     "forecast_swell1": "Southeasterly 1.5 metres inshore, increasing to 1.5 to 2 metres offshore.",
-     "forecast_weather": "Cloudy."
-    },
-    {
-     "index": "1",
-     "start": "2026-10-16T00:00:00+10:00",
+     "start": "2026-10-16T03:00:00+10:00",
      "end": "2026-10-17T00:00:00+10:00",
      "forecast_winds": "Easterly 15 to 20 knots.",
-     "forecast_seas": "1 to 2 metres.",
+     "forecast_seas": "1 to 1.5 metres.",
      "forecast_swell1": "Southeasterly 1 to 1.5 metres.",
      "forecast_weather": "Cloudy."
     },
     {
-     "index": "2",
+     "index": "1",
      "start": "2026-10-17T00:00:00+10:00",
      "end": "2026-10-18T00:00:00+10:00",
-     "forecast_winds": "Easterly 15 to 25 knots.",
-     "forecast_seas": "1 to 1.5 metres, increasing to 1.5 to 2 metres offshore during the afternoon.",
+     "forecast_winds": "Easterly 15 to 20 knots, reaching up to 25 knots offshore during the afternoon and evening.",
+     "forecast_seas": "1.5 metres, increasing to 1.5 to 2 metres offshore during the afternoon.",
      "forecast_swell1": "Easterly below 1 metre inshore, increasing to 1 to 1.5 metres offshore.",
      "forecast_swell2": "South to southeasterly around 1 metre.",
      "forecast_weather": "Partly cloudy. 60% chance of showers."
     },
     {
-     "index": "3",
+     "index": "2",
      "start": "2026-10-18T00:00:00+10:00",
      "end": "2026-10-19T00:00:00+10:00",
      "forecast_winds": "Easterly 15 to 20 knots.",
@@ -49,16 +40,7 @@
    "periods": [
     {
      "index": "0",
-     "start": "2026-10-15T21:00:00+10:00",
-     "end": "2026-10-16T00:00:00+10:00",
-     "forecast_winds": "East to southeasterly 15 to 20 knots.",
-     "forecast_seas": "1.5 metres.",
-     "forecast_swell1": "Southeasterly 1.5 metres.",
-     "forecast_weather": "Cloudy."
-    },
-    {
-     "index": "1",
-     "start": "2026-10-16T00:00:00+10:00",
+     "start": "2026-10-16T03:00:00+10:00",
      "end": "2026-10-17T00:00:00+10:00",
      "forecast_winds": "Easterly 15 to 20 knots.",
      "forecast_seas": "1 to 1.5 metres, decreasing to 1 metre around midday, then increasing to 1 to 1.5 metres by early evening.",
@@ -66,21 +48,21 @@
      "forecast_weather": "Cloudy. 50% chance of showers."
     },
     {
-     "index": "2",
+     "index": "1",
      "start": "2026-10-17T00:00:00+10:00",
      "end": "2026-10-18T00:00:00+10:00",
-     "forecast_winds": "Easterly 15 to 20 knots.",
-     "forecast_seas": "1 to 1.5 metres, increasing to 1.5 to 2 metres offshore north of Maroochydore.",
+     "forecast_winds": "Easterly 15 to 20 knots, reaching up to 25 knots offshore north of Maroochydore in the late evening.",
+     "forecast_seas": "1 to 1.5 metres, increasing to 1.5 to 2 metres offshore.",
      "forecast_swell1": "South to southeasterly below 1 metre inshore, increasing to 1 to 1.5 metres offshore.",
      "forecast_swell2": "Easterly around 1 metre.",
-     "forecast_weather": "Partly cloudy. 70% chance of showers."
+     "forecast_weather": "Partly cloudy. 60% chance of showers."
     },
     {
-     "index": "3",
+     "index": "2",
      "start": "2026-10-18T00:00:00+10:00",
      "end": "2026-10-19T00:00:00+10:00",
      "forecast_winds": "Easterly 15 to 20 knots.",
-     "forecast_seas": "1 to 1.5 metres.",
+     "forecast_seas": "1.5 to 2 metres, decreasing to 1 to 1.5 metres during the afternoon.",
      "forecast_swell1": "Southeasterly around 1 metre inshore, increasing to 1 to 1.5 metres offshore.",
      "forecast_swell2": "Easterly around 1 metre.",
      "forecast_weather": "Partly cloudy. 60% chance of showers."
@@ -91,5 +73,5 @@
   }
  },
  "warning_active": false,
- "fetched_at": "2026-10-15T22:07:51+10:00"
+ "fetched_at": "2026-10-16T07:20:45+10:00"
 }
