@@ -92,7 +92,7 @@
       "seas_m": 1.5,
       "swell_m": 0.9,
       "swell_period_s": 6,
-      "sst_c": 22.9,
+      "sst_c": 23.0,
       "tide_stage": "falling_late",
       "tide_range_m": 1.35,
       "tide_next": {
@@ -163,7 +163,7 @@
       "seas_m": 1.5,
       "swell_m": 0.9,
       "swell_period_s": 6,
-      "sst_c": 22.9,
+      "sst_c": 23.0,
       "tide_stage": "falling_late",
       "tide_range_m": 1.35,
       "tide_next": {
@@ -231,10 +231,10 @@
       "wind_dir": "SE",
       "wind_relation": "offshore",
       "effective_wind_kn": 0.9,
-      "seas_m": 1.4,
+      "seas_m": 1.5,
       "swell_m": 1.0,
-      "swell_period_s": 5,
-      "sst_c": 22.9,
+      "swell_period_s": 6,
+      "sst_c": 23.0,
       "tide_stage": "high_turn",
       "tide_range_m": 0.82,
       "tide_next": {
@@ -305,7 +305,7 @@
       "seas_m": 1.5,
       "swell_m": 0.9,
       "swell_period_s": 6,
-      "sst_c": 22.9,
+      "sst_c": 23.0,
       "tide_stage": "falling_late",
       "tide_range_m": 1.35,
       "tide_next": {
@@ -376,7 +376,7 @@
       "seas_m": 1.5,
       "swell_m": 0.9,
       "swell_period_s": 6,
-      "sst_c": 22.9,
+      "sst_c": 23.0,
       "tide_stage": "high_turn",
       "tide_range_m": 1.58,
       "tide_next": {
@@ -444,10 +444,10 @@
       "wind_dir": "ESE",
       "wind_relation": "cross",
       "effective_wind_kn": 1.0,
-      "seas_m": 1.4,
+      "seas_m": 1.5,
       "swell_m": 1.0,
-      "swell_period_s": 5,
-      "sst_c": 22.9,
+      "swell_period_s": 6,
+      "sst_c": 23.0,
       "tide_stage": "high_turn",
       "tide_range_m": 0.82,
       "tide_next": {
@@ -515,9 +515,9 @@
       "wind_relation": "offshore",
       "effective_wind_kn": 2.0,
       "seas_m": 2.1,
-      "swell_m": 0.9,
+      "swell_m": 1.1,
       "swell_period_s": 7,
-      "sst_c": 23.0,
+      "sst_c": 23.1,
       "tide_stage": "low_turn",
       "tide_range_m": 1.28,
       "tide_next": {
@@ -573,9 +573,9 @@
       "wind_relation": "offshore",
       "effective_wind_kn": 1.7,
       "seas_m": 2.0,
-      "swell_m": 1.2,
+      "swell_m": 1.1,
       "swell_period_s": 7,
-      "sst_c": 22.9,
+      "sst_c": 23.0,
       "tide_stage": "high_turn",
       "tide_range_m": 0.53,
       "tide_next": {
@@ -605,7 +605,7 @@
       "start_iso": "2026-10-15T01:19+10:00",
       "end_iso": "2026-10-15T06:43+10:00"
      },
-     "score": 74,
+     "score": 75,
      "colour": "green",
      "confidence": "low",
      "basis": [
@@ -615,7 +615,7 @@
      "factors": {
       "tide": 0.96,
       "wind": 0.8,
-      "swell": 0.66,
+      "swell": 0.68,
       "light": 1.0,
       "season": 1.0,
       "pressure": 0.8,
@@ -633,7 +633,7 @@
       "seas_m": 1.4,
       "swell_m": 0.8,
       "swell_period_s": 6,
-      "sst_c": 22.9,
+      "sst_c": 23.0,
       "tide_stage": "low_turn",
       "tide_range_m": 1.28,
       "tide_next": {
@@ -691,7 +691,7 @@
       "seas_m": 1.5,
       "swell_m": 0.9,
       "swell_period_s": 6,
-      "sst_c": 22.9,
+      "sst_c": 23.0,
       "tide_stage": "low_turn",
       "tide_range_m": 1.01,
       "tide_next": {
@@ -731,7 +731,7 @@
       },
       {
        "species": "tailor",
-       "score": 65,
+       "score": 64,
        "window": {
         "start": "21:00",
         "end": "23:30",
@@ -742,7 +742,7 @@
       },
       {
        "species": "dart",
-       "score": 60,
+       "score": 61,
        "window": {
         "start": "09:08",
         "end": "11:38",
@@ -766,9 +766,9 @@
       "wind_relation": "cross",
       "effective_wind_kn": 10.4,
       "seas_m": 2.0,
-      "swell_m": 1.2,
+      "swell_m": 1.1,
       "swell_period_s": 7,
-      "sst_c": 22.9,
+      "sst_c": 23.0,
       "tide_stage": "high_turn",
       "tide_range_m": 0.53,
       "tide_next": {
@@ -812,7 +812,7 @@
       },
       {
        "species": "tailor",
-       "score": 47,
+       "score": 48,
        "window": {
         "start": "01:19",
         "end": "06:43",
@@ -836,9 +836,9 @@
       "wind_relation": "cross",
       "effective_wind_kn": 11.4,
       "seas_m": 2.1,
-      "swell_m": 0.9,
+      "swell_m": 1.1,
       "swell_period_s": 7,
-      "sst_c": 23.0,
+      "sst_c": 23.1,
       "tide_stage": "low_turn",
       "tide_range_m": 1.28,
       "tide_next": {
@@ -856,13 +856,13 @@
      "evidence": []
     },
     "inskip_ocean": {
-     "score": 74,
+     "score": 75,
      "colour": "green",
      "confidence": "low",
      "best_species": [
       {
        "species": "whiting",
-       "score": 74,
+       "score": 75,
        "window": {
         "start": "01:19",
         "end": "06:43",
@@ -910,7 +910,7 @@
       "seas_m": 1.4,
       "swell_m": 0.8,
       "swell_period_s": 6,
-      "sst_c": 22.9,
+      "sst_c": 23.0,
       "tide_stage": "low_turn",
       "tide_range_m": 1.28,
       "tide_next": {
@@ -980,7 +980,7 @@
       "seas_m": 1.5,
       "swell_m": 0.9,
       "swell_period_s": 6,
-      "sst_c": 22.9,
+      "sst_c": 23.0,
       "tide_stage": "falling_late",
       "tide_range_m": 1.35,
       "tide_next": {
@@ -1062,7 +1062,7 @@
       "seas_m": 1.5,
       "swell_m": 0.9,
       "swell_period_s": 6,
-      "sst_c": 22.9,
+      "sst_c": 23.0,
       "tide_stage": "falling_late",
       "tide_range_m": 1.35,
       "tide_next": {
@@ -1144,7 +1144,7 @@
       "seas_m": 1.5,
       "swell_m": 0.9,
       "swell_period_s": 6,
-      "sst_c": 22.9,
+      "sst_c": 23.0,
       "tide_stage": "falling_late",
       "tide_range_m": 1.35,
       "tide_next": {
@@ -1224,9 +1224,9 @@
       "wind_relation": "cross",
       "effective_wind_kn": 13.6,
       "seas_m": 2.1,
-      "swell_m": 0.9,
+      "swell_m": 1.1,
       "swell_period_s": 7,
-      "sst_c": 23.0,
+      "sst_c": 23.1,
       "tide_stage": "low_turn",
       "tide_range_m": 1.28,
       "tide_next": {
@@ -1261,7 +1261,7 @@
       },
       {
        "species": "tailor",
-       "score": 73,
+       "score": 71,
        "window": {
         "start": "21:00",
         "end": "23:30",
@@ -1296,9 +1296,9 @@
       "wind_relation": "offshore",
       "effective_wind_kn": 2.0,
       "seas_m": 2.1,
-      "swell_m": 0.9,
+      "swell_m": 1.1,
       "swell_period_s": 7,
-      "sst_c": 23.0,
+      "sst_c": 23.1,
       "tide_stage": "low_turn",
       "tide_range_m": 1.28,
       "tide_next": {
@@ -1331,7 +1331,7 @@
       },
       {
        "species": "tailor",
-       "score": 66,
+       "score": 65,
        "window": {
         "start": "21:00",
         "end": "23:30",
@@ -1342,7 +1342,7 @@
       },
       {
        "species": "dart",
-       "score": 61,
+       "score": 62,
        "window": {
         "start": "09:08",
         "end": "11:38",
@@ -1366,9 +1366,9 @@
       "wind_relation": "cross",
       "effective_wind_kn": 9.3,
       "seas_m": 2.0,
-      "swell_m": 1.2,
+      "swell_m": 1.1,
       "swell_period_s": 7,
-      "sst_c": 22.9,
+      "sst_c": 23.0,
       "tide_stage": "high_turn",
       "tide_range_m": 0.53,
       "tide_next": {
@@ -1523,7 +1523,7 @@
      },
      {
       "location": "inskip_ocean",
-      "score": 74,
+      "score": 75,
       "window": {
        "start": "01:19",
        "end": "06:43",
@@ -1646,7 +1646,7 @@
     "tailor": [
      {
       "location": "dip_north",
-      "score": 73,
+      "score": 71,
       "window": {
        "start": "21:00",
        "end": "23:30",
@@ -1659,7 +1659,7 @@
      },
      {
       "location": "teewah",
-      "score": 66,
+      "score": 65,
       "window": {
        "start": "21:00",
        "end": "23:30",
@@ -1672,7 +1672,7 @@
      },
      {
       "location": "rainbow_town",
-      "score": 65,
+      "score": 64,
       "window": {
        "start": "21:00",
        "end": "23:30",
@@ -1681,7 +1681,7 @@
        "end_iso": "2026-10-15T23:30+10:00"
       },
       "confidence": "low",
-      "colour": "green"
+      "colour": "amber"
      },
      {
       "location": "inskip_ocean",
@@ -1713,7 +1713,7 @@
      },
      {
       "location": "teewah",
-      "score": 61,
+      "score": 62,
       "window": {
        "start": "09:08",
        "end": "11:38",
@@ -1726,7 +1726,7 @@
      },
      {
       "location": "rainbow_town",
-      "score": 60,
+      "score": 61,
       "window": {
        "start": "09:08",
        "end": "11:38",
@@ -1767,7 +1767,7 @@
      },
      {
       "location": "carlo_point",
-      "score": 61,
+      "score": 62,
       "window": {
        "start": "13:45",
        "end": "16:15",
@@ -1795,7 +1795,7 @@
     "snapper": [
      {
       "location": "dip_north",
-      "score": 64,
+      "score": 63,
       "window": {
        "start": "21:00",
        "end": "23:30",
@@ -1823,7 +1823,7 @@
     "trevally": [
      {
       "location": "dip_north",
-      "score": 63,
+      "score": 62,
       "window": {
        "start": "21:00",
        "end": "23:30",
@@ -1848,27 +1848,27 @@
       "colour": "amber"
      },
      {
-      "location": "rainbow_town",
+      "location": "carlo_point",
       "score": 56,
       "window": {
-       "start": "21:00",
-       "end": "23:30",
-       "label": "high tide 22:30",
-       "start_iso": "2026-10-15T21:00+10:00",
-       "end_iso": "2026-10-15T23:30+10:00"
+       "start": "21:48",
+       "end": "23:59",
+       "label": "high tide 23:18",
+       "start_iso": "2026-10-15T21:48+10:00",
+       "end_iso": "2026-10-15T23:59+10:00"
       },
       "confidence": "low",
       "colour": "amber"
      },
      {
-      "location": "teewah",
+      "location": "tin_can_bay",
       "score": 56,
       "window": {
-       "start": "21:00",
-       "end": "23:30",
-       "label": "high tide 22:30",
-       "start_iso": "2026-10-15T21:00+10:00",
-       "end_iso": "2026-10-15T23:30+10:00"
+       "start": "21:48",
+       "end": "23:59",
+       "label": "high tide 23:18",
+       "start_iso": "2026-10-15T21:48+10:00",
+       "end_iso": "2026-10-15T23:59+10:00"
       },
       "confidence": "low",
       "colour": "amber"
@@ -1877,7 +1877,7 @@
     "cobia": [
      {
       "location": "dip_north",
-      "score": 59,
+      "score": 58,
       "window": {
        "start": "21:00",
        "end": "23:30",
@@ -1918,7 +1918,7 @@
      },
      {
       "location": "inskip_ocean",
-      "score": 53,
+      "score": 54,
       "window": {
        "start": "01:19",
        "end": "06:43",
@@ -2021,10 +2021,10 @@
       "wind_dir": "ESE",
       "wind_relation": "offshore",
       "effective_wind_kn": 1.0,
-      "seas_m": 1.3,
+      "seas_m": 1.2,
       "swell_m": 1.1,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 23.0,
       "tide_stage": "falling_late",
       "tide_range_m": 1.19,
       "tide_next": {
@@ -2092,10 +2092,10 @@
       "wind_dir": "ESE",
       "wind_relation": "cross",
       "effective_wind_kn": 1.1,
-      "seas_m": 1.3,
+      "seas_m": 1.2,
       "swell_m": 1.1,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 23.0,
       "tide_stage": "falling_late",
       "tide_range_m": 1.19,
       "tide_next": {
@@ -2163,10 +2163,10 @@
       "wind_dir": "ESE",
       "wind_relation": "cross",
       "effective_wind_kn": 8.2,
-      "seas_m": 1.3,
+      "seas_m": 1.2,
       "swell_m": 1.1,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 23.0,
       "tide_stage": "falling_late",
       "tide_range_m": 1.19,
       "tide_next": {
@@ -2234,9 +2234,9 @@
       "wind_relation": "offshore",
       "effective_wind_kn": 1.0,
       "seas_m": 1.3,
-      "swell_m": 1.1,
+      "swell_m": 1.2,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 22.9,
       "tide_stage": "high_turn",
       "tide_range_m": 1.34,
       "tide_next": {
@@ -2293,9 +2293,9 @@
       "wind_relation": "onshore",
       "effective_wind_kn": 9.3,
       "seas_m": 1.3,
-      "swell_m": 1.1,
+      "swell_m": 1.2,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 22.9,
       "tide_stage": "high_turn",
       "tide_range_m": 1.34,
       "tide_next": {
@@ -2363,9 +2363,9 @@
       "wind_relation": "cross",
       "effective_wind_kn": 10.7,
       "seas_m": 1.3,
-      "swell_m": 1.1,
+      "swell_m": 1.2,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 22.9,
       "tide_stage": "high_turn",
       "tide_range_m": 1.34,
       "tide_next": {
@@ -2421,9 +2421,9 @@
       "wind_relation": "offshore",
       "effective_wind_kn": 11.1,
       "seas_m": 1.9,
-      "swell_m": 1.2,
+      "swell_m": 1.3,
       "swell_period_s": 6,
-      "sst_c": 22.9,
+      "sst_c": 23.0,
       "tide_stage": "low_turn",
       "tide_range_m": 1.12,
       "tide_next": {
@@ -2478,10 +2478,10 @@
       "wind_dir": "ESE",
       "wind_relation": "offshore",
       "effective_wind_kn": 11.3,
-      "seas_m": 1.8,
-      "swell_m": 1.1,
+      "seas_m": 1.7,
+      "swell_m": 1.2,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 22.9,
       "tide_stage": "high_turn",
       "tide_range_m": 0.39,
       "tide_next": {
@@ -2498,7 +2498,7 @@
       "major": null,
       "minor": "moonset"
      },
-     "explain": "ESE wind at ~11 kn is offshore for this shore; the window covers the top of the tide, which suits tailor; night is a preferred time for this species; seas around 1.8 m; the window also catches a minor bite time (moonset 23:06); no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "ESE wind at ~11 kn is offshore for this shore; the window covers the top of the tide, which suits tailor; night is a preferred time for this species; seas around 1.7 m; the window also catches a minor bite time (moonset 23:06); no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "rank": 8
     },
     {
@@ -2521,7 +2521,7 @@
      "factors": {
       "tide": 0.96,
       "wind": 0.8,
-      "swell": 0.7,
+      "swell": 0.68,
       "light": 1.0,
       "season": 1.0,
       "pressure": 0.8,
@@ -2539,7 +2539,7 @@
       "seas_m": 1.4,
       "swell_m": 1.2,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 23.0,
       "tide_stage": "low_turn",
       "tide_range_m": 1.12,
       "tide_next": {
@@ -2569,7 +2569,7 @@
       "start_iso": "2026-10-16T14:37+10:00",
       "end_iso": "2026-10-16T18:59+10:00"
      },
-     "score": 72,
+     "score": 73,
      "colour": "green",
      "confidence": "low",
      "basis": [
@@ -2579,7 +2579,7 @@
      "factors": {
       "tide": 0.94,
       "wind": 0.8,
-      "swell": 0.77,
+      "swell": 0.8,
       "light": 0.8,
       "season": 1.0,
       "pressure": 0.8,
@@ -2594,10 +2594,10 @@
       "wind_dir": "ESE",
       "wind_relation": "cross",
       "effective_wind_kn": 10.0,
-      "seas_m": 1.3,
-      "swell_m": 1.1,
+      "seas_m": 1.2,
+      "swell_m": 1.2,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 23.0,
       "tide_stage": "falling_late",
       "tide_range_m": 0.88,
       "tide_next": {
@@ -2614,19 +2614,19 @@
       "major": "overhead",
       "minor": null
      },
-     "explain": "ESE wind at ~10 kn is across the beach; the window covers the last of the run-out, which suits whiting; seas around 1.3 m; the window also catches a major bite time (moon overhead 15:52) on a poor lunar day; whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "ESE wind at ~10 kn is across the beach; the window covers the last of the run-out, which suits whiting; seas around 1.2 m; the window also catches a major bite time (moon overhead 15:52) on a poor lunar day; whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "rank": 10
     }
    ],
    "locations": {
     "rainbow_town": {
-     "score": 66,
-     "colour": "green",
+     "score": 64,
+     "colour": "amber",
      "confidence": "low",
      "best_species": [
       {
        "species": "dart",
-       "score": 66,
+       "score": 64,
        "window": {
         "start": "09:52",
         "end": "12:22",
@@ -2674,7 +2674,7 @@
       "seas_m": 1.8,
       "swell_m": 1.5,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 23.0,
       "tide_stage": "high_turn",
       "tide_range_m": 1.12,
       "tide_next": {
@@ -2690,13 +2690,13 @@
      "evidence": []
     },
     "rainbow_north": {
-     "score": 51,
+     "score": 52,
      "colour": "amber",
      "confidence": "low",
      "best_species": [
       {
        "species": "bream",
-       "score": 51,
+       "score": 52,
        "window": {
         "start": "14:37",
         "end": "18:59",
@@ -2742,9 +2742,9 @@
       "wind_relation": "onshore",
       "effective_wind_kn": 10.8,
       "seas_m": 1.7,
-      "swell_m": 1.2,
+      "swell_m": 1.4,
       "swell_period_s": 6,
-      "sst_c": 22.9,
+      "sst_c": 23.0,
       "tide_stage": "falling_late",
       "tide_range_m": 0.88,
       "tide_next": {
@@ -2788,7 +2788,7 @@
       },
       {
        "species": "mackerel",
-       "score": 64,
+       "score": 65,
        "window": {
         "start": "14:37",
         "end": "18:59",
@@ -2814,7 +2814,7 @@
       "seas_m": 1.4,
       "swell_m": 1.2,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 23.0,
       "tide_stage": "low_turn",
       "tide_range_m": 1.12,
       "tide_next": {
@@ -2858,7 +2858,7 @@
       },
       {
        "species": "mangrove_jack",
-       "score": 80,
+       "score": 81,
        "window": {
         "start": "14:37",
         "end": "19:47",
@@ -2881,10 +2881,10 @@
       "wind_dir": "ESE",
       "wind_relation": "offshore",
       "effective_wind_kn": 1.0,
-      "seas_m": 1.3,
+      "seas_m": 1.2,
       "swell_m": 1.1,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 23.0,
       "tide_stage": "falling_late",
       "tide_range_m": 1.19,
       "tide_next": {
@@ -2940,7 +2940,7 @@
       },
       {
        "species": "mangrove_jack",
-       "score": 78,
+       "score": 79,
        "window": {
         "start": "14:37",
         "end": "19:47",
@@ -2963,10 +2963,10 @@
       "wind_dir": "ESE",
       "wind_relation": "cross",
       "effective_wind_kn": 1.1,
-      "seas_m": 1.3,
+      "seas_m": 1.2,
       "swell_m": 1.1,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 23.0,
       "tide_stage": "falling_late",
       "tide_range_m": 1.19,
       "tide_next": {
@@ -3022,7 +3022,7 @@
       },
       {
        "species": "mangrove_jack",
-       "score": 78,
+       "score": 79,
        "window": {
         "start": "14:37",
         "end": "19:47",
@@ -3045,10 +3045,10 @@
       "wind_dir": "ESE",
       "wind_relation": "cross",
       "effective_wind_kn": 8.2,
-      "seas_m": 1.3,
+      "seas_m": 1.2,
       "swell_m": 1.1,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 23.0,
       "tide_stage": "falling_late",
       "tide_range_m": 1.19,
       "tide_next": {
@@ -3076,13 +3076,13 @@
      ]
     },
     "rainbow_to_dip": {
-     "score": 60,
+     "score": 61,
      "colour": "amber",
      "confidence": "low",
      "best_species": [
       {
        "species": "whiting",
-       "score": 60,
+       "score": 61,
        "window": {
         "start": "14:37",
         "end": "18:59",
@@ -3128,9 +3128,9 @@
       "wind_relation": "cross",
       "effective_wind_kn": 11.4,
       "seas_m": 1.7,
-      "swell_m": 1.2,
+      "swell_m": 1.4,
       "swell_period_s": 6,
-      "sst_c": 22.9,
+      "sst_c": 23.0,
       "tide_stage": "falling_late",
       "tide_range_m": 0.88,
       "tide_next": {
@@ -3176,11 +3176,11 @@
        "species": "dart",
        "score": 73,
        "window": {
-        "start": "09:52",
-        "end": "12:22",
-        "label": "high tide 11:22",
-        "start_iso": "2026-10-16T09:52+10:00",
-        "end_iso": "2026-10-16T12:22+10:00"
+        "start": "21:46",
+        "end": "23:59",
+        "label": "high tide 23:16",
+        "start_iso": "2026-10-16T21:46+10:00",
+        "end_iso": "2026-10-16T23:59+10:00"
        }
       }
      ],
@@ -3198,9 +3198,9 @@
       "wind_relation": "offshore",
       "effective_wind_kn": 11.1,
       "seas_m": 1.9,
-      "swell_m": 1.2,
+      "swell_m": 1.3,
       "swell_period_s": 6,
-      "sst_c": 22.9,
+      "sst_c": 23.0,
       "tide_stage": "low_turn",
       "tide_range_m": 1.12,
       "tide_next": {
@@ -3216,13 +3216,13 @@
      "evidence": []
     },
     "teewah": {
-     "score": 66,
-     "colour": "green",
+     "score": 64,
+     "colour": "amber",
      "confidence": "low",
      "best_species": [
       {
        "species": "dart",
-       "score": 66,
+       "score": 64,
        "window": {
         "start": "09:52",
         "end": "12:22",
@@ -3270,7 +3270,7 @@
       "seas_m": 1.8,
       "swell_m": 1.5,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 23.0,
       "tide_stage": "high_turn",
       "tide_range_m": 1.12,
       "tide_next": {
@@ -3399,7 +3399,7 @@
     "mangrove_jack": [
      {
       "location": "inskip_bay",
-      "score": 80,
+      "score": 81,
       "window": {
        "start": "14:37",
        "end": "19:47",
@@ -3412,7 +3412,7 @@
      },
      {
       "location": "carlo_point",
-      "score": 78,
+      "score": 79,
       "window": {
        "start": "14:37",
        "end": "19:47",
@@ -3425,7 +3425,7 @@
      },
      {
       "location": "tin_can_bay",
-      "score": 78,
+      "score": 79,
       "window": {
        "start": "14:37",
        "end": "19:47",
@@ -3604,37 +3604,11 @@
       "location": "dip_north",
       "score": 73,
       "window": {
-       "start": "09:52",
-       "end": "12:22",
-       "label": "high tide 11:22",
-       "start_iso": "2026-10-16T09:52+10:00",
-       "end_iso": "2026-10-16T12:22+10:00"
-      },
-      "confidence": "low",
-      "colour": "green"
-     },
-     {
-      "location": "rainbow_town",
-      "score": 66,
-      "window": {
-       "start": "09:52",
-       "end": "12:22",
-       "label": "high tide 11:22",
-       "start_iso": "2026-10-16T09:52+10:00",
-       "end_iso": "2026-10-16T12:22+10:00"
-      },
-      "confidence": "low",
-      "colour": "green"
-     },
-     {
-      "location": "teewah",
-      "score": 66,
-      "window": {
-       "start": "09:52",
-       "end": "12:22",
-       "label": "high tide 11:22",
-       "start_iso": "2026-10-16T09:52+10:00",
-       "end_iso": "2026-10-16T12:22+10:00"
+       "start": "21:46",
+       "end": "23:59",
+       "label": "high tide 23:16",
+       "start_iso": "2026-10-16T21:46+10:00",
+       "end_iso": "2026-10-16T23:59+10:00"
       },
       "confidence": "low",
       "colour": "green"
@@ -3651,12 +3625,10 @@
       },
       "confidence": "low",
       "colour": "green"
-     }
-    ],
-    "cobia": [
+     },
      {
-      "location": "dip_north",
-      "score": 71,
+      "location": "rainbow_town",
+      "score": 64,
       "window": {
        "start": "09:52",
        "end": "12:22",
@@ -3665,17 +3637,45 @@
        "end_iso": "2026-10-16T12:22+10:00"
       },
       "confidence": "low",
+      "colour": "amber"
+     },
+     {
+      "location": "teewah",
+      "score": 64,
+      "window": {
+       "start": "09:52",
+       "end": "12:22",
+       "label": "high tide 11:22",
+       "start_iso": "2026-10-16T09:52+10:00",
+       "end_iso": "2026-10-16T12:22+10:00"
+      },
+      "confidence": "low",
+      "colour": "amber"
+     }
+    ],
+    "snapper": [
+     {
+      "location": "dip_north",
+      "score": 72,
+      "window": {
+       "start": "21:46",
+       "end": "23:59",
+       "label": "high tide 23:16",
+       "start_iso": "2026-10-16T21:46+10:00",
+       "end_iso": "2026-10-16T23:59+10:00"
+      },
+      "confidence": "low",
       "colour": "green"
      },
      {
       "location": "inskip_ocean",
-      "score": 54,
+      "score": 55,
       "window": {
-       "start": "02:11",
-       "end": "06:42",
-       "label": "major bite 03:26 + low tide 04:19 + dawn",
-       "start_iso": "2026-10-16T02:11+10:00",
-       "end_iso": "2026-10-16T06:42+10:00"
+       "start": "14:37",
+       "end": "18:59",
+       "label": "major bite 15:52 + dusk + low tide 17:59",
+       "start_iso": "2026-10-16T14:37+10:00",
+       "end_iso": "2026-10-16T18:59+10:00"
       },
       "confidence": "low",
       "colour": "amber"
@@ -3722,10 +3722,10 @@
       "colour": "green"
      }
     ],
-    "snapper": [
+    "cobia": [
      {
       "location": "dip_north",
-      "score": 69,
+      "score": 71,
       "window": {
        "start": "21:46",
        "end": "23:59",
@@ -3738,13 +3738,13 @@
      },
      {
       "location": "inskip_ocean",
-      "score": 55,
+      "score": 54,
       "window": {
-       "start": "14:37",
-       "end": "18:59",
-       "label": "major bite 15:52 + dusk + low tide 17:59",
-       "start_iso": "2026-10-16T14:37+10:00",
-       "end_iso": "2026-10-16T18:59+10:00"
+       "start": "02:11",
+       "end": "06:42",
+       "label": "major bite 03:26 + low tide 04:19 + dawn",
+       "start_iso": "2026-10-16T02:11+10:00",
+       "end_iso": "2026-10-16T06:42+10:00"
       },
       "confidence": "low",
       "colour": "amber"
@@ -3807,7 +3807,7 @@
     "mackerel": [
      {
       "location": "inskip_ocean",
-      "score": 64,
+      "score": 65,
       "window": {
        "start": "14:37",
        "end": "18:59",
@@ -3816,17 +3816,17 @@
        "end_iso": "2026-10-16T18:59+10:00"
       },
       "confidence": "low",
-      "colour": "amber"
+      "colour": "green"
      },
      {
       "location": "dip_north",
       "score": 62,
       "window": {
-       "start": "09:52",
-       "end": "12:22",
-       "label": "high tide 11:22",
-       "start_iso": "2026-10-16T09:52+10:00",
-       "end_iso": "2026-10-16T12:22+10:00"
+       "start": "21:46",
+       "end": "23:59",
+       "label": "high tide 23:16",
+       "start_iso": "2026-10-16T21:46+10:00",
+       "end_iso": "2026-10-16T23:59+10:00"
       },
       "confidence": "low",
       "colour": "amber"
@@ -3917,10 +3917,10 @@
       "wind_dir": "ESE",
       "wind_relation": "offshore",
       "effective_wind_kn": 1.0,
-      "seas_m": 1.5,
+      "seas_m": 1.4,
       "swell_m": 1.2,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 22.9,
       "tide_stage": "falling_late",
       "tide_range_m": 1.06,
       "tide_next": {
@@ -3988,10 +3988,10 @@
       "wind_dir": "ESE",
       "wind_relation": "cross",
       "effective_wind_kn": 1.1,
-      "seas_m": 1.5,
+      "seas_m": 1.4,
       "swell_m": 1.2,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 22.9,
       "tide_stage": "falling_late",
       "tide_range_m": 1.06,
       "tide_next": {
@@ -4059,10 +4059,10 @@
       "wind_dir": "ESE",
       "wind_relation": "cross",
       "effective_wind_kn": 7.6,
-      "seas_m": 1.5,
+      "seas_m": 1.4,
       "swell_m": 1.2,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 22.9,
       "tide_stage": "falling_late",
       "tide_range_m": 1.06,
       "tide_next": {
@@ -4130,10 +4130,10 @@
       "wind_dir": "ESE",
       "wind_relation": "offshore",
       "effective_wind_kn": 0.8,
-      "seas_m": 1.3,
+      "seas_m": 1.2,
       "swell_m": 1.1,
       "swell_period_s": 5,
-      "sst_c": 22.8,
+      "sst_c": 22.9,
       "tide_stage": "high_turn",
       "tide_range_m": 0.69,
       "tide_next": {
@@ -4201,10 +4201,10 @@
       "wind_dir": "ESE",
       "wind_relation": "cross",
       "effective_wind_kn": 8.9,
-      "seas_m": 1.3,
+      "seas_m": 1.2,
       "swell_m": 1.1,
       "swell_period_s": 5,
-      "sst_c": 22.8,
+      "sst_c": 22.9,
       "tide_stage": "high_turn",
       "tide_range_m": 0.69,
       "tide_next": {
@@ -4272,10 +4272,10 @@
       "wind_dir": "SE",
       "wind_relation": "cross",
       "effective_wind_kn": 5.7,
-      "seas_m": 1.3,
+      "seas_m": 1.2,
       "swell_m": 1.1,
       "swell_period_s": 5,
-      "sst_c": 22.8,
+      "sst_c": 22.9,
       "tide_stage": "high_turn",
       "tide_range_m": 0.69,
       "tide_next": {
@@ -4343,9 +4343,9 @@
       "wind_relation": "offshore",
       "effective_wind_kn": 10.9,
       "seas_m": 1.8,
-      "swell_m": 1.2,
+      "swell_m": 1.3,
       "swell_period_s": 6,
-      "sst_c": 22.7,
+      "sst_c": 22.8,
       "tide_stage": "low_turn",
       "tide_range_m": 0.53,
       "tide_next": {
@@ -4375,7 +4375,7 @@
       "start_iso": "2026-10-17T15:28+10:00",
       "end_iso": "2026-10-17T20:16+10:00"
      },
-     "score": 68,
+     "score": 69,
      "colour": "green",
      "confidence": "low",
      "basis": [
@@ -4385,7 +4385,7 @@
      "factors": {
       "tide": 0.94,
       "wind": 0.8,
-      "swell": 0.62,
+      "swell": 0.65,
       "light": 0.8,
       "season": 1.0,
       "pressure": 0.8,
@@ -4400,10 +4400,10 @@
       "wind_dir": "ESE",
       "wind_relation": "cross",
       "effective_wind_kn": 9.8,
-      "seas_m": 1.5,
+      "seas_m": 1.4,
       "swell_m": 1.2,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 22.9,
       "tide_stage": "falling_late",
       "tide_range_m": 0.76,
       "tide_next": {
@@ -4420,8 +4420,66 @@
       "major": "overhead",
       "minor": null
      },
-     "explain": "ESE wind at ~10 kn is across the beach; the window covers the last of the run-out, which suits whiting; seas around 1.5 m; the window also catches a major bite time (moon overhead 16:43) on a poor lunar day; whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "ESE wind at ~10 kn is across the beach; the window covers the last of the run-out, which suits whiting; seas around 1.4 m; the window also catches a major bite time (moon overhead 16:43) on a poor lunar day; whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "rank": 8
+    },
+    {
+     "location": "dip_north",
+     "species": "dart",
+     "window": {
+      "start": "10:46",
+      "end": "13:16",
+      "label": "high tide 12:16",
+      "start_iso": "2026-10-17T10:46+10:00",
+      "end_iso": "2026-10-17T13:16+10:00"
+     },
+     "score": 68,
+     "colour": "green",
+     "confidence": "low",
+     "basis": [
+      "conditions",
+      "season"
+     ],
+     "factors": {
+      "tide": 0.95,
+      "wind": 0.68,
+      "swell": 0.68,
+      "light": 1.0,
+      "season": 1.0,
+      "pressure": 0.8,
+      "rain": 0.7,
+      "lunar": 0.42,
+      "reports": 0.35
+     },
+     "warnings": [],
+     "conditions": {
+      "wind_kn": 12,
+      "gust_kn": 30,
+      "wind_dir": "E",
+      "wind_relation": "cross",
+      "effective_wind_kn": 12.5,
+      "seas_m": 1.8,
+      "swell_m": 1.4,
+      "swell_period_s": 6,
+      "sst_c": 22.9,
+      "tide_stage": "high_turn",
+      "tide_range_m": 0.94,
+      "tide_next": {
+       "t": "2026-10-17T12:16+10:00",
+       "h": 1.62,
+       "type": "H"
+      },
+      "light": "day",
+      "rain_24h_mm": 2.8
+     },
+     "evidence": [],
+     "solunar": {
+      "day_rating": "Poor",
+      "major": null,
+      "minor": null
+     },
+     "explain": "E wind at ~12 kn is across the beach; the window covers the top of the tide, which suits dart; day is a preferred time for this species; seas around 1.8 m; dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "rank": 9
     },
     {
      "location": "inskip_ocean",
@@ -4443,7 +4501,7 @@
      "factors": {
       "tide": 0.93,
       "wind": 0.55,
-      "swell": 0.76,
+      "swell": 0.77,
       "light": 1.0,
       "season": 1.0,
       "pressure": 0.8,
@@ -4461,7 +4519,7 @@
       "seas_m": 1.3,
       "swell_m": 1.1,
       "swell_period_s": 5,
-      "sst_c": 22.8,
+      "sst_c": 22.9,
       "tide_stage": "low_turn",
       "tide_range_m": 0.53,
       "tide_next": {
@@ -4479,76 +4537,18 @@
       "minor": null
      },
      "explain": "ESE wind at ~7 kn is onshore; the window covers the bottom of the tide, which suits whiting; dawn is a preferred time for this species; seas around 1.3 m; the window also catches a major bite time (moon underfoot 04:18) on a poor lunar day; whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
-     "rank": 9
-    },
-    {
-     "location": "teewah",
-     "species": "whiting",
-     "window": {
-      "start": "03:03",
-      "end": "06:41",
-      "label": "major bite 04:18 + low tide 05:02 + dawn",
-      "start_iso": "2026-10-17T03:03+10:00",
-      "end_iso": "2026-10-17T06:41+10:00"
-     },
-     "score": 66,
-     "colour": "green",
-     "confidence": "low",
-     "basis": [
-      "conditions",
-      "season"
-     ],
-     "factors": {
-      "tide": 0.93,
-      "wind": 0.8,
-      "swell": 0.37,
-      "light": 1.0,
-      "season": 1.0,
-      "pressure": 0.8,
-      "rain": 0.7,
-      "lunar": 0.64,
-      "reports": 0.35
-     },
-     "warnings": [],
-     "conditions": {
-      "wind_kn": 9,
-      "gust_kn": 19,
-      "wind_dir": "ESE",
-      "wind_relation": "cross",
-      "effective_wind_kn": 8.9,
-      "seas_m": 1.8,
-      "swell_m": 1.2,
-      "swell_period_s": 6,
-      "sst_c": 22.7,
-      "tide_stage": "low_turn",
-      "tide_range_m": 0.53,
-      "tide_next": {
-       "t": "2026-10-17T05:02+10:00",
-       "h": 0.68,
-       "type": "L"
-      },
-      "light": "dawn",
-      "rain_24h_mm": 1.5
-     },
-     "evidence": [],
-     "solunar": {
-      "day_rating": "Poor",
-      "major": "underfoot",
-      "minor": null
-     },
-     "explain": "ESE wind at ~9 kn is across the beach; the window covers the bottom of the tide, which suits whiting; dawn is a preferred time for this species; seas around 1.8 m; the window also catches a major bite time (moon underfoot 04:18) on a poor lunar day; whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "rank": 10
     }
    ],
    "locations": {
     "rainbow_town": {
-     "score": 55,
+     "score": 56,
      "colour": "amber",
      "confidence": "low",
      "best_species": [
       {
        "species": "dart",
-       "score": 55,
+       "score": 56,
        "window": {
         "start": "10:46",
         "end": "13:16",
@@ -4558,7 +4558,7 @@
        }
       },
       {
-       "species": "bream",
+       "species": "whiting",
        "score": 50,
        "window": {
         "start": "03:03",
@@ -4569,8 +4569,8 @@
        }
       },
       {
-       "species": "whiting",
-       "score": 49,
+       "species": "bream",
+       "score": 50,
        "window": {
         "start": "03:03",
         "end": "06:41",
@@ -4593,10 +4593,10 @@
       "wind_dir": "E",
       "wind_relation": "onshore",
       "effective_wind_kn": 12.0,
-      "seas_m": 1.9,
-      "swell_m": 1.1,
-      "swell_period_s": 7,
-      "sst_c": 22.7,
+      "seas_m": 1.8,
+      "swell_m": 1.4,
+      "swell_period_s": 6,
+      "sst_c": 22.9,
       "tide_stage": "high_turn",
       "tide_range_m": 0.94,
       "tide_next": {
@@ -4608,7 +4608,7 @@
       "rain_24h_mm": 2.9
      },
      "warnings": [],
-     "explain": "E wind at ~12 kn is onshore; the window covers the top of the tide, which suits dart; day is a preferred time for this species; seas around 1.9 m; dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "E wind at ~12 kn is onshore; the window covers the top of the tide, which suits dart; day is a preferred time for this species; seas around 1.8 m; dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "rainbow_north": {
@@ -4617,7 +4617,7 @@
      "confidence": "low",
      "best_species": [
       {
-       "species": "bream",
+       "species": "whiting",
        "score": 50,
        "window": {
         "start": "03:03",
@@ -4628,8 +4628,8 @@
        }
       },
       {
-       "species": "whiting",
-       "score": 49,
+       "species": "bream",
+       "score": 50,
        "window": {
         "start": "03:03",
         "end": "06:41",
@@ -4664,9 +4664,9 @@
       "wind_relation": "onshore",
       "effective_wind_kn": 9.2,
       "seas_m": 1.8,
-      "swell_m": 1.2,
+      "swell_m": 1.3,
       "swell_period_s": 6,
-      "sst_c": 22.7,
+      "sst_c": 22.8,
       "tide_stage": "low_turn",
       "tide_range_m": 0.53,
       "tide_next": {
@@ -4677,20 +4677,18 @@
       "light": "dawn",
       "rain_24h_mm": 1.2
      },
-     "warnings": [
-      "Window sits around high tide — beach driving access restricted"
-     ],
-     "explain": "E wind at ~9 kn is onshore; the window covers the bottom of the tide, which suits bream; dawn is a preferred time for this species; seas around 1.8 m; the window also catches a major bite time (moon underfoot 04:18) on a poor lunar day; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "warnings": [],
+     "explain": "E wind at ~9 kn is onshore; the window covers the bottom of the tide, which suits whiting; dawn is a preferred time for this species; seas around 1.8 m; the window also catches a major bite time (moon underfoot 04:18) on a poor lunar day; whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "inskip_ocean": {
-     "score": 68,
+     "score": 69,
      "colour": "green",
      "confidence": "low",
      "best_species": [
       {
        "species": "whiting",
-       "score": 68,
+       "score": 69,
        "window": {
         "start": "15:28",
         "end": "20:16",
@@ -4712,7 +4710,7 @@
       },
       {
        "species": "mackerel",
-       "score": 58,
+       "score": 59,
        "window": {
         "start": "15:28",
         "end": "20:16",
@@ -4735,10 +4733,10 @@
       "wind_dir": "ESE",
       "wind_relation": "cross",
       "effective_wind_kn": 9.8,
-      "seas_m": 1.5,
+      "seas_m": 1.4,
       "swell_m": 1.2,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 22.9,
       "tide_stage": "falling_late",
       "tide_range_m": 0.76,
       "tide_next": {
@@ -4750,7 +4748,7 @@
       "rain_24h_mm": 4.8
      },
      "warnings": [],
-     "explain": "ESE wind at ~10 kn is across the beach; the window covers the last of the run-out, which suits whiting; seas around 1.5 m; the window also catches a major bite time (moon overhead 16:43) on a poor lunar day; whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "ESE wind at ~10 kn is across the beach; the window covers the last of the run-out, which suits whiting; seas around 1.4 m; the window also catches a major bite time (moon overhead 16:43) on a poor lunar day; whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "inskip_bay": {
@@ -4805,10 +4803,10 @@
       "wind_dir": "ESE",
       "wind_relation": "offshore",
       "effective_wind_kn": 1.0,
-      "seas_m": 1.5,
+      "seas_m": 1.4,
       "swell_m": 1.2,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 22.9,
       "tide_stage": "falling_late",
       "tide_range_m": 1.06,
       "tide_next": {
@@ -4887,10 +4885,10 @@
       "wind_dir": "ESE",
       "wind_relation": "cross",
       "effective_wind_kn": 1.1,
-      "seas_m": 1.5,
+      "seas_m": 1.4,
       "swell_m": 1.2,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 22.9,
       "tide_stage": "falling_late",
       "tide_range_m": 1.06,
       "tide_next": {
@@ -4969,10 +4967,10 @@
       "wind_dir": "ESE",
       "wind_relation": "cross",
       "effective_wind_kn": 7.6,
-      "seas_m": 1.5,
+      "seas_m": 1.4,
       "swell_m": 1.2,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 22.9,
       "tide_stage": "falling_late",
       "tide_range_m": 1.06,
       "tide_next": {
@@ -5000,13 +4998,13 @@
      ]
     },
     "rainbow_to_dip": {
-     "score": 64,
-     "colour": "amber",
+     "score": 65,
+     "colour": "green",
      "confidence": "low",
      "best_species": [
       {
        "species": "whiting",
-       "score": 64,
+       "score": 65,
        "window": {
         "start": "03:03",
         "end": "06:41",
@@ -5027,7 +5025,7 @@
        }
       },
       {
-       "species": "mulloway",
+       "species": "dart",
        "score": 51,
        "window": {
         "start": "15:28",
@@ -5052,9 +5050,9 @@
       "wind_relation": "cross",
       "effective_wind_kn": 10.9,
       "seas_m": 1.8,
-      "swell_m": 1.2,
+      "swell_m": 1.3,
       "swell_period_s": 6,
-      "sst_c": 22.7,
+      "sst_c": 22.8,
       "tide_stage": "low_turn",
       "tide_range_m": 0.53,
       "tide_next": {
@@ -5087,7 +5085,7 @@
       },
       {
        "species": "dart",
-       "score": 66,
+       "score": 68,
        "window": {
         "start": "10:46",
         "end": "13:16",
@@ -5098,7 +5096,7 @@
       },
       {
        "species": "cobia",
-       "score": 62,
+       "score": 65,
        "window": {
         "start": "10:46",
         "end": "13:16",
@@ -5122,9 +5120,9 @@
       "wind_relation": "offshore",
       "effective_wind_kn": 10.9,
       "seas_m": 1.8,
-      "swell_m": 1.2,
+      "swell_m": 1.3,
       "swell_period_s": 6,
-      "sst_c": 22.7,
+      "sst_c": 22.8,
       "tide_stage": "low_turn",
       "tide_range_m": 0.53,
       "tide_next": {
@@ -5168,7 +5166,7 @@
       },
       {
        "species": "dart",
-       "score": 55,
+       "score": 56,
        "window": {
         "start": "10:46",
         "end": "13:16",
@@ -5192,9 +5190,9 @@
       "wind_relation": "cross",
       "effective_wind_kn": 8.9,
       "seas_m": 1.8,
-      "swell_m": 1.2,
+      "swell_m": 1.3,
       "swell_period_s": 6,
-      "sst_c": 22.7,
+      "sst_c": 22.8,
       "tide_stage": "low_turn",
       "tide_range_m": 0.53,
       "tide_next": {
@@ -5349,7 +5347,7 @@
      },
      {
       "location": "inskip_ocean",
-      "score": 68,
+      "score": 69,
       "window": {
        "start": "15:28",
        "end": "20:16",
@@ -5513,7 +5511,7 @@
     "dart": [
      {
       "location": "dip_north",
-      "score": 66,
+      "score": 68,
       "window": {
        "start": "10:46",
        "end": "13:16",
@@ -5539,7 +5537,7 @@
      },
      {
       "location": "rainbow_town",
-      "score": 55,
+      "score": 56,
       "window": {
        "start": "10:46",
        "end": "13:16",
@@ -5552,7 +5550,7 @@
      },
      {
       "location": "teewah",
-      "score": 55,
+      "score": 56,
       "window": {
        "start": "10:46",
        "end": "13:16",
@@ -5567,7 +5565,7 @@
     "cobia": [
      {
       "location": "dip_north",
-      "score": 62,
+      "score": 65,
       "window": {
        "start": "10:46",
        "end": "13:16",
@@ -5576,11 +5574,11 @@
        "end_iso": "2026-10-17T13:16+10:00"
       },
       "confidence": "low",
-      "colour": "amber"
+      "colour": "green"
      },
      {
       "location": "inskip_ocean",
-      "score": 48,
+      "score": 49,
       "window": {
        "start": "15:28",
        "end": "20:16",
@@ -5595,7 +5593,7 @@
     "mackerel": [
      {
       "location": "inskip_ocean",
-      "score": 58,
+      "score": 59,
       "window": {
        "start": "15:28",
        "end": "20:16",
@@ -5608,7 +5606,7 @@
      },
      {
       "location": "dip_north",
-      "score": 53,
+      "score": 54,
       "window": {
        "start": "10:46",
        "end": "13:16",
@@ -5636,7 +5634,7 @@
      },
      {
       "location": "dip_north",
-      "score": 56,
+      "score": 57,
       "window": {
        "start": "15:28",
        "end": "20:16",
@@ -5677,7 +5675,7 @@
     "tailor": [
      {
       "location": "dip_north",
-      "score": 56,
+      "score": 57,
       "window": {
        "start": "15:28",
        "end": "20:16",
@@ -5744,7 +5742,7 @@
      },
      {
       "location": "dip_north",
-      "score": 47,
+      "score": 49,
       "window": {
        "start": "15:28",
        "end": "20:16",
@@ -5841,10 +5839,10 @@
       "wind_dir": "ESE",
       "wind_relation": "offshore",
       "effective_wind_kn": 0.9,
-      "seas_m": 1.6,
-      "swell_m": 1.5,
+      "seas_m": 1.4,
+      "swell_m": 1.3,
       "swell_period_s": 6,
-      "sst_c": 22.7,
+      "sst_c": 22.9,
       "tide_stage": "falling_early",
       "tide_range_m": 0.96,
       "tide_next": {
@@ -5912,10 +5910,10 @@
       "wind_dir": "ESE",
       "wind_relation": "offshore",
       "effective_wind_kn": 0.9,
-      "seas_m": 1.6,
-      "swell_m": 1.5,
+      "seas_m": 1.4,
+      "swell_m": 1.3,
       "swell_period_s": 6,
-      "sst_c": 22.7,
+      "sst_c": 22.9,
       "tide_stage": "falling_early",
       "tide_range_m": 0.96,
       "tide_next": {
@@ -5983,10 +5981,10 @@
       "wind_dir": "ESE",
       "wind_relation": "cross",
       "effective_wind_kn": 10.2,
-      "seas_m": 1.6,
-      "swell_m": 1.5,
+      "seas_m": 1.4,
+      "swell_m": 1.3,
       "swell_period_s": 6,
-      "sst_c": 22.7,
+      "sst_c": 22.9,
       "tide_stage": "falling_early",
       "tide_range_m": 0.96,
       "tide_next": {
@@ -6054,10 +6052,10 @@
       "wind_dir": "ESE",
       "wind_relation": "cross",
       "effective_wind_kn": 10.2,
-      "seas_m": 1.6,
-      "swell_m": 1.5,
+      "seas_m": 1.4,
+      "swell_m": 1.3,
       "swell_period_s": 6,
-      "sst_c": 22.7,
+      "sst_c": 22.9,
       "tide_stage": "falling_early",
       "tide_range_m": 0.96,
       "tide_next": {
@@ -6125,10 +6123,10 @@
       "wind_dir": "ESE",
       "wind_relation": "cross",
       "effective_wind_kn": 6.9,
-      "seas_m": 1.6,
-      "swell_m": 1.5,
+      "seas_m": 1.4,
+      "swell_m": 1.3,
       "swell_period_s": 6,
-      "sst_c": 22.7,
+      "sst_c": 22.9,
       "tide_stage": "falling_early",
       "tide_range_m": 0.96,
       "tide_next": {
@@ -6196,10 +6194,10 @@
       "wind_dir": "ESE",
       "wind_relation": "cross",
       "effective_wind_kn": 6.9,
-      "seas_m": 1.6,
-      "swell_m": 1.5,
+      "seas_m": 1.4,
+      "swell_m": 1.3,
       "swell_period_s": 6,
-      "sst_c": 22.7,
+      "sst_c": 22.9,
       "tide_stage": "falling_early",
       "tide_range_m": 0.96,
       "tide_next": {
@@ -6266,10 +6264,10 @@
       "wind_dir": "ESE",
       "wind_relation": "offshore",
       "effective_wind_kn": 10.7,
-      "seas_m": 2.0,
-      "swell_m": 1.7,
+      "seas_m": 1.8,
+      "swell_m": 1.5,
       "swell_period_s": 6,
-      "sst_c": 22.6,
+      "sst_c": 22.8,
       "tide_stage": "low_turn",
       "tide_range_m": 0.73,
       "tide_next": {
@@ -6286,7 +6284,7 @@
       "major": null,
       "minor": null
      },
-     "explain": "ESE wind at ~11 kn is offshore for this shore; the window covers the bottom of the tide, which suits mulloway; night is a preferred time for this species; seas around 2.0 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "ESE wind at ~11 kn is offshore for this shore; the window covers the bottom of the tide, which suits mulloway; night is a preferred time for this species; seas around 1.8 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "rank": 7
     },
     {
@@ -6324,10 +6322,10 @@
       "wind_dir": "E",
       "wind_relation": "offshore",
       "effective_wind_kn": 11.7,
-      "seas_m": 2.2,
-      "swell_m": 1.1,
+      "seas_m": 2.1,
+      "swell_m": 1.4,
       "swell_period_s": 6,
-      "sst_c": 22.7,
+      "sst_c": 22.8,
       "tide_stage": "high_turn",
       "tide_range_m": 0.4,
       "tide_next": {
@@ -6344,7 +6342,7 @@
       "major": null,
       "minor": null
      },
-     "explain": "E wind at ~12 kn is offshore for this shore; the window covers the top of the tide, which suits mulloway; night is a preferred time for this species; seas around 2.2 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "E wind at ~12 kn is offshore for this shore; the window covers the top of the tide, which suits mulloway; night is a preferred time for this species; seas around 2.1 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "rank": 8
     },
     {
@@ -6357,7 +6355,7 @@
       "start_iso": "2026-10-18T16:17+10:00",
       "end_iso": "2026-10-18T18:55+10:00"
      },
-     "score": 66,
+     "score": 69,
      "colour": "green",
      "confidence": "low",
      "basis": [
@@ -6367,7 +6365,7 @@
      "factors": {
       "tide": 0.94,
       "wind": 0.8,
-      "swell": 0.53,
+      "swell": 0.66,
       "light": 0.8,
       "season": 1.0,
       "pressure": 0.8,
@@ -6382,10 +6380,10 @@
       "wind_dir": "ESE",
       "wind_relation": "cross",
       "effective_wind_kn": 8.9,
-      "seas_m": 1.6,
-      "swell_m": 1.5,
+      "seas_m": 1.4,
+      "swell_m": 1.3,
       "swell_period_s": 6,
-      "sst_c": 22.7,
+      "sst_c": 22.9,
       "tide_stage": "falling_late",
       "tide_range_m": 0.73,
       "tide_next": {
@@ -6402,7 +6400,7 @@
       "major": "overhead",
       "minor": null
      },
-     "explain": "ESE wind at ~9 kn is across the beach; the window covers the last of the run-out, which suits whiting; seas around 1.6 m; the window also catches a major bite time (moon overhead 17:32) on a poor lunar day; whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "ESE wind at ~9 kn is across the beach; the window covers the last of the run-out, which suits whiting; seas around 1.4 m; the window also catches a major bite time (moon overhead 17:32) on a poor lunar day; whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "rank": 9
     },
     {
@@ -6415,7 +6413,7 @@
       "start_iso": "2026-10-18T11:57+10:00",
       "end_iso": "2026-10-18T14:27+10:00"
      },
-     "score": 65,
+     "score": 67,
      "colour": "green",
      "confidence": "low",
      "basis": [
@@ -6425,7 +6423,7 @@
      "factors": {
       "tide": 0.94,
       "wind": 0.8,
-      "swell": 0.39,
+      "swell": 0.47,
       "light": 1.0,
       "season": 1.0,
       "pressure": 0.8,
@@ -6440,10 +6438,10 @@
       "wind_dir": "ESE",
       "wind_relation": "cross",
       "effective_wind_kn": 9.6,
-      "seas_m": 2.2,
-      "swell_m": 1.6,
+      "seas_m": 2.1,
+      "swell_m": 1.7,
       "swell_period_s": 6,
-      "sst_c": 22.6,
+      "sst_c": 22.8,
       "tide_stage": "high_turn",
       "tide_range_m": 0.81,
       "tide_next": {
@@ -6460,7 +6458,7 @@
       "major": null,
       "minor": null
      },
-     "explain": "ESE wind at ~10 kn is across the beach; the window covers the top of the tide, which suits dart; day is a preferred time for this species; seas around 2.2 m; dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "ESE wind at ~10 kn is across the beach; the window covers the top of the tide, which suits dart; day is a preferred time for this species; seas around 2.1 m; dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "rank": 10
     }
    ],
@@ -6483,7 +6481,7 @@
       },
       {
        "species": "dart",
-       "score": 56,
+       "score": 58,
        "window": {
         "start": "11:57",
         "end": "14:27",
@@ -6493,14 +6491,14 @@
        }
       },
       {
-       "species": "flathead",
+       "species": "tailor",
        "score": 53,
        "window": {
-        "start": "16:17",
-        "end": "18:55",
-        "label": "major bite 17:32 + dusk",
-        "start_iso": "2026-10-18T16:17+10:00",
-        "end_iso": "2026-10-18T18:55+10:00"
+        "start": "00:00",
+        "end": "01:18",
+        "label": "high tide 00:18",
+        "start_iso": "2026-10-18T00:00+10:00",
+        "end_iso": "2026-10-18T01:18+10:00"
        }
       }
      ],
@@ -6517,10 +6515,10 @@
       "wind_dir": "ESE",
       "wind_relation": "onshore",
       "effective_wind_kn": 10.4,
-      "seas_m": 2.2,
-      "swell_m": 1.1,
+      "seas_m": 2.1,
+      "swell_m": 1.4,
       "swell_period_s": 6,
-      "sst_c": 22.7,
+      "sst_c": 22.8,
       "tide_stage": "high_turn",
       "tide_range_m": 0.4,
       "tide_next": {
@@ -6532,7 +6530,7 @@
       "rain_24h_mm": 5.0
      },
      "warnings": [],
-     "explain": "ESE wind at ~10 kn is onshore; the window covers the top of the tide, which suits mulloway; night is a preferred time for this species; seas around 2.2 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "ESE wind at ~10 kn is onshore; the window covers the top of the tide, which suits mulloway; night is a preferred time for this species; seas around 2.1 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "rainbow_north": {
@@ -6552,8 +6550,8 @@
        }
       },
       {
-       "species": "mulloway",
-       "score": 46,
+       "species": "bream",
+       "score": 48,
        "window": {
         "start": "16:17",
         "end": "18:55",
@@ -6563,14 +6561,14 @@
        }
       },
       {
-       "species": "tailor",
-       "score": 45,
+       "species": "dart",
+       "score": 47,
        "window": {
-        "start": "00:00",
-        "end": "01:18",
-        "label": "high tide 00:18",
-        "start_iso": "2026-10-18T00:00+10:00",
-        "end_iso": "2026-10-18T01:18+10:00"
+        "start": "16:17",
+        "end": "18:55",
+        "label": "major bite 17:32 + dusk",
+        "start_iso": "2026-10-18T16:17+10:00",
+        "end_iso": "2026-10-18T18:55+10:00"
        }
       }
      ],
@@ -6587,10 +6585,10 @@
       "wind_dir": "ESE",
       "wind_relation": "onshore",
       "effective_wind_kn": 10.2,
-      "seas_m": 2.1,
-      "swell_m": 1.7,
+      "seas_m": 1.9,
+      "swell_m": 1.6,
       "swell_period_s": 6,
-      "sst_c": 22.6,
+      "sst_c": 22.9,
       "tide_stage": "falling_late",
       "tide_range_m": 0.73,
       "tide_next": {
@@ -6601,20 +6599,18 @@
       "light": "dusk",
       "rain_24h_mm": 5.5
      },
-     "warnings": [
-      "Window sits around high tide — beach driving access restricted"
-     ],
-     "explain": "ESE wind at ~10 kn is onshore; the window covers the last of the run-out, which suits flathead; dusk is a preferred time for this species; seas around 2.1 m; the window also catches a major bite time (moon overhead 17:32) on a poor lunar day; flathead are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "warnings": [],
+     "explain": "ESE wind at ~10 kn is onshore; the window covers the last of the run-out, which suits flathead; dusk is a preferred time for this species; seas around 1.9 m; the window also catches a major bite time (moon overhead 17:32) on a poor lunar day; flathead are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "inskip_ocean": {
-     "score": 66,
+     "score": 69,
      "colour": "green",
      "confidence": "low",
      "best_species": [
       {
        "species": "whiting",
-       "score": 66,
+       "score": 69,
        "window": {
         "start": "16:17",
         "end": "18:55",
@@ -6625,7 +6621,7 @@
       },
       {
        "species": "dart",
-       "score": 64,
+       "score": 66,
        "window": {
         "start": "16:17",
         "end": "18:55",
@@ -6635,8 +6631,8 @@
        }
       },
       {
-       "species": "mulloway",
-       "score": 55,
+       "species": "mackerel",
+       "score": 59,
        "window": {
         "start": "16:17",
         "end": "18:55",
@@ -6659,10 +6655,10 @@
       "wind_dir": "ESE",
       "wind_relation": "cross",
       "effective_wind_kn": 8.9,
-      "seas_m": 1.6,
-      "swell_m": 1.5,
+      "seas_m": 1.4,
+      "swell_m": 1.3,
       "swell_period_s": 6,
-      "sst_c": 22.7,
+      "sst_c": 22.9,
       "tide_stage": "falling_late",
       "tide_range_m": 0.73,
       "tide_next": {
@@ -6674,7 +6670,7 @@
       "rain_24h_mm": 6.1
      },
      "warnings": [],
-     "explain": "ESE wind at ~9 kn is across the beach; the window covers the last of the run-out, which suits whiting; seas around 1.6 m; the window also catches a major bite time (moon overhead 17:32) on a poor lunar day; whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "ESE wind at ~9 kn is across the beach; the window covers the last of the run-out, which suits whiting; seas around 1.4 m; the window also catches a major bite time (moon overhead 17:32) on a poor lunar day; whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "inskip_bay": {
@@ -6729,10 +6725,10 @@
       "wind_dir": "ESE",
       "wind_relation": "offshore",
       "effective_wind_kn": 0.9,
-      "seas_m": 1.6,
-      "swell_m": 1.5,
+      "seas_m": 1.4,
+      "swell_m": 1.3,
       "swell_period_s": 6,
-      "sst_c": 22.7,
+      "sst_c": 22.9,
       "tide_stage": "falling_early",
       "tide_range_m": 0.96,
       "tide_next": {
@@ -6811,10 +6807,10 @@
       "wind_dir": "ESE",
       "wind_relation": "cross",
       "effective_wind_kn": 10.2,
-      "seas_m": 1.6,
-      "swell_m": 1.5,
+      "seas_m": 1.4,
+      "swell_m": 1.3,
       "swell_period_s": 6,
-      "sst_c": 22.7,
+      "sst_c": 22.9,
       "tide_stage": "falling_early",
       "tide_range_m": 0.96,
       "tide_next": {
@@ -6893,10 +6889,10 @@
       "wind_dir": "ESE",
       "wind_relation": "cross",
       "effective_wind_kn": 6.9,
-      "seas_m": 1.6,
-      "swell_m": 1.5,
+      "seas_m": 1.4,
+      "swell_m": 1.3,
       "swell_period_s": 6,
-      "sst_c": 22.7,
+      "sst_c": 22.9,
       "tide_stage": "falling_early",
       "tide_range_m": 0.96,
       "tide_next": {
@@ -6929,6 +6925,17 @@
      "confidence": "low",
      "best_species": [
       {
+       "species": "dart",
+       "score": 55,
+       "window": {
+        "start": "16:17",
+        "end": "18:55",
+        "label": "major bite 17:32 + dusk",
+        "start_iso": "2026-10-18T16:17+10:00",
+        "end_iso": "2026-10-18T18:55+10:00"
+       }
+      },
+      {
        "species": "whiting",
        "score": 55,
        "window": {
@@ -6949,48 +6956,37 @@
         "start_iso": "2026-10-18T16:17+10:00",
         "end_iso": "2026-10-18T18:55+10:00"
        }
-      },
-      {
-       "species": "dart",
-       "score": 50,
-       "window": {
-        "start": "16:17",
-        "end": "18:55",
-        "label": "major bite 17:32 + dusk",
-        "start_iso": "2026-10-18T16:17+10:00",
-        "end_iso": "2026-10-18T18:55+10:00"
-       }
       }
      ],
      "best_window": {
-      "start": "03:55",
-      "end": "07:00",
-      "label": "major bite 05:10 + dawn + low tide 06:00",
-      "start_iso": "2026-10-18T03:55+10:00",
-      "end_iso": "2026-10-18T07:00+10:00"
+      "start": "16:17",
+      "end": "18:55",
+      "label": "major bite 17:32 + dusk",
+      "start_iso": "2026-10-18T16:17+10:00",
+      "end_iso": "2026-10-18T18:55+10:00"
      },
      "conditions": {
-      "wind_kn": 12,
+      "wind_kn": 11,
       "gust_kn": 26,
-      "wind_dir": "E",
+      "wind_dir": "ESE",
       "wind_relation": "cross",
-      "effective_wind_kn": 11.7,
-      "seas_m": 2.2,
-      "swell_m": 1.3,
+      "effective_wind_kn": 10.9,
+      "seas_m": 1.9,
+      "swell_m": 1.6,
       "swell_period_s": 6,
-      "sst_c": 22.7,
-      "tide_stage": "low_turn",
-      "tide_range_m": 0.4,
+      "sst_c": 22.9,
+      "tide_stage": "falling_late",
+      "tide_range_m": 0.73,
       "tide_next": {
-       "t": "2026-10-18T06:00+10:00",
-       "h": 0.76,
+       "t": "2026-10-18T20:37+10:00",
+       "h": 0.84,
        "type": "L"
       },
-      "light": "dawn",
-      "rain_24h_mm": 6.0
+      "light": "dusk",
+      "rain_24h_mm": 3.7
      },
      "warnings": [],
-     "explain": "E wind at ~12 kn is across the beach; the window covers the bottom of the tide, which suits whiting; dawn is a preferred time for this species; seas around 2.2 m; the window also catches a major bite time (moon underfoot 05:10) on a poor lunar day; whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "ESE wind at ~11 kn is across the beach; the window covers the last of the run-out; dusk is a preferred time for this species; seas around 1.9 m; the window also catches a major bite time (moon overhead 17:32) on a poor lunar day; dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "dip_north": {
@@ -7011,7 +7007,7 @@
       },
       {
        "species": "tailor",
-       "score": 65,
+       "score": 68,
        "window": {
         "start": "00:00",
         "end": "01:18",
@@ -7022,7 +7018,7 @@
       },
       {
        "species": "dart",
-       "score": 61,
+       "score": 64,
        "window": {
         "start": "11:57",
         "end": "14:27",
@@ -7045,10 +7041,10 @@
       "wind_dir": "ESE",
       "wind_relation": "offshore",
       "effective_wind_kn": 10.7,
-      "seas_m": 2.0,
-      "swell_m": 1.7,
+      "seas_m": 1.8,
+      "swell_m": 1.5,
       "swell_period_s": 6,
-      "sst_c": 22.6,
+      "sst_c": 22.8,
       "tide_stage": "low_turn",
       "tide_range_m": 0.73,
       "tide_next": {
@@ -7060,17 +7056,17 @@
       "rain_24h_mm": 3.1
      },
      "warnings": [],
-     "explain": "ESE wind at ~11 kn is offshore for this shore; the window covers the bottom of the tide, which suits mulloway; night is a preferred time for this species; seas around 2.0 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "ESE wind at ~11 kn is offshore for this shore; the window covers the bottom of the tide, which suits mulloway; night is a preferred time for this species; seas around 1.8 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "teewah": {
-     "score": 65,
+     "score": 67,
      "colour": "green",
      "confidence": "low",
      "best_species": [
       {
        "species": "dart",
-       "score": 65,
+       "score": 67,
        "window": {
         "start": "11:57",
         "end": "14:27",
@@ -7092,7 +7088,7 @@
       },
       {
        "species": "tailor",
-       "score": 51,
+       "score": 53,
        "window": {
         "start": "00:00",
         "end": "01:18",
@@ -7115,10 +7111,10 @@
       "wind_dir": "ESE",
       "wind_relation": "cross",
       "effective_wind_kn": 9.6,
-      "seas_m": 2.2,
-      "swell_m": 1.6,
+      "seas_m": 2.1,
+      "swell_m": 1.7,
       "swell_period_s": 6,
-      "sst_c": 22.6,
+      "sst_c": 22.8,
       "tide_stage": "high_turn",
       "tide_range_m": 0.81,
       "tide_next": {
@@ -7130,7 +7126,7 @@
       "rain_24h_mm": 4.5
      },
      "warnings": [],
-     "explain": "ESE wind at ~10 kn is across the beach; the window covers the top of the tide, which suits dart; day is a preferred time for this species; seas around 2.2 m; dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "ESE wind at ~10 kn is across the beach; the window covers the top of the tide, which suits dart; day is a preferred time for this species; seas around 2.1 m; dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     }
    },
@@ -7273,7 +7269,7 @@
      },
      {
       "location": "inskip_ocean",
-      "score": 66,
+      "score": 69,
       "window": {
        "start": "16:17",
        "end": "18:55",
@@ -7301,7 +7297,7 @@
      },
      {
       "location": "carlo_point",
-      "score": 76,
+      "score": 77,
       "window": {
        "start": "16:17",
        "end": "18:55",
@@ -7314,7 +7310,7 @@
      },
      {
       "location": "tin_can_bay",
-      "score": 76,
+      "score": 77,
       "window": {
        "start": "16:17",
        "end": "18:55",
@@ -7422,7 +7418,7 @@
      },
      {
       "location": "rainbow_town",
-      "score": 42,
+      "score": 48,
       "window": {
        "start": "16:17",
        "end": "18:55",
@@ -7431,7 +7427,7 @@
        "end_iso": "2026-10-18T18:55+10:00"
       },
       "confidence": "low",
-      "colour": "red"
+      "colour": "amber"
      }
     ],
     "trevally": [
@@ -7476,13 +7472,13 @@
      },
      {
       "location": "dip_north",
-      "score": 55,
+      "score": 59,
       "window": {
-       "start": "00:00",
-       "end": "01:18",
-       "label": "high tide 00:18",
-       "start_iso": "2026-10-18T00:00+10:00",
-       "end_iso": "2026-10-18T01:18+10:00"
+       "start": "16:17",
+       "end": "18:55",
+       "label": "major bite 17:32 + dusk",
+       "start_iso": "2026-10-18T16:17+10:00",
+       "end_iso": "2026-10-18T18:55+10:00"
       },
       "confidence": "low",
       "colour": "amber"
@@ -7491,7 +7487,7 @@
     "tailor": [
      {
       "location": "dip_north",
-      "score": 65,
+      "score": 68,
       "window": {
        "start": "00:00",
        "end": "01:18",
@@ -7501,6 +7497,32 @@
       },
       "confidence": "low",
       "colour": "green"
+     },
+     {
+      "location": "rainbow_town",
+      "score": 53,
+      "window": {
+       "start": "00:00",
+       "end": "01:18",
+       "label": "high tide 00:18",
+       "start_iso": "2026-10-18T00:00+10:00",
+       "end_iso": "2026-10-18T01:18+10:00"
+      },
+      "confidence": "low",
+      "colour": "amber"
+     },
+     {
+      "location": "teewah",
+      "score": 53,
+      "window": {
+       "start": "00:00",
+       "end": "01:18",
+       "label": "high tide 00:18",
+       "start_iso": "2026-10-18T00:00+10:00",
+       "end_iso": "2026-10-18T01:18+10:00"
+      },
+      "confidence": "low",
+      "colour": "amber"
      },
      {
       "location": "inskip_ocean",
@@ -7514,38 +7536,12 @@
       },
       "confidence": "low",
       "colour": "amber"
-     },
-     {
-      "location": "rainbow_town",
-      "score": 51,
-      "window": {
-       "start": "00:00",
-       "end": "01:18",
-       "label": "high tide 00:18",
-       "start_iso": "2026-10-18T00:00+10:00",
-       "end_iso": "2026-10-18T01:18+10:00"
-      },
-      "confidence": "low",
-      "colour": "amber"
-     },
-     {
-      "location": "teewah",
-      "score": 51,
-      "window": {
-       "start": "00:00",
-       "end": "01:18",
-       "label": "high tide 00:18",
-       "start_iso": "2026-10-18T00:00+10:00",
-       "end_iso": "2026-10-18T01:18+10:00"
-      },
-      "confidence": "low",
-      "colour": "amber"
      }
     ],
     "dart": [
      {
       "location": "teewah",
-      "score": 65,
+      "score": 67,
       "window": {
        "start": "11:57",
        "end": "14:27",
@@ -7558,7 +7554,7 @@
      },
      {
       "location": "inskip_ocean",
-      "score": 64,
+      "score": 66,
       "window": {
        "start": "16:17",
        "end": "18:55",
@@ -7567,11 +7563,11 @@
        "end_iso": "2026-10-18T18:55+10:00"
       },
       "confidence": "low",
-      "colour": "amber"
+      "colour": "green"
      },
      {
       "location": "dip_north",
-      "score": 61,
+      "score": 64,
       "window": {
        "start": "11:57",
        "end": "14:27",
@@ -7584,7 +7580,7 @@
      },
      {
       "location": "rainbow_town",
-      "score": 56,
+      "score": 58,
       "window": {
        "start": "11:57",
        "end": "14:27",
@@ -7599,7 +7595,7 @@
     "snapper": [
      {
       "location": "dip_north",
-      "score": 57,
+      "score": 60,
       "window": {
        "start": "00:00",
        "end": "01:18",
@@ -7612,13 +7608,41 @@
      },
      {
       "location": "inskip_ocean",
-      "score": 53,
+      "score": 55,
       "window": {
        "start": "16:17",
        "end": "18:55",
        "label": "major bite 17:32 + dusk",
        "start_iso": "2026-10-18T16:17+10:00",
        "end_iso": "2026-10-18T18:55+10:00"
+      },
+      "confidence": "low",
+      "colour": "amber"
+     }
+    ],
+    "mackerel": [
+     {
+      "location": "inskip_ocean",
+      "score": 59,
+      "window": {
+       "start": "16:17",
+       "end": "18:55",
+       "label": "major bite 17:32 + dusk",
+       "start_iso": "2026-10-18T16:17+10:00",
+       "end_iso": "2026-10-18T18:55+10:00"
+      },
+      "confidence": "low",
+      "colour": "amber"
+     },
+     {
+      "location": "dip_north",
+      "score": 55,
+      "window": {
+       "start": "11:57",
+       "end": "14:27",
+       "label": "high tide 13:27",
+       "start_iso": "2026-10-18T11:57+10:00",
+       "end_iso": "2026-10-18T14:27+10:00"
       },
       "confidence": "low",
       "colour": "amber"
@@ -7640,35 +7664,7 @@
      },
      {
       "location": "inskip_ocean",
-      "score": 46,
-      "window": {
-       "start": "16:17",
-       "end": "18:55",
-       "label": "major bite 17:32 + dusk",
-       "start_iso": "2026-10-18T16:17+10:00",
-       "end_iso": "2026-10-18T18:55+10:00"
-      },
-      "confidence": "low",
-      "colour": "amber"
-     }
-    ],
-    "mackerel": [
-     {
-      "location": "dip_north",
-      "score": 55,
-      "window": {
-       "start": "11:57",
-       "end": "14:27",
-       "label": "high tide 13:27",
-       "start_iso": "2026-10-18T11:57+10:00",
-       "end_iso": "2026-10-18T14:27+10:00"
-      },
-      "confidence": "low",
-      "colour": "amber"
-     },
-     {
-      "location": "inskip_ocean",
-      "score": 54,
+      "score": 49,
       "window": {
        "start": "16:17",
        "end": "18:55",
@@ -7771,10 +7767,10 @@
       "wind_dir": "E",
       "wind_relation": "offshore",
       "effective_wind_kn": 0.9,
-      "seas_m": 1.5,
+      "seas_m": 1.4,
       "swell_m": 1.4,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 22.9,
       "tide_stage": "falling_early",
       "tide_range_m": 0.95,
       "tide_next": {
@@ -7842,10 +7838,10 @@
       "wind_dir": "E",
       "wind_relation": "offshore",
       "effective_wind_kn": 0.9,
-      "seas_m": 1.5,
+      "seas_m": 1.4,
       "swell_m": 1.4,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 22.9,
       "tide_stage": "falling_early",
       "tide_range_m": 0.95,
       "tide_next": {
@@ -7913,10 +7909,10 @@
       "wind_dir": "E",
       "wind_relation": "cross",
       "effective_wind_kn": 9.8,
-      "seas_m": 1.5,
+      "seas_m": 1.4,
       "swell_m": 1.4,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 22.9,
       "tide_stage": "falling_early",
       "tide_range_m": 0.95,
       "tide_next": {
@@ -7984,10 +7980,10 @@
       "wind_dir": "E",
       "wind_relation": "cross",
       "effective_wind_kn": 9.8,
-      "seas_m": 1.5,
+      "seas_m": 1.4,
       "swell_m": 1.4,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 22.9,
       "tide_stage": "falling_early",
       "tide_range_m": 0.95,
       "tide_next": {
@@ -8056,9 +8052,9 @@
       "wind_relation": "cross",
       "effective_wind_kn": 3.9,
       "seas_m": 1.4,
-      "swell_m": 1.4,
+      "swell_m": 1.3,
       "swell_period_s": 6,
-      "sst_c": 22.6,
+      "sst_c": 22.8,
       "tide_stage": "high_turn",
       "tide_range_m": 0.53,
       "tide_next": {
@@ -8126,10 +8122,10 @@
       "wind_dir": "ESE",
       "wind_relation": "cross",
       "effective_wind_kn": 3.8,
-      "seas_m": 1.3,
+      "seas_m": 1.4,
       "swell_m": 1.3,
       "swell_period_s": 6,
-      "sst_c": 22.6,
+      "sst_c": 22.8,
       "tide_stage": "falling_late",
       "tide_range_m": 0.42,
       "tide_next": {
@@ -8196,10 +8192,10 @@
       "wind_dir": "ESE",
       "wind_relation": "offshore",
       "effective_wind_kn": 9.6,
-      "seas_m": 2.0,
+      "seas_m": 2.1,
       "swell_m": 1.8,
       "swell_period_s": 6,
-      "sst_c": 22.6,
+      "sst_c": 22.8,
       "tide_stage": "low_turn",
       "tide_range_m": 0.78,
       "tide_next": {
@@ -8216,7 +8212,7 @@
       "major": null,
       "minor": null
      },
-     "explain": "ESE wind at ~10 kn is offshore for this shore; the window covers the bottom of the tide, which suits mulloway; night is a preferred time for this species; seas around 2.0 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "ESE wind at ~10 kn is offshore for this shore; the window covers the bottom of the tide, which suits mulloway; night is a preferred time for this species; seas around 2.1 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "rank": 7
     },
     {
@@ -8255,9 +8251,9 @@
       "wind_relation": "cross",
       "effective_wind_kn": 10.3,
       "seas_m": 2.0,
-      "swell_m": 1.8,
+      "swell_m": 1.7,
       "swell_period_s": 6,
-      "sst_c": 22.7,
+      "sst_c": 22.9,
       "tide_stage": "falling_early",
       "tide_range_m": 0.78,
       "tide_next": {
@@ -8287,7 +8283,7 @@
       "start_iso": "2026-10-19T04:09+10:00",
       "end_iso": "2026-10-19T08:21+10:00"
      },
-     "score": 71,
+     "score": 70,
      "colour": "green",
      "confidence": "low",
      "basis": [
@@ -8297,7 +8293,7 @@
      "factors": {
       "tide": 0.92,
       "wind": 0.7,
-      "swell": 0.72,
+      "swell": 0.67,
       "light": 1.0,
       "season": 1.0,
       "pressure": 0.8,
@@ -8312,10 +8308,10 @@
       "wind_dir": "E",
       "wind_relation": "onshore",
       "effective_wind_kn": 5.2,
-      "seas_m": 1.3,
+      "seas_m": 1.4,
       "swell_m": 1.3,
       "swell_period_s": 6,
-      "sst_c": 22.6,
+      "sst_c": 22.8,
       "tide_stage": "falling_late",
       "tide_range_m": 0.34,
       "tide_next": {
@@ -8332,7 +8328,7 @@
       "major": "underfoot",
       "minor": null
      },
-     "explain": "E wind at ~5 kn is onshore; the window covers the last of the run-out, which suits whiting; dawn is a preferred time for this species; seas around 1.3 m; the window also catches a major bite time (moon underfoot 05:59) on a fair lunar day; whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "E wind at ~5 kn is onshore; the window covers the last of the run-out, which suits whiting; dawn is a preferred time for this species; seas around 1.4 m; the window also catches a major bite time (moon underfoot 05:59) on a fair lunar day; whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "rank": 9
     },
     {
@@ -8370,10 +8366,10 @@
       "wind_dir": "E",
       "wind_relation": "onshore",
       "effective_wind_kn": 5.7,
-      "seas_m": 1.9,
-      "swell_m": 1.7,
+      "seas_m": 1.8,
+      "swell_m": 1.5,
       "swell_period_s": 6,
-      "sst_c": 22.5,
+      "sst_c": 22.8,
       "tide_stage": "high_turn",
       "tide_range_m": 0.31,
       "tide_next": {
@@ -8390,7 +8386,7 @@
       "major": null,
       "minor": "moonset"
      },
-     "explain": "E wind at ~6 kn is onshore; the window covers the top of the tide, which suits mulloway; night is a preferred time for this species; seas around 1.9 m; the window also catches a minor bite time (moonset 00:36); no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "E wind at ~6 kn is onshore; the window covers the top of the tide, which suits mulloway; night is a preferred time for this species; seas around 1.8 m; the window also catches a minor bite time (moonset 00:36); no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "rank": 10
     }
    ],
@@ -8400,6 +8396,17 @@
      "colour": "amber",
      "confidence": "low",
      "best_species": [
+      {
+       "species": "dart",
+       "score": 63,
+       "window": {
+        "start": "13:12",
+        "end": "15:42",
+        "label": "high tide 14:42",
+        "start_iso": "2026-10-19T13:12+10:00",
+        "end_iso": "2026-10-19T15:42+10:00"
+       }
+      },
       {
        "species": "mulloway",
        "score": 63,
@@ -8412,19 +8419,8 @@
        }
       },
       {
-       "species": "dart",
-       "score": 62,
-       "window": {
-        "start": "13:12",
-        "end": "15:42",
-        "label": "high tide 14:42",
-        "start_iso": "2026-10-19T13:12+10:00",
-        "end_iso": "2026-10-19T15:42+10:00"
-       }
-      },
-      {
        "species": "tailor",
-       "score": 59,
+       "score": 61,
        "window": {
         "start": "00:23",
         "end": "02:53",
@@ -8435,34 +8431,34 @@
       }
      ],
      "best_window": {
-      "start": "16:25",
-      "end": "19:35",
-      "label": "dusk + major bite 18:20",
-      "start_iso": "2026-10-19T16:25+10:00",
-      "end_iso": "2026-10-19T19:35+10:00"
+      "start": "13:12",
+      "end": "15:42",
+      "label": "high tide 14:42",
+      "start_iso": "2026-10-19T13:12+10:00",
+      "end_iso": "2026-10-19T15:42+10:00"
      },
      "conditions": {
-      "wind_kn": 9,
-      "gust_kn": 24,
+      "wind_kn": 11,
+      "gust_kn": 25,
       "wind_dir": "E",
       "wind_relation": "onshore",
-      "effective_wind_kn": 9.4,
-      "seas_m": 2.0,
-      "swell_m": 1.8,
+      "effective_wind_kn": 10.7,
+      "seas_m": 1.9,
+      "swell_m": 1.7,
       "swell_period_s": 6,
-      "sst_c": 22.7,
-      "tide_stage": "falling_early",
-      "tide_range_m": 0.78,
+      "sst_c": 22.9,
+      "tide_stage": "high_turn",
+      "tide_range_m": 0.76,
       "tide_next": {
-       "t": "2026-10-19T21:39+10:00",
-       "h": 0.79,
-       "type": "L"
+       "t": "2026-10-19T14:42+10:00",
+       "h": 1.57,
+       "type": "H"
       },
-      "light": "dusk",
-      "rain_24h_mm": 2.9
+      "light": "day",
+      "rain_24h_mm": 2.7
      },
      "warnings": [],
-     "explain": "E wind at ~9 kn is onshore; the window covers the start of the run-out, which suits mulloway; dusk is a preferred time for this species; seas around 2.0 m; the window also catches a major bite time (moon overhead 18:20) on a fair lunar day; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "E wind at ~11 kn is onshore; the window covers the top of the tide, which suits dart; day is a preferred time for this species; seas around 1.9 m; dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "rainbow_north": {
@@ -8494,7 +8490,7 @@
       },
       {
        "species": "dart",
-       "score": 50,
+       "score": 48,
        "window": {
         "start": "04:09",
         "end": "08:21",
@@ -8517,10 +8513,10 @@
       "wind_dir": "E",
       "wind_relation": "onshore",
       "effective_wind_kn": 7.0,
-      "seas_m": 1.8,
+      "seas_m": 1.9,
       "swell_m": 1.6,
       "swell_period_s": 6,
-      "sst_c": 22.5,
+      "sst_c": 22.8,
       "tide_stage": "falling_late",
       "tide_range_m": 0.34,
       "tide_next": {
@@ -8532,17 +8528,17 @@
       "rain_24h_mm": 2.8
      },
      "warnings": [],
-     "explain": "E wind at ~7 kn is onshore; the window covers the last of the run-out, which suits whiting; dawn is a preferred time for this species; seas around 1.8 m; the window also catches a major bite time (moon underfoot 05:59) on a fair lunar day; whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "E wind at ~7 kn is onshore; the window covers the last of the run-out, which suits whiting; dawn is a preferred time for this species; seas around 1.9 m; the window also catches a major bite time (moon underfoot 05:59) on a fair lunar day; whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "inskip_ocean": {
-     "score": 71,
+     "score": 70,
      "colour": "green",
      "confidence": "low",
      "best_species": [
       {
        "species": "whiting",
-       "score": 71,
+       "score": 70,
        "window": {
         "start": "04:09",
         "end": "08:21",
@@ -8564,7 +8560,7 @@
       },
       {
        "species": "mackerel",
-       "score": 60,
+       "score": 59,
        "window": {
         "start": "04:09",
         "end": "08:21",
@@ -8587,10 +8583,10 @@
       "wind_dir": "E",
       "wind_relation": "onshore",
       "effective_wind_kn": 5.2,
-      "seas_m": 1.3,
+      "seas_m": 1.4,
       "swell_m": 1.3,
       "swell_period_s": 6,
-      "sst_c": 22.6,
+      "sst_c": 22.8,
       "tide_stage": "falling_late",
       "tide_range_m": 0.34,
       "tide_next": {
@@ -8602,7 +8598,7 @@
       "rain_24h_mm": 2.6
      },
      "warnings": [],
-     "explain": "E wind at ~5 kn is onshore; the window covers the last of the run-out, which suits whiting; dawn is a preferred time for this species; seas around 1.3 m; the window also catches a major bite time (moon underfoot 05:59) on a fair lunar day; whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "E wind at ~5 kn is onshore; the window covers the last of the run-out, which suits whiting; dawn is a preferred time for this species; seas around 1.4 m; the window also catches a major bite time (moon underfoot 05:59) on a fair lunar day; whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "inskip_bay": {
@@ -8657,10 +8653,10 @@
       "wind_dir": "E",
       "wind_relation": "offshore",
       "effective_wind_kn": 0.9,
-      "seas_m": 1.5,
+      "seas_m": 1.4,
       "swell_m": 1.4,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 22.9,
       "tide_stage": "falling_early",
       "tide_range_m": 0.95,
       "tide_next": {
@@ -8739,10 +8735,10 @@
       "wind_dir": "E",
       "wind_relation": "cross",
       "effective_wind_kn": 9.8,
-      "seas_m": 1.5,
+      "seas_m": 1.4,
       "swell_m": 1.4,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 22.9,
       "tide_stage": "falling_early",
       "tide_range_m": 0.95,
       "tide_next": {
@@ -8821,10 +8817,10 @@
       "wind_dir": "ESE",
       "wind_relation": "cross",
       "effective_wind_kn": 3.8,
-      "seas_m": 1.3,
+      "seas_m": 1.4,
       "swell_m": 1.3,
       "swell_period_s": 6,
-      "sst_c": 22.6,
+      "sst_c": 22.8,
       "tide_stage": "falling_late",
       "tide_range_m": 0.42,
       "tide_next": {
@@ -8869,7 +8865,7 @@
       },
       {
        "species": "tailor",
-       "score": 50,
+       "score": 48,
        "window": {
         "start": "20:09",
         "end": "22:39",
@@ -8880,7 +8876,7 @@
       },
       {
        "species": "dart",
-       "score": 50,
+       "score": 48,
        "window": {
         "start": "04:09",
         "end": "08:21",
@@ -8903,10 +8899,10 @@
       "wind_dir": "ENE",
       "wind_relation": "onshore",
       "effective_wind_kn": 8.5,
-      "seas_m": 1.8,
+      "seas_m": 1.9,
       "swell_m": 1.6,
       "swell_period_s": 6,
-      "sst_c": 22.5,
+      "sst_c": 22.8,
       "tide_stage": "falling_late",
       "tide_range_m": 0.34,
       "tide_next": {
@@ -8918,7 +8914,7 @@
       "rain_24h_mm": 2.1
      },
      "warnings": [],
-     "explain": "ENE wind at ~8 kn is onshore; the window covers the last of the run-out, which suits whiting; dawn is a preferred time for this species; seas around 1.8 m; the window also catches a major bite time (moon underfoot 05:59) on a fair lunar day; whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "ENE wind at ~8 kn is onshore; the window covers the last of the run-out, which suits whiting; dawn is a preferred time for this species; seas around 1.9 m; the window also catches a major bite time (moon underfoot 05:59) on a fair lunar day; whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "dip_north": {
@@ -8939,7 +8935,7 @@
       },
       {
        "species": "tailor",
-       "score": 69,
+       "score": 71,
        "window": {
         "start": "00:23",
         "end": "02:53",
@@ -8950,7 +8946,7 @@
       },
       {
        "species": "dart",
-       "score": 68,
+       "score": 70,
        "window": {
         "start": "13:12",
         "end": "15:42",
@@ -8973,10 +8969,10 @@
       "wind_dir": "ESE",
       "wind_relation": "offshore",
       "effective_wind_kn": 9.6,
-      "seas_m": 2.0,
+      "seas_m": 2.1,
       "swell_m": 1.8,
       "swell_period_s": 6,
-      "sst_c": 22.6,
+      "sst_c": 22.8,
       "tide_stage": "low_turn",
       "tide_range_m": 0.78,
       "tide_next": {
@@ -8988,7 +8984,7 @@
       "rain_24h_mm": 4.1
      },
      "warnings": [],
-     "explain": "ESE wind at ~10 kn is offshore for this shore; the window covers the bottom of the tide, which suits mulloway; night is a preferred time for this species; seas around 2.0 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "ESE wind at ~10 kn is offshore for this shore; the window covers the bottom of the tide, which suits mulloway; night is a preferred time for this species; seas around 2.1 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "teewah": {
@@ -9009,7 +9005,7 @@
       },
       {
        "species": "tailor",
-       "score": 65,
+       "score": 66,
        "window": {
         "start": "00:23",
         "end": "02:53",
@@ -9020,7 +9016,7 @@
       },
       {
        "species": "dart",
-       "score": 62,
+       "score": 63,
        "window": {
         "start": "13:12",
         "end": "15:42",
@@ -9043,10 +9039,10 @@
       "wind_dir": "E",
       "wind_relation": "onshore",
       "effective_wind_kn": 5.7,
-      "seas_m": 1.9,
-      "swell_m": 1.7,
+      "seas_m": 1.8,
+      "swell_m": 1.5,
       "swell_period_s": 6,
-      "sst_c": 22.5,
+      "sst_c": 22.8,
       "tide_stage": "high_turn",
       "tide_range_m": 0.31,
       "tide_next": {
@@ -9058,7 +9054,7 @@
       "rain_24h_mm": 3.4
      },
      "warnings": [],
-     "explain": "E wind at ~6 kn is onshore; the window covers the top of the tide, which suits mulloway; night is a preferred time for this species; seas around 1.9 m; the window also catches a minor bite time (moonset 00:36); no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "E wind at ~6 kn is onshore; the window covers the top of the tide, which suits mulloway; night is a preferred time for this species; seas around 1.8 m; the window also catches a minor bite time (moonset 00:36); no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     }
    },
@@ -9296,7 +9292,7 @@
      },
      {
       "location": "rainbow_town",
-      "score": 50,
+      "score": 48,
       "window": {
        "start": "04:09",
        "end": "08:21",
@@ -9337,7 +9333,7 @@
      },
      {
       "location": "inskip_ocean",
-      "score": 71,
+      "score": 70,
       "window": {
        "start": "04:09",
        "end": "08:21",
@@ -9419,7 +9415,7 @@
     "tailor": [
      {
       "location": "dip_north",
-      "score": 69,
+      "score": 71,
       "window": {
        "start": "00:23",
        "end": "02:53",
@@ -9432,7 +9428,7 @@
      },
      {
       "location": "teewah",
-      "score": 65,
+      "score": 66,
       "window": {
        "start": "00:23",
        "end": "02:53",
@@ -9445,7 +9441,7 @@
      },
      {
       "location": "rainbow_town",
-      "score": 59,
+      "score": 61,
       "window": {
        "start": "00:23",
        "end": "02:53",
@@ -9458,7 +9454,7 @@
      },
      {
       "location": "rainbow_to_dip",
-      "score": 50,
+      "score": 48,
       "window": {
        "start": "20:09",
        "end": "22:39",
@@ -9473,7 +9469,7 @@
     "dart": [
      {
       "location": "dip_north",
-      "score": 68,
+      "score": 70,
       "window": {
        "start": "13:12",
        "end": "15:42",
@@ -9485,21 +9481,8 @@
       "colour": "green"
      },
      {
-      "location": "inskip_ocean",
-      "score": 62,
-      "window": {
-       "start": "04:09",
-       "end": "08:21",
-       "label": "dawn + major bite 05:59 + low tide 07:21",
-       "start_iso": "2026-10-19T04:09+10:00",
-       "end_iso": "2026-10-19T08:21+10:00"
-      },
-      "confidence": "low",
-      "colour": "amber"
-     },
-     {
       "location": "rainbow_town",
-      "score": 62,
+      "score": 63,
       "window": {
        "start": "13:12",
        "end": "15:42",
@@ -9512,21 +9495,6 @@
      },
      {
       "location": "teewah",
-      "score": 62,
-      "window": {
-       "start": "13:12",
-       "end": "15:42",
-       "label": "high tide 14:42",
-       "start_iso": "2026-10-19T13:12+10:00",
-       "end_iso": "2026-10-19T15:42+10:00"
-      },
-      "confidence": "low",
-      "colour": "amber"
-     }
-    ],
-    "cobia": [
-     {
-      "location": "dip_north",
       "score": 63,
       "window": {
        "start": "13:12",
@@ -9540,7 +9508,35 @@
      },
      {
       "location": "inskip_ocean",
-      "score": 48,
+      "score": 62,
+      "window": {
+       "start": "04:09",
+       "end": "08:21",
+       "label": "dawn + major bite 05:59 + low tide 07:21",
+       "start_iso": "2026-10-19T04:09+10:00",
+       "end_iso": "2026-10-19T08:21+10:00"
+      },
+      "confidence": "low",
+      "colour": "amber"
+     }
+    ],
+    "cobia": [
+     {
+      "location": "dip_north",
+      "score": 66,
+      "window": {
+       "start": "13:12",
+       "end": "15:42",
+       "label": "high tide 14:42",
+       "start_iso": "2026-10-19T13:12+10:00",
+       "end_iso": "2026-10-19T15:42+10:00"
+      },
+      "confidence": "low",
+      "colour": "green"
+     },
+     {
+      "location": "inskip_ocean",
+      "score": 49,
       "window": {
        "start": "04:09",
        "end": "08:21",
@@ -9555,7 +9551,7 @@
     "snapper": [
      {
       "location": "dip_north",
-      "score": 60,
+      "score": 62,
       "window": {
        "start": "00:23",
        "end": "02:53",
@@ -9583,7 +9579,7 @@
     "mackerel": [
      {
       "location": "inskip_ocean",
-      "score": 60,
+      "score": 59,
       "window": {
        "start": "04:09",
        "end": "08:21",
@@ -9699,10 +9695,10 @@
       "wind_dir": "E",
       "wind_relation": "offshore",
       "effective_wind_kn": 0.8,
-      "seas_m": 1.2,
-      "swell_m": 1.2,
+      "seas_m": 1.1,
+      "swell_m": 1.1,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 23.2,
       "tide_stage": "falling_early",
       "tide_range_m": 1.04,
       "tide_next": {
@@ -9770,10 +9766,10 @@
       "wind_dir": "E",
       "wind_relation": "offshore",
       "effective_wind_kn": 0.8,
-      "seas_m": 1.2,
-      "swell_m": 1.2,
+      "seas_m": 1.1,
+      "swell_m": 1.1,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 23.2,
       "tide_stage": "falling_early",
       "tide_range_m": 1.04,
       "tide_next": {
@@ -9841,10 +9837,10 @@
       "wind_dir": "E",
       "wind_relation": "cross",
       "effective_wind_kn": 8.0,
-      "seas_m": 1.2,
-      "swell_m": 1.2,
+      "seas_m": 1.1,
+      "swell_m": 1.1,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 23.2,
       "tide_stage": "falling_early",
       "tide_range_m": 1.04,
       "tide_next": {
@@ -9912,10 +9908,10 @@
       "wind_dir": "E",
       "wind_relation": "cross",
       "effective_wind_kn": 8.0,
-      "seas_m": 1.2,
-      "swell_m": 1.2,
+      "seas_m": 1.1,
+      "swell_m": 1.1,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 23.2,
       "tide_stage": "falling_early",
       "tide_range_m": 1.04,
       "tide_next": {
@@ -9983,10 +9979,10 @@
       "wind_dir": "ESE",
       "wind_relation": "cross",
       "effective_wind_kn": 4.8,
-      "seas_m": 1.3,
+      "seas_m": 1.4,
       "swell_m": 1.3,
       "swell_period_s": 6,
-      "sst_c": 22.6,
+      "sst_c": 22.8,
       "tide_stage": "falling_early",
       "tide_range_m": 0.51,
       "tide_next": {
@@ -10054,10 +10050,10 @@
       "wind_dir": "ESE",
       "wind_relation": "cross",
       "effective_wind_kn": 4.8,
-      "seas_m": 1.3,
+      "seas_m": 1.4,
       "swell_m": 1.3,
       "swell_period_s": 6,
-      "sst_c": 22.6,
+      "sst_c": 22.8,
       "tide_stage": "falling_early",
       "tide_range_m": 0.51,
       "tide_next": {
@@ -10091,7 +10087,7 @@
     },
     {
      "location": "dip_north",
-     "species": "tailor",
+     "species": "mulloway",
      "window": {
       "start": "01:45",
       "end": "09:51",
@@ -10127,7 +10123,65 @@
       "seas_m": 1.8,
       "swell_m": 1.7,
       "swell_period_s": 6,
-      "sst_c": 22.6,
+      "sst_c": 22.8,
+      "tide_stage": "falling_early",
+      "tide_range_m": 0.41,
+      "tide_next": {
+       "t": "2026-10-20T08:51+10:00",
+       "h": 0.8,
+       "type": "L"
+      },
+      "light": "dawn",
+      "rain_24h_mm": 2.6
+     },
+     "evidence": [],
+     "solunar": {
+      "day_rating": "Fair",
+      "major": "underfoot",
+      "minor": null
+     },
+     "explain": "ESE wind at ~8 kn is offshore for this shore; the window covers the start of the run-out, which suits mulloway; dawn is a preferred time for this species; seas around 1.8 m; the window also catches a major bite time (moon underfoot 06:46) on a fair lunar day; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "rank": 7
+    },
+    {
+     "location": "dip_north",
+     "species": "tailor",
+     "window": {
+      "start": "01:45",
+      "end": "09:51",
+      "label": "high tide 03:15 + dawn + major bite 06:46 + low tide 08:51",
+      "start_iso": "2026-10-20T01:45+10:00",
+      "end_iso": "2026-10-20T09:51+10:00"
+     },
+     "score": 78,
+     "colour": "green",
+     "confidence": "low",
+     "basis": [
+      "conditions",
+      "season"
+     ],
+     "factors": {
+      "tide": 0.92,
+      "wind": 1.0,
+      "swell": 0.99,
+      "light": 1.0,
+      "season": 0.5,
+      "pressure": 0.8,
+      "rain": 0.7,
+      "lunar": 0.73,
+      "reports": 0.35
+     },
+     "warnings": [],
+     "conditions": {
+      "wind_kn": 8,
+      "gust_kn": 18,
+      "wind_dir": "ESE",
+      "wind_relation": "offshore",
+      "effective_wind_kn": 7.7,
+      "seas_m": 1.8,
+      "swell_m": 1.7,
+      "swell_period_s": 6,
+      "sst_c": 22.8,
       "tide_stage": "falling_early",
       "tide_range_m": 0.41,
       "tide_next": {
@@ -10145,64 +10199,6 @@
       "minor": null
      },
      "explain": "ESE wind at ~8 kn is offshore for this shore; the window covers the start of the run-out, which suits tailor; dawn is a preferred time for this species; seas around 1.8 m; the window also catches a major bite time (moon underfoot 06:46) on a fair lunar day; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
-     "rank": 7
-    },
-    {
-     "location": "dip_north",
-     "species": "trevally",
-     "window": {
-      "start": "01:45",
-      "end": "09:51",
-      "label": "high tide 03:15 + dawn + major bite 06:46 + low tide 08:51",
-      "start_iso": "2026-10-20T01:45+10:00",
-      "end_iso": "2026-10-20T09:51+10:00"
-     },
-     "score": 79,
-     "colour": "green",
-     "confidence": "low",
-     "basis": [
-      "conditions",
-      "season"
-     ],
-     "factors": {
-      "tide": 0.92,
-      "wind": 1.0,
-      "swell": 1.0,
-      "light": 1.0,
-      "season": 0.5,
-      "pressure": 0.8,
-      "rain": 0.7,
-      "lunar": 0.73,
-      "reports": 0.35
-     },
-     "warnings": [],
-     "conditions": {
-      "wind_kn": 8,
-      "gust_kn": 18,
-      "wind_dir": "ESE",
-      "wind_relation": "offshore",
-      "effective_wind_kn": 7.7,
-      "seas_m": 1.8,
-      "swell_m": 1.7,
-      "swell_period_s": 6,
-      "sst_c": 22.6,
-      "tide_stage": "falling_early",
-      "tide_range_m": 0.41,
-      "tide_next": {
-       "t": "2026-10-20T08:51+10:00",
-       "h": 0.8,
-       "type": "L"
-      },
-      "light": "dawn",
-      "rain_24h_mm": 2.6
-     },
-     "evidence": [],
-     "solunar": {
-      "day_rating": "Fair",
-      "major": "underfoot",
-      "minor": null
-     },
-     "explain": "ESE wind at ~8 kn is offshore for this shore; the window covers the start of the run-out, which suits trevally; dawn is a preferred time for this species; seas around 1.8 m; the window also catches a major bite time (moon underfoot 06:46) on a fair lunar day; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "rank": 8
     },
     {
@@ -10215,7 +10211,7 @@
       "start_iso": "2026-10-20T14:10+10:00",
       "end_iso": "2026-10-20T20:21+10:00"
      },
-     "score": 72,
+     "score": 74,
      "colour": "green",
      "confidence": "low",
      "basis": [
@@ -10225,7 +10221,7 @@
      "factors": {
       "tide": 0.95,
       "wind": 0.55,
-      "swell": 0.91,
+      "swell": 0.99,
       "light": 1.0,
       "season": 1.0,
       "pressure": 0.8,
@@ -10240,10 +10236,10 @@
       "wind_dir": "E",
       "wind_relation": "onshore",
       "effective_wind_kn": 8.2,
-      "seas_m": 1.6,
+      "seas_m": 1.5,
       "swell_m": 1.5,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 23.1,
       "tide_stage": "falling_early",
       "tide_range_m": 0.91,
       "tide_next": {
@@ -10260,7 +10256,7 @@
       "major": "overhead",
       "minor": null
      },
-     "explain": "E wind at ~8 kn is onshore; the window covers the start of the run-out, which suits dart; dusk is a preferred time for this species; seas around 1.6 m; the window also catches a major bite time (moon overhead 19:06) on a fair lunar day; dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "E wind at ~8 kn is onshore; the window covers the start of the run-out, which suits dart; dusk is a preferred time for this species; seas around 1.5 m; the window also catches a major bite time (moon overhead 19:06) on a fair lunar day; dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "rank": 9
     },
     {
@@ -10273,7 +10269,7 @@
       "start_iso": "2026-10-20T14:10+10:00",
       "end_iso": "2026-10-20T20:21+10:00"
      },
-     "score": 72,
+     "score": 74,
      "colour": "green",
      "confidence": "low",
      "basis": [
@@ -10283,7 +10279,7 @@
      "factors": {
       "tide": 0.95,
       "wind": 0.55,
-      "swell": 0.91,
+      "swell": 0.99,
       "light": 1.0,
       "season": 1.0,
       "pressure": 0.8,
@@ -10298,10 +10294,10 @@
       "wind_dir": "E",
       "wind_relation": "onshore",
       "effective_wind_kn": 7.5,
-      "seas_m": 1.6,
+      "seas_m": 1.5,
       "swell_m": 1.5,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 23.1,
       "tide_stage": "falling_early",
       "tide_range_m": 0.91,
       "tide_next": {
@@ -10318,19 +10314,19 @@
       "major": "overhead",
       "minor": null
      },
-     "explain": "E wind at ~8 kn is onshore; the window covers the start of the run-out, which suits dart; dusk is a preferred time for this species; seas around 1.6 m; the window also catches a major bite time (moon overhead 19:06) on a fair lunar day; dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "E wind at ~8 kn is onshore; the window covers the start of the run-out, which suits dart; dusk is a preferred time for this species; seas around 1.5 m; the window also catches a major bite time (moon overhead 19:06) on a fair lunar day; dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "rank": 10
     }
    ],
    "locations": {
     "rainbow_town": {
-     "score": 72,
+     "score": 74,
      "colour": "green",
      "confidence": "low",
      "best_species": [
       {
        "species": "dart",
-       "score": 72,
+       "score": 74,
        "window": {
         "start": "14:10",
         "end": "20:21",
@@ -10375,10 +10371,10 @@
       "wind_dir": "E",
       "wind_relation": "onshore",
       "effective_wind_kn": 8.2,
-      "seas_m": 1.6,
+      "seas_m": 1.5,
       "swell_m": 1.5,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 23.1,
       "tide_stage": "falling_early",
       "tide_range_m": 0.91,
       "tide_next": {
@@ -10390,17 +10386,17 @@
       "rain_24h_mm": 2.1
      },
      "warnings": [],
-     "explain": "E wind at ~8 kn is onshore; the window covers the start of the run-out, which suits dart; dusk is a preferred time for this species; seas around 1.6 m; the window also catches a major bite time (moon overhead 19:06) on a fair lunar day; dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "E wind at ~8 kn is onshore; the window covers the start of the run-out, which suits dart; dusk is a preferred time for this species; seas around 1.5 m; the window also catches a major bite time (moon overhead 19:06) on a fair lunar day; dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "rainbow_north": {
-     "score": 53,
+     "score": 55,
      "colour": "amber",
      "confidence": "low",
      "best_species": [
       {
        "species": "bream",
-       "score": 53,
+       "score": 55,
        "window": {
         "start": "20:56",
         "end": "23:26",
@@ -10411,7 +10407,7 @@
       },
       {
        "species": "whiting",
-       "score": 50,
+       "score": 52,
        "window": {
         "start": "20:56",
         "end": "23:26",
@@ -10445,10 +10441,10 @@
       "wind_dir": "ENE",
       "wind_relation": "onshore",
       "effective_wind_kn": 6.2,
-      "seas_m": 1.6,
+      "seas_m": 1.5,
       "swell_m": 1.5,
       "swell_period_s": 6,
-      "sst_c": 22.7,
+      "sst_c": 22.9,
       "tide_stage": "low_turn",
       "tide_range_m": 0.91,
       "tide_next": {
@@ -10462,17 +10458,17 @@
      "warnings": [
       "Window sits around high tide — beach driving access restricted"
      ],
-     "explain": "ENE wind at ~6 kn is onshore; the window covers the bottom of the tide, which suits bream; night is a preferred time for this species; seas around 1.6 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "ENE wind at ~6 kn is onshore; the window covers the bottom of the tide, which suits bream; night is a preferred time for this species; seas around 1.5 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "inskip_ocean": {
-     "score": 64,
-     "colour": "amber",
+     "score": 65,
+     "colour": "green",
      "confidence": "low",
      "best_species": [
       {
        "species": "whiting",
-       "score": 64,
+       "score": 65,
        "window": {
         "start": "20:56",
         "end": "23:26",
@@ -10517,10 +10513,10 @@
       "wind_dir": "E",
       "wind_relation": "onshore",
       "effective_wind_kn": 5.6,
-      "seas_m": 1.2,
-      "swell_m": 1.2,
+      "seas_m": 1.1,
+      "swell_m": 1.1,
       "swell_period_s": 6,
-      "sst_c": 22.7,
+      "sst_c": 23.0,
       "tide_stage": "low_turn",
       "tide_range_m": 0.91,
       "tide_next": {
@@ -10534,7 +10530,7 @@
      "warnings": [
       "Window sits around high tide — beach driving access restricted"
      ],
-     "explain": "E wind at ~6 kn is onshore; the window covers the bottom of the tide, which suits whiting; seas around 1.2 m; whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "E wind at ~6 kn is onshore; the window covers the bottom of the tide, which suits whiting; seas around 1.1 m; whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "inskip_bay": {
@@ -10566,7 +10562,7 @@
       },
       {
        "species": "mangrove_jack",
-       "score": 79,
+       "score": 80,
        "window": {
         "start": "15:13",
         "end": "20:21",
@@ -10589,10 +10585,10 @@
       "wind_dir": "E",
       "wind_relation": "offshore",
       "effective_wind_kn": 0.8,
-      "seas_m": 1.2,
-      "swell_m": 1.2,
+      "seas_m": 1.1,
+      "swell_m": 1.1,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 23.2,
       "tide_stage": "falling_early",
       "tide_range_m": 1.04,
       "tide_next": {
@@ -10671,10 +10667,10 @@
       "wind_dir": "E",
       "wind_relation": "cross",
       "effective_wind_kn": 8.0,
-      "seas_m": 1.2,
-      "swell_m": 1.2,
+      "seas_m": 1.1,
+      "swell_m": 1.1,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 23.2,
       "tide_stage": "falling_early",
       "tide_range_m": 1.04,
       "tide_next": {
@@ -10730,7 +10726,7 @@
       },
       {
        "species": "mangrove_jack",
-       "score": 75,
+       "score": 76,
        "window": {
         "start": "02:27",
         "end": "08:01",
@@ -10753,10 +10749,10 @@
       "wind_dir": "ESE",
       "wind_relation": "cross",
       "effective_wind_kn": 4.8,
-      "seas_m": 1.3,
+      "seas_m": 1.4,
       "swell_m": 1.3,
       "swell_period_s": 6,
-      "sst_c": 22.6,
+      "sst_c": 22.8,
       "tide_stage": "falling_early",
       "tide_range_m": 0.51,
       "tide_next": {
@@ -10784,13 +10780,13 @@
      ]
     },
     "rainbow_to_dip": {
-     "score": 50,
+     "score": 52,
      "colour": "amber",
      "confidence": "low",
      "best_species": [
       {
        "species": "whiting",
-       "score": 50,
+       "score": 52,
        "window": {
         "start": "20:56",
         "end": "23:26",
@@ -10835,10 +10831,10 @@
       "wind_dir": "ENE",
       "wind_relation": "onshore",
       "effective_wind_kn": 7.1,
-      "seas_m": 1.6,
+      "seas_m": 1.5,
       "swell_m": 1.5,
       "swell_period_s": 6,
-      "sst_c": 22.7,
+      "sst_c": 22.9,
       "tide_stage": "low_turn",
       "tide_range_m": 0.91,
       "tide_next": {
@@ -10852,7 +10848,7 @@
      "warnings": [
       "Window sits around high tide — beach driving access restricted"
      ],
-     "explain": "ENE wind at ~7 kn is onshore; the window covers the bottom of the tide, which suits whiting; seas around 1.6 m; whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "ENE wind at ~7 kn is onshore; the window covers the bottom of the tide, which suits whiting; seas around 1.5 m; whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "dip_north": {
@@ -10861,8 +10857,19 @@
      "confidence": "low",
      "best_species": [
       {
-       "species": "tailor",
+       "species": "mulloway",
        "score": 79,
+       "window": {
+        "start": "01:45",
+        "end": "09:51",
+        "label": "high tide 03:15 + dawn + major bite 06:46 + low tide 08:51",
+        "start_iso": "2026-10-20T01:45+10:00",
+        "end_iso": "2026-10-20T09:51+10:00"
+       }
+      },
+      {
+       "species": "tailor",
+       "score": 78,
        "window": {
         "start": "01:45",
         "end": "09:51",
@@ -10873,18 +10880,7 @@
       },
       {
        "species": "trevally",
-       "score": 79,
-       "window": {
-        "start": "01:45",
-        "end": "09:51",
-        "label": "high tide 03:15 + dawn + major bite 06:46 + low tide 08:51",
-        "start_iso": "2026-10-20T01:45+10:00",
-        "end_iso": "2026-10-20T09:51+10:00"
-       }
-      },
-      {
-       "species": "mulloway",
-       "score": 79,
+       "score": 78,
        "window": {
         "start": "01:45",
         "end": "09:51",
@@ -10910,7 +10906,7 @@
       "seas_m": 1.8,
       "swell_m": 1.7,
       "swell_period_s": 6,
-      "sst_c": 22.6,
+      "sst_c": 22.8,
       "tide_stage": "falling_early",
       "tide_range_m": 0.41,
       "tide_next": {
@@ -10922,17 +10918,17 @@
       "rain_24h_mm": 2.6
      },
      "warnings": [],
-     "explain": "ESE wind at ~8 kn is offshore for this shore; the window covers the start of the run-out, which suits tailor; dawn is a preferred time for this species; seas around 1.8 m; the window also catches a major bite time (moon underfoot 06:46) on a fair lunar day; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "ESE wind at ~8 kn is offshore for this shore; the window covers the start of the run-out, which suits mulloway; dawn is a preferred time for this species; seas around 1.8 m; the window also catches a major bite time (moon underfoot 06:46) on a fair lunar day; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "teewah": {
-     "score": 72,
+     "score": 74,
      "colour": "green",
      "confidence": "low",
      "best_species": [
       {
        "species": "dart",
-       "score": 72,
+       "score": 74,
        "window": {
         "start": "14:10",
         "end": "20:21",
@@ -10977,10 +10973,10 @@
       "wind_dir": "E",
       "wind_relation": "onshore",
       "effective_wind_kn": 7.5,
-      "seas_m": 1.6,
+      "seas_m": 1.5,
       "swell_m": 1.5,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 23.1,
       "tide_stage": "falling_early",
       "tide_range_m": 0.91,
       "tide_next": {
@@ -10992,7 +10988,7 @@
       "rain_24h_mm": 1.8
      },
      "warnings": [],
-     "explain": "E wind at ~8 kn is onshore; the window covers the start of the run-out, which suits dart; dusk is a preferred time for this species; seas around 1.6 m; the window also catches a major bite time (moon overhead 19:06) on a fair lunar day; dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "E wind at ~8 kn is onshore; the window covers the start of the run-out, which suits dart; dusk is a preferred time for this species; seas around 1.5 m; the window also catches a major bite time (moon overhead 19:06) on a fair lunar day; dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     }
    },
@@ -11040,7 +11036,7 @@
      },
      {
       "location": "rainbow_town",
-      "score": 58,
+      "score": 60,
       "window": {
        "start": "14:10",
        "end": "20:21",
@@ -11093,77 +11089,10 @@
       "colour": "green"
      }
     ],
-    "tailor": [
-     {
-      "location": "dip_north",
-      "score": 79,
-      "window": {
-       "start": "01:45",
-       "end": "09:51",
-       "label": "high tide 03:15 + dawn + major bite 06:46 + low tide 08:51",
-       "start_iso": "2026-10-20T01:45+10:00",
-       "end_iso": "2026-10-20T09:51+10:00"
-      },
-      "confidence": "low",
-      "colour": "green"
-     },
-     {
-      "location": "inskip_ocean",
-      "score": 50,
-      "window": {
-       "start": "20:56",
-       "end": "23:26",
-       "label": "low tide 22:26",
-       "start_iso": "2026-10-20T20:56+10:00",
-       "end_iso": "2026-10-20T23:26+10:00"
-      },
-      "confidence": "low",
-      "colour": "amber"
-     },
-     {
-      "location": "teewah",
-      "score": 50,
-      "window": {
-       "start": "20:56",
-       "end": "23:26",
-       "label": "low tide 22:26",
-       "start_iso": "2026-10-20T20:56+10:00",
-       "end_iso": "2026-10-20T23:26+10:00"
-      },
-      "confidence": "low",
-      "colour": "amber"
-     },
-     {
-      "location": "rainbow_town",
-      "score": 47,
-      "window": {
-       "start": "14:10",
-       "end": "20:21",
-       "label": "high tide 15:40 + dusk + major bite 19:06",
-       "start_iso": "2026-10-20T14:10+10:00",
-       "end_iso": "2026-10-20T20:21+10:00"
-      },
-      "confidence": "low",
-      "colour": "amber"
-     }
-    ],
-    "trevally": [
-     {
-      "location": "dip_north",
-      "score": 79,
-      "window": {
-       "start": "01:45",
-       "end": "09:51",
-       "label": "high tide 03:15 + dawn + major bite 06:46 + low tide 08:51",
-       "start_iso": "2026-10-20T01:45+10:00",
-       "end_iso": "2026-10-20T09:51+10:00"
-      },
-      "confidence": "low",
-      "colour": "green"
-     },
+    "mangrove_jack": [
      {
       "location": "inskip_bay",
-      "score": 72,
+      "score": 80,
       "window": {
        "start": "15:13",
        "end": "20:21",
@@ -11176,7 +11105,7 @@
      },
      {
       "location": "carlo_point",
-      "score": 70,
+      "score": 77,
       "window": {
        "start": "15:13",
        "end": "20:21",
@@ -11189,7 +11118,7 @@
      },
      {
       "location": "tin_can_bay",
-      "score": 69,
+      "score": 76,
       "window": {
        "start": "02:27",
        "end": "08:01",
@@ -11255,10 +11184,77 @@
       "colour": "amber"
      }
     ],
-    "mangrove_jack": [
+    "tailor": [
+     {
+      "location": "dip_north",
+      "score": 78,
+      "window": {
+       "start": "01:45",
+       "end": "09:51",
+       "label": "high tide 03:15 + dawn + major bite 06:46 + low tide 08:51",
+       "start_iso": "2026-10-20T01:45+10:00",
+       "end_iso": "2026-10-20T09:51+10:00"
+      },
+      "confidence": "low",
+      "colour": "green"
+     },
+     {
+      "location": "inskip_ocean",
+      "score": 50,
+      "window": {
+       "start": "20:56",
+       "end": "23:26",
+       "label": "low tide 22:26",
+       "start_iso": "2026-10-20T20:56+10:00",
+       "end_iso": "2026-10-20T23:26+10:00"
+      },
+      "confidence": "low",
+      "colour": "amber"
+     },
+     {
+      "location": "teewah",
+      "score": 50,
+      "window": {
+       "start": "20:56",
+       "end": "23:26",
+       "label": "low tide 22:26",
+       "start_iso": "2026-10-20T20:56+10:00",
+       "end_iso": "2026-10-20T23:26+10:00"
+      },
+      "confidence": "low",
+      "colour": "amber"
+     },
+     {
+      "location": "rainbow_town",
+      "score": 47,
+      "window": {
+       "start": "14:10",
+       "end": "20:21",
+       "label": "high tide 15:40 + dusk + major bite 19:06",
+       "start_iso": "2026-10-20T14:10+10:00",
+       "end_iso": "2026-10-20T20:21+10:00"
+      },
+      "confidence": "low",
+      "colour": "amber"
+     }
+    ],
+    "trevally": [
+     {
+      "location": "dip_north",
+      "score": 78,
+      "window": {
+       "start": "01:45",
+       "end": "09:51",
+       "label": "high tide 03:15 + dawn + major bite 06:46 + low tide 08:51",
+       "start_iso": "2026-10-20T01:45+10:00",
+       "end_iso": "2026-10-20T09:51+10:00"
+      },
+      "confidence": "low",
+      "colour": "green"
+     },
      {
       "location": "inskip_bay",
-      "score": 79,
+      "score": 72,
       "window": {
        "start": "15:13",
        "end": "20:21",
@@ -11271,7 +11267,7 @@
      },
      {
       "location": "carlo_point",
-      "score": 77,
+      "score": 70,
       "window": {
        "start": "15:13",
        "end": "20:21",
@@ -11284,7 +11280,7 @@
      },
      {
       "location": "tin_can_bay",
-      "score": 75,
+      "score": 69,
       "window": {
        "start": "02:27",
        "end": "08:01",
@@ -11338,7 +11334,7 @@
      },
      {
       "location": "teewah",
-      "score": 59,
+      "score": 60,
       "window": {
        "start": "20:56",
        "end": "23:26",
@@ -11353,7 +11349,7 @@
     "dart": [
      {
       "location": "rainbow_town",
-      "score": 72,
+      "score": 74,
       "window": {
        "start": "14:10",
        "end": "20:21",
@@ -11366,7 +11362,7 @@
      },
      {
       "location": "teewah",
-      "score": 72,
+      "score": 74,
       "window": {
        "start": "14:10",
        "end": "20:21",
@@ -11379,13 +11375,13 @@
      },
      {
       "location": "dip_north",
-      "score": 66,
+      "score": 68,
       "window": {
-       "start": "01:45",
-       "end": "09:51",
-       "label": "high tide 03:15 + dawn + major bite 06:46 + low tide 08:51",
-       "start_iso": "2026-10-20T01:45+10:00",
-       "end_iso": "2026-10-20T09:51+10:00"
+       "start": "14:10",
+       "end": "20:21",
+       "label": "high tide 15:40 + dusk + major bite 19:06",
+       "start_iso": "2026-10-20T14:10+10:00",
+       "end_iso": "2026-10-20T20:21+10:00"
       },
       "confidence": "low",
       "colour": "green"
@@ -11407,13 +11403,13 @@
     "snapper": [
      {
       "location": "dip_north",
-      "score": 71,
+      "score": 73,
       "window": {
-       "start": "01:45",
-       "end": "09:51",
-       "label": "high tide 03:15 + dawn + major bite 06:46 + low tide 08:51",
-       "start_iso": "2026-10-20T01:45+10:00",
-       "end_iso": "2026-10-20T09:51+10:00"
+       "start": "14:10",
+       "end": "20:21",
+       "label": "high tide 15:40 + dusk + major bite 19:06",
+       "start_iso": "2026-10-20T14:10+10:00",
+       "end_iso": "2026-10-20T20:21+10:00"
       },
       "confidence": "low",
       "colour": "green"
@@ -11437,11 +11433,11 @@
       "location": "dip_north",
       "score": 69,
       "window": {
-       "start": "01:45",
-       "end": "09:51",
-       "label": "high tide 03:15 + dawn + major bite 06:46 + low tide 08:51",
-       "start_iso": "2026-10-20T01:45+10:00",
-       "end_iso": "2026-10-20T09:51+10:00"
+       "start": "14:10",
+       "end": "20:21",
+       "label": "high tide 15:40 + dusk + major bite 19:06",
+       "start_iso": "2026-10-20T14:10+10:00",
+       "end_iso": "2026-10-20T20:21+10:00"
       },
       "confidence": "low",
       "colour": "green"
@@ -11475,6 +11471,19 @@
       "colour": "green"
      },
      {
+      "location": "inskip_ocean",
+      "score": 65,
+      "window": {
+       "start": "20:56",
+       "end": "23:26",
+       "label": "low tide 22:26",
+       "start_iso": "2026-10-20T20:56+10:00",
+       "end_iso": "2026-10-20T23:26+10:00"
+      },
+      "confidence": "low",
+      "colour": "green"
+     },
+     {
       "location": "inskip_bay",
       "score": 64,
       "window": {
@@ -11483,19 +11492,6 @@
        "label": "high tide 03:57 + dawn + major bite 06:46",
        "start_iso": "2026-10-20T02:27+10:00",
        "end_iso": "2026-10-20T08:01+10:00"
-      },
-      "confidence": "low",
-      "colour": "amber"
-     },
-     {
-      "location": "inskip_ocean",
-      "score": 64,
-      "window": {
-       "start": "20:56",
-       "end": "23:26",
-       "label": "low tide 22:26",
-       "start_iso": "2026-10-20T20:56+10:00",
-       "end_iso": "2026-10-20T23:26+10:00"
       },
       "confidence": "low",
       "colour": "amber"
@@ -11517,13 +11513,13 @@
     "cobia": [
      {
       "location": "dip_north",
-      "score": 62,
+      "score": 63,
       "window": {
-       "start": "01:45",
-       "end": "09:51",
-       "label": "high tide 03:15 + dawn + major bite 06:46 + low tide 08:51",
-       "start_iso": "2026-10-20T01:45+10:00",
-       "end_iso": "2026-10-20T09:51+10:00"
+       "start": "14:10",
+       "end": "20:21",
+       "label": "high tide 15:40 + dusk + major bite 19:06",
+       "start_iso": "2026-10-20T14:10+10:00",
+       "end_iso": "2026-10-20T20:21+10:00"
       },
       "confidence": "low",
       "colour": "amber"
@@ -11636,7 +11632,7 @@
       "seas_m": 1.2,
       "swell_m": 1.2,
       "swell_period_s": 6,
-      "sst_c": 22.9,
+      "sst_c": 23.1,
       "tide_stage": "high_turn",
       "tide_range_m": 1.19,
       "tide_next": {
@@ -11707,7 +11703,7 @@
       "seas_m": 1.2,
       "swell_m": 1.2,
       "swell_period_s": 6,
-      "sst_c": 22.7,
+      "sst_c": 22.9,
       "tide_stage": "falling_early",
       "tide_range_m": 0.72,
       "tide_next": {
@@ -11778,7 +11774,7 @@
       "seas_m": 1.2,
       "swell_m": 1.2,
       "swell_period_s": 6,
-      "sst_c": 22.9,
+      "sst_c": 23.1,
       "tide_stage": "high_turn",
       "tide_range_m": 1.19,
       "tide_next": {
@@ -11849,7 +11845,7 @@
       "seas_m": 1.2,
       "swell_m": 1.2,
       "swell_period_s": 6,
-      "sst_c": 22.7,
+      "sst_c": 22.9,
       "tide_stage": "falling_early",
       "tide_range_m": 0.72,
       "tide_next": {
@@ -11920,7 +11916,7 @@
       "seas_m": 1.2,
       "swell_m": 1.2,
       "swell_period_s": 6,
-      "sst_c": 22.7,
+      "sst_c": 22.9,
       "tide_stage": "falling_early",
       "tide_range_m": 0.72,
       "tide_next": {
@@ -11991,7 +11987,7 @@
       "seas_m": 1.2,
       "swell_m": 1.2,
       "swell_period_s": 6,
-      "sst_c": 22.7,
+      "sst_c": 22.9,
       "tide_stage": "falling_early",
       "tide_range_m": 0.72,
       "tide_next": {
@@ -12033,7 +12029,7 @@
       "start_iso": "2026-10-21T02:42+10:00",
       "end_iso": "2026-10-21T10:58+10:00"
      },
-     "score": 75,
+     "score": 76,
      "colour": "green",
      "confidence": "low",
      "basis": [
@@ -12043,7 +12039,7 @@
      "factors": {
       "tide": 0.93,
       "wind": 0.7,
-      "swell": 0.89,
+      "swell": 0.93,
       "light": 1.0,
       "season": 1.0,
       "pressure": 0.8,
@@ -12061,7 +12057,7 @@
       "seas_m": 1.6,
       "swell_m": 1.6,
       "swell_period_s": 6,
-      "sst_c": 22.7,
+      "sst_c": 22.9,
       "tide_stage": "falling_early",
       "tide_range_m": 0.58,
       "tide_next": {
@@ -12091,7 +12087,7 @@
       "start_iso": "2026-10-21T02:42+10:00",
       "end_iso": "2026-10-21T10:58+10:00"
      },
-     "score": 75,
+     "score": 76,
      "colour": "green",
      "confidence": "low",
      "basis": [
@@ -12101,7 +12097,7 @@
      "factors": {
       "tide": 0.93,
       "wind": 0.7,
-      "swell": 0.89,
+      "swell": 0.93,
       "light": 1.0,
       "season": 1.0,
       "pressure": 0.8,
@@ -12119,7 +12115,7 @@
       "seas_m": 1.6,
       "swell_m": 1.6,
       "swell_period_s": 6,
-      "sst_c": 22.7,
+      "sst_c": 22.9,
       "tide_stage": "falling_early",
       "tide_range_m": 0.58,
       "tide_next": {
@@ -12138,64 +12134,6 @@
      },
      "explain": "ENE wind at ~5 kn is onshore; the window covers the start of the run-out, which suits dart; day is a preferred time for this species; seas around 1.6 m; the window also catches a major bite time (moon underfoot 07:31) on a poor lunar day; dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "rank": 8
-    },
-    {
-     "location": "rainbow_town",
-     "species": "dart",
-     "window": {
-      "start": "14:58",
-      "end": "21:04",
-      "label": "high tide 16:28 + dusk + major bite 19:49",
-      "start_iso": "2026-10-21T14:58+10:00",
-      "end_iso": "2026-10-21T21:04+10:00"
-     },
-     "score": 73,
-     "colour": "green",
-     "confidence": "low",
-     "basis": [
-      "conditions",
-      "season"
-     ],
-     "factors": {
-      "tide": 0.95,
-      "wind": 0.55,
-      "swell": 0.98,
-      "light": 1.0,
-      "season": 1.0,
-      "pressure": 0.8,
-      "rain": 0.7,
-      "lunar": 0.64,
-      "reports": 0.35
-     },
-     "warnings": [],
-     "conditions": {
-      "wind_kn": 8,
-      "gust_kn": 21,
-      "wind_dir": "ENE",
-      "wind_relation": "onshore",
-      "effective_wind_kn": 7.8,
-      "seas_m": 1.5,
-      "swell_m": 1.5,
-      "swell_period_s": 6,
-      "sst_c": 23.0,
-      "tide_stage": "falling_early",
-      "tide_range_m": 1.06,
-      "tide_next": {
-       "t": "2026-10-21T23:04+10:00",
-       "h": 0.61,
-       "type": "L"
-      },
-      "light": "dusk",
-      "rain_24h_mm": 2.2
-     },
-     "evidence": [],
-     "solunar": {
-      "day_rating": "Poor",
-      "major": "overhead",
-      "minor": null
-     },
-     "explain": "ENE wind at ~8 kn is onshore; the window covers the start of the run-out, which suits dart; dusk is a preferred time for this species; seas around 1.5 m; the window also catches a major bite time (moon overhead 19:49) on a poor lunar day; dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
-     "rank": 9
     },
     {
      "location": "dip_north",
@@ -12232,10 +12170,10 @@
       "wind_dir": "ENE",
       "wind_relation": "cross",
       "effective_wind_kn": 8.2,
-      "seas_m": 1.5,
+      "seas_m": 1.6,
       "swell_m": 1.5,
       "swell_period_s": 6,
-      "sst_c": 23.0,
+      "sst_c": 23.1,
       "tide_stage": "falling_early",
       "tide_range_m": 1.06,
       "tide_next": {
@@ -12252,19 +12190,77 @@
       "major": "overhead",
       "minor": null
      },
-     "explain": "ENE wind at ~8 kn is across the beach; the window covers the start of the run-out, which suits tailor; dusk is a preferred time for this species; seas around 1.5 m; the window also catches a major bite time (moon overhead 19:49) on a poor lunar day; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "ENE wind at ~8 kn is across the beach; the window covers the start of the run-out, which suits tailor; dusk is a preferred time for this species; seas around 1.6 m; the window also catches a major bite time (moon overhead 19:49) on a poor lunar day; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "rank": 9
+    },
+    {
+     "location": "dip_north",
+     "species": "trevally",
+     "window": {
+      "start": "14:58",
+      "end": "21:04",
+      "label": "high tide 16:28 + dusk + major bite 19:49",
+      "start_iso": "2026-10-21T14:58+10:00",
+      "end_iso": "2026-10-21T21:04+10:00"
+     },
+     "score": 73,
+     "colour": "green",
+     "confidence": "low",
+     "basis": [
+      "conditions",
+      "season"
+     ],
+     "factors": {
+      "tide": 0.95,
+      "wind": 0.8,
+      "swell": 1.0,
+      "light": 1.0,
+      "season": 0.5,
+      "pressure": 0.8,
+      "rain": 0.7,
+      "lunar": 0.64,
+      "reports": 0.35
+     },
+     "warnings": [],
+     "conditions": {
+      "wind_kn": 8,
+      "gust_kn": 22,
+      "wind_dir": "ENE",
+      "wind_relation": "cross",
+      "effective_wind_kn": 8.2,
+      "seas_m": 1.6,
+      "swell_m": 1.5,
+      "swell_period_s": 6,
+      "sst_c": 23.1,
+      "tide_stage": "falling_early",
+      "tide_range_m": 1.06,
+      "tide_next": {
+       "t": "2026-10-21T23:04+10:00",
+       "h": 0.61,
+       "type": "L"
+      },
+      "light": "dusk",
+      "rain_24h_mm": 3.6
+     },
+     "evidence": [],
+     "solunar": {
+      "day_rating": "Poor",
+      "major": "overhead",
+      "minor": null
+     },
+     "explain": "ENE wind at ~8 kn is across the beach; the window covers the start of the run-out, which suits trevally; dusk is a preferred time for this species; seas around 1.6 m; the window also catches a major bite time (moon overhead 19:49) on a poor lunar day; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "rank": 10
     }
    ],
    "locations": {
     "rainbow_town": {
-     "score": 75,
+     "score": 76,
      "colour": "green",
      "confidence": "low",
      "best_species": [
       {
        "species": "dart",
-       "score": 75,
+       "score": 76,
        "window": {
         "start": "02:42",
         "end": "10:58",
@@ -12312,7 +12308,7 @@
       "seas_m": 1.6,
       "swell_m": 1.6,
       "swell_period_s": 6,
-      "sst_c": 22.7,
+      "sst_c": 22.9,
       "tide_stage": "falling_early",
       "tide_range_m": 0.58,
       "tide_next": {
@@ -12328,13 +12324,13 @@
      "evidence": []
     },
     "rainbow_north": {
-     "score": 54,
+     "score": 53,
      "colour": "amber",
      "confidence": "low",
      "best_species": [
       {
        "species": "bream",
-       "score": 54,
+       "score": 53,
        "window": {
         "start": "21:34",
         "end": "23:59",
@@ -12345,7 +12341,7 @@
       },
       {
        "species": "whiting",
-       "score": 51,
+       "score": 50,
        "window": {
         "start": "21:34",
         "end": "23:59",
@@ -12379,10 +12375,10 @@
       "wind_dir": "ENE",
       "wind_relation": "onshore",
       "effective_wind_kn": 6.2,
-      "seas_m": 1.5,
-      "swell_m": 1.3,
+      "seas_m": 1.6,
+      "swell_m": 1.5,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 23.0,
       "tide_stage": "low_turn",
       "tide_range_m": 1.06,
       "tide_next": {
@@ -12396,17 +12392,17 @@
      "warnings": [
       "Window sits around high tide — beach driving access restricted"
      ],
-     "explain": "ENE wind at ~6 kn is onshore; the window covers the bottom of the tide, which suits bream; night is a preferred time for this species; seas around 1.5 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "ENE wind at ~6 kn is onshore; the window covers the bottom of the tide, which suits bream; night is a preferred time for this species; seas around 1.6 m; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "inskip_ocean": {
-     "score": 64,
+     "score": 63,
      "colour": "amber",
      "confidence": "low",
      "best_species": [
       {
        "species": "whiting",
-       "score": 64,
+       "score": 63,
        "window": {
         "start": "21:34",
         "end": "23:59",
@@ -12454,7 +12450,7 @@
       "seas_m": 1.2,
       "swell_m": 1.2,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 23.0,
       "tide_stage": "low_turn",
       "tide_range_m": 1.06,
       "tide_next": {
@@ -12526,7 +12522,7 @@
       "seas_m": 1.2,
       "swell_m": 1.2,
       "swell_period_s": 6,
-      "sst_c": 22.9,
+      "sst_c": 23.1,
       "tide_stage": "high_turn",
       "tide_range_m": 1.19,
       "tide_next": {
@@ -12608,7 +12604,7 @@
       "seas_m": 1.2,
       "swell_m": 1.2,
       "swell_period_s": 6,
-      "sst_c": 22.9,
+      "sst_c": 23.1,
       "tide_stage": "high_turn",
       "tide_range_m": 1.19,
       "tide_next": {
@@ -12690,7 +12686,7 @@
       "seas_m": 1.2,
       "swell_m": 1.2,
       "swell_period_s": 6,
-      "sst_c": 22.7,
+      "sst_c": 22.9,
       "tide_stage": "falling_early",
       "tide_range_m": 0.72,
       "tide_next": {
@@ -12718,13 +12714,13 @@
      ]
     },
     "rainbow_to_dip": {
-     "score": 51,
+     "score": 50,
      "colour": "amber",
      "confidence": "low",
      "best_species": [
       {
        "species": "whiting",
-       "score": 51,
+       "score": 50,
        "window": {
         "start": "21:34",
         "end": "23:59",
@@ -12769,10 +12765,10 @@
       "wind_dir": "ENE",
       "wind_relation": "onshore",
       "effective_wind_kn": 7.1,
-      "seas_m": 1.5,
-      "swell_m": 1.3,
+      "seas_m": 1.6,
+      "swell_m": 1.5,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 23.0,
       "tide_stage": "low_turn",
       "tide_range_m": 1.06,
       "tide_next": {
@@ -12786,7 +12782,7 @@
      "warnings": [
       "Window sits around high tide — beach driving access restricted"
      ],
-     "explain": "ENE wind at ~7 kn is onshore; the window covers the bottom of the tide, which suits whiting; seas around 1.5 m; whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "ENE wind at ~7 kn is onshore; the window covers the bottom of the tide, which suits whiting; seas around 1.6 m; whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "dip_north": {
@@ -12841,10 +12837,10 @@
       "wind_dir": "ENE",
       "wind_relation": "cross",
       "effective_wind_kn": 8.2,
-      "seas_m": 1.5,
+      "seas_m": 1.6,
       "swell_m": 1.5,
       "swell_period_s": 6,
-      "sst_c": 23.0,
+      "sst_c": 23.1,
       "tide_stage": "falling_early",
       "tide_range_m": 1.06,
       "tide_next": {
@@ -12856,17 +12852,17 @@
       "rain_24h_mm": 3.6
      },
      "warnings": [],
-     "explain": "ENE wind at ~8 kn is across the beach; the window covers the start of the run-out, which suits tailor; dusk is a preferred time for this species; seas around 1.5 m; the window also catches a major bite time (moon overhead 19:49) on a poor lunar day; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "ENE wind at ~8 kn is across the beach; the window covers the start of the run-out, which suits tailor; dusk is a preferred time for this species; seas around 1.6 m; the window also catches a major bite time (moon overhead 19:49) on a poor lunar day; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "teewah": {
-     "score": 75,
+     "score": 76,
      "colour": "green",
      "confidence": "low",
      "best_species": [
       {
        "species": "dart",
-       "score": 75,
+       "score": 76,
        "window": {
         "start": "02:42",
         "end": "10:58",
@@ -12914,7 +12910,7 @@
       "seas_m": 1.6,
       "swell_m": 1.6,
       "swell_period_s": 6,
-      "sst_c": 22.7,
+      "sst_c": 22.9,
       "tide_stage": "falling_early",
       "tide_range_m": 0.58,
       "tide_next": {
@@ -13015,13 +13011,13 @@
      },
      {
       "location": "rainbow_town",
-      "score": 59,
+      "score": 62,
       "window": {
-       "start": "14:58",
-       "end": "21:04",
-       "label": "high tide 16:28 + dusk + major bite 19:49",
-       "start_iso": "2026-10-21T14:58+10:00",
-       "end_iso": "2026-10-21T21:04+10:00"
+       "start": "02:42",
+       "end": "10:58",
+       "label": "high tide 04:12 + dawn + major bite 07:31 + low tide 09:58",
+       "start_iso": "2026-10-21T02:42+10:00",
+       "end_iso": "2026-10-21T10:58+10:00"
       },
       "confidence": "low",
       "colour": "amber"
@@ -13069,7 +13065,7 @@
      },
      {
       "location": "inskip_ocean",
-      "score": 64,
+      "score": 63,
       "window": {
        "start": "21:34",
        "end": "23:59",
@@ -13084,7 +13080,7 @@
     "mangrove_jack": [
      {
       "location": "inskip_bay",
-      "score": 77,
+      "score": 78,
       "window": {
        "start": "03:44",
        "end": "08:46",
@@ -13125,7 +13121,7 @@
     "dart": [
      {
       "location": "rainbow_town",
-      "score": 75,
+      "score": 76,
       "window": {
        "start": "02:42",
        "end": "10:58",
@@ -13138,7 +13134,7 @@
      },
      {
       "location": "teewah",
-      "score": 75,
+      "score": 76,
       "window": {
        "start": "02:42",
        "end": "10:58",
@@ -13151,7 +13147,7 @@
      },
      {
       "location": "dip_north",
-      "score": 67,
+      "score": 65,
       "window": {
        "start": "14:58",
        "end": "21:04",
@@ -13218,7 +13214,7 @@
      },
      {
       "location": "teewah",
-      "score": 60,
+      "score": 58,
       "window": {
        "start": "21:34",
        "end": "23:59",
@@ -13395,7 +13391,7 @@
     "snapper": [
      {
       "location": "dip_north",
-      "score": 72,
+      "score": 71,
       "window": {
        "start": "14:58",
        "end": "21:04",
@@ -13423,7 +13419,7 @@
     "mackerel": [
      {
       "location": "dip_north",
-      "score": 68,
+      "score": 70,
       "window": {
        "start": "02:42",
        "end": "10:58",
@@ -13451,13 +13447,13 @@
     "cobia": [
      {
       "location": "dip_north",
-      "score": 62,
+      "score": 63,
       "window": {
-       "start": "14:58",
-       "end": "21:04",
-       "label": "high tide 16:28 + dusk + major bite 19:49",
-       "start_iso": "2026-10-21T14:58+10:00",
-       "end_iso": "2026-10-21T21:04+10:00"
+       "start": "02:42",
+       "end": "10:58",
+       "label": "high tide 04:12 + dawn + major bite 07:31 + low tide 09:58",
+       "start_iso": "2026-10-21T02:42+10:00",
+       "end_iso": "2026-10-21T10:58+10:00"
       },
       "confidence": "low",
       "colour": "amber"
@@ -13709,9 +13705,9 @@
       "wind_relation": "offshore",
       "effective_wind_kn": 0.4,
       "seas_m": 1.1,
-      "swell_m": 1.0,
+      "swell_m": 1.1,
       "swell_period_s": 6,
-      "sst_c": 22.7,
+      "sst_c": 22.9,
       "tide_stage": "high_turn",
       "tide_range_m": 0.96,
       "tide_next": {
@@ -13768,9 +13764,9 @@
       "wind_relation": "onshore",
       "effective_wind_kn": 3.0,
       "seas_m": 1.1,
-      "swell_m": 1.0,
+      "swell_m": 1.1,
       "swell_period_s": 6,
-      "sst_c": 22.7,
+      "sst_c": 22.9,
       "tide_stage": "high_turn",
       "tide_range_m": 0.96,
       "tide_next": {
@@ -13909,9 +13905,9 @@
       "wind_relation": "cross",
       "effective_wind_kn": 4.5,
       "seas_m": 1.1,
-      "swell_m": 1.0,
+      "swell_m": 1.1,
       "swell_period_s": 6,
-      "sst_c": 22.7,
+      "sst_c": 22.9,
       "tide_stage": "high_turn",
       "tide_range_m": 0.96,
       "tide_next": {
@@ -13966,7 +13962,7 @@
       "wind_dir": "ENE",
       "wind_relation": "cross",
       "effective_wind_kn": 8.3,
-      "seas_m": 1.3,
+      "seas_m": 1.4,
       "swell_m": 1.2,
       "swell_period_s": 6,
       "sst_c": 23.1,
@@ -13986,7 +13982,7 @@
       "major": null,
       "minor": null
      },
-     "explain": "ENE wind at ~8 kn is across the beach; the window covers the top of the tide, which suits dart; dusk is a preferred time for this species; seas around 1.3 m; dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "ENE wind at ~8 kn is across the beach; the window covers the top of the tide, which suits dart; dusk is a preferred time for this species; seas around 1.4 m; dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "rank": 7
     },
     {
@@ -13999,7 +13995,7 @@
       "start_iso": "2026-10-22T03:28+10:00",
       "end_iso": "2026-10-22T06:37+10:00"
      },
-     "score": 81,
+     "score": 80,
      "colour": "green",
      "confidence": "low",
      "basis": [
@@ -14009,7 +14005,7 @@
      "factors": {
       "tide": 0.94,
       "wind": 0.8,
-      "swell": 1.0,
+      "swell": 0.97,
       "light": 1.0,
       "season": 1.0,
       "pressure": 0.8,
@@ -14024,10 +14020,10 @@
       "wind_dir": "ENE",
       "wind_relation": "cross",
       "effective_wind_kn": 5.0,
-      "seas_m": 1.4,
-      "swell_m": 1.4,
+      "seas_m": 1.5,
+      "swell_m": 1.2,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 22.9,
       "tide_stage": "high_turn",
       "tide_range_m": 0.77,
       "tide_next": {
@@ -14044,7 +14040,7 @@
       "major": null,
       "minor": null
      },
-     "explain": "ENE wind at ~5 kn is across the beach; the window covers the top of the tide, which suits dart; dawn is a preferred time for this species; seas around 1.4 m; dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "ENE wind at ~5 kn is across the beach; the window covers the top of the tide, which suits dart; dawn is a preferred time for this species; seas around 1.5 m; dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "rank": 8
     },
     {
@@ -14057,7 +14053,7 @@
       "start_iso": "2026-10-22T03:28+10:00",
       "end_iso": "2026-10-22T06:37+10:00"
      },
-     "score": 77,
+     "score": 76,
      "colour": "green",
      "confidence": "low",
      "basis": [
@@ -14067,7 +14063,7 @@
      "factors": {
       "tide": 0.94,
       "wind": 0.7,
-      "swell": 1.0,
+      "swell": 0.97,
       "light": 1.0,
       "season": 1.0,
       "pressure": 0.8,
@@ -14082,10 +14078,10 @@
       "wind_dir": "ENE",
       "wind_relation": "onshore",
       "effective_wind_kn": 3.4,
-      "seas_m": 1.4,
-      "swell_m": 1.4,
+      "seas_m": 1.5,
+      "swell_m": 1.2,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 22.9,
       "tide_stage": "high_turn",
       "tide_range_m": 0.77,
       "tide_next": {
@@ -14102,7 +14098,7 @@
       "major": null,
       "minor": null
      },
-     "explain": "ENE wind at ~3 kn is onshore; the window covers the top of the tide, which suits dart; dawn is a preferred time for this species; seas around 1.4 m; dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "ENE wind at ~3 kn is onshore; the window covers the top of the tide, which suits dart; dawn is a preferred time for this species; seas around 1.5 m; dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "rank": 9
     },
     {
@@ -14115,7 +14111,7 @@
       "start_iso": "2026-10-22T03:28+10:00",
       "end_iso": "2026-10-22T06:37+10:00"
      },
-     "score": 77,
+     "score": 76,
      "colour": "green",
      "confidence": "low",
      "basis": [
@@ -14125,7 +14121,7 @@
      "factors": {
       "tide": 0.94,
       "wind": 0.7,
-      "swell": 1.0,
+      "swell": 0.97,
       "light": 1.0,
       "season": 1.0,
       "pressure": 0.8,
@@ -14140,10 +14136,10 @@
       "wind_dir": "ENE",
       "wind_relation": "onshore",
       "effective_wind_kn": 2.7,
-      "seas_m": 1.4,
-      "swell_m": 1.4,
+      "seas_m": 1.5,
+      "swell_m": 1.2,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 22.9,
       "tide_stage": "high_turn",
       "tide_range_m": 0.77,
       "tide_next": {
@@ -14160,19 +14156,19 @@
       "major": null,
       "minor": null
      },
-     "explain": "ENE wind at ~3 kn is onshore; the window covers the top of the tide, which suits dart; dawn is a preferred time for this species; seas around 1.4 m; dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "ENE wind at ~3 kn is onshore; the window covers the top of the tide, which suits dart; dawn is a preferred time for this species; seas around 1.5 m; dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "rank": 10
     }
    ],
    "locations": {
     "rainbow_town": {
-     "score": 77,
+     "score": 76,
      "colour": "green",
      "confidence": "low",
      "best_species": [
       {
        "species": "dart",
-       "score": 77,
+       "score": 76,
        "window": {
         "start": "03:28",
         "end": "06:37",
@@ -14183,7 +14179,7 @@
       },
       {
        "species": "whiting",
-       "score": 71,
+       "score": 69,
        "window": {
         "start": "07:00",
         "end": "11:50",
@@ -14193,14 +14189,14 @@
        }
       },
       {
-       "species": "flathead",
-       "score": 69,
+       "species": "tailor",
+       "score": 66,
        "window": {
-        "start": "07:00",
-        "end": "11:50",
-        "label": "major bite 08:15 + low tide 10:50",
-        "start_iso": "2026-10-22T07:00+10:00",
-        "end_iso": "2026-10-22T11:50+10:00"
+        "start": "03:28",
+        "end": "06:37",
+        "label": "high tide 04:58 + dawn",
+        "start_iso": "2026-10-22T03:28+10:00",
+        "end_iso": "2026-10-22T06:37+10:00"
        }
       }
      ],
@@ -14217,10 +14213,10 @@
       "wind_dir": "ENE",
       "wind_relation": "onshore",
       "effective_wind_kn": 3.4,
-      "seas_m": 1.4,
-      "swell_m": 1.4,
+      "seas_m": 1.5,
+      "swell_m": 1.2,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 22.9,
       "tide_stage": "high_turn",
       "tide_range_m": 0.77,
       "tide_next": {
@@ -14232,27 +14228,16 @@
       "rain_24h_mm": 1.8
      },
      "warnings": [],
-     "explain": "ENE wind at ~3 kn is onshore; the window covers the top of the tide, which suits dart; dawn is a preferred time for this species; seas around 1.4 m; dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "ENE wind at ~3 kn is onshore; the window covers the top of the tide, which suits dart; dawn is a preferred time for this species; seas around 1.5 m; dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "rainbow_north": {
-     "score": 71,
+     "score": 69,
      "colour": "green",
      "confidence": "low",
      "best_species": [
       {
        "species": "whiting",
-       "score": 71,
-       "window": {
-        "start": "07:00",
-        "end": "11:50",
-        "label": "major bite 08:15 + low tide 10:50",
-        "start_iso": "2026-10-22T07:00+10:00",
-        "end_iso": "2026-10-22T11:50+10:00"
-       }
-      },
-      {
-       "species": "flathead",
        "score": 69,
        "window": {
         "start": "07:00",
@@ -14272,6 +14257,17 @@
         "start_iso": "2026-10-22T22:09+10:00",
         "end_iso": "2026-10-22T23:59+10:00"
        }
+      },
+      {
+       "species": "flathead",
+       "score": 66,
+       "window": {
+        "start": "07:00",
+        "end": "11:50",
+        "label": "major bite 08:15 + low tide 10:50",
+        "start_iso": "2026-10-22T07:00+10:00",
+        "end_iso": "2026-10-22T11:50+10:00"
+       }
       }
      ],
      "best_window": {
@@ -14287,10 +14283,10 @@
       "wind_dir": "ENE",
       "wind_relation": "onshore",
       "effective_wind_kn": 6.0,
-      "seas_m": 1.4,
-      "swell_m": 1.3,
+      "seas_m": 1.5,
+      "swell_m": 1.1,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 23.0,
       "tide_stage": "falling_late",
       "tide_range_m": 0.77,
       "tide_next": {
@@ -14302,17 +14298,17 @@
       "rain_24h_mm": 1.8
      },
      "warnings": [],
-     "explain": "ENE wind at ~6 kn is onshore; the window covers the last of the run-out, which suits whiting; day is a preferred time for this species; seas around 1.4 m; the window also catches a major bite time (moon underfoot 08:15) on a poor lunar day; whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "ENE wind at ~6 kn is onshore; the window covers the last of the run-out, which suits whiting; day is a preferred time for this species; seas around 1.5 m; the window also catches a major bite time (moon underfoot 08:15) on a poor lunar day; whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "inskip_ocean": {
-     "score": 77,
+     "score": 76,
      "colour": "green",
      "confidence": "low",
      "best_species": [
       {
        "species": "whiting",
-       "score": 77,
+       "score": 76,
        "window": {
         "start": "07:00",
         "end": "11:50",
@@ -14323,7 +14319,7 @@
       },
       {
        "species": "mackerel",
-       "score": 64,
+       "score": 65,
        "window": {
         "start": "07:00",
         "end": "11:50",
@@ -14357,10 +14353,10 @@
       "wind_dir": "ENE",
       "wind_relation": "onshore",
       "effective_wind_kn": 5.9,
-      "seas_m": 1.0,
+      "seas_m": 1.1,
       "swell_m": 1.0,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 22.9,
       "tide_stage": "falling_late",
       "tide_range_m": 0.77,
       "tide_next": {
@@ -14372,7 +14368,7 @@
       "rain_24h_mm": 1.8
      },
      "warnings": [],
-     "explain": "ENE wind at ~6 kn is onshore; the window covers the last of the run-out, which suits whiting; day is a preferred time for this species; seas around 1.0 m; the window also catches a major bite time (moon underfoot 08:15) on a poor lunar day; whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "ENE wind at ~6 kn is onshore; the window covers the last of the run-out, which suits whiting; day is a preferred time for this species; seas around 1.1 m; the window also catches a major bite time (moon underfoot 08:15) on a poor lunar day; whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "inskip_bay": {
@@ -14622,13 +14618,13 @@
      ]
     },
     "rainbow_to_dip": {
-     "score": 66,
-     "colour": "green",
+     "score": 63,
+     "colour": "amber",
      "confidence": "low",
      "best_species": [
       {
        "species": "whiting",
-       "score": 66,
+       "score": 63,
        "window": {
         "start": "07:00",
         "end": "11:50",
@@ -14673,10 +14669,10 @@
       "wind_dir": "ENE",
       "wind_relation": "onshore",
       "effective_wind_kn": 6.3,
-      "seas_m": 1.4,
-      "swell_m": 1.3,
+      "seas_m": 1.5,
+      "swell_m": 1.1,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 23.0,
       "tide_stage": "falling_late",
       "tide_range_m": 0.77,
       "tide_next": {
@@ -14688,7 +14684,7 @@
       "rain_24h_mm": 2.4
      },
      "warnings": [],
-     "explain": "ENE wind at ~6 kn is onshore; the window covers the last of the run-out, which suits whiting; day is a preferred time for this species; seas around 1.4 m; the window also catches a major bite time (moon underfoot 08:15) on a poor lunar day; whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "ENE wind at ~6 kn is onshore; the window covers the last of the run-out, which suits whiting; day is a preferred time for this species; seas around 1.5 m; the window also catches a major bite time (moon underfoot 08:15) on a poor lunar day; whiting are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "dip_north": {
@@ -14709,7 +14705,7 @@
       },
       {
        "species": "cobia",
-       "score": 81,
+       "score": 80,
        "window": {
         "start": "03:28",
         "end": "06:37",
@@ -14720,7 +14716,7 @@
       },
       {
        "species": "mackerel",
-       "score": 77,
+       "score": 73,
        "window": {
         "start": "15:39",
         "end": "18:57",
@@ -14743,7 +14739,7 @@
       "wind_dir": "ENE",
       "wind_relation": "cross",
       "effective_wind_kn": 8.3,
-      "seas_m": 1.3,
+      "seas_m": 1.4,
       "swell_m": 1.2,
       "swell_period_s": 6,
       "sst_c": 23.1,
@@ -14758,17 +14754,17 @@
       "rain_24h_mm": 2.4
      },
      "warnings": [],
-     "explain": "ENE wind at ~8 kn is across the beach; the window covers the top of the tide, which suits dart; dusk is a preferred time for this species; seas around 1.3 m; dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "ENE wind at ~8 kn is across the beach; the window covers the top of the tide, which suits dart; dusk is a preferred time for this species; seas around 1.4 m; dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     },
     "teewah": {
-     "score": 77,
+     "score": 76,
      "colour": "green",
      "confidence": "low",
      "best_species": [
       {
        "species": "dart",
-       "score": 77,
+       "score": 76,
        "window": {
         "start": "03:28",
         "end": "06:37",
@@ -14779,7 +14775,7 @@
       },
       {
        "species": "whiting",
-       "score": 71,
+       "score": 69,
        "window": {
         "start": "07:00",
         "end": "11:50",
@@ -14790,7 +14786,7 @@
       },
       {
        "species": "bream",
-       "score": 68,
+       "score": 67,
        "window": {
         "start": "19:18",
         "end": "21:48",
@@ -14813,10 +14809,10 @@
       "wind_dir": "ENE",
       "wind_relation": "onshore",
       "effective_wind_kn": 2.7,
-      "seas_m": 1.4,
-      "swell_m": 1.4,
+      "seas_m": 1.5,
+      "swell_m": 1.2,
       "swell_period_s": 6,
-      "sst_c": 22.8,
+      "sst_c": 22.9,
       "tide_stage": "high_turn",
       "tide_range_m": 0.77,
       "tide_next": {
@@ -14828,7 +14824,7 @@
       "rain_24h_mm": 1.9
      },
      "warnings": [],
-     "explain": "ENE wind at ~3 kn is onshore; the window covers the top of the tide, which suits dart; dawn is a preferred time for this species; seas around 1.4 m; dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
+     "explain": "ENE wind at ~3 kn is onshore; the window covers the top of the tide, which suits dart; dawn is a preferred time for this species; seas around 1.5 m; dart are in peak season; no recent public reports for this species here — ranking rests on conditions and seasonal patterns.",
      "evidence": []
     }
    },
@@ -14917,7 +14913,7 @@
      },
      {
       "location": "inskip_ocean",
-      "score": 77,
+      "score": 76,
       "window": {
        "start": "07:00",
        "end": "11:50",
@@ -14945,7 +14941,7 @@
      },
      {
       "location": "rainbow_town",
-      "score": 77,
+      "score": 76,
       "window": {
        "start": "03:28",
        "end": "06:37",
@@ -14958,7 +14954,7 @@
      },
      {
       "location": "teewah",
-      "score": 77,
+      "score": 76,
       "window": {
        "start": "03:28",
        "end": "06:37",
@@ -14986,7 +14982,7 @@
     "cobia": [
      {
       "location": "dip_north",
-      "score": 81,
+      "score": 80,
       "window": {
        "start": "03:28",
        "end": "06:37",
@@ -15014,7 +15010,7 @@
     "mackerel": [
      {
       "location": "dip_north",
-      "score": 77,
+      "score": 73,
       "window": {
        "start": "15:39",
        "end": "18:57",
@@ -15027,7 +15023,7 @@
      },
      {
       "location": "inskip_ocean",
-      "score": 64,
+      "score": 65,
       "window": {
        "start": "07:00",
        "end": "11:50",
@@ -15036,7 +15032,7 @@
        "end_iso": "2026-10-22T11:50+10:00"
       },
       "confidence": "low",
-      "colour": "amber"
+      "colour": "green"
      }
     ],
     "tailor": [
@@ -15189,7 +15185,7 @@
      },
      {
       "location": "inskip_ocean",
-      "score": 49,
+      "score": 52,
       "window": {
        "start": "19:18",
        "end": "21:48",
@@ -15231,8 +15227,21 @@
     ],
     "flathead": [
      {
+      "location": "inskip_bay",
+      "score": 67,
+      "window": {
+       "start": "04:07",
+       "end": "09:30",
+       "label": "dawn + high tide 06:11 + major bite 08:15",
+       "start_iso": "2026-10-22T04:07+10:00",
+       "end_iso": "2026-10-22T09:30+10:00"
+      },
+      "confidence": "low",
+      "colour": "green"
+     },
+     {
       "location": "rainbow_town",
-      "score": 69,
+      "score": 66,
       "window": {
        "start": "07:00",
        "end": "11:50",
@@ -15245,26 +15254,13 @@
      },
      {
       "location": "rainbow_north",
-      "score": 69,
+      "score": 66,
       "window": {
        "start": "07:00",
        "end": "11:50",
        "label": "major bite 08:15 + low tide 10:50",
        "start_iso": "2026-10-22T07:00+10:00",
        "end_iso": "2026-10-22T11:50+10:00"
-      },
-      "confidence": "low",
-      "colour": "green"
-     },
-     {
-      "location": "inskip_bay",
-      "score": 67,
-      "window": {
-       "start": "04:07",
-       "end": "09:30",
-       "label": "dawn + high tide 06:11 + major bite 08:15",
-       "start_iso": "2026-10-22T04:07+10:00",
-       "end_iso": "2026-10-22T09:30+10:00"
       },
       "confidence": "low",
       "colour": "green"
@@ -15286,7 +15282,7 @@
     "bream": [
      {
       "location": "teewah",
-      "score": 68,
+      "score": 67,
       "window": {
        "start": "19:18",
        "end": "21:48",
@@ -15382,7 +15378,7 @@
   }
  ],
  "health": {
-  "generated_at": "2026-10-15T07:40:01+10:00",
+  "generated_at": "2026-10-15T22:08:08+10:00",
   "next_scheduled": "2026-10-16T04:30:00+10:00",
   "sources": {
    "open_meteo_forecast": {
@@ -15395,7 +15391,7 @@
    },
    "open_meteo_marine": {
     "ok": true,
-    "last_success": "2026-10-15T07:39:42+10:00",
+    "last_success": "2026-10-15T22:07:48+10:00",
     "items": 2,
     "note": null,
     "error": null,
@@ -15403,7 +15399,7 @@
    },
    "bom_coastal": {
     "ok": true,
-    "last_success": "2026-10-15T07:39:45+10:00",
+    "last_success": "2026-10-15T22:07:51+10:00",
     "items": 2,
     "note": null,
     "error": null,
@@ -15411,7 +15407,7 @@
    },
    "bom_obs": {
     "ok": true,
-    "last_success": "2026-10-15T07:39:47+10:00",
+    "last_success": "2026-10-15T22:07:54+10:00",
     "items": 72,
     "note": null,
     "error": null,
@@ -15419,7 +15415,7 @@
    },
    "tides_noosa_head": {
     "ok": true,
-    "last_success": "2026-10-15T07:39:42+10:00",
+    "last_success": "2026-10-15T22:07:48+10:00",
     "items": 1410,
     "note": "cached",
     "error": null,
@@ -15427,7 +15423,7 @@
    },
    "tides_tin_can_bay": {
     "ok": true,
-    "last_success": "2026-10-15T07:39:42+10:00",
+    "last_success": "2026-10-15T22:07:48+10:00",
     "items": 1411,
     "note": "cached",
     "error": null,
@@ -15435,7 +15431,7 @@
    },
    "qpws_alerts": {
     "ok": true,
-    "last_success": "2026-10-15T07:39:42+10:00",
+    "last_success": "2026-10-15T22:07:48+10:00",
     "items": 11,
     "note": null,
     "error": null,
@@ -15443,7 +15439,7 @@
    },
    "coastwatch": {
     "ok": true,
-    "last_success": "2026-10-15T07:39:59+10:00",
+    "last_success": "2026-10-15T22:08:07+10:00",
     "items": 3,
     "note": "Fishing Report for 9 October 2026",
     "error": null,
@@ -15451,7 +15447,7 @@
    },
    "fishos": {
     "ok": true,
-    "last_success": "2026-10-15T07:40:00+10:00",
+    "last_success": "2026-10-15T22:08:08+10:00",
     "items": 3,
     "note": null,
     "error": null,
@@ -15459,7 +15455,7 @@
    },
    "gardiners_blog": {
     "ok": true,
-    "last_success": "2026-10-15T07:40:00+10:00",
+    "last_success": "2026-10-15T22:08:08+10:00",
     "items": 4,
     "note": null,
     "error": null,
@@ -15475,7 +15471,7 @@
    },
    "gsmp_zones": {
     "ok": true,
-    "last_success": "2026-10-15T07:40:01+10:00",
+    "last_success": "2026-10-15T22:08:08+10:00",
     "items": -1,
     "note": "cached",
     "error": null,
@@ -15487,5 +15483,5 @@
   ],
   "overall": "degraded"
  },
- "generated_at": "2026-10-15T07:40:02+10:00"
+ "generated_at": "2026-10-15T22:08:10+10:00"
 }
