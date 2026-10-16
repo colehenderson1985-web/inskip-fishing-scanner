@@ -1,30 +1,20 @@
 {
- "issued": "2026-10-16T21:00:00+10:00",
+ "issued": "2026-10-17T03:00:00+10:00",
  "areas": {
   "K'gari Coast: Sandy Cape to Double Island Point": {
    "periods": [
     {
      "index": "0",
-     "start": "2026-10-16T21:00:00+10:00",
-     "end": "2026-10-17T00:00:00+10:00",
-     "forecast_winds": "Easterly 15 to 20 knots.",
-     "forecast_seas": "1.5 metres.",
-     "forecast_swell1": "South to southeasterly around 1 metre.",
-     "forecast_swell2": "East to southeasterly around 1 metre.",
-     "forecast_weather": "Cloudy."
-    },
-    {
-     "index": "1",
-     "start": "2026-10-17T00:00:00+10:00",
+     "start": "2026-10-17T03:00:00+10:00",
      "end": "2026-10-18T00:00:00+10:00",
      "forecast_winds": "Easterly 15 to 20 knots, reaching up to 25 knots offshore during the afternoon and evening.",
-     "forecast_seas": "1 to 1.5 metres, increasing to 1.5 to 2 metres offshore around midday.",
+     "forecast_seas": "1.5 metres, increasing to 1.5 to 2 metres offshore.",
      "forecast_swell1": "East to southeasterly below 1 metre inshore, increasing to 1 to 1.5 metres offshore.",
      "forecast_swell2": "South to southeasterly around 1 metre.",
      "forecast_weather": "Partly cloudy. 60% chance of showers."
     },
     {
-     "index": "2",
+     "index": "1",
      "start": "2026-10-18T00:00:00+10:00",
      "end": "2026-10-19T00:00:00+10:00",
      "forecast_winds": "Easterly 15 to 20 knots.",
@@ -34,7 +24,7 @@
      "forecast_weather": "Partly cloudy. 50% chance of showers."
     },
     {
-     "index": "3",
+     "index": "2",
      "start": "2026-10-19T00:00:00+10:00",
      "end": "2026-10-20T00:00:00+10:00",
      "forecast_winds": "Easterly 15 to 20 knots.",
@@ -50,24 +40,15 @@
    "periods": [
     {
      "index": "0",
-     "start": "2026-10-16T21:00:00+10:00",
-     "end": "2026-10-17T00:00:00+10:00",
-     "forecast_winds": "Easterly 15 to 20 knots.",
-     "forecast_seas": "Around 1 metre, increasing to 1 to 1.5 metres offshore.",
-     "forecast_swell1": "Southeasterly around 1 metre inshore, increasing to 1.5 metres offshore.",
-     "forecast_weather": "Partly cloudy."
-    },
-    {
-     "index": "1",
-     "start": "2026-10-17T00:00:00+10:00",
+     "start": "2026-10-17T03:00:00+10:00",
      "end": "2026-10-18T00:00:00+10:00",
      "forecast_winds": "Easterly 15 to 20 knots.",
      "forecast_seas": "1 to 1.5 metres, increasing to 1.5 to 2 metres offshore north of Maroochydore.",
      "forecast_swell1": "South to southeasterly around 1 metre inshore, increasing to 1 to 1.5 metres offshore.",
-     "forecast_weather": "Partly cloudy. 70% chance of showers."
+     "forecast_weather": "Partly cloudy. 60% chance of showers."
     },
     {
-     "index": "2",
+     "index": "1",
      "start": "2026-10-18T00:00:00+10:00",
      "end": "2026-10-19T00:00:00+10:00",
      "forecast_winds": "Easterly 15 to 20 knots.",
@@ -77,7 +58,7 @@
      "forecast_weather": "Partly cloudy. 60% chance of showers."
     },
     {
-     "index": "3",
+     "index": "2",
      "start": "2026-10-19T00:00:00+10:00",
      "end": "2026-10-20T00:00:00+10:00",
      "forecast_winds": "Easterly 15 to 20 knots.",
@@ -91,5 +72,5 @@
   }
  },
  "warning_active": false,
- "fetched_at": "2026-10-16T21:54:11+10:00"
+ "fetched_at": "2026-10-17T07:05:22+10:00"
 }
