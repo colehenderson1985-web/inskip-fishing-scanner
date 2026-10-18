@@ -9,14 +9,14 @@
             <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
         </source>
         <identifier>IDQ11290</identifier>
-        <issue-time-utc>2026-10-17T17:00:00Z</issue-time-utc>
-        <issue-time-local tz="EST">2026-10-18T03:00:00+10:00</issue-time-local>
-        <sent-time>2026-10-17T17:01:37Z</sent-time>
-        <expiry-time>2026-10-18T17:00:00Z</expiry-time>
+        <issue-time-utc>2026-10-18T11:00:00Z</issue-time-utc>
+        <issue-time-local tz="EST">2026-10-18T21:00:00+10:00</issue-time-local>
+        <sent-time>2026-10-18T11:00:18Z</sent-time>
+        <expiry-time>2026-10-19T11:00:00Z</expiry-time>
         <validity-bgn-time-local tz="EST">2026-10-18T00:00:00+10:00</validity-bgn-time-local>
-        <validity-end-time-local tz="EST">2026-10-20T23:59:59+10:00</validity-end-time-local>
-        <next-routine-issue-time-utc>2026-10-17T23:00:00Z</next-routine-issue-time-utc>
-        <next-routine-issue-time-local tz="EST">2026-10-18T09:00:00+10:00</next-routine-issue-time-local>
+        <validity-end-time-local tz="EST">2026-10-21T23:59:59+10:00</validity-end-time-local>
+        <next-routine-issue-time-utc>2026-10-18T17:00:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="EST">2026-10-19T03:00:00+10:00</next-routine-issue-time-local>
         <status>O</status>
         <service>WSM</service>
         <sub-service>FCW</sub-service>
@@ -25,22 +25,22 @@
     </amoc>
     <forecast>
         <area aac="QLD_FA002" description="Queensland Gulf of Carpentaria" type="sub-region">
-            <forecast-period start-time-local="2026-10-18T05:00:00+10:00" end-time-local="2026-10-22T00:00:00+10:00" start-time-utc="2026-10-17T19:00:00Z" end-time-utc="2026-10-21T14:00:00Z">
+            <forecast-period start-time-local="2026-10-18T17:00:00+10:00" end-time-local="2026-10-23T00:00:00+10:00" start-time-utc="2026-10-18T07:00:00Z" end-time-utc="2026-10-22T14:00:00Z">
                 <text type="synoptic_situation">A weak pressure gradient persists over the Gulf waters.</text>
             </forecast-period>
         </area>
         <area aac="QLD_FA003" description="North Queensland" type="sub-region">
-            <forecast-period start-time-local="2026-10-18T05:00:00+10:00" end-time-local="2026-10-22T00:00:00+10:00" start-time-utc="2026-10-17T19:00:00Z" end-time-utc="2026-10-21T14:00:00Z">
+            <forecast-period start-time-local="2026-10-18T17:00:00+10:00" end-time-local="2026-10-23T00:00:00+10:00" start-time-utc="2026-10-18T07:00:00Z" end-time-utc="2026-10-22T14:00:00Z">
                 <text type="synoptic_situation">A ridge of high pressure extends over the north Queensland waters and will persist for the next several days.</text>
             </forecast-period>
         </area>
         <area aac="QLD_FA004" description="South Queensland" type="sub-region">
-            <forecast-period start-time-local="2026-10-18T05:00:00+10:00" end-time-local="2026-10-22T00:00:00+10:00" start-time-utc="2026-10-17T19:00:00Z" end-time-utc="2026-10-21T14:00:00Z">
-                <text type="synoptic_situation">A firm ridge extends over the South Queensland waters from a large high [1038 hPa] in the southern Tasman Sea. The high will move slowly east and gradually weaken over the next several days, maintaining the ridge.</text>
+            <forecast-period start-time-local="2026-10-18T17:00:00+10:00" end-time-local="2026-10-23T00:00:00+10:00" start-time-utc="2026-10-18T07:00:00Z" end-time-utc="2026-10-22T14:00:00Z">
+                <text type="synoptic_situation">A firm ridge extends over the South Queensland waters from a large high [1037 hPa] in the southern Tasman Sea. The high will move slowly east and gradually weaken over the next several days, maintaining the ridge.</text>
             </forecast-period>
         </area>
         <area aac="QLD_FA001" description="Queensland" type="region">
-            <forecast-period start-time-local="2026-10-18T03:01:38+10:00" end-time-local="2026-10-18T03:01:38+10:00" start-time-utc="2026-10-17T17:01:38Z" end-time-utc="2026-10-17T17:01:38Z">
+            <forecast-period start-time-local="2026-10-18T21:00:19+10:00" end-time-local="2026-10-18T21:00:19+10:00" start-time-utc="2026-10-18T11:00:19Z" end-time-utc="2026-10-18T11:00:19Z">
                 <text type="preamble">Wind and wave forecasts are averages. Wind gusts can be 40 per cent stronger than the forecast, and stronger still in squalls and thunderstorms. Maximum waves can be twice the forecast height.</text>
                 <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
                 <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones. Marine forecasts are also available on VHF and HF radio. View the radio schedule on www.bom.gov.au/marine</text>
@@ -48,51 +48,63 @@
             </forecast-period>
         </area>
         <area aac="QLD_MW001" description="South East Gulf of Carpentaria: QLD-NT Border to Cape Keerweer" type="coast" parent-aac="QLD_FA001">
-            <forecast-period index="0" start-time-local="2026-10-18T03:00:00+10:00" end-time-local="2026-10-19T00:00:00+10:00" start-time-utc="2026-10-17T17:00:00Z" end-time-utc="2026-10-18T14:00:00Z">
-                <text type="forecast_winds">East to northeasterly 10 to 15 knots tending northwest to northeasterly in the early afternoon then becoming variable about 10 knots in the evening.</text>
-                <text type="forecast_seas">Around 1 metre.</text>
+            <forecast-period index="0" start-time-local="2026-10-18T21:00:00+10:00" end-time-local="2026-10-19T00:00:00+10:00" start-time-utc="2026-10-18T11:00:00Z" end-time-utc="2026-10-18T14:00:00Z">
+                <text type="forecast_winds">Variable about 10 knots.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
                 <text type="forecast_swell1">North to northeasterly below 1 metre.</text>
-                <text type="forecast_weather">Mostly sunny. The chance of a thunderstorm during the morning and afternoon.</text>
+                <text type="forecast_weather">Clear.</text>
             </forecast-period>
             <forecast-period index="1" start-time-local="2026-10-19T00:00:00+10:00" end-time-local="2026-10-20T00:00:00+10:00" start-time-utc="2026-10-18T14:00:00Z" end-time-utc="2026-10-19T14:00:00Z">
-                <text type="forecast_winds">Variable about 10 knots becoming northeast to southeasterly 10 to 15 knots before dawn then tending southeast to southwesterly in the evening.</text>
-                <text type="forecast_seas">Below 1 metre.</text>
-                <text type="forecast_swell1">Northeasterly below 1 metre.</text>
-                <text type="forecast_weather">Sunny.</text>
-            </forecast-period>
-            <forecast-period index="2" start-time-local="2026-10-20T00:00:00+10:00" end-time-local="2026-10-21T00:00:00+10:00" start-time-utc="2026-10-19T14:00:00Z" end-time-utc="2026-10-20T14:00:00Z">
-                <text type="forecast_winds">East to northeasterly 15 to 20 knots shifting west to southwesterly 10 to 15 knots during the afternoon then becoming variable about 10 knots during the evening.</text>
+                <text type="forecast_winds">Variable about 10 knots becoming east to northeasterly 10 to 15 knots before dawn then becoming variable about 10 knots in the evening. Winds reaching up to 20 knots inshore in the evening.</text>
                 <text type="forecast_seas">Around 1 metre.</text>
                 <text type="forecast_swell1">Northeasterly below 1 metre.</text>
+                <text type="forecast_weather">Mostly sunny.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-10-20T00:00:00+10:00" end-time-local="2026-10-21T00:00:00+10:00" start-time-utc="2026-10-19T14:00:00Z" end-time-utc="2026-10-20T14:00:00Z">
+                <text type="forecast_winds">East to northeasterly 15 to 20 knots tending northwest to southwesterly 10 to 15 knots in the late afternoon then becoming variable about 10 knots in the late evening.</text>
+                <text type="forecast_seas">Around 1 metre.</text>
+                <text type="forecast_swell1">Northwest to northeasterly below 1 metre.</text>
+                <text type="forecast_weather">Sunny.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-10-21T00:00:00+10:00" end-time-local="2026-10-22T00:00:00+10:00" start-time-utc="2026-10-20T14:00:00Z" end-time-utc="2026-10-21T14:00:00Z">
+                <text type="forecast_winds">East to northeasterly 10 to 15 knots tending northwest to northeasterly 15 to 20 knots during the day then tending northwest to southwesterly 10 to 15 knots during the evening.</text>
+                <text type="forecast_seas">Around 1 metre.</text>
+                <text type="forecast_swell1">North to northeasterly below 1 metre.</text>
                 <text type="forecast_weather">Sunny.</text>
             </forecast-period>
         </area>
         <area aac="QLD_MW002" description="North East Gulf of Carpentaria: Cape Keerweer to Crab Island" type="coast" parent-aac="QLD_FA001">
-            <forecast-period index="0" start-time-local="2026-10-18T03:00:00+10:00" end-time-local="2026-10-19T00:00:00+10:00" start-time-utc="2026-10-17T17:00:00Z" end-time-utc="2026-10-18T14:00:00Z">
-                <text type="forecast_winds">Easterly 10 to 15 knots, reaching up to 20 knots offshore north of Weipa during the morning. Winds becoming variable about 10 knots in the early afternoon.</text>
+            <forecast-period index="0" start-time-local="2026-10-18T21:00:00+10:00" end-time-local="2026-10-19T00:00:00+10:00" start-time-utc="2026-10-18T11:00:00Z" end-time-utc="2026-10-18T14:00:00Z">
+                <text type="forecast_winds">Variable about 10 knots.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
+                <text type="forecast_swell1">Northeasterly below 1 metre.</text>
+                <text type="forecast_weather">Mostly clear.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-10-19T00:00:00+10:00" end-time-local="2026-10-20T00:00:00+10:00" start-time-utc="2026-10-18T14:00:00Z" end-time-utc="2026-10-19T14:00:00Z">
+                <text type="forecast_winds">Easterly 10 to 15 knots, reaching up to 20 knots offshore north of Cullen Point during the morning. Winds becoming variable about 10 knots in the early afternoon.</text>
                 <text type="forecast_seas">Around 1 metre.</text>
                 <text type="forecast_swell1">Northeasterly below 1 metre.</text>
                 <text type="forecast_weather">Mostly sunny.</text>
             </forecast-period>
-            <forecast-period index="1" start-time-local="2026-10-19T00:00:00+10:00" end-time-local="2026-10-20T00:00:00+10:00" start-time-utc="2026-10-18T14:00:00Z" end-time-utc="2026-10-19T14:00:00Z">
-                <text type="forecast_winds">Easterly 10 to 15 knots becoming variable about 10 knots in the early afternoon.</text>
-                <text type="forecast_seas">Around 1 metre.</text>
-                <text type="forecast_swell1">Northeasterly below 1 metre.</text>
-                <text type="forecast_weather">Sunny.</text>
-            </forecast-period>
             <forecast-period index="2" start-time-local="2026-10-20T00:00:00+10:00" end-time-local="2026-10-21T00:00:00+10:00" start-time-utc="2026-10-19T14:00:00Z" end-time-utc="2026-10-20T14:00:00Z">
-                <text type="forecast_winds">Easterly 15 to 20 knots becoming variable about 10 knots during the afternoon then becoming south to southeasterly 10 to 15 knots during the evening.</text>
-                <text type="forecast_seas">1 to 1.5 metres, decreasing to 1 metre during the afternoon or evening.</text>
-                <text type="forecast_swell1">Northeasterly below 1 metre.</text>
+                <text type="forecast_winds">Easterly 15 to 20 knots becoming variable about 10 knots in the early afternoon then becoming south to southeasterly 10 to 15 knots in the late evening.</text>
+                <text type="forecast_seas">Below 1 metre, increasing to 1 to 1.5 metres during the morning, then decreasing below 1 metre during the afternoon.</text>
+                <text type="forecast_swell1">East to northeasterly below 1 metre.</text>
+                <text type="forecast_weather">Mostly sunny.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-10-21T00:00:00+10:00" end-time-local="2026-10-22T00:00:00+10:00" start-time-utc="2026-10-20T14:00:00Z" end-time-utc="2026-10-21T14:00:00Z">
+                <text type="forecast_winds">Easterly 15 to 20 knots becoming variable about 10 knots during the afternoon.</text>
+                <text type="forecast_seas">Around 1 metre.</text>
+                <text type="forecast_swell1">East to northeasterly below 1 metre.</text>
                 <text type="forecast_weather">Mostly sunny.</text>
             </forecast-period>
         </area>
         <area aac="QLD_MW003" description="Torres Strait" type="coast" parent-aac="QLD_FA001">
-            <forecast-period index="0" start-time-local="2026-10-18T03:00:00+10:00" end-time-local="2026-10-19T00:00:00+10:00" start-time-utc="2026-10-17T17:00:00Z" end-time-utc="2026-10-18T14:00:00Z">
-                <text type="forecast_winds">East to southeasterly 15 to 20 knots.</text>
-                <text type="forecast_seas">1 to 1.5 metres.</text>
-                <text type="forecast_swell1">Southeasterly around 1 metre outside the reef.</text>
-                <text type="forecast_weather">Mostly sunny.</text>
+            <forecast-period index="0" start-time-local="2026-10-18T21:00:00+10:00" end-time-local="2026-10-19T00:00:00+10:00" start-time-utc="2026-10-18T11:00:00Z" end-time-utc="2026-10-18T14:00:00Z">
+                <text type="forecast_winds">East to southeasterly 10 to 15 knots, reaching up to 20 knots offshore west of Cape York.</text>
+                <text type="forecast_seas">Below 1 metre, increasing to 1 to 1.5 metres west of Cape York.</text>
+                <text type="forecast_swell1">East to southeasterly below 1 metre.</text>
+                <text type="forecast_weather">Mostly clear.</text>
             </forecast-period>
             <forecast-period index="1" start-time-local="2026-10-19T00:00:00+10:00" end-time-local="2026-10-20T00:00:00+10:00" start-time-utc="2026-10-18T14:00:00Z" end-time-utc="2026-10-19T14:00:00Z">
                 <text type="forecast_winds">East to southeasterly 15 to 20 knots.</text>
@@ -101,6 +113,12 @@
                 <text type="forecast_weather">Mostly sunny.</text>
             </forecast-period>
             <forecast-period index="2" start-time-local="2026-10-20T00:00:00+10:00" end-time-local="2026-10-21T00:00:00+10:00" start-time-utc="2026-10-19T14:00:00Z" end-time-utc="2026-10-20T14:00:00Z">
+                <text type="forecast_winds">East to southeasterly 15 to 20 knots.</text>
+                <text type="forecast_seas">1 to 1.5 metres.</text>
+                <text type="forecast_swell1">Southeasterly around 1 metre outside the reef.</text>
+                <text type="forecast_weather">Mostly sunny.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-10-21T00:00:00+10:00" end-time-local="2026-10-22T00:00:00+10:00" start-time-utc="2026-10-20T14:00:00Z" end-time-utc="2026-10-21T14:00:00Z">
                 <text type="forecast_winds">East to southeasterly 15 to 20 knots.</text>
                 <text type="forecast_seas">Around 1 metre, increasing to 1 to 1.5 metres west of Cape York.</text>
                 <text type="forecast_swell1">Southeasterly around 1 metre outside the reef.</text>
@@ -108,243 +126,314 @@
             </forecast-period>
         </area>
         <area aac="QLD_MW004" description="Peninsula Coast: Sharp Point to Cape Melville" type="coast" parent-aac="QLD_FA001">
-            <forecast-period index="0" start-time-local="2026-10-18T03:00:00+10:00" end-time-local="2026-10-19T00:00:00+10:00" start-time-utc="2026-10-17T17:00:00Z" end-time-utc="2026-10-18T14:00:00Z">
-                <text type="forecast_winds">East to southeasterly 15 to 20 knots.</text>
-                <text type="forecast_seas">Around 1 metre, increasing to 1 to 1.5 metres south of Cape Sidmouth.</text>
-                <text type="forecast_swell1">East to southeasterly around 1 metre outside the reef, increasing to 1 to 1.5 metres around midday, then tending southeasterly around 1 metre by early evening.</text>
-                <text type="forecast_weather">Partly cloudy. The chance of a thunderstorm inshore during this afternoon and evening.</text>
+            <forecast-period index="0" start-time-local="2026-10-18T21:00:00+10:00" end-time-local="2026-10-19T00:00:00+10:00" start-time-utc="2026-10-18T11:00:00Z" end-time-utc="2026-10-18T14:00:00Z">
+                <text type="forecast_winds">Southeasterly 10 to 15 knots, reaching up to 20 knots offshore south of Cape Sidmouth.</text>
+                <text type="forecast_seas">Around 1 metre.</text>
+                <text type="forecast_swell1">Southeasterly around 1 metre outside the reef.</text>
+                <text type="forecast_weather">Mostly clear.</text>
             </forecast-period>
             <forecast-period index="1" start-time-local="2026-10-19T00:00:00+10:00" end-time-local="2026-10-20T00:00:00+10:00" start-time-utc="2026-10-18T14:00:00Z" end-time-utc="2026-10-19T14:00:00Z">
                 <text type="forecast_winds">East to southeasterly 15 to 20 knots.</text>
-                <text type="forecast_seas">Below 1 metre, increasing to 1 to 1.5 metres outside the reef.</text>
+                <text type="forecast_seas">Around 1 metre, increasing to 1 to 1.5 metres south of Cape Sidmouth.</text>
                 <text type="forecast_swell1">Southeasterly around 1 metre outside the reef.</text>
-                <text type="forecast_weather">The chance of a thunderstorm offshore south of Cape Sidmouth in the early morning. Mostly sunny afternoon.</text>
+                <text type="forecast_weather">Partly cloudy.</text>
             </forecast-period>
             <forecast-period index="2" start-time-local="2026-10-20T00:00:00+10:00" end-time-local="2026-10-21T00:00:00+10:00" start-time-utc="2026-10-19T14:00:00Z" end-time-utc="2026-10-20T14:00:00Z">
                 <text type="forecast_winds">Southeasterly 15 to 20 knots.</text>
                 <text type="forecast_seas">Around 1 metre, increasing to 1 to 1.5 metres outside the reef.</text>
+                <text type="forecast_swell1">Southeasterly around 1 metre outside the reef, increasing to 1 to 1.5 metres during the morning, then decreasing to around 1 metre around midday.</text>
+                <text type="forecast_weather">Mostly sunny.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-10-21T00:00:00+10:00" end-time-local="2026-10-22T00:00:00+10:00" start-time-utc="2026-10-20T14:00:00Z" end-time-utc="2026-10-21T14:00:00Z">
+                <text type="forecast_winds">East to southeasterly 15 to 20 knots.</text>
+                <text type="forecast_seas">Around 1 metre, increasing to 1 to 1.5 metres south of Cape Sidmouth.</text>
                 <text type="forecast_swell1">Southeasterly around 1 metre outside the reef.</text>
                 <text type="forecast_weather">Mostly sunny.</text>
             </forecast-period>
         </area>
         <area aac="QLD_MW005" description="Cooktown Coast: Cape Melville to Cape Tribulation" type="coast" parent-aac="QLD_FA001">
-            <forecast-period index="0" start-time-local="2026-10-18T03:00:00+10:00" end-time-local="2026-10-19T00:00:00+10:00" start-time-utc="2026-10-17T17:00:00Z" end-time-utc="2026-10-18T14:00:00Z">
+            <forecast-period index="0" start-time-local="2026-10-18T21:00:00+10:00" end-time-local="2026-10-19T00:00:00+10:00" start-time-utc="2026-10-18T11:00:00Z" end-time-utc="2026-10-18T14:00:00Z">
                 <text type="forecast_winds">Southeasterly 15 to 20 knots.</text>
                 <text type="forecast_seas">Around 1 metre.</text>
-                <text type="forecast_swell1">East to southeasterly 1 to 1.5 metres outside the reef.</text>
-                <text type="forecast_weather">Partly cloudy. The chance of a thunderstorm during this afternoon and evening.</text>
+                <text type="forecast_swell1">East to southeasterly around 1 metre outside the reef.</text>
+                <text type="forecast_weather">Partly cloudy.</text>
             </forecast-period>
             <forecast-period index="1" start-time-local="2026-10-19T00:00:00+10:00" end-time-local="2026-10-20T00:00:00+10:00" start-time-utc="2026-10-18T14:00:00Z" end-time-utc="2026-10-19T14:00:00Z">
                 <text type="forecast_winds">Southeasterly 15 to 20 knots.</text>
-                <text type="forecast_seas">Around 1 metre, increasing to 1 to 1.5 metres outside the reef.</text>
+                <text type="forecast_seas">Around 1 metre.</text>
                 <text type="forecast_swell1">East to southeasterly around 1 metre outside the reef, increasing to 1 to 1.5 metres during the morning.</text>
-                <text type="forecast_weather">Partly cloudy. 70% chance of showers. The chance of a thunderstorm in the morning and afternoon.</text>
+                <text type="forecast_weather">Partly cloudy. 60% chance of showers. The chance of a thunderstorm in the morning.</text>
             </forecast-period>
             <forecast-period index="2" start-time-local="2026-10-20T00:00:00+10:00" end-time-local="2026-10-21T00:00:00+10:00" start-time-utc="2026-10-19T14:00:00Z" end-time-utc="2026-10-20T14:00:00Z">
                 <text type="forecast_winds">Southeasterly 15 to 20 knots.</text>
-                <text type="forecast_seas">1 to 1.5 metres.</text>
+                <text type="forecast_seas">Around 1 metre, increasing to 1 to 1.5 metres outside the reef.</text>
                 <text type="forecast_swell1">East to southeasterly 1 to 1.5 metres outside the reef.</text>
                 <text type="forecast_weather">Partly cloudy. 60% chance of showers.</text>
             </forecast-period>
+            <forecast-period index="3" start-time-local="2026-10-21T00:00:00+10:00" end-time-local="2026-10-22T00:00:00+10:00" start-time-utc="2026-10-20T14:00:00Z" end-time-utc="2026-10-21T14:00:00Z">
+                <text type="forecast_winds">Southeasterly 15 to 20 knots.</text>
+                <text type="forecast_seas">Around 1 metre.</text>
+                <text type="forecast_swell1">East to southeasterly 1 to 1.5 metres outside the reef, decreasing to around 1 metre during the evening.</text>
+                <text type="forecast_weather">Partly cloudy. 50% chance of showers.</text>
+            </forecast-period>
         </area>
         <area aac="QLD_MW006" description="Cairns Coast: Cape Tribulation to Cardwell" type="coast" parent-aac="QLD_FA001">
-            <forecast-period index="0" start-time-local="2026-10-18T03:00:00+10:00" end-time-local="2026-10-19T00:00:00+10:00" start-time-utc="2026-10-17T17:00:00Z" end-time-utc="2026-10-18T14:00:00Z">
+            <forecast-period index="0" start-time-local="2026-10-18T21:00:00+10:00" end-time-local="2026-10-19T00:00:00+10:00" start-time-utc="2026-10-18T11:00:00Z" end-time-utc="2026-10-18T14:00:00Z">
                 <text type="forecast_winds">East to southeasterly 10 to 15 knots.</text>
                 <text type="forecast_seas">Around 1 metre.</text>
                 <text type="forecast_swell1">East to southeasterly 1 to 1.5 metres outside the reef.</text>
-                <text type="forecast_weather">Partly cloudy. 80% chance of showers. The chance of a thunderstorm during this afternoon and evening.</text>
+                <text type="forecast_weather">Partly cloudy.</text>
             </forecast-period>
             <forecast-period index="1" start-time-local="2026-10-19T00:00:00+10:00" end-time-local="2026-10-20T00:00:00+10:00" start-time-utc="2026-10-18T14:00:00Z" end-time-utc="2026-10-19T14:00:00Z">
-                <text type="forecast_winds">Southeasterly 15 to 20 knots.</text>
+                <text type="forecast_winds">East to southeasterly 10 to 15 knots, reaching up to 20 knots offshore north of Cairns in the evening.</text>
                 <text type="forecast_seas">Around 1 metre.</text>
                 <text type="forecast_swell1">East to southeasterly 1 to 1.5 metres outside the reef.</text>
                 <text type="forecast_weather">Partly cloudy. 90% chance of showers. The chance of a thunderstorm in the morning and afternoon.</text>
             </forecast-period>
             <forecast-period index="2" start-time-local="2026-10-20T00:00:00+10:00" end-time-local="2026-10-21T00:00:00+10:00" start-time-utc="2026-10-19T14:00:00Z" end-time-utc="2026-10-20T14:00:00Z">
-                <text type="forecast_winds">Southeasterly 15 to 20 knots.</text>
-                <text type="forecast_seas">Below 1 metre, increasing to 1 to 1.5 metres outside the reef.</text>
+                <text type="forecast_winds">East to southeasterly 15 to 20 knots.</text>
+                <text type="forecast_seas">Around 1 metre.</text>
                 <text type="forecast_swell1">East to southeasterly 1 to 1.5 metres outside the reef.</text>
-                <text type="forecast_weather">Partly cloudy. 70% chance of showers. The chance of a thunderstorm in the morning and afternoon.</text>
+                <text type="forecast_weather">Partly cloudy. 60% chance of showers. The chance of a thunderstorm in the afternoon.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-10-21T00:00:00+10:00" end-time-local="2026-10-22T00:00:00+10:00" start-time-utc="2026-10-20T14:00:00Z" end-time-utc="2026-10-21T14:00:00Z">
+                <text type="forecast_winds">East to southeasterly 10 to 15 knots decreasing to about 10 knots during the evening.</text>
+                <text type="forecast_seas">Around 1 metre.</text>
+                <text type="forecast_swell1">Easterly 1 to 1.5 metres outside the reef, decreasing to around 1 metre during the evening.</text>
+                <text type="forecast_weather">Partly cloudy. 50% chance of showers.</text>
             </forecast-period>
         </area>
         <area aac="QLD_MW007" description="Townsville Coast: Cardwell to Bowen" type="coast" parent-aac="QLD_FA001">
-            <forecast-period index="0" start-time-local="2026-10-18T03:00:00+10:00" end-time-local="2026-10-19T00:00:00+10:00" start-time-utc="2026-10-17T17:00:00Z" end-time-utc="2026-10-18T14:00:00Z">
+            <forecast-period index="0" start-time-local="2026-10-18T21:00:00+10:00" end-time-local="2026-10-19T00:00:00+10:00" start-time-utc="2026-10-18T11:00:00Z" end-time-utc="2026-10-18T14:00:00Z">
                 <text type="forecast_winds">Easterly 15 to 20 knots.</text>
-                <text type="forecast_seas">Around 1 metre, increasing to 1 to 1.5 metres outside the reef by early evening.</text>
+                <text type="forecast_seas">Around 1 metre, increasing to 1 to 1.5 metres outside the reef.</text>
                 <text type="forecast_swell1">Easterly 1 to 1.5 metres outside the reef.</text>
-                <text type="forecast_weather">Partly cloudy. 80% chance of showers. The chance of a thunderstorm during this afternoon and evening.</text>
+                <text type="forecast_weather">Partly cloudy.</text>
             </forecast-period>
             <forecast-period index="1" start-time-local="2026-10-19T00:00:00+10:00" end-time-local="2026-10-20T00:00:00+10:00" start-time-utc="2026-10-18T14:00:00Z" end-time-utc="2026-10-19T14:00:00Z">
                 <text type="forecast_winds">Easterly 15 to 20 knots.</text>
                 <text type="forecast_seas">Around 1 metre, increasing to 1 to 1.5 metres outside the reef.</text>
                 <text type="forecast_swell1">Easterly 1 to 1.5 metres outside the reef.</text>
-                <text type="forecast_weather">Partly cloudy. 60% chance of showers. The chance of a thunderstorm in the morning and afternoon.</text>
+                <text type="forecast_weather">Partly cloudy. 70% chance of showers. The chance of a thunderstorm in the morning and afternoon.</text>
             </forecast-period>
             <forecast-period index="2" start-time-local="2026-10-20T00:00:00+10:00" end-time-local="2026-10-21T00:00:00+10:00" start-time-utc="2026-10-19T14:00:00Z" end-time-utc="2026-10-20T14:00:00Z">
-                <text type="forecast_winds">Southeasterly 15 to 20 knots turning easterly during the morning.</text>
-                <text type="forecast_seas">Around 1 metre, increasing to 1 to 1.5 metres outside the reef.</text>
+                <text type="forecast_winds">Easterly 15 to 20 knots.</text>
+                <text type="forecast_seas">Around 1 metre.</text>
                 <text type="forecast_swell1">Easterly 1 to 1.5 metres outside the reef.</text>
-                <text type="forecast_weather">Partly cloudy. The chance of a thunderstorm.</text>
+                <text type="forecast_weather">Partly cloudy. The chance of a thunderstorm in the morning and afternoon.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-10-21T00:00:00+10:00" end-time-local="2026-10-22T00:00:00+10:00" start-time-utc="2026-10-20T14:00:00Z" end-time-utc="2026-10-21T14:00:00Z">
+                <text type="forecast_winds">Easterly 10 to 15 knots.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
+                <text type="forecast_swell1">Easterly 1 to 1.5 metres outside the reef, decreasing to around 1 metre during the afternoon or evening.</text>
+                <text type="forecast_weather">Mostly sunny.</text>
             </forecast-period>
         </area>
         <area aac="QLD_MW008" description="Mackay Coast: Bowen to St Lawrence" type="coast" parent-aac="QLD_FA001">
-            <forecast-period index="0" start-time-local="2026-10-18T03:00:00+10:00" end-time-local="2026-10-19T00:00:00+10:00" start-time-utc="2026-10-17T17:00:00Z" end-time-utc="2026-10-18T14:00:00Z">
+            <forecast-period index="0" start-time-local="2026-10-18T21:00:00+10:00" end-time-local="2026-10-19T00:00:00+10:00" start-time-utc="2026-10-18T11:00:00Z" end-time-utc="2026-10-18T14:00:00Z">
                 <text type="forecast_winds">Easterly 15 to 20 knots.</text>
                 <text type="forecast_seas">1 to 1.5 metres.</text>
                 <text type="forecast_swell1">Easterly around 1 metre offshore.</text>
-                <text type="forecast_weather">Partly cloudy. 70% chance of showers. The chance of a thunderstorm during this afternoon and evening.</text>
+                <text type="forecast_weather">Partly cloudy.</text>
             </forecast-period>
             <forecast-period index="1" start-time-local="2026-10-19T00:00:00+10:00" end-time-local="2026-10-20T00:00:00+10:00" start-time-utc="2026-10-18T14:00:00Z" end-time-utc="2026-10-19T14:00:00Z">
                 <text type="forecast_winds">Easterly 15 to 20 knots.</text>
-                <text type="forecast_seas">1 to 1.5 metres.</text>
+                <text type="forecast_seas">1 to 1.5 metres, decreasing to 1 metre during the morning.</text>
                 <text type="forecast_swell1">Easterly around 1 metre offshore.</text>
-                <text type="forecast_weather">Partly cloudy. 50% chance of showers. The chance of a thunderstorm north of Hamilton Island in the early morning.</text>
+                <text type="forecast_weather">Partly cloudy. The chance of a thunderstorm north of Hamilton Island in the morning and afternoon.</text>
             </forecast-period>
             <forecast-period index="2" start-time-local="2026-10-20T00:00:00+10:00" end-time-local="2026-10-21T00:00:00+10:00" start-time-utc="2026-10-19T14:00:00Z" end-time-utc="2026-10-20T14:00:00Z">
-                <text type="forecast_winds">East to southeasterly 15 to 20 knots.</text>
+                <text type="forecast_winds">Easterly 15 to 20 knots.</text>
                 <text type="forecast_seas">Around 1 metre.</text>
                 <text type="forecast_swell1">Easterly below 1 metre.</text>
-                <text type="forecast_weather">Partly cloudy. 50% chance of showers. The chance of a thunderstorm in the morning and afternoon.</text>
+                <text type="forecast_weather">Partly cloudy. The chance of a thunderstorm.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-10-21T00:00:00+10:00" end-time-local="2026-10-22T00:00:00+10:00" start-time-utc="2026-10-20T14:00:00Z" end-time-utc="2026-10-21T14:00:00Z">
+                <text type="forecast_winds">Easterly 10 to 15 knots.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
+                <text type="forecast_swell1">Easterly below 1 metre.</text>
+                <text type="forecast_weather">Partly cloudy.</text>
             </forecast-period>
         </area>
         <area aac="QLD_MW015" description="Great Barrier Reef Offshore Waters" type="coast" parent-aac="QLD_FA001">
-            <forecast-period index="0" start-time-local="2026-10-18T03:00:00+10:00" end-time-local="2026-10-19T00:00:00+10:00" start-time-utc="2026-10-17T17:00:00Z" end-time-utc="2026-10-18T14:00:00Z">
+            <forecast-period index="0" start-time-local="2026-10-18T21:00:00+10:00" end-time-local="2026-10-19T00:00:00+10:00" start-time-utc="2026-10-18T11:00:00Z" end-time-utc="2026-10-18T14:00:00Z">
                 <text type="forecast_winds">Easterly 15 to 20 knots.</text>
                 <text type="forecast_seas">1 to 1.5 metres.</text>
-                <text type="forecast_swell1">Easterly 1 to 1.5 metres, increasing to 1.5 to 2 metres through the Capricorn Channel.</text>
-                <text type="forecast_weather">Partly cloudy. 50% chance of showers. The chance of a thunderstorm during this afternoon and evening.</text>
+                <text type="forecast_swell1">Easterly 1 to 1.5 metres.</text>
+                <text type="forecast_weather">Partly cloudy.</text>
             </forecast-period>
             <forecast-period index="1" start-time-local="2026-10-19T00:00:00+10:00" end-time-local="2026-10-20T00:00:00+10:00" start-time-utc="2026-10-18T14:00:00Z" end-time-utc="2026-10-19T14:00:00Z">
                 <text type="forecast_winds">Easterly 15 to 20 knots.</text>
-                <text type="forecast_seas">1 to 1.5 metres, decreasing to 1 metre around midday, then increasing to 1 to 1.5 metres by early evening.</text>
+                <text type="forecast_seas">1 to 1.5 metres.</text>
                 <text type="forecast_swell1">Easterly 1 to 1.5 metres.</text>
-                <text type="forecast_weather">Partly cloudy. The chance of a thunderstorm north of Creal Reef in the early morning.</text>
+                <text type="forecast_weather">Partly cloudy.</text>
             </forecast-period>
             <forecast-period index="2" start-time-local="2026-10-20T00:00:00+10:00" end-time-local="2026-10-21T00:00:00+10:00" start-time-utc="2026-10-19T14:00:00Z" end-time-utc="2026-10-20T14:00:00Z">
                 <text type="forecast_winds">Easterly 15 to 20 knots.</text>
-                <text type="forecast_seas">1 to 1.5 metres, decreasing to 1 metre during the afternoon.</text>
-                <text type="forecast_swell1">Easterly 1 to 1.5 metres, increasing to 1 to 2 metres through the Capricorn Channel.</text>
-                <text type="forecast_weather">Partly cloudy. 50% chance of showers. The chance of a thunderstorm.</text>
+                <text type="forecast_seas">1 to 1.5 metres, decreasing below 1 metre around midday.</text>
+                <text type="forecast_swell1">Easterly 1 to 1.5 metres.</text>
+                <text type="forecast_weather">Partly cloudy. The chance of a thunderstorm.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-10-21T00:00:00+10:00" end-time-local="2026-10-22T00:00:00+10:00" start-time-utc="2026-10-20T14:00:00Z" end-time-utc="2026-10-21T14:00:00Z">
+                <text type="forecast_winds">Easterly 10 to 15 knots.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
+                <text type="forecast_swell1">Easterly around 1 metre, increasing to 1 to 1.5 metres through the Capricorn Channel.</text>
+                <text type="forecast_weather">Mostly sunny.</text>
             </forecast-period>
         </area>
         <area aac="QLD_MW009" description="Capricornia Coast: St Lawrence to Burnett Heads" type="coast" parent-aac="QLD_FA001">
-            <forecast-period index="0" start-time-local="2026-10-18T03:00:00+10:00" end-time-local="2026-10-19T00:00:00+10:00" start-time-utc="2026-10-17T17:00:00Z" end-time-utc="2026-10-18T14:00:00Z">
-                <text type="forecast_winds">Easterly 15 to 20 knots, reaching up to 25 knots inshore in the evening.</text>
-                <text type="forecast_seas">1.5 metres, increasing to 1.5 to 2 metres offshore south of Agnes Water.</text>
-                <text type="forecast_swell1">Easterly below 1 metre inshore, increasing to 1 to 2 metres offshore.</text>
-                <text type="forecast_weather">Partly cloudy. 50% chance of showers.</text>
+            <forecast-period index="0" start-time-local="2026-10-18T21:00:00+10:00" end-time-local="2026-10-19T00:00:00+10:00" start-time-utc="2026-10-18T11:00:00Z" end-time-utc="2026-10-18T14:00:00Z">
+                <text type="forecast_winds">Easterly 15 to 20 knots.</text>
+                <text type="forecast_seas">1.5 metres, increasing to 1.5 to 2 metres inshore.</text>
+                <text type="forecast_swell1">Easterly below 1 metre inshore, increasing to 1 to 1.5 metres offshore.</text>
+                <text type="forecast_weather">Partly cloudy.</text>
             </forecast-period>
             <forecast-period index="1" start-time-local="2026-10-19T00:00:00+10:00" end-time-local="2026-10-20T00:00:00+10:00" start-time-utc="2026-10-18T14:00:00Z" end-time-utc="2026-10-19T14:00:00Z">
                 <text type="forecast_winds">Easterly 15 to 20 knots.</text>
-                <text type="forecast_seas">1 to 1.5 metres, decreasing to 1 metre during the morning, increasing to 1 to 1.5 metres offshore south of Cape Capricorn by early evening.</text>
-                <text type="forecast_swell1">Easterly below 1 metre inshore, increasing to 1 to 2 metres offshore.</text>
-                <text type="forecast_weather">Partly cloudy. 60% chance of showers.</text>
+                <text type="forecast_seas">1 to 1.5 metres, decreasing to 1 metre during the morning, increasing to 1 to 1.5 metres south of Cape Capricorn by early evening.</text>
+                <text type="forecast_swell1">Easterly below 1 metre inshore, increasing to 1 to 1.5 metres offshore.</text>
+                <text type="forecast_weather">Partly cloudy. 50% chance of showers.</text>
             </forecast-period>
             <forecast-period index="2" start-time-local="2026-10-20T00:00:00+10:00" end-time-local="2026-10-21T00:00:00+10:00" start-time-utc="2026-10-19T14:00:00Z" end-time-utc="2026-10-20T14:00:00Z">
-                <text type="forecast_winds">Easterly 15 to 20 knots.</text>
-                <text type="forecast_seas">Around 1 metre, increasing to 1 to 1.5 metres offshore south of Agnes Water.</text>
+                <text type="forecast_winds">Easterly 10 to 15 knots.</text>
+                <text type="forecast_seas">1 to 1.5 metres, decreasing below 1 metre during the morning.</text>
                 <text type="forecast_swell1">Easterly below 1 metre inshore, increasing to 1 to 1.5 metres offshore.</text>
                 <text type="forecast_weather">Partly cloudy. 50% chance of showers. The chance of a thunderstorm in the afternoon and evening.</text>
             </forecast-period>
+            <forecast-period index="3" start-time-local="2026-10-21T00:00:00+10:00" end-time-local="2026-10-22T00:00:00+10:00" start-time-utc="2026-10-20T14:00:00Z" end-time-utc="2026-10-21T14:00:00Z">
+                <text type="forecast_winds">Easterly 10 to 15 knots.</text>
+                <text type="forecast_seas">Around 1 metre.</text>
+                <text type="forecast_swell1">Easterly below 1 metre inshore, increasing to 1 to 1.5 metres offshore.</text>
+                <text type="forecast_weather">Partly cloudy. 50% chance of showers. The chance of a thunderstorm.</text>
+            </forecast-period>
         </area>
         <area aac="QLD_MW010" description="Hervey Bay" type="coast" parent-aac="QLD_FA001">
-            <forecast-period index="0" start-time-local="2026-10-18T03:00:00+10:00" end-time-local="2026-10-19T00:00:00+10:00" start-time-utc="2026-10-17T17:00:00Z" end-time-utc="2026-10-18T14:00:00Z">
-                <text type="forecast_winds">East to southeasterly 15 to 20 knots.</text>
-                <text type="forecast_seas">1 to 1.5 metres.</text>
-                <text type="forecast_swell1">Northeasterly below 1 metre.</text>
-                <text type="forecast_weather">Cloudy.</text>
+            <forecast-period index="0" start-time-local="2026-10-18T21:00:00+10:00" end-time-local="2026-10-19T00:00:00+10:00" start-time-utc="2026-10-18T11:00:00Z" end-time-utc="2026-10-18T14:00:00Z">
+                <text type="forecast_winds">Southeasterly 15 to 20 knots.</text>
+                <text type="forecast_seas">Around 1 metre, increasing to 1 to 1.5 metres in the northern bay.</text>
+                <text type="forecast_swell1">North to northeasterly below 1 metre.</text>
+                <text type="forecast_weather">Partly cloudy.</text>
             </forecast-period>
             <forecast-period index="1" start-time-local="2026-10-19T00:00:00+10:00" end-time-local="2026-10-20T00:00:00+10:00" start-time-utc="2026-10-18T14:00:00Z" end-time-utc="2026-10-19T14:00:00Z">
-                <text type="forecast_winds">East to southeasterly 15 to 20 knots.</text>
+                <text type="forecast_winds">Easterly 15 to 20 knots.</text>
                 <text type="forecast_seas">Around 1 metre.</text>
-                <text type="forecast_swell1">North to northeasterly around 1 metre.</text>
-                <text type="forecast_weather">Partly cloudy. 80% chance of showers.</text>
+                <text type="forecast_swell1">North to northeasterly below 1 metre.</text>
+                <text type="forecast_weather">Partly cloudy. 70% chance of showers.</text>
             </forecast-period>
             <forecast-period index="2" start-time-local="2026-10-20T00:00:00+10:00" end-time-local="2026-10-21T00:00:00+10:00" start-time-utc="2026-10-19T14:00:00Z" end-time-utc="2026-10-20T14:00:00Z">
-                <text type="forecast_winds">Southeasterly 10 to 15 knots decreasing to about 10 knots during the evening.</text>
+                <text type="forecast_winds">Easterly 10 to 15 knots.</text>
                 <text type="forecast_seas">Around 1 metre.</text>
-                <text type="forecast_swell1">North to northeasterly around 1 metre.</text>
-                <text type="forecast_weather">Partly cloudy. 50% chance of showers. The chance of a thunderstorm in the evening.</text>
+                <text type="forecast_swell1">North to northeasterly below 1 metre.</text>
+                <text type="forecast_weather">Partly cloudy. The chance of a thunderstorm in the afternoon and evening.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-10-21T00:00:00+10:00" end-time-local="2026-10-22T00:00:00+10:00" start-time-utc="2026-10-20T14:00:00Z" end-time-utc="2026-10-21T14:00:00Z">
+                <text type="forecast_winds">Easterly about 10 knots increasing to 10 to 15 knots during the afternoon.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
+                <text type="forecast_swell1">North to northeasterly below 1 metre.</text>
+                <text type="forecast_weather">Partly cloudy. 70% chance of showers. The chance of a thunderstorm.</text>
             </forecast-period>
         </area>
         <area aac="QLD_MW011" description="K'gari Coast: Sandy Cape to Double Island Point" type="coast" parent-aac="QLD_FA001">
-            <forecast-period index="0" start-time-local="2026-10-18T03:00:00+10:00" end-time-local="2026-10-19T00:00:00+10:00" start-time-utc="2026-10-17T17:00:00Z" end-time-utc="2026-10-18T14:00:00Z">
+            <forecast-period index="0" start-time-local="2026-10-18T21:00:00+10:00" end-time-local="2026-10-19T00:00:00+10:00" start-time-utc="2026-10-18T11:00:00Z" end-time-utc="2026-10-18T14:00:00Z">
                 <text type="forecast_winds">Easterly 15 to 20 knots.</text>
-                <text type="forecast_seas">1 to 1.5 metres, increasing to 1.5 to 2 metres offshore.</text>
-                <text type="forecast_swell1">Easterly around 1 metre inshore, increasing to 1 to 2 metres offshore.</text>
+                <text type="forecast_seas">Around 1 metre, increasing to 1.5 metres offshore.</text>
+                <text type="forecast_swell1">Easterly below 1 metre inshore, increasing to 1 to 1.5 metres offshore.</text>
                 <text type="forecast_swell2">Southeasterly around 1 metre.</text>
                 <text type="forecast_weather">Partly cloudy.</text>
             </forecast-period>
             <forecast-period index="1" start-time-local="2026-10-19T00:00:00+10:00" end-time-local="2026-10-20T00:00:00+10:00" start-time-utc="2026-10-18T14:00:00Z" end-time-utc="2026-10-19T14:00:00Z">
                 <text type="forecast_winds">Easterly 15 to 20 knots.</text>
-                <text type="forecast_seas">Around 1 metre, increasing to 1 to 1.5 metres offshore.</text>
-                <text type="forecast_swell1">Easterly 1.5 metres, increasing to 1.5 to 2 metres around midday.</text>
-                <text type="forecast_weather">Partly cloudy. 80% chance of showers.</text>
+                <text type="forecast_seas">1 to 1.5 metres.</text>
+                <text type="forecast_swell1">Easterly 1 to 1.5 metres, increasing to 1.5 to 2 metres around midday, then decreasing to 1.5 metres by early evening.</text>
+                <text type="forecast_swell2">South to southeasterly around 1 metre.</text>
+                <text type="forecast_weather">Partly cloudy. 70% chance of showers.</text>
             </forecast-period>
             <forecast-period index="2" start-time-local="2026-10-20T00:00:00+10:00" end-time-local="2026-10-21T00:00:00+10:00" start-time-utc="2026-10-19T14:00:00Z" end-time-utc="2026-10-20T14:00:00Z">
-                <text type="forecast_winds">Easterly 15 to 20 knots.</text>
-                <text type="forecast_seas">1 to 1.5 metres, decreasing to 1 metre during the morning.</text>
-                <text type="forecast_swell1">Easterly 1.5 metres.</text>
-                <text type="forecast_weather">Partly cloudy. 60% chance of showers. The chance of a thunderstorm in the evening.</text>
+                <text type="forecast_winds">Easterly 10 to 15 knots.</text>
+                <text type="forecast_seas">1 to 1.5 metres, decreasing below 1 metre during the morning.</text>
+                <text type="forecast_swell1">Easterly 1.5 metres inshore, increasing to 1.5 to 2 metres offshore.</text>
+                <text type="forecast_weather">Partly cloudy. 50% chance of showers. The chance of a thunderstorm in the evening.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-10-21T00:00:00+10:00" end-time-local="2026-10-22T00:00:00+10:00" start-time-utc="2026-10-20T14:00:00Z" end-time-utc="2026-10-21T14:00:00Z">
+                <text type="forecast_winds">Easterly 10 to 15 knots turning northeasterly 15 to 20 knots during the evening.</text>
+                <text type="forecast_seas">Around 1 metre.</text>
+                <text type="forecast_swell1">Easterly 1 to 1.5 metres inshore, increasing to 1.5 to 2 metres offshore.</text>
+                <text type="forecast_weather">Partly cloudy. 80% chance of showers. The chance of a thunderstorm.</text>
             </forecast-period>
         </area>
         <area aac="QLD_MW012" description="Sunshine Coast Waters: Double Island Point to Cape Moreton" type="coast" parent-aac="QLD_FA001">
-            <forecast-period index="0" start-time-local="2026-10-18T03:00:00+10:00" end-time-local="2026-10-19T00:00:00+10:00" start-time-utc="2026-10-17T17:00:00Z" end-time-utc="2026-10-18T14:00:00Z">
+            <forecast-period index="0" start-time-local="2026-10-18T21:00:00+10:00" end-time-local="2026-10-19T00:00:00+10:00" start-time-utc="2026-10-18T11:00:00Z" end-time-utc="2026-10-18T14:00:00Z">
                 <text type="forecast_winds">Easterly 15 to 20 knots.</text>
-                <text type="forecast_seas">1 to 1.5 metres.</text>
-                <text type="forecast_swell1">Southeasterly 1 to 1.5 metres, decreasing to around 1 metre during the morning.</text>
-                <text type="forecast_swell2">Easterly around 1 metre.</text>
-                <text type="forecast_weather">Partly cloudy. 50% chance of showers.</text>
+                <text type="forecast_seas">Around 1 metre, increasing to 1.5 metres offshore.</text>
+                <text type="forecast_swell1">Southeasterly around 1 metre inshore, increasing to 1 to 1.5 metres offshore.</text>
+                <text type="forecast_weather">Partly cloudy.</text>
             </forecast-period>
             <forecast-period index="1" start-time-local="2026-10-19T00:00:00+10:00" end-time-local="2026-10-20T00:00:00+10:00" start-time-utc="2026-10-18T14:00:00Z" end-time-utc="2026-10-19T14:00:00Z">
                 <text type="forecast_winds">Easterly 15 to 20 knots.</text>
                 <text type="forecast_seas">Around 1 metre, increasing to 1 to 1.5 metres offshore.</text>
-                <text type="forecast_swell1">Easterly 1 to 1.5 metres, increasing to 1.5 to 2 metres during the afternoon, then decreasing to 1.5 metres by early evening.</text>
+                <text type="forecast_swell1">Easterly 1 to 1.5 metres, increasing to 1.5 to 2 metres around midday, then decreasing to 1.5 metres by early evening.</text>
                 <text type="forecast_weather">Cloudy. 90% chance of showers.</text>
-            </forecast-period>
-            <forecast-period index="2" start-time-local="2026-10-20T00:00:00+10:00" end-time-local="2026-10-21T00:00:00+10:00" start-time-utc="2026-10-19T14:00:00Z" end-time-utc="2026-10-20T14:00:00Z">
-                <text type="forecast_winds">East to southeasterly 15 to 20 knots.</text>
-                <text type="forecast_seas">1 to 1.5 metres, decreasing to 1 metre during the morning.</text>
-                <text type="forecast_swell1">Easterly 1.5 metres.</text>
-                <text type="forecast_weather">Partly cloudy. 70% chance of showers. The chance of a thunderstorm in the evening.</text>
-            </forecast-period>
-        </area>
-        <area aac="QLD_MW013" description="Moreton Bay" type="coast" parent-aac="QLD_FA001">
-            <forecast-period index="0" start-time-local="2026-10-18T03:00:00+10:00" end-time-local="2026-10-19T00:00:00+10:00" start-time-utc="2026-10-17T17:00:00Z" end-time-utc="2026-10-18T14:00:00Z">
-                <text type="forecast_winds">East to southeasterly 15 to 20 knots.</text>
-                <text type="forecast_seas">Around 1 metre.</text>
-                <text type="forecast_weather">Partly cloudy. 60% chance of showers.</text>
-            </forecast-period>
-            <forecast-period index="1" start-time-local="2026-10-19T00:00:00+10:00" end-time-local="2026-10-20T00:00:00+10:00" start-time-utc="2026-10-18T14:00:00Z" end-time-utc="2026-10-19T14:00:00Z">
-                <text type="forecast_winds">East to southeasterly 10 to 15 knots.</text>
-                <text type="forecast_seas">Below 1 metre.</text>
-                <text type="forecast_weather">Cloudy. 90% chance of showers.</text>
-            </forecast-period>
-            <forecast-period index="2" start-time-local="2026-10-20T00:00:00+10:00" end-time-local="2026-10-21T00:00:00+10:00" start-time-utc="2026-10-19T14:00:00Z" end-time-utc="2026-10-20T14:00:00Z">
-                <text type="forecast_winds">Southeasterly 10 to 15 knots turning easterly during the afternoon.</text>
-                <text type="forecast_seas">Below 1 metre.</text>
-                <text type="forecast_weather">Partly cloudy. 70% chance of showers. The chance of a thunderstorm in the evening.</text>
-            </forecast-period>
-        </area>
-        <area aac="QLD_MW014" description="Gold Coast Waters: Cape Moreton to Point Danger" type="coast" parent-aac="QLD_FA001">
-            <forecast-period index="0" start-time-local="2026-10-18T03:00:00+10:00" end-time-local="2026-10-19T00:00:00+10:00" start-time-utc="2026-10-17T17:00:00Z" end-time-utc="2026-10-18T14:00:00Z">
-                <text type="forecast_winds">Easterly 15 to 20 knots.</text>
-                <text type="forecast_seas">1 to 1.5 metres, decreasing to 1 metre around midday, then increasing to 1 to 1.5 metres by early evening.</text>
-                <text type="forecast_swell1">Southeasterly 1 to 1.5 metres, tending southerly around 1 metre later in the evening.</text>
-                <text type="forecast_swell2">Easterly around 1 metre.</text>
-                <text type="forecast_weather">Partly cloudy. 60% chance of showers.</text>
-            </forecast-period>
-            <forecast-period index="1" start-time-local="2026-10-19T00:00:00+10:00" end-time-local="2026-10-20T00:00:00+10:00" start-time-utc="2026-10-18T14:00:00Z" end-time-utc="2026-10-19T14:00:00Z">
-                <text type="forecast_winds">Easterly 10 to 15 knots, reaching up to 20 knots offshore during the day.</text>
-                <text type="forecast_seas">Around 1 metre, increasing to 1 to 1.5 metres offshore.</text>
-                <text type="forecast_swell1">Easterly around 1 metre, increasing to 1.5 metres around midday.</text>
-                <text type="forecast_weather">Cloudy. 80% chance of showers.</text>
             </forecast-period>
             <forecast-period index="2" start-time-local="2026-10-20T00:00:00+10:00" end-time-local="2026-10-21T00:00:00+10:00" start-time-utc="2026-10-19T14:00:00Z" end-time-utc="2026-10-20T14:00:00Z">
                 <text type="forecast_winds">Easterly 10 to 15 knots.</text>
                 <text type="forecast_seas">Around 1 metre.</text>
                 <text type="forecast_swell1">Easterly 1.5 metres.</text>
                 <text type="forecast_weather">Partly cloudy. 70% chance of showers. The chance of a thunderstorm in the evening.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-10-21T00:00:00+10:00" end-time-local="2026-10-22T00:00:00+10:00" start-time-utc="2026-10-20T14:00:00Z" end-time-utc="2026-10-21T14:00:00Z">
+                <text type="forecast_winds">East to northeasterly 15 to 20 knots.</text>
+                <text type="forecast_seas">Below 1 metre, increasing to 1 to 1.5 metres offshore during the evening.</text>
+                <text type="forecast_swell1">Easterly 1 to 1.5 metres.</text>
+                <text type="forecast_weather">Partly cloudy. 90% chance of showers. The chance of a thunderstorm.</text>
+            </forecast-period>
+        </area>
+        <area aac="QLD_MW013" description="Moreton Bay" type="coast" parent-aac="QLD_FA001">
+            <forecast-period index="0" start-time-local="2026-10-18T21:00:00+10:00" end-time-local="2026-10-19T00:00:00+10:00" start-time-utc="2026-10-18T11:00:00Z" end-time-utc="2026-10-18T14:00:00Z">
+                <text type="forecast_winds">Southeasterly 10 to 15 knots.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
+                <text type="forecast_weather">Cloudy. 50% chance of showers.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-10-19T00:00:00+10:00" end-time-local="2026-10-20T00:00:00+10:00" start-time-utc="2026-10-18T14:00:00Z" end-time-utc="2026-10-19T14:00:00Z">
+                <text type="forecast_winds">Easterly 10 to 15 knots.</text>
+                <text type="forecast_seas">Around 1 metre.</text>
+                <text type="forecast_weather">Cloudy. 95% chance of showers.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-10-20T00:00:00+10:00" end-time-local="2026-10-21T00:00:00+10:00" start-time-utc="2026-10-19T14:00:00Z" end-time-utc="2026-10-20T14:00:00Z">
+                <text type="forecast_winds">East to southeasterly 10 to 15 knots tending south to southeasterly before dawn then tending east to southeasterly in the morning.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
+                <text type="forecast_weather">Partly cloudy. 80% chance of showers. The chance of a thunderstorm in the evening.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-10-21T00:00:00+10:00" end-time-local="2026-10-22T00:00:00+10:00" start-time-utc="2026-10-20T14:00:00Z" end-time-utc="2026-10-21T14:00:00Z">
+                <text type="forecast_winds">East to southeasterly 10 to 15 knots tending east to northeasterly during the day.</text>
+                <text type="forecast_seas">Below 1 metre.</text>
+                <text type="forecast_weather">Cloudy. 90% chance of showers. The chance of a thunderstorm in the afternoon and evening.</text>
+            </forecast-period>
+        </area>
+        <area aac="QLD_MW014" description="Gold Coast Waters: Cape Moreton to Point Danger" type="coast" parent-aac="QLD_FA001">
+            <forecast-period index="0" start-time-local="2026-10-18T21:00:00+10:00" end-time-local="2026-10-19T00:00:00+10:00" start-time-utc="2026-10-18T11:00:00Z" end-time-utc="2026-10-18T14:00:00Z">
+                <text type="forecast_winds">Easterly 10 to 15 knots, reaching up to 20 knots offshore.</text>
+                <text type="forecast_seas">Around 1 metre, increasing to 1 to 1.5 metres offshore.</text>
+                <text type="forecast_swell1">Southeasterly around 1 metre.</text>
+                <text type="forecast_weather">Partly cloudy.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2026-10-19T00:00:00+10:00" end-time-local="2026-10-20T00:00:00+10:00" start-time-utc="2026-10-18T14:00:00Z" end-time-utc="2026-10-19T14:00:00Z">
+                <text type="forecast_winds">Easterly 15 to 20 knots.</text>
+                <text type="forecast_seas">Around 1 metre, increasing to 1 to 1.5 metres offshore.</text>
+                <text type="forecast_swell1">Easterly around 1 metre, increasing to 1 to 2 metres during the morning.</text>
+                <text type="forecast_swell2">South to southeasterly around 1 metre.</text>
+                <text type="forecast_weather">Cloudy. 90% chance of showers.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2026-10-20T00:00:00+10:00" end-time-local="2026-10-21T00:00:00+10:00" start-time-utc="2026-10-19T14:00:00Z" end-time-utc="2026-10-20T14:00:00Z">
+                <text type="forecast_winds">Easterly 10 to 15 knots.</text>
+                <text type="forecast_seas">Around 1 metre.</text>
+                <text type="forecast_swell1">Easterly 1.5 metres.</text>
+                <text type="forecast_weather">Partly cloudy. 80% chance of showers. The chance of a thunderstorm in the evening.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2026-10-21T00:00:00+10:00" end-time-local="2026-10-22T00:00:00+10:00" start-time-utc="2026-10-20T14:00:00Z" end-time-utc="2026-10-21T14:00:00Z">
+                <text type="forecast_winds">East to northeasterly 15 to 20 knots.</text>
+                <text type="forecast_seas">Around 1 metre, increasing to 1 to 1.5 metres offshore north of Point Lookout during the evening.</text>
+                <text type="forecast_swell1">Easterly 1.5 metres.</text>
+                <text type="forecast_weather">Cloudy. 90% chance of showers. The chance of a thunderstorm.</text>
             </forecast-period>
         </area>
     </forecast>
