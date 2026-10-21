@@ -1,19 +1,5 @@
 [
  {
-  "id": "https://parks.qld.gov.au/park-alerts/26456?v=2",
-  "title": "Upper Noosa River – Campsite 3 – partial jetty closure (update)",
-  "summary": "Recent flooding events in the Upper Noosa River have caused damage to the southern day-use jetty at Campsite 3. The jetty has been closed until repairs can be completed. Affected parks: Cooloola (Noosa River) Resources Reserve; Cooloola Recreation Area, Great Sandy National Park",
-  "link": "https://parks.qld.gov.au/park-alerts/26456",
-  "published": "2026-10-21T10:34:06+10:00",
-  "severity": "warning",
-  "locations": [
-   "rainbow_to_dip",
-   "dip_north",
-   "teewah"
-  ],
-  "source": "QPWS park alerts"
- },
- {
   "id": "https://parks.qld.gov.au/park-alerts/27114?v=1",
   "title": "Drive with care during marine turtle nesting season",
   "summary": "From November to May, you may see turtles crossing the beach to lay their eggs or hatchlings making their way to the water for the first time. Motorists and visitors to the Cooloola and K’gari recreation areas within Great Sandy National Park, and the Inskip Peninsula Recreation Area, are asked to minimise disturbance and human impacts on nesting marine turtles and emerging hatchlings Affected parks: Inskip Peninsula Recreation Area; Cooloola Recreation Area, Great Sandy National Park; K'gari, Great Sandy National Park",

@@ -1,0 +1,1379 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+<script>
+var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),document.addEventListener("gform/theme/scripts_loaded",function(){gform.themeScriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,themeScriptsLoaded:!1,isFormEditor:()=>"function"==typeof InitializeEditor,callIfLoaded:function(o){return!(!gform.domLoaded||!gform.scriptsLoaded||!gform.themeScriptsLoaded&&!gform.isFormEditor()||(gform.isFormEditor()&&console.warn("The use of gform.initializeOnLoaded() is deprecated in the form editor context and will be removed in Gravity Forms 3.1."),o(),0))},initializeOnLoaded:function(o){gform.callIfLoaded(o)||(document.addEventListener("gform_main_scripts_loaded",()=>{gform.scriptsLoaded=!0,gform.callIfLoaded(o)}),document.addEventListener("gform/theme/scripts_loaded",()=>{gform.themeScriptsLoaded=!0,gform.callIfLoaded(o)}),window.addEventListener("DOMContentLoaded",()=>{gform.domLoaded=!0,gform.callIfLoaded(o)}))},hooks:{action:{},filter:{}},addAction:function(o,r,e,t){gform.addHook("action",o,r,e,t)},addFilter:function(o,r,e,t){gform.addHook("filter",o,r,e,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,r){gform.removeHook("action",o,r)},removeFilter:function(o,r,e){gform.removeHook("filter",o,r,e)},addHook:function(o,r,e,t,n){null==gform.hooks[o][r]&&(gform.hooks[o][r]=[]);var d=gform.hooks[o][r];null==n&&(n=r+"_"+d.length),gform.hooks[o][r].push({tag:n,callable:e,priority:t=null==t?10:t})},doHook:function(r,o,e){var t;if(e=Array.prototype.slice.call(e,1),null!=gform.hooks[r][o]&&((o=gform.hooks[r][o]).sort(function(o,r){return o.priority-r.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==r?t.apply(null,e):e[0]=t.apply(null,e)})),"filter"==r)return e[0]},removeHook:function(o,r,t,n){var e;null!=gform.hooks[o][r]&&(e=(e=gform.hooks[o][r]).filter(function(o,r,e){return!!(null!=n&&n!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][r]=e)}});
+</script>
+
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="author"
+          content="https://coastwatch.com.au/">
+    <meta name="format-detection" content="telephone=no"/>
+
+  <style id="custom-fonts">
+  @font-face {
+    font-family: 'icomoon';
+    src:  url('https://coastwatch.com.au/wp-content/themes/coastwatch/resources/assets/fonts/icomoon/icomoon.eot?nn7krq');
+    src:  url('https://coastwatch.com.au/wp-content/themes/coastwatch/resources/assets/fonts/icomoon/icomoon.eot?nn7krq#iefix') format('embedded-opentype'),
+    url('https://coastwatch.com.au/wp-content/themes/coastwatch/resources/assets/fonts/icomoon/icomoon.ttf?nn7krq') format('truetype'),
+    url('https://coastwatch.com.au/wp-content/themes/coastwatch/resources/assets/fonts/icomoon/icomoon.woff?nn7krq') format('woff'),
+    url('https://coastwatch.com.au/wp-content/themes/coastwatch/resources/assets/fonts/icomoon/icomoon.svg?nn7krq#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+
+  @font-face {
+    font-family: 'Zenith';
+    src: url('https://coastwatch.com.au/wp-content/themes/coastwatch/resources/assets/fonts/webfonts/Zenith-Regular.woff2') format('woff2'),
+    url('https://coastwatch.com.au/wp-content/themes/coastwatch/resources/assets/fonts/webfonts/Zenith-Regular.woff') format('woff'),
+    url('https://coastwatch.com.au/wp-content/themes/coastwatch/resources/assets/fonts/webfonts/Zenith-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+</style>
+
+<!-- Extra styles -->
+<style id="extra-styles">
+  html {
+    cursor: url(https://coastwatch.com.au/wp-content/themes/coastwatch/resources/assets/images/cursor-black.png) 4 4, auto !important;
+  }
+
+  select {
+    background: url(https://coastwatch.com.au/wp-content/themes/coastwatch/resources/assets/images/chev-down.svg) no-repeat calc(100% - 16px) center / 12px;
+  }
+</style>
+
+  <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v28.1 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Fishing Report for 16 October 2026 - Coastwatch</title>
+	<link rel="canonical" href="https://coastwatch.com.au/articles/fishing-report-for-16-october-2026/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Fishing Report for 16 October 2026 - Coastwatch" />
+	<meta property="og:description" content="Noa bags a 58cm flatty at Noosa." />
+	<meta property="og:url" content="https://coastwatch.com.au/articles/fishing-report-for-16-october-2026/" />
+	<meta property="og:site_name" content="Coastwatch" />
+	<meta property="article:modified_time" content="2026-10-17T02:29:18+00:00" />
+	<meta property="og:image" content="https://coastwatch.com.au/wp-content/uploads/2026/10/image000000-78.jpg" />
+	<meta property="og:image:width" content="786" />
+	<meta property="og:image:height" content="548" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Est. reading time" />
+	<meta name="twitter:data1" content="12 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/coastwatch.com.au\/articles\/fishing-report-for-16-october-2026\/","url":"https:\/\/coastwatch.com.au\/articles\/fishing-report-for-16-october-2026\/","name":"Fishing Report for 16 October 2026 - Coastwatch","isPartOf":{"@id":"https:\/\/coastwatch.com.au\/#website"},"primaryImageOfPage":{"@id":"https:\/\/coastwatch.com.au\/articles\/fishing-report-for-16-october-2026\/#primaryimage"},"image":{"@id":"https:\/\/coastwatch.com.au\/articles\/fishing-report-for-16-october-2026\/#primaryimage"},"thumbnailUrl":"\/wp-content\/uploads\/2026\/10\/image000000-78.jpg","datePublished":"2026-10-16T06:10:31+00:00","dateModified":"2026-10-17T02:29:18+00:00","breadcrumb":{"@id":"https:\/\/coastwatch.com.au\/articles\/fishing-report-for-16-october-2026\/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/coastwatch.com.au\/articles\/fishing-report-for-16-october-2026\/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/coastwatch.com.au\/articles\/fishing-report-for-16-october-2026\/#primaryimage","url":"\/wp-content\/uploads\/2026\/10\/image000000-78.jpg","contentUrl":"\/wp-content\/uploads\/2026\/10\/image000000-78.jpg","width":786,"height":548},{"@type":"BreadcrumbList","@id":"https:\/\/coastwatch.com.au\/articles\/fishing-report-for-16-october-2026\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/coastwatch.com.au\/"},{"@type":"ListItem","position":2,"name":"Fishing Report for 16 October 2026"}]},{"@type":"WebSite","@id":"https:\/\/coastwatch.com.au\/#website","url":"https:\/\/coastwatch.com.au\/","name":"Coastwatch","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/coastwatch.com.au\/search\/{search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<!-- coastwatch.com.au is managing ads with Advanced Ads 2.0.16 – https://wpadvancedads.com/ --><script id="coastwatch-ready">
+			window.advanced_ads_ready=function(e,a){a=a||"complete";var d=function(e){return"interactive"===a?"loading"!==e:"complete"===e};d(document.readyState)?e():document.addEventListener("readystatechange",(function(a){d(a.target.readyState)&&e()}),{once:"interactive"===a})},window.advanced_ads_ready_queue=window.advanced_ads_ready_queue||[];		</script>
+		<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-block-styles-placeholder-inline-css">
+:root { --wp-internal-comment: "Placeholder for wp_hoist_late_printed_styles() to replace with the block styles printed at wp_footer." }
+/*# sourceURL=wp-block-styles-placeholder-inline-css */
+</style>
+<style id="wp-global-styles-placeholder-inline-css">
+:root { --wp-internal-comment: "Placeholder for wp_hoist_late_printed_styles() to replace with the global-styles printed at wp_footer." }
+/*# sourceURL=wp-global-styles-placeholder-inline-css */
+</style>
+<link rel='stylesheet' id='pmpro_frontend_base-css' href='/wp-content/plugins/paid-memberships-pro/css/frontend/base.css' media='all' />
+<link rel='stylesheet' id='pmpro_frontend_variation_1-css' href='/wp-content/plugins/paid-memberships-pro/css/frontend/variation_1.css' media='all' />
+<link rel='stylesheet' id='pmprorh_frontend-css' href='/wp-content/plugins/pmpro-mailchimp/css/pmpromc.css' media='all' />
+<link rel='stylesheet' id='google-fonts-css' href='https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C500%2C600%2C700%7CFigtree%3A400%2C600%2C700&#038;display=swap' media='all' />
+<link rel='stylesheet' id='main.css-css' href='/wp-content/themes/coastwatch/dist/styles/main_5262e66a.css' media='all' />
+<script id="jquery-core-js" src="/wp-includes/js/jquery/jquery.min.js"></script>
+<style></style><style id="pmpro_colors">:root {
+	--pmpro--color--base: #ffffff;
+	--pmpro--color--contrast: #222222;
+	--pmpro--color--accent: #0c3d54;
+	--pmpro--color--accent--variation: hsl( 199,75%,28.5% );
+	--pmpro--color--border--variation: hsl( 0,0%,91% );
+}</style>    
+    <!-- Google Tag Manager -->
+            
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script id="google-analytics-script" async
+                src="https://www.googletagmanager.com/gtag/js?id=UA-54387023-1"></script>
+        <script id="google-analytics-inline-script">
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+
+            gtag('js', new Date());
+
+            gtag('config', 'UA-54387023-1');
+        </script>
+    
+    <link rel="icon" href="/wp-content/uploads/2024/04/cropped-favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="/wp-content/uploads/2024/04/cropped-favicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="/wp-content/uploads/2024/04/cropped-favicon-180x180.png" />
+<meta name="msapplication-TileImage" content="/wp-content/uploads/2024/04/cropped-favicon-270x270.png" />
+<style id="wp-custom-css">
+/* .block-featured-videos {
+	display: none !important;
+} */
+
+.eapps-instagram-feed-header-container {
+	display: none;
+}
+
+/*
+ * @todo: remove later
+ */
+.banner-top-bar {
+	display: none !important;
+}
+
+.page-container {
+	padding-top: 60px !important;
+}
+
+
+	.navbar-collapse {
+		top: 60px !important;
+	}
+	
+	.admin-bar .navbar-collapse {
+		top: 106px !important;
+	}
+
+.block-page-title-sticky {
+		top: 70px;
+	}
+	
+	.admin-bar .block-page-title-sticky {
+		top: 106px;
+	}
+
+@media (min-width: 781px) {
+	.admin-bar .block-page-title-sticky {
+		top: 102px;
+	}
+}
+
+@media (min-width: 992px) {
+	.page-container {
+		padding-top: 70px !important;
+	}
+}
+
+.home .block-cards,
+.home .block-featured-directories {
+
+}
+#home-sponsors {
+	display: none !important;
+}
+
+#home-directory .bg-dark {
+	background-color: white !important;
+}
+#home-directory .btn-wrap {
+		display: none !important;
+}
+#home-directory .search-form-wrap {
+	display: none !important;
+}
+
+.page-id-9088.wp-block-column {
+height: 190px !important;
+}
+
+@media (min-width: 992px) {
+   .page-id-9088 .wp-block-button {
+       flex: 100% !important;
+}
+	.single-video .aspect-ratio-66 {
+	height: 227px;
+}
+}
+
+@media (min-width: 760px) {
+	.single-video .aspect-ratio-66 {
+	height: 140px;
+}
+	
+}
+
+
+.videos .aspect-ratio-66:after {
+    padding-bottom: 55.66667%;
+}
+
+
+
+.page-id-9826 .slick-dots {
+	display: none;
+}
+
+.home .block-featured-articles .aspect-ratio-66 {
+	height: 190px !important;
+}
+
+.postid-10604 .slick-dots {
+	display:none;
+}
+
+#dibettacontainer {
+    display: flex;
+    gap: 20px;
+}
+
+#dibettacontainer > div {
+    flex: 1;
+}
+
+#dibettacontainer iframe {
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+@media screen and (max-width: 768px) {
+    #dibettacontainer {
+        flex-direction: column;
+    }
+}
+#rod-figeuredo .container, #mick-dibetta .container, #nicole-robinson .container, #jacob-oxlade .container, #nathan-meyer .container, #phil-clayton .container, #spero-kartanos .container {
+	border-top: 1px solid grey;
+   padding-top: 50px;
+}
+#attachment_11090 {
+    width: 400px !important;
+    margin: auto;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Space between images */
+}
+
+.gallery-item {
+  flex: 0 0 auto; /* Prevent stretching */
+  width: 150px; /* Ensure each item stays the same size */
+}
+
+.gallery + p {
+  clear: both; /* Ensures the text starts below the gallery */
+}
+
+@media (max-width: 768px) {
+    .desktop-ad-class { display: none !important; }
+}
+@media (min-width: 769px) {
+    .mobile-ad-class { display: none !important; }
+}
+
+
+.coastwatch-global-after-content {
+	text-align: center !important;
+}
+
+#sidebar img {
+	margin: 10px 0 10px 0;
+}
+
+.single-post-content p {
+	font-size: 1.6rem !important;
+}
+.carousel-item .aspect-ratio-item {
+	object-fit: contain !important;
+}
+
+@media (max-width: 600px) {
+    .block-header-slider .carousel-item {
+    min-height: 28rem;
+}
+}
+
+</style>
+</head>
+<body class="pmpro-variation_1 wp-singular article-template-default single single-article postid-19657 wp-theme-coastwatchresources pmpro-body-has-access fishing-report-for-16-october-2026 coastwatch app-data index-data singular-data single-data single-article-data single-article-fishing-report-for-16-october-2026-data aa-prefix-coastwatch-" data-theme="CoastWatch">
+
+<a href="#navigation" class="btn btn-secondary sr-skip-link sr-only sr-only-focusable" role="button">Skip to
+  navigation</a>
+<a href="#content" class="btn btn-secondary sr-skip-link sr-only sr-only-focusable" role="button">Skip to
+  content</a>
+<div class="page-container" role="document">
+    <header id="masthead" class="banner">
+  <div class="banner-top-bar d-flex align-items-center">
+  <div class="container container-xl">
+    <ul
+      class="top-bar-actions d-flex align-items-center justify-content-between justify-content-md-end text-center text-md-right list-unstyled mr-md-n4 mb-0">
+      <li class="mr-md-4">
+        <a href="https://coastwatch.com.au/coastwatch-club-membership" class="btn-link ts-12 link-light link-hover-secondary text-uppercase"><span
+            class="d-none d-md-block">Coastwatch Club</span><span
+            class="d-md-none">Club</span></a>
+      </li>
+      <li class="mr-md-4">
+        <a href="https://coastwatch.com.au/coastwatch-connect-membership/" class="btn-link ts-12 link-light link-hover-secondary text-uppercase"><span
+            class="d-none d-md-block">Coastwatch Connect</span><span
+            class="d-md-none">Connect</span></a>
+      </li>
+              <li class="mr-md-4">
+          <a href="https://coastwatch.com.au/login/"
+             class="btn-link ts-12 link-light link-hover-secondary text-uppercase">Log In</a>
+        </li>
+          </ul>
+  </div>
+</div>
+
+  <nav id="navigation" class="navbar d-flex align-items-center">
+    <div class="container container-xl d-flex align-items-center justify-content-between">
+      <a href="https://coastwatch.com.au" class="navbar-brand d-flex align-items-center py-2 py-lg-3 zindex-front-2">
+        <img src="/wp-content/uploads/2024/04/logo.svg"
+             alt="Coastal Weather, Boating, Fishing &amp;amp; Cooking Videos &amp;#8211; Coastwatch"
+             class="brand-logo skip-lazy" height="22" width="155"/>
+      </a>
+
+      <div id="CoastWatchNavigationContent"
+           class="navbar-collapse d-flex ml-lg-auto ml-lg-3x ml-xl-5x ml-xx-6x js-hamburger-menu">
+        <div class="container navbar-collapse-inner d-flex flex-column flex-lg-row align-items-lg-center flex-grow-lg-1 px-lg-0">
+                      <ul id="primary-navigation" class="nav primary-nav d-flex flex-column flex-lg-row align-items-lg-center flex-grow-1 mr-lg-2x mr-xl-4x mb-0 list-unstyled"><li class="d-lg-none nav-m-item menu-item menu-home"><a class="nav-m-link" href="https://coastwatch.com.au/">Home</a></li>
+<li class="has-megamenu js-megamenu nav-m-item menu-item menu-weather"><a class="nav-m-link nav-link-toggle" href="https://coastwatch.com.au/weather/">Weather</a><button type="button" class="nav-link-toggle-caret btn-reset d-lg-none px-0 js-nav-link-toggle-caret" aria-label="Toggle megamenu"><i class="icon icon-caret-down" aria-hidden="true"></i></button><div class="mega-menu js-submenu"><div class="container px-sm-0"><div class="row">
+  <div class="col col-lg-per-28 d-lg-flex mb-3 mb-lg-0">
+              <ul id="weather-menu" class="nav-menu nav-menu-bold d-flex flex-column list-unstyled"><li class="nav-m-item menu-item menu-expert-coastal-tips"><a class="nav-m-link" href="https://coastwatch.com.au/expert-coastal-tips/">Expert Coastal Tips</a></li>
+<li class="nav-m-item menu-item menu-daily-surf-beach-reports"><a class="nav-m-link" href="https://coastwatch.com.au/surf-and-beach-reports/">Daily Surf &#038; Beach Reports</a></li>
+<li class="nav-m-item menu-item menu-tides-moon"><a class="nav-m-link" href="https://coastwatch.com.au/tides-moon/">Tides &#038; Moon</a></li>
+<li class="nav-m-item menu-item menu-coastal-weather-outlook"><a class="nav-m-link" href="https://coastwatch.com.au/se-qld-weekend-coastal-weather-outlook/">Coastal Weather Outlook</a></li>
+</ul>
+      </div>
+  <div class="col-lg">
+          <div class="text-white ts-20 ff-alt mb-2"><strong>Coastal Conditions:</strong></div>
+              <ul id="coastal-conditions-navigation" class="nav-menu nav-menu-inline d-lg-flexx flex-lg-wrapx list-unstyled"><li class="nav-m-item menu-item menu-byron-coast"><a class="nav-m-link" href="https://coastwatch.com.au/weather/byron-coast/">Byron Coast</a></li>
+<li class="nav-m-item menu-item menu-gold-coast"><a class="nav-m-link" href="https://coastwatch.com.au/weather/gold-coast/">Gold Coast</a></li>
+<li class="nav-m-item menu-item menu-moreton-bay"><a class="nav-m-link" href="https://coastwatch.com.au/weather/moreton-bay/">Moreton Bay</a></li>
+<li class="nav-m-item menu-item menu-sunshine-coast"><a class="nav-m-link" href="https://coastwatch.com.au/weather/sunshine-coast/">Sunshine Coast</a></li>
+<li class="nav-m-item menu-item menu-fraser-island-coast"><a class="nav-m-link" href="https://coastwatch.com.au/weather/fraser-island-coast/">Fraser Island Coast</a></li>
+<li class="nav-m-item menu-item menu-hervey-bay"><a class="nav-m-link" href="https://coastwatch.com.au/weather/hervey-bay/">Hervey Bay</a></li>
+<li class="nav-m-item menu-item menu-capricornia-coast"><a class="nav-m-link" href="https://coastwatch.com.au/weather/capricornia-coast/">Capricornia Coast</a></li>
+<li class="nav-m-item menu-item menu-mackay-coast"><a class="nav-m-link" href="https://coastwatch.com.au/weather/mackay-coast/">Mackay Coast</a></li>
+<li class="nav-m-item menu-item menu-townsville-coast"><a class="nav-m-link" href="https://coastwatch.com.au/weather/townsville-coast/">Townsville Coast</a></li>
+<li class="nav-m-item menu-item menu-cairns-coast"><a class="nav-m-link" href="https://coastwatch.com.au/weather/cairns-coast/">Cairns Coast</a></li>
+<li class="nav-m-item menu-item menu-cooktown-coast"><a class="nav-m-link" href="https://coastwatch.com.au/weather/cooktown-coast/">Cooktown Coast</a></li>
+<li class="nav-m-item menu-item menu-peninsula-coast"><a class="nav-m-link" href="https://coastwatch.com.au/weather/peninsula-coast/">Peninsula Coast</a></li>
+<li class="nav-m-item menu-item menu-torres-strait"><a class="nav-m-link" href="https://coastwatch.com.au/weather/torres-strait/">Torres Strait</a></li>
+<li class="nav-m-item menu-item menu-ne-gulf-carpenteria"><a class="nav-m-link" href="https://coastwatch.com.au/weather/ne-gulf-carpenteria/">NE Gulf Carpenteria</a></li>
+<li class="nav-m-item menu-item menu-se-gulf-carpenteria"><a class="nav-m-link" href="https://coastwatch.com.au/weather/se-gulf-carpenteria/">SE Gulf Carpenteria</a></li>
+</ul>
+      </div>
+</div>
+</div></div></li>
+<li class="nav-m-item menu-item js-megamenu js-megamenu menu-item-has-children js-megamenu menu-boating"><a class="nav-m-link nav-link-toggle" href="/articles/boating/">Boating</a><button type="button" class="nav-link-toggle-caret btn-reset d-lg-none px-0 js-nav-link-toggle-caret" aria-label="Toggle megamenu"><i class="icon icon-caret-down" aria-hidden="true"></i></button>
+<div class="mega-menu mega-menu-sm js-submenu"><div class="container px-sm-0"><ul class="nav-sub-menu list-unstyled">
+<li class="nav-m-item menu-item menu-marine-products"><a class="nav-m-link" href="https://coastwatch.com.au/videos/marine-products/">Marine Products</a></li>
+<li class="nav-m-item menu-item menu-our-boats"><a class="nav-m-link" href="/articles/boating/our-boats/">Our Boats</a></li>
+<li class="nav-m-item menu-item menu-show-us-your-boat"><a class="nav-m-link" href="/videos/show-us-your-boat/">Show Us Your Boat</a></li>
+<li class="nav-m-item menu-item menu-trailerboat-archive"><a class="nav-m-link" href="/articles/boating/trailerboat-archive/">Trailerboat Archive</a></li>
+<li class="nav-m-item menu-item menu-australias-classic-boats"><a class="nav-m-link" href="/articles/boating/australias-classic-boats/">Australia&#8217;s Classic Boats</a></li>
+<li class="nav-m-item menu-item menu-sailing"><a class="nav-m-link" href="/videos/sailing/">Sailing</a></li>
+</ul></div></div>
+</li>
+<li class="nav-m-item menu-item js-megamenu js-megamenu menu-item-has-children js-megamenu menu-fishing"><a class="nav-m-link nav-link-toggle" href="/articles/fishing/">Fishing</a><button type="button" class="nav-link-toggle-caret btn-reset d-lg-none px-0 js-nav-link-toggle-caret" aria-label="Toggle megamenu"><i class="icon icon-caret-down" aria-hidden="true"></i></button>
+<div class="mega-menu mega-menu-sm js-submenu"><div class="container px-sm-0"><ul class="nav-sub-menu list-unstyled">
+<li class="nav-m-item menu-item menu-fishing-reports"><a class="nav-m-link" href="https://coastwatch.com.au/fishing-reports/">Fishing Reports</a></li>
+<li class="nav-m-item menu-item menu-fishing-products"><a class="nav-m-link" href="https://coastwatch.com.au/videos/fishing-products-2/">Fishing Products</a></li>
+<li class="nav-m-item menu-item menu-show-us-your-fish"><a class="nav-m-link" href="https://coastwatch.com.au/show-us-your-fish/">Show Us Your Fish</a></li>
+<li class="nav-m-item menu-item menu-seafood-preparation"><a class="nav-m-link" href="/videos/seafood-preparation/">Seafood Preparation</a></li>
+<li class="nav-m-item menu-item menu-seafood-cooking"><a class="nav-m-link" href="/videos/seafood-cooking/">Seafood Cooking</a></li>
+</ul></div></div>
+</li>
+<li class="nav-m-item menu-item js-megamenu js-megamenu menu-item-has-children js-megamenu menu-surf-beach"><a class="nav-m-link nav-link-toggle" href="/articles/surf-and-beach/">Surf &amp; Beach</a><button type="button" class="nav-link-toggle-caret btn-reset d-lg-none px-0 js-nav-link-toggle-caret" aria-label="Toggle megamenu"><i class="icon icon-caret-down" aria-hidden="true"></i></button>
+<div class="mega-menu mega-menu-sm js-submenu"><div class="container px-sm-0"><ul class="nav-sub-menu list-unstyled">
+<li class="nav-m-item menu-item menu-daily-surf-beach-reports"><a class="nav-m-link" href="https://coastwatch.com.au/surf-and-beach-reports/">Daily Surf &#038; Beach Reports</a></li>
+<li class="nav-m-item menu-item menu-beach"><a class="nav-m-link" href="/articles/surf-and-beach/beach/">Beach</a></li>
+<li class="nav-m-item menu-item menu-surfing"><a class="nav-m-link" href="https://coastwatch.com.au/coastwatch-vault/surfing/">Surfing</a></li>
+</ul></div></div>
+</li>
+<li class="nav-m-item menu-item js-megamenu js-megamenu menu-item-has-children js-megamenu menu-coastal"><a class="nav-m-link nav-link-toggle" href="/articles/coastal/">Coastal</a><button type="button" class="nav-link-toggle-caret btn-reset d-lg-none px-0 js-nav-link-toggle-caret" aria-label="Toggle megamenu"><i class="icon icon-caret-down" aria-hidden="true"></i></button>
+<div class="mega-menu mega-menu-sm js-submenu"><div class="container px-sm-0"><ul class="nav-sub-menu list-unstyled">
+<li class="nav-m-item menu-item menu-hall-of-fame"><a class="nav-m-link" href="https://coastwatch.com.au/articles/hall-of-fame/">Hall of Fame</a></li>
+<li class="nav-m-item menu-item menu-diving"><a class="nav-m-link" href="https://coastwatch.com.au/videos/diving/">Diving</a></li>
+<li class="nav-m-item menu-item menu-events"><a class="nav-m-link" href="https://coastwatch.com.au/articles/coastal/events/">Events</a></li>
+<li class="nav-m-item menu-item menu-aerials"><a class="nav-m-link" href="https://coastwatch.com.au/coastal-aerials/">Aerials</a></li>
+<li class="nav-m-item menu-item menu-seafood-cooking"><a class="nav-m-link" href="/videos/seafood-cooking/">Seafood Cooking</a></li>
+<li class="nav-m-item menu-item menu-creatures"><a class="nav-m-link" href="/videos/creatures/">Creatures</a></li>
+</ul></div></div>
+</li>
+<li class="nav-m-item menu-item menu-news"><a class="nav-m-link" href="https://coastwatch.com.au/articles/news/">News</a></li>
+<li class="nav-m-item menu-item js-megamenu js-megamenu menu-item-has-children js-megamenu menu-vault"><a class="nav-m-link nav-link-toggle" href="https://coastwatch.com.au/coastwatch-vault/">Vault</a><button type="button" class="nav-link-toggle-caret btn-reset d-lg-none px-0 js-nav-link-toggle-caret" aria-label="Toggle megamenu"><i class="icon icon-caret-down" aria-hidden="true"></i></button>
+<div class="mega-menu mega-menu-sm js-submenu"><div class="container px-sm-0"><ul class="nav-sub-menu list-unstyled">
+<li class="nav-m-item menu-item menu-beach"><a class="nav-m-link" href="/coastwatch-vault/beach/">Beach</a></li>
+<li class="nav-m-item menu-item menu-boating"><a class="nav-m-link" href="/coastwatch-vault/boating/">Boating</a></li>
+<li class="nav-m-item menu-item menu-creatures"><a class="nav-m-link" href="/coastwatch-vault/creatures/">Creatures</a></li>
+<li class="nav-m-item menu-item menu-diving"><a class="nav-m-link" href="/coastwatch-vault/diving/">Diving</a></li>
+<li class="nav-m-item menu-item menu-fishing"><a class="nav-m-link" href="/coastwatch-vault/fishing/">Fishing</a></li>
+<li class="nav-m-item menu-item menu-other"><a class="nav-m-link" href="/coastwatch-vault/other/">Other</a></li>
+<li class="nav-m-item menu-item menu-sailing"><a class="nav-m-link" href="/coastwatch-vault/sailing/">Sailing</a></li>
+<li class="nav-m-item menu-item menu-seafood-cooking"><a class="nav-m-link" href="/coastwatch-vault/seafood-cooking/">Seafood Cooking</a></li>
+<li class="nav-m-item menu-item menu-seafood-preparation"><a class="nav-m-link" href="/coastwatch-vault/seafood-preparation/">Seafood Preparation</a></li>
+<li class="nav-m-item menu-item menu-show-us-your-boat"><a class="nav-m-link" href="/coastwatch-vault/show-us-your-boat/">Show Us Your Boat</a></li>
+<li class="nav-m-item menu-item menu-surfing"><a class="nav-m-link" href="/coastwatch-vault/surfing/">Surfing</a></li>
+</ul></div></div>
+</li>
+<li class="nav-m-item menu-item menu-store"><a class="nav-m-link" target="_blank" href="https://store.coastwatch.com.au">Store</a></li>
+</ul>
+                  </div>
+      </div>
+
+      <div class="header-actions py-3x px-2x px-sm-0 py-lg-0 mr-1 mr-lg-0 ml-auto ml-lg-2 ml-xl-3">
+      <div class="dropdown dropdown-right search-dropdown">
+      <button id="searchBoxTrigger" type="button"
+              class="dropdown-toggle search-dropdown-toggle position-relative ts-24 p-1 l-h-1 no-caret btn-reset link-lightx js-dropdown-toggle"
+              aria-expanded="false"><i class="icon icon-search pointer-events-none" aria-hidden="true"></i><i
+          class="icon icon-close pointer-events-none" aria-hidden="true"></i></button>
+      <div class="dropdown-menu p-2 js-dropdown-menu-static js-dropdown-list" aria-labelledby="searchBoxTrigger">
+        <div class="container container-lg px-0">
+          <form role="search" method="get" id="searchForm" class="search-form form" action="https://coastwatch.com.au/" >
+    <div class="form-group mb-0"><label class="screen-reader-text sr-only" for="search">Search for:</label>
+    <input type="text" value="" name="s" class="form-control search-form-control" id="search" placeholder="Search Content..." />
+    <button type="submit" id="search-submit" class="search-form-btn link-muted link-hover btn-reset" aria-label="Search"><i class="icon icon-search ts-24 text-inherit mr-0" aria-hidden="true"></i></button>
+    </div>
+    </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <a href="#" class="navbar-toggle d-lg-none ml-autox js-navbar-toggle" tabindex="0"
+         aria-controls="CoastWatchNavigationContent"
+         aria-expanded="false" aria-label="Toggle Menu">
+        <span class="navbar-toggle-line" aria-hidden="true"></span>
+        <span class="navbar-toggle-line" aria-hidden="true"></span>
+        <span class="navbar-toggle-line" aria-hidden="true"></span>
+        <span class="navbar-toggle-line" aria-hidden="true"></span>
+      </a>
+    </div>
+  </nav>
+</header>
+  <main id="content" class="main">
+           <article class="single-post-content">
+      <section class="block block-page-title bg-primary-dark py-3 mb-4 mb-md-5 mb-xl-6">
+  <div class="container container-sm">
+    <h1 class="h4 ts-lg-26 mb-0">Fishing Report for 16 October 2026</h1>
+  </div>
+</section>
+
+      <section class="block bg-white s-mb-md">
+  <div class="container container-sm">
+    <div class="row row-gutter-lg">
+      <div class="col-md mb-4 mb-md-0">
+        <figure class="aspect-ratiox aspect-ratio-15x mnh-200x mxh-300x text-center mb-4">
+  <img width="786" height="548" src="/wp-content/uploads/2026/10/image000000-78.jpg" class="aspect-ratio-itemx br-1 w-100" alt="Fishing Report for 16 October 2026" decoding="async" loading="lazy" srcset="/wp-content/uploads/2026/10/image000000-78.jpg 786w, /wp-content/uploads/2026/10/image000000-78-500x349.jpg 500w" sizes="auto, (max-width: 786px) 100vw, 786px" />
+</figure>
+
+        <div class="d-flex align-items-center text-muted ts-14 l-h-16 mb-3">
+      <a href="/articles/fishing-report/" class="badge mr-1">Fishing Report</a>
+    <time class="ff-alt" datetime="2026-10-16T06:10:31+00:00">Fri 16 Oct 2026</time>
+
+
+
+
+</div>
+        <div class="page-content rich-content ts-14">
+    <h2 class="wp-block-heading">Hervey Bay / Fraser Island</h2>
+
+
+
+<p class="wp-block-paragraph">Mackerel remain the headline act across the region, with broadbar and school mackerel dominating catches around the Urangan Pier, local beaches and the wider bay. The pier is also producing quality queenfish, giant trevally, golden trevally and the occasional Spanish mackerel, while whiting continue to be caught along the Hervey Bay foreshores and throughout the Great Sandy Straits. </p>
+
+
+
+<p class="wp-block-paragraph">The Great Sandy Straits and local river systems are fishing well for grunter, flathead, threadfin salmon, blue salmon and barramundi. Mangrove jacks are firing throughout the western creeks and the Burrum system, while quality whiting are also featuring in the middle reaches. </p>
+
+
+
+<p class="wp-block-paragraph">Offshore, coral trout, grassy sweetlip, cod and Spanish mackerel continue to feature, while billfish activity is building with juvenile black marlin, striped marlin and yellowfin tuna all being reported. Around Rooneys Point and Station Hill, the first consistent run of juvenile black marlin for the season has provided plenty of excitement for gamefishers.</p>
+
+
+
+<p class="wp-block-paragraph">Fraser Island&#8217;s tailor season remains patchy depending on location and conditions, although quality greenbacks are still being caught through the central sector. Anglers are also finding dart, whiting and the occasional trevally along the surf beaches. Boaties should remain aware of lingering whale traffic and patches of nuisance &#8220;snot weed&#8221; in parts of Platypus Bay and the central bay.</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td class="has-text-align-left" data-align="left"><strong>Fishos Tackleworld&nbsp;Ph&nbsp;</strong><a href="tel:+61741281022"><strong>(07) 4128 1022</strong></a><strong>&nbsp;|&nbsp;</strong><a href="http://www.fishostackleworld.com.au/"><strong>www.fishostackleworld.com.au</strong></a><strong></strong></td></tr></tbody></table></figure>
+
+
+
+<h2 class="wp-block-heading"><strong>Tin Can Bay</strong></h2>
+
+
+
+<p class="wp-block-paragraph">Wet and windy conditions are expected this weekend, so anglers will be best served heading up the creeks to escape the worst of the showers and south-easterly winds.</p>
+
+
+
+<p class="wp-block-paragraph">With the overcast conditions, mangrove jacks should be high on the target list. Surface lures such as frogs and 70-90mm poppers worked tight against snaggy structure are worth a look, while live baits and fresh strips of mullet continue to produce fish. Even when the jacks are quiet, there are usually plenty of cod and bream around to keep rods bending.</p>
+
+
+
+<p class="wp-block-paragraph">A few stocked Tin Can Bay barramundi have also been caught over the past couple of weeks as water temperatures continue to rise. Live baits have accounted for some captures, while slowly worked soft plastic prawns remain a reliable option.</p>
+
+
+
+<p class="wp-block-paragraph">Crabbing has been a little quiet, although the recent rainfall should help get the crabs moving. It&#8217;s still worth setting a few pots, with fresh baits and a longer soak generally producing the best results.</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td class="has-text-align-left" data-align="left"><strong>The Chandlery Bait &amp; Tackle&nbsp;Ph&nbsp;</strong><a href="tel:(07)%205486%204744"><strong>(07) 5486 4744</strong></a><strong>&nbsp;|&nbsp;</strong><a href="http://www.tcbchandlery.com.au/"><strong>www.tcbchandlery.com.au</strong></a><strong></strong></td></tr></tbody></table></figure>
+
+
+
+<h2 class="wp-block-heading"><strong>Noosa</strong></h2>
+
+
+
+<p class="wp-block-paragraph">There are still some quality flathead being caught through the lower reaches of the Noosa River, with a number of better fish coming from the deeper channels and drop-offs.</p>
+
+
+
+<p class="wp-block-paragraph">Bream and whiting remain the bread-and-butter species throughout the system, providing consistent fishing for both bait and lure anglers. A few tailor have also been taken by land-based anglers in the Noosaville reaches over the past week.</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td class="has-text-align-left" data-align="left"><strong>O Boat Hire &amp; Bait Supply&nbsp;&nbsp;Ph&nbsp;</strong><a href="tel:+61754497513"><strong>(07) 5449 7513</strong></a><strong>&nbsp;|&nbsp;</strong><a href="http://www.oboathire.com/"><strong>www.oboathire.com</strong></a><strong></strong></td></tr></tbody></table></figure>
+
+
+
+<p class="wp-block-paragraph">Not a huge amount to report over the last week.  The closer offshore reefs were fishing well, with North Reef producing a reliable mix of snapper and sweetlip while further afield, Sunshine Reef was yielding quality pearl perch, while Double Island Point produced hard-fighting amberjack along with plenty of snapper. </p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td class="has-text-align-left" data-align="left"><strong>Noosa Bluewater Charters&nbsp;Ph&nbsp;</strong><a href="tel:+61754499355"><strong>(07) 5449 9355</strong></a><strong>&nbsp;|&nbsp;</strong><a href="http://www.noosabluefishing.com.au/"><strong>www.noosabluefishing.com.au</strong></a></td></tr></tbody></table></figure>
+
+
+
+<p class="wp-block-paragraph">Plenty of fish being caught with The Hards, Double Island Point and North Reef all producing quality catches.</p>
+
+
+
+<p class="wp-block-paragraph">A wide range of reef species are on the chew, making this one of the most productive times of the year to head offshore. With conditions and water temperatures aligning, both this month and next are shaping up as prime months for reef fishing, with anglers finding quality fish across both the close and wider grounds.</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td class="has-text-align-left" data-align="left"><strong>Deep Sea Fishing Co Noosa&nbsp;Ph&nbsp;</strong><a href="tel:+61411222749"><strong>0411 222 749</strong></a><strong>&nbsp;|&nbsp;</strong><a href="http://www.deepseafishingco.com.au/"><strong>www.deepseafishingco.com.au</strong></a><strong></strong></td></tr></tbody></table></figure>
+
+
+
+<p class="wp-block-paragraph">The lower estuary continues to produce some quality flathead, while a number of belter bream have also been reported throughout the system.</p>
+
+
+
+<p class="wp-block-paragraph">A few smaller mulloway are being caught in the ski run areas, with soft plastic frog-style lures proving effective on the jewies.</p>
+
+
+
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-2 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="762" data-id="19669" src="/wp-content/uploads/2026/10/Screenshot-2026-10-17-at-10.49.46-am-1024x762.png" alt="" class="wp-image-19669" srcset="/wp-content/uploads/2026/10/Screenshot-2026-10-17-at-10.49.46-am-1024x762.png 1024w, /wp-content/uploads/2026/10/Screenshot-2026-10-17-at-10.49.46-am-500x372.png 500w, /wp-content/uploads/2026/10/Screenshot-2026-10-17-at-10.49.46-am.png 1898w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="788" height="1024" data-id="19668" src="/wp-content/uploads/2026/10/Screenshot-2026-10-17-at-10.49.37-am-1-788x1024.png" alt="" class="wp-image-19668" srcset="/wp-content/uploads/2026/10/Screenshot-2026-10-17-at-10.49.37-am-1-788x1024.png 788w, /wp-content/uploads/2026/10/Screenshot-2026-10-17-at-10.49.37-am-1-500x650.png 500w, /wp-content/uploads/2026/10/Screenshot-2026-10-17-at-10.49.37-am-1.png 1082w" sizes="auto, (max-width: 788px) 100vw, 788px" /></figure>
+</figure>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td class="has-text-align-left" data-align="left"><strong>Noosa River Fishing Safaris&nbsp;Ph&nbsp;</strong><a href="tel:+61429030823"><strong>0429 030 823</strong></a><strong>&nbsp;|&nbsp;</strong><a href="http://www.noosariverfishing.com/"><strong>www.noosariverfishing.com</strong></a><strong></strong></td></tr></tbody></table></figure>
+
+
+
+<h2 class="wp-block-heading"><strong>Maroochydore</strong></h2>
+
+
+
+<p class="wp-block-paragraph">Fishing activity has been relatively quiet this week, although anglers are still finding a few quality fish throughout the system.</p>
+
+
+
+<p class="wp-block-paragraph">Bream and flathead have been reported around the mouths of both Eudlo Creek and Petrie Creek, while a handful of whiting continue to be caught around Chambers Island.</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td class="has-text-align-left" data-align="left"><strong>Swan Boat Hire&nbsp;&nbsp;Ph&nbsp;</strong><a href="tel:0403%20601%20452"><strong>0403 601 452</strong></a><strong>&nbsp;|&nbsp;</strong><a href="http://www.swanboathire.com.au/"><strong>www.swanboathire.com.au</strong></a></td></tr></tbody></table></figure>
+
+
+
+<h2 class="wp-block-heading"><strong>Mooloolaba</strong></h2>
+
+
+
+<p class="wp-block-paragraph">It has been a quieter week than usual on the Sunshine Coast, with fishing reports fairly limited across both offshore and freshwater systems.</p>
+
+
+
+<p class="wp-block-paragraph">The Maroochy River is producing a few flathead around Bli Bli, while quality whiting continue to come from around Chambers Island. In the Mooloolah River, anglers are finding bream around La Balsa Park, with the trawler area producing the odd trevally. A few mangrove jacks are also being caught in the Kawana canal systems as water temperatures continue to rise.</p>
+
+
+
+<p class="wp-block-paragraph">With live worms proving effective, estuary anglers are still managing a reasonable mixed bag despite the slower conditions.&nbsp;</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td class="has-text-align-left" data-align="left"><strong>Tackleworld Kawana&nbsp;&nbsp;Ph&nbsp;<u><a href="http://(07)%205444%200714">(07) 5444 0714</a></u>&nbsp;|&nbsp;</strong><a href="http://www.tackleworldkawanafishingstore.com.au/"><strong>www.tackleworldkawanafishingstore.com.au</strong></a><strong></strong></td></tr></tbody></table></figure>
+
+
+
+<h2 class="wp-block-heading"><strong>Caloundra</strong> / Pumicestone Passage</h2>
+
+
+
+<p class="wp-block-paragraph">Persistent wind and rain have limited fishing opportunities this week.</p>
+
+
+
+<p class="wp-block-paragraph">Those who have managed to get out are still finding whiting and flathead throughout Pumicestone Passage, while mud crabs continue to be reported from the local creek and canal systems.</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td class="has-text-align-left" data-align="left"><strong>Caloundra Fishing World&nbsp;&nbsp;Ph&nbsp;</strong><a href="tel:+61754914566"><strong>(07) 5491 4566</strong></a><strong>&nbsp;|&nbsp;</strong><a href="http://www.caloundrafishingworld.com.au/"><strong>www.caloundrafishingworld.com.au</strong></a><strong></strong></td></tr></tbody></table></figure>
+
+
+
+<p class="wp-block-paragraph">Report pending.</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td class="has-text-align-left" data-align="left"><strong>Salty Fishing Charters<br>Ph</strong><a href="tel:+61459636798"><strong>&nbsp;0459 636 798</strong></a><strong>&nbsp;&nbsp;|&nbsp;</strong><a href="https://saltyfishingcharters.com.au/"><strong>https://saltyfishingcharters.com.au/</strong></a><strong></strong></td></tr></tbody></table></figure>
+
+
+
+<h2 class="wp-block-heading"><strong>Northern Moreton Bay</strong></h2>
+
+
+
+<p class="wp-block-paragraph">With a wet and windy weekend forecast, anglers may be better off heading into the upper reaches of the Pine and Caboolture river systems. Flathead remain a good option in these areas, while the odd jewfish and mangrove jack are also being caught.</p>
+
+
+
+<p class="wp-block-paragraph">For those targeting jacks, the key is to fish tight to structure, use heavier leader and be prepared to lock up quickly once hooked.</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td class="has-text-align-left" data-align="left"><strong>Tackleworld Lawnton&nbsp; &nbsp;<br>Ph&nbsp;</strong><a href="tel:+61732057475"><strong>(07) 3205 7475</strong></a><strong>&nbsp;|&nbsp;</strong><a href="https://www.facebook.com/tackleworldlawnton"><strong>www.facebook.com/tackleworldlawnton</strong></a><strong></strong></td></tr></tbody></table></figure>
+
+
+
+<h2 class="wp-block-heading"><strong>Moreton Bay Offshore</strong></h2>
+
+
+
+<p class="wp-block-paragraph">No report this week.</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td class="has-text-align-left" data-align="left"><strong>High Calibre Charters&nbsp;&nbsp;<br>Ph&nbsp;</strong><a href="tel:+61421922713"><strong>0421 922 713</strong><strong>&nbsp;</strong></a><strong>|&nbsp;</strong><a href="https://highcalibrefishingcharters.com.au/"><strong>https://highcalibrefishingcharters.com.au/</strong></a><strong></strong></td></tr></tbody></table></figure>
+
+
+
+<h2 class="wp-block-heading"><strong>Redcliffe Peninsula</strong></h2>
+
+
+
+<p class="wp-block-paragraph">Report pending.</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td class="has-text-align-left" data-align="left"><strong>Hornibrook Bait &amp; Tackle&nbsp;&nbsp;&nbsp;<br>Ph&nbsp;</strong><a href="tel:+61483846966"><strong>0483 846 966</strong></a><strong>&nbsp;|&nbsp;</strong><a href="https://www.facebook.com/HornibrookBT"><strong>www.facebook.com/HornibrookBT</strong></a><strong></strong></td></tr></tbody></table></figure>
+
+
+
+<h2 class="wp-block-heading"><strong>Brisbane</strong></h2>
+
+
+
+<p class="wp-block-paragraph">Weather has once again limited opportunities across much of the bay and river system, resulting in a quieter week of reports. For those finding sheltered water, the Brisbane River is still producing the odd school jewfish and grunter, while flathead continue to show up around the lower reaches and river mouth structure.</p>
+
+
+
+<p class="wp-block-paragraph">Whiting remain a possibility through the bay-side creeks and flats, although conditions have made consistent fishing difficult. A few sweetlip are still being caught around the shallower island grounds, while both sand and mud crabs remain on the move as water temperatures continue to rise. With poor weather forecast to continue through the weekend, protected river and creek systems are likely to offer the best chance of putting together a mixed bag.</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td class="has-text-align-left" data-align="left"><strong>Mr Bait &nbsp;&nbsp;<br>Ph&nbsp;</strong><a href="tel:+61431222721"><strong>0431 222 721</strong></a><strong>&nbsp;|&nbsp;</strong><a href="https://www.facebook.com/Mr-Bait-182344678957765"><strong>www.facebook.com/Mr-Bait-182344678957765</strong></a><strong></strong></td></tr></tbody></table></figure>
+
+
+
+<h2 class="wp-block-heading">Wynnum / Manly</h2>
+
+
+
+<p class="wp-block-paragraph">Fishing activity has largely been concentrated around the sheltered estuaries this week, with windy conditions limiting opportunities elsewhere.</p>
+
+
+
+<p class="wp-block-paragraph">The mouths of Lota Creek and Tingalpa Creek are producing whiting and flathead, while mud crab numbers continue to improve throughout the local estuary systems. With conditions remaining breezy, these protected areas are proving the most reliable option for anglers and crabbers alike.</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td class="has-text-align-left" data-align="left"><strong>Water Tower Bait &amp; Tackle&nbsp;&nbsp;&nbsp;<br>Ph (07) 3396 1833 |&nbsp;</strong><a href="https://watertowerbaitandtackle.com.au/"><strong>https://watertowerbaitandtackle.com.au</strong></a><strong></strong></td></tr></tbody></table></figure>
+
+
+
+<h2 class="wp-block-heading"><strong>Moreton Bay / Jumpinpin</strong></h2>
+
+
+
+<h3 class="wp-block-heading"><strong>Moreton Bay / Southern Moreton Bay</strong></h3>
+
+
+
+<p class="wp-block-paragraph">Report pending.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Jumpinpin</strong></h3>
+
+
+
+<p class="wp-block-paragraph">Report pending.</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td class="has-text-align-left" data-align="left"><strong>Capn’s Charters<br>Ph&nbsp;</strong><a href="tel:+61410590049"><strong>0410 590 049</strong></a><strong>&nbsp;|&nbsp;</strong><a href="https://capnscharters.com.au/"><strong>Capns Charters – Lure &amp; Soft Plastic Fishing Charter</strong></a><strong></strong></td></tr></tbody></table></figure>
+
+
+
+<h2 class="wp-block-heading"><strong>Jumpinpin</strong></h2>
+
+
+
+<p class="wp-block-paragraph">There are still some quality flathead being caught throughout the southern end of the system at Cobby Cobby and Jumpipin bar. The shallow lagoons and flats on South Stradbroke Island have been producing some larger fish, while a few nice specimens have been taken at Jacobs Well jetty.</p>
+
+
+
+<p class="wp-block-paragraph">A few mud crabs are also being caught in the Logan River, while tailor remain scattered along the South Stradbroke Island beaches.</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td class="has-text-align-left" data-align="left"><strong>Gem Bait &amp; Tackle&nbsp;&nbsp;&nbsp;<br>Ph&nbsp;(07) 3287 3868 |&nbsp;</strong><a href="https://www.facebook.com/gembait"><strong>www.facebook.com/gembait</strong></a><strong></strong></td></tr></tbody></table></figure>
+
+
+
+<p class="wp-block-paragraph">Slower week for flathead reports, but some quality threadfin salmon, whiting, trevally and tailor &#8212; and a few mulloway at Jumpinpin bar.  </p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td class="has-text-align-left" data-align="left"><strong>Jacobs Well Boat Hire&nbsp;<br>Ph&nbsp;</strong><a href="tel:+61755462608"><strong>(07) 5546 2608</strong></a><strong>&nbsp;&nbsp;|&nbsp;</strong><a href="http://www.jacobswellboathire.com.au/"><strong>www.jacobswellboathire.com.au</strong></a><strong></strong></td></tr></tbody></table></figure>
+
+
+
+<h2 class="wp-block-heading"><strong>South Stradbroke Island</strong></h2>
+
+
+
+<p class="wp-block-paragraph">Report pending.</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td class="has-text-align-left" data-align="left"><strong>Gold Coast Boat Hire &nbsp;&nbsp;<br>Ph&nbsp;0432 710 892&nbsp;|&nbsp;</strong><a href="http://www.goldcoastboathire.com.au/"><strong>www.goldcoastboathire.com.au</strong></a><strong></strong></td></tr></tbody></table></figure>
+
+
+
+<h2 class="wp-block-heading"><strong>Gold Coast Broadwater</strong></h2>
+
+
+
+<p class="wp-block-paragraph">Fairly ordinary conditions are forecast this weekend, with showers and consistent winds across both days. The beaches and main channels in the Broadwater will be pretty wild, so it&#8217;s best to avoid those areas.</p>
+
+
+
+<p class="wp-block-paragraph">If you&#8217;re still keen and have a boat with some shelter from the showers, there are a few whiting in the Nerang River. The best time at the moment is the night-time run-in tide, with fish being caught near Sundale Bridge and the Council Chambers. They are also being caught in the Pimpama River near the mouth and in the North Arm of the Coomera River.</p>
+
+
+
+<p class="wp-block-paragraph">If you&#8217;re out there, it could be worth putting out a few pots, with some sand crabs and the odd mud crab being caught. Another option in these conditions is to head into the canals and chase bream, trevally, cod and the occasional mangrove jack.</p>
+
+
+
+<p class="wp-block-paragraph">Not the best weekend to head out, so it might be one for getting the boat or fishing gear in order.</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td class="has-text-align-left" data-align="left"><strong>David Macdonald&nbsp;<br>Private Angler | Runaway Bay Marina</strong></td></tr></tbody></table></figure>
+
+
+
+<h2 class="wp-block-heading"><strong>Southport</strong></h2>
+
+
+
+<p class="wp-block-paragraph">Weather has limited offshore opportunities this week, with only a couple of half-day trips making it onto the water. Those who did manage to fish offshore found tuna, tuskfish, reef flathead and tailor, along with a few snapper, although snapper numbers appear to have eased slightly compared to recent weeks.</p>
+
+
+
+<p class="wp-block-paragraph">In the estuaries, conditions have been far more productive. Recent full-day Broadwater sessions produced excellent whiting fishing, along with bream, slatey bream, flounder and flathead. The quality whiting action was a particular highlight, with the species continuing to feature strongly throughout the southern bay systems.</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td class="has-text-align-left" data-align="left"><strong>BK’s Gold Coast Fishing Charters<br>Ph&nbsp;</strong><a href="tel:+61414293034"><strong>0414 293 034</strong></a><strong>&nbsp;|</strong><a href="https://bksfishing.com.au/"><strong>&nbsp;https://bksfishing.com.au/</strong></a><strong></strong></td></tr></tbody></table></figure>
+
+
+
+<h2 class="wp-block-heading">Tweed Coast</h2>
+
+
+
+<p class="wp-block-paragraph">No report this week.</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td class="has-text-align-left" data-align="left"><strong>Cushy Fishing Charters&nbsp;&nbsp;&nbsp;<br>Ph&nbsp;</strong><a href="tel:+61418631076"><strong>0418 631 076</strong></a><strong>&nbsp;|&nbsp;</strong><a href="http://www.cushyfishingcharters.com.au/"><strong>www.cushyfishingcharters.com.au</strong></a></td></tr></tbody></table></figure>
+
+
+
+<p class="wp-block-paragraph">Offshore, there are good numbers of kingfish for those able to get out, and anglers don&#8217;t have to venture too far wide to find them. Some sizeable cobia are also being encountered around the 50-metre line, while excellent pearl perch continue to provide consistent action on the wider grounds. Snapper have been mixed in amongst the pearlies, although most fish have been on the smaller side.</p>
+
+
+
+<p class="wp-block-paragraph">A few early-season mackerel have also started to appear, albeit in isolated catches, while the occasional quality wahoo has been reported offshore. Beach fishing, meanwhile, has been largely blown out by the weather.</p>
+
+
+
+<p class="wp-block-paragraph">In the estuaries, the better fishing has been further upstream towards the freshwater reaches near the weirs, where mangrove jacks have become increasingly active during the warmer, humid evenings. Closer to the river mouth and around the bridge systems, the usual mix of estuary species continues to keep anglers busy.</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td class="has-text-align-left" data-align="left"><strong>Addict Tackle&nbsp;&nbsp;<br>Ph&nbsp;</strong><a href="tel:+61755233535"><strong>(07) 5523 3535</strong></a><strong>&nbsp;| &nbsp;</strong><a href="https://www.addicttackle.com.au/"><strong>https://www.addicttackle.com.au/</strong></a><strong></strong></td></tr></tbody></table></figure>
+
+
+
+<h2 class="wp-block-heading"><strong>Ballina</strong></h2>
+
+
+
+<p class="wp-block-paragraph">Report pending.</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td class="has-text-align-left" data-align="left"><strong>Ballina Bait and Tackle&nbsp;&nbsp;<br>Ph (02) 6686 2527 |&nbsp;</strong><a href="https://www.facebook.com/p/Ballina-Bait-and-Tackle-100063582669959/"><strong>https://www.facebook.com/p/Ballina-Bait-and-Tackle-100063582669959/</strong></a><strong></strong></td></tr></tbody></table></figure>
+
+
+
+<h2 class="wp-block-heading"><strong>Evans Head</strong></h2>
+
+
+
+<p class="wp-block-paragraph">Airforce Beach is producing the tailor, along with the occasional jewfish and a handful of bream. Around the north and south breakwalls, anglers are picking up bream, flathead and whiting, while a few jewfish have been reported during the evening periods.</p>
+
+
+
+<p class="wp-block-paragraph">Further upstream, mud crab numbers appear to be improving again, while trevally, grunter and flathead are all featuring in catches throughout the river system.</p>
+
+
+
+<p class="wp-block-paragraph">Offshore, the close reefs are producing snapper and trag, while the wider grounds continue to turn up pearl perch. The odd yellowfin tuna and kingfish are also still being reported when conditions allow.</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td class="has-text-align-left" data-align="left"><strong>Evans Head Sports &amp; Marine&nbsp;&nbsp;Ph&nbsp;</strong><a href="tel:+61266824536"><strong>(02) 6682 4536</strong></a><strong>&nbsp;|&nbsp;</strong><a href="https://www.facebook.com/EvansheadSportsMarine"><strong>www.facebook.com/EvansheadSportsMarine</strong></a><strong></strong></td></tr></tbody></table></figure>
+
+
+
+<h2 class="wp-block-heading">Brunswick Heads</h2>
+
+
+
+<p class="wp-block-paragraph">Offshore fishing has been effectively shut down this week, with persistent swell and strong winds preventing most boats from heading to sea.</p>
+
+
+
+<p class="wp-block-paragraph">Beach and rockwall anglers are still finding a few fish, with dart, bream and jewfish making up the bulk of catches. In the Brunswick River, the warmer conditions are starting to kick the estuary fishery into gear, with mangrove jacks showing up around the harbour and along the rock walls. Mud crabs are also being caught throughout the system, although many of the crabs being checked remain undersized, with only a handful of legal keepers reported.</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td class="has-text-align-left" data-align="left"><strong>Bruns Beach Bait and Tackle<br>Ph&nbsp;<a href="tel:+61266461514">0432 394 86</a></strong><a href="tel:+61266461514"><strong>9</strong></a><strong>&nbsp;|&nbsp;</strong></td></tr></tbody></table></figure>
+
+
+
+<h2 class="wp-block-heading">Yamba</h2>
+
+
+
+<p class="wp-block-paragraph">Offshore reports have been virtually non-existent this week, with very few boats managing to head to sea.</p>
+
+
+
+<p class="wp-block-paragraph">The estuary remains the best option, with the cleaner water conditions continuing to favour the upper reaches of the system. Anglers targeting flathead are still finding the better fishing further upstream around Harwood, Lawrence and the surrounding reaches. There have also been reports of the odd mangrove jack starting to show up as water temperatures slowly rise.</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td class="has-text-align-left" data-align="left"><strong>Yamba Bait and Tackle<br>Ph&nbsp;</strong><a href="tel:+61266461514"><strong>(02) 6646 1514</strong></a><strong>&nbsp;|&nbsp;</strong><a href="https://www.facebook.com/yambabaitandtackle/"><strong>https://www.facebook.com/yambabaitandtackle/</strong></a><strong></strong></td></tr></tbody></table></figure>
+
+
+
+<h2 class="wp-block-heading"><strong><em>FRESHWATER FISHING</em></strong><strong></strong></h2>
+
+
+
+<h2 class="wp-block-heading">North Pine Dam</h2>
+
+
+
+<p class="wp-block-paragraph">North Pine continues to fish very well, although anglers fishing from the bank may need to put in a little more effort to locate fish. The Bullocky&#8217;s Rest and Forgans Cove areas are both producing bass, particularly for anglers working heavy soft plastics and metal spoons through deeper water. Early mornings remain productive around structure with spinnerbaits, however the better bite has generally been occurring later in the afternoon. Fishing from around 2pm through to dark is producing some quality bass, with metal spoons, spinnerbaits and soft plastics all proving effective.</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td class="has-text-align-left" data-align="left"><strong>Charltons Fishing&nbsp;&nbsp;&nbsp;<br>Ph&nbsp;</strong><a href="tel:+61738181677"><strong>(07) 3818 1677</strong></a><strong>&nbsp;|&nbsp;<a href="http://www.charltonsfishing.com.au/">www.charltonsfishing.com.au</a></strong></td></tr></tbody></table></figure>
+
+
+
+<h2 class="wp-block-heading">Lake Kurwongbah</h2>
+
+
+
+<p class="wp-block-paragraph">Lake Kurwongbah continues to produce some good bass, with anglers reporting success trolling soft plastics.</p>
+
+
+
+<p class="wp-block-paragraph">The South Pine River and associated creeks are also fishing well for bass, particularly during the afternoon bite period, making them a worthwhile option for anglers looking to avoid the worst of the weather.</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td class="has-text-align-left" data-align="left"><strong>Tackleworld Lawnton&nbsp; &nbsp;<br>Ph&nbsp;</strong><a href="tel:+61732057475"><strong>(07) 3205 7475</strong></a><strong>&nbsp;|&nbsp;</strong><a href="https://www.facebook.com/tackleworldlawnton"><strong>www.facebook.com/tackleworldlawnton</strong></a><strong></strong></td></tr></tbody></table></figure>
+
+
+
+<h2 class="wp-block-heading">Wivenhoe Dam</h2>
+
+
+
+<p class="wp-block-paragraph">Wivenhoe is producing some excellent-quality bass at the moment. Anglers are finding success following the old riverbed through the main basin and targeting schools with soft plastics, metal spoons and lipless crankbaits. Fish numbers have been strong and the average size has been particularly encouraging, making Wivenhoe one of the better bass options in the region this week.</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td class="has-text-align-left" data-align="left"><strong>Charltons Fishing&nbsp;&nbsp;&nbsp;<br>Ph&nbsp;</strong><a href="tel:+61738181677"><strong>(07) 3818 1677</strong></a><strong>&nbsp;|&nbsp;<a href="http://www.charltonsfishing.com.au/">www.charltonsfishing.com.au</a></strong></td></tr></tbody></table></figure>
+
+
+
+<h2 class="wp-block-heading">Hinze Dam</h2>
+
+
+
+<p class="wp-block-paragraph">Hinze remains one of the standout Southeast Queensland impoundments, with good numbers of quality bass being caught throughout the main basin. Fish are holding around points, submerged timber and structure extending from both the eastern and western arms. Small soft plastics rigged with jig spinners, chatterbaits and crankbaits are all producing fish, while trollers are finding success working diving lures that reach around 20ft. Saratoga are also becoming increasingly active, with small glidebaits, spinnerbaits and surface lures fished high in the water column accounting for fish around the backs of bays and timbered edges.</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td class="has-text-align-left" data-align="left"><strong>Charltons Fishing&nbsp;&nbsp;&nbsp;<br>Ph&nbsp;</strong><a href="tel:+61738181677"><strong>(07) 3818 1677</strong></a><strong>&nbsp;|&nbsp;<a href="http://www.charltonsfishing.com.au/">www.charltonsfishing.com.au</a></strong></td></tr></tbody></table></figure>
+
+
+
+<h2 class="wp-block-heading">Moogerah Dam</h2>
+
+
+
+<p class="wp-block-paragraph">Moogerah continues to fish exceptionally well, with plenty of bass and yellowbelly on the move throughout the dam. Fish are holding relatively shallow, generally in 15-25ft of water, making reaction-style lures the standout option. Spinnerbaits, chatterbaits, lipless crankbaits, crankbaits and soft plastics are all accounting for quality fish. The tree-lined banks, particularly through the Six Knot Zone, are holding large concentrations of fish and are well worth targeting. Yellowbelly are also showing up consistently, especially around the Gorge opposite the boat ramp where metal blades and lipless crankbaits are proving particularly effective.</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td class="has-text-align-left" data-align="left"><strong>Charltons Fishing&nbsp;&nbsp;&nbsp;<br>Ph&nbsp;</strong><a href="tel:+61738181677"><strong>(07) 3818 1677</strong></a><strong>&nbsp;|&nbsp;<a href="http://www.charltonsfishing.com.au/">www.charltonsfishing.com.au</a></strong></td></tr></tbody></table></figure>
+<div class="coastwatch-global-after-content" id="coastwatch-447273948"><div class="coastwatch-adlabel">Advertisements</div><div id="nrwad"><a href="https://coastwatch.com.au/coastwatch-business-directory/norman-r-wright-sons/" target="_blank" aria-label="Group 685"><img loading="lazy" decoding="async" src="/wp-content/uploads/2025/02/Group-685.png" alt=""  srcset="/wp-content/uploads/2025/02/Group-685.png 2140w, /wp-content/uploads/2025/02/Group-685-300x56.png 300w, /wp-content/uploads/2025/02/Group-685-1024x192.png 1024w" sizes="(max-width: 2140px) 100vw, 2140px" width="1070" height="200"   /></a></div></div>  </div>
+        <hr class="my-3 my-md-4"/>
+                <div class="d-flex align-items-center mt-0">
+                  <div class="font-weight-bold ts-14 mr-2">Share:</div>
+                <ul class="social-media d-flex align-items-center ts-24 l-h-1 list-unstyled">
+                    <li class="mr-12">
+                    <a href="https://www.facebook.com/sharer.php?u=https://tinyurl.com/2xmr4wnv" class="d-flex align-items-center link-dark link-hover" target="_blank" rel="noopener" aria-label="Facebook">
+                                        <i class="icon icon-facebook" aria-hidden="true"></i>
+                                    </a>
+                    </li>
+                    <li class="mr-12">
+                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://tinyurl.com/2xmr4wnv&title=Fishing Report for 16 October 2026&summary=Noa bags a 58cm flatty at Noosa.&source=" class="d-flex align-items-center link-dark link-hover" target="_blank" rel="noopener" aria-label="Linkedin">
+                                        <i class="icon icon-linkedin" aria-hidden="true"></i>
+                                    </a>
+                    </li>
+                    <li class="mr-12">
+                    <a href="/cdn-cgi/l/email-protection#251a5650474f40465118634c564d4c4b42057740554a575105434a57051413056a46514a474057051715171303474a415c186b4a440547444256054405101d46480543494451515c054451056b4a4a56440b054d515155561f0a0a464a445651524451464d0b464a480b44500a4457514c464940560a434c564d4c4b42085740554a575108434a57081413084a46514a47405708171517130a" class="d-flex align-items-center link-dark link-hover" aria-label="Email">
+                                        <i class="icon icon-mail" aria-hidden="true"></i>
+                                    </a>
+                    </li>
+                    <li>
+                    <a href="https://coastwatch.com.au/articles/fishing-report-for-16-october-2026/"class="d-flex align-items-center link-dark link-hover position-relative js-copy-to-clipboard" id="js-copy-to-clipboard" aria-label="Copy to clipboard"><i class="icon icon-link" aria-hidden="true"></i><span id="link-copied" class="link-copied link-copied-floated font-weight-bold ts-14 text-success d-none">Link copied!</span></a>
+</li>
+              </ul></div>
+      </div>
+              <div class="col-md-4 col-lg-per-27">
+          <aside id="sidebar" class="sidebar mb-n4">
+  <div class="mb-4">
+  <div id="coastwatch-2261386436"><div class="coastwatch-adlabel">Advertisements</div><a href="https://store.coastwatch.com.au/products/stinzguard" target="_blank" aria-label="Stinzguard"><img loading="lazy" decoding="async" src="/wp-content/uploads/2025/11/Stinzguard.png" alt=""  width="500" height="500"   /></a><a href="https://coastwatch.com.au/fishing-reports/" target="_blank" aria-label="Fishing Report Ad"><img loading="lazy" decoding="async" src="/wp-content/uploads/2024/04/Fishing-Report-Ad.png" alt=""  width="501" height="500"   /></a><a href="https://store.coastwatch.com.au/products/beacon-to-beacon" target="_blank" aria-label="Beacon to Beacon Sidebar Ad"><img loading="lazy" decoding="async" src="/wp-content/uploads/2025/11/Beacon-to-Beacon-Sidebar-Ad.png" alt=""  width="500" height="500"   /></a></div>
+</div>
+</aside>
+        </div>
+          </div>
+  </div>
+</section>
+      <section class="block bg-white">
+  <div class="container container-sm">
+    <div class="mb-3 mb-md-4">
+      <h2>More Articles</h2>
+    </div>
+
+    <div class="row mb-n3">
+                              <div class="col-md-4 mb-3">
+          <div class="card">
+  <figure class="aspect-ratio aspect-ratio-66 flex-grow-1 br-1 mb-1">
+    <a href="https://coastwatch.com.au/articles/22-04-14/" class="elem-stacked">
+      
+      <div class="aspect-ratio-item d-flex flex-column align-items-center justify-content-center bg-primary text-center p-2">
+    <i class="icon icon-coastwatch ts-48" aria-hidden="true"></i>
+
+  </div>
+          </a>
+  </figure>
+  <h3 class="text-inherit h5 line-clamp line-clamp-2 mb-04"><a href="https://coastwatch.com.au/articles/22-04-14/"
+                                                         class="link-dark link-hover">14 April 2022</a></h3>
+  <div class="d-flex align-items-center text-muted ts-12 l-h-16 mb-1">
+          <a href="/articles/fishing-report/" class="badge mr-1">Fishing Report</a>
+        <time class="ff-alt line-clamp" datetime="2026-10-16T06:10:31+00:00">Thu 14 Apr 2022</time>
+  </div>
+      <p
+      class="line-clamp line-clamp-2 ts-14 text-dark">School mackerel and queenfish on the inshore reefs, coral trout, grassy sweetlip, cod, moses perch and grunter bream at Gatakers Bay, school mackerel and queenfish...</p>
+  </div>
+        </div>
+        
+        
+        
+                              <div class="col-md-4 mb-3">
+          <div class="card">
+  <figure class="aspect-ratio aspect-ratio-66 flex-grow-1 br-1 mb-1">
+    <a href="https://coastwatch.com.au/articles/22-10-20/" class="elem-stacked">
+      
+      <div class="aspect-ratio-item d-flex flex-column align-items-center justify-content-center bg-primary text-center p-2">
+    <i class="icon icon-coastwatch ts-48" aria-hidden="true"></i>
+
+  </div>
+          </a>
+  </figure>
+  <h3 class="text-inherit h5 line-clamp line-clamp-2 mb-04"><a href="https://coastwatch.com.au/articles/22-10-20/"
+                                                         class="link-dark link-hover">20 October 2022</a></h3>
+  <div class="d-flex align-items-center text-muted ts-12 l-h-16 mb-1">
+          <a href="/articles/fishing-report/" class="badge mr-1">Fishing Report</a>
+        <time class="ff-alt line-clamp" datetime="2026-10-16T06:10:31+00:00">Thu 20 Oct 2022</time>
+  </div>
+      <p
+      class="line-clamp line-clamp-2 ts-14 text-dark">Coral trout, grassy sweetlip and grunter bream on the shallow reefs, queenfish, grunter bream, flathead, mangrove jack, threadfin and blue salmon in Sandy Straits,...</p>
+  </div>
+        </div>
+        
+        
+        
+                              <div class="col-md-4 mb-3">
+          <div class="card">
+  <figure class="aspect-ratio aspect-ratio-66 flex-grow-1 br-1 mb-1">
+    <a href="https://coastwatch.com.au/articles/14-march-2024/" class="elem-stacked">
+      
+      <div class="aspect-ratio-item d-flex flex-column align-items-center justify-content-center bg-primary text-center p-2">
+    <i class="icon icon-coastwatch ts-48" aria-hidden="true"></i>
+
+  </div>
+          </a>
+  </figure>
+  <h3 class="text-inherit h5 line-clamp line-clamp-2 mb-04"><a href="https://coastwatch.com.au/articles/14-march-2024/"
+                                                         class="link-dark link-hover">14 March 2024</a></h3>
+  <div class="d-flex align-items-center text-muted ts-12 l-h-16 mb-1">
+          <a href="/articles/fishing-report/" class="badge mr-1">Fishing Report</a>
+        <time class="ff-alt line-clamp" datetime="2026-10-16T06:10:31+00:00">Thu 14 Mar 2024</time>
+  </div>
+      <p
+      class="line-clamp line-clamp-2 ts-14 text-dark">There hasn’t been much fishing done this week due to strong SE winds, rough seas and a big swell. Any fishing that was done was in very sheltered waters ...</p>
+  </div>
+        </div>
+        
+        
+        
+           </div>
+
+    <div class="mt-3 mt-md-4">
+      <a href="https://coastwatch.com.au/articles/"
+   class="btn btn-md-sm btn-sm-block" >See All Articles</a>
+    </div>
+  </div>
+</section>
+    </article>
+      </main>
+    <footer id="colophon" class="content-info">
+  <section class="block block-newsletter has-shade s-mt-xlg position-relative zindex-front">
+  <div class="container">
+    <div class="bg-primary br-2 text-center h-mb-3 h-mb-md-4 py-4 px-3 px-md-5 px-lg-6">
+      <div class="rich-content-media"><img loading="lazy" decoding="async" class="wp-image-8773 size-thumbnail aligncenter" src="https://coastwatch.com.au/wp-content/uploads/2024/07/coastwatch-club-logo.svg" alt="" width="150" height="109" /></div>
+<h2 style="text-align: center;">Join the Coastwatch Club for exclusive content &amp; offers, store discounts, amazing prizes, our newsletter and more!</h2>
+
+                <div class='gf_browser_gecko gform_wrapper gform-theme gform-theme--foundation gform-theme--framework gform-theme--orbital gf-inline-form_wrapper' data-form-theme='orbital' data-form-index='0' id='gform_wrapper_2' ><style>#gform_wrapper_2[data-form-index="0"].gform-theme,[data-parent-form="2_0"]{--gf-color-primary: #204ce5;--gf-color-primary-rgb: 32, 76, 229;--gf-color-primary-contrast: #fff;--gf-color-primary-contrast-rgb: 255, 255, 255;--gf-color-primary-darker: #001AB3;--gf-color-primary-lighter: #527EFF;--gf-color-secondary: #fff;--gf-color-secondary-rgb: 255, 255, 255;--gf-color-secondary-contrast: #112337;--gf-color-secondary-contrast-rgb: 17, 35, 55;--gf-color-secondary-darker: #F5F5F5;--gf-color-secondary-lighter: #FFFFFF;--gf-color-out-ctrl-light: rgba(17, 35, 55, 0.1);--gf-color-out-ctrl-light-rgb: 17, 35, 55;--gf-color-out-ctrl-light-darker: rgba(104, 110, 119, 0.35);--gf-color-out-ctrl-light-lighter: #F5F5F5;--gf-color-out-ctrl-dark: #585e6a;--gf-color-out-ctrl-dark-rgb: 88, 94, 106;--gf-color-out-ctrl-dark-darker: #112337;--gf-color-out-ctrl-dark-lighter: rgba(17, 35, 55, 0.65);--gf-color-in-ctrl: #fff;--gf-color-in-ctrl-rgb: 255, 255, 255;--gf-color-in-ctrl-contrast: #112337;--gf-color-in-ctrl-contrast-rgb: 17, 35, 55;--gf-color-in-ctrl-darker: #F5F5F5;--gf-color-in-ctrl-lighter: #FFFFFF;--gf-color-in-ctrl-primary: #204ce5;--gf-color-in-ctrl-primary-rgb: 32, 76, 229;--gf-color-in-ctrl-primary-contrast: #fff;--gf-color-in-ctrl-primary-contrast-rgb: 255, 255, 255;--gf-color-in-ctrl-primary-darker: #001AB3;--gf-color-in-ctrl-primary-lighter: #527EFF;--gf-color-in-ctrl-light: rgba(17, 35, 55, 0.1);--gf-color-in-ctrl-light-rgb: 17, 35, 55;--gf-color-in-ctrl-light-darker: rgba(104, 110, 119, 0.35);--gf-color-in-ctrl-light-lighter: #F5F5F5;--gf-color-in-ctrl-dark: #585e6a;--gf-color-in-ctrl-dark-rgb: 88, 94, 106;--gf-color-in-ctrl-dark-darker: #112337;--gf-color-in-ctrl-dark-lighter: rgba(17, 35, 55, 0.65);--gf-radius: 3px;--gf-font-size-secondary: 14px;--gf-font-size-tertiary: 13px;--gf-icon-ctrl-number: url("data:image/svg+xml,%3Csvg width='8' height='14' viewBox='0 0 8 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M4 0C4.26522 5.96046e-08 4.51957 0.105357 4.70711 0.292893L7.70711 3.29289C8.09763 3.68342 8.09763 4.31658 7.70711 4.70711C7.31658 5.09763 6.68342 5.09763 6.29289 4.70711L4 2.41421L1.70711 4.70711C1.31658 5.09763 0.683417 5.09763 0.292893 4.70711C-0.0976311 4.31658 -0.097631 3.68342 0.292893 3.29289L3.29289 0.292893C3.48043 0.105357 3.73478 0 4 0ZM0.292893 9.29289C0.683417 8.90237 1.31658 8.90237 1.70711 9.29289L4 11.5858L6.29289 9.29289C6.68342 8.90237 7.31658 8.90237 7.70711 9.29289C8.09763 9.68342 8.09763 10.3166 7.70711 10.7071L4.70711 13.7071C4.31658 14.0976 3.68342 14.0976 3.29289 13.7071L0.292893 10.7071C-0.0976311 10.3166 -0.0976311 9.68342 0.292893 9.29289Z' fill='rgba(17, 35, 55, 0.65)'/%3E%3C/svg%3E");--gf-icon-ctrl-select: url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0.292893 0.292893C0.683417 -0.097631 1.31658 -0.097631 1.70711 0.292893L5 3.58579L8.29289 0.292893C8.68342 -0.0976311 9.31658 -0.0976311 9.70711 0.292893C10.0976 0.683417 10.0976 1.31658 9.70711 1.70711L5.70711 5.70711C5.31658 6.09763 4.68342 6.09763 4.29289 5.70711L0.292893 1.70711C-0.0976311 1.31658 -0.0976311 0.683418 0.292893 0.292893Z' fill='rgba(17, 35, 55, 0.65)'/%3E%3C/svg%3E");--gf-icon-ctrl-search: url("data:image/svg+xml,%3Csvg width='640' height='640' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M256 128c-70.692 0-128 57.308-128 128 0 70.691 57.308 128 128 128 70.691 0 128-57.309 128-128 0-70.692-57.309-128-128-128zM64 256c0-106.039 85.961-192 192-192s192 85.961 192 192c0 41.466-13.146 79.863-35.498 111.248l154.125 154.125c12.496 12.496 12.496 32.758 0 45.254s-32.758 12.496-45.254 0L367.248 412.502C335.862 434.854 297.467 448 256 448c-106.039 0-192-85.962-192-192z' fill='rgba(17, 35, 55, 0.65)'/%3E%3C/svg%3E");--gf-label-space-y-secondary: var(--gf-label-space-y-md-secondary);--gf-ctrl-border-color: #686e77;--gf-ctrl-size: var(--gf-ctrl-size-md);--gf-ctrl-label-color-primary: #112337;--gf-ctrl-label-color-secondary: #112337;--gf-ctrl-choice-size: var(--gf-ctrl-choice-size-md);--gf-ctrl-checkbox-check-size: var(--gf-ctrl-checkbox-check-size-md);--gf-ctrl-radio-check-size: var(--gf-ctrl-radio-check-size-md);--gf-ctrl-btn-font-size: var(--gf-ctrl-btn-font-size-md);--gf-ctrl-btn-padding-x: var(--gf-ctrl-btn-padding-x-md);--gf-ctrl-btn-size: var(--gf-ctrl-btn-size-md);--gf-ctrl-btn-border-color-secondary: #686e77;--gf-ctrl-file-btn-bg-color-hover: #EBEBEB;--gf-field-img-choice-size: var(--gf-field-img-choice-size-md);--gf-field-img-choice-card-space: var(--gf-field-img-choice-card-space-md);--gf-field-img-choice-check-ind-size: var(--gf-field-img-choice-check-ind-size-md);--gf-field-img-choice-check-ind-icon-size: var(--gf-field-img-choice-check-ind-icon-size-md);--gf-field-pg-steps-number-color: rgba(17, 35, 55, 0.8);}</style>
+                        <div class='gform_heading'>
+							<p class='gform_required_legend'>&quot;<span class="gfield_required gfield_required_asterisk">*</span>&quot; indicates required fields</p>
+                        </div><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_2' id='gform_2' class='gf-inline-form' action='/articles/fishing-report-for-16-october-2026/' data-formid='2' novalidate>
+                        <div class='gform-body gform_body'><div id='gform_fields_2' class='gform_fields top_label form_sublabel_below description_below validation_below'><div id="field_2_1" class="gfield gfield--type-email gfield--input-type-email gf_hide_label gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_2_1'>Enter your email address<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_email'>
+                            <input name='input_1' id='input_2_1' type='email' value='' class='large'   placeholder='Enter your email address' aria-required="true" aria-invalid="false"  />
+                        </div></div></div></div>
+        <div class='gform-footer gform_footer top_label'> <button type="submit" id="gform_submit_button_2" class="gform_button button gf_button btn btn-sm-block" onclick="gform.submission.handleButtonClick(this);" data-submission-type="submit" aria-label="Submit form">Join the Club</button> <input type='hidden' name='gform_ajax' value='form_id=2&amp;title=&amp;description=&amp;tabindex=0&amp;theme=orbital&amp;styles=[]&amp;hash=32817fe02813379d3e4d74d2163b5fb6' />
+            <input type='hidden' class='gform_hidden' name='gform_submission_method' data-js='gform_submission_method_2' value='iframe' />
+            <input type='hidden' class='gform_hidden' name='gform_theme' data-js='gform_theme_2' id='gform_theme_2' value='orbital' />
+            <input type='hidden' class='gform_hidden' name='gform_style_settings' data-js='gform_style_settings_2' id='gform_style_settings_2' value='[]' />
+            <input type='hidden' class='gform_hidden' name='is_submit_2' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='2' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_currency' data-currency='AUD' value='FtzcKsV/VDbxV0JOCfBruQhGXhUeATrruR3+WGpphDJqK4aGP6j0stBksO/5/3KoK7hep/sYNeCdNdxqpFvURPdbjrsWCkpejmeEeiTEP/75EuU=' />
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_2' value='WyJbXSIsIjg3MDhjYzNhOTcwYTQyOGQ0MDJkMjYyNmU2YjA4NGUwIl0=' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_target_page_number_2' id='gform_target_page_number_2' value='0' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_source_page_number_2' id='gform_source_page_number_2' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        </form>
+                        </div>
+		                <iframe style='display:none;width:0px;height:0px;' src='about:blank' name='gform_ajax_frame_2' id='gform_ajax_frame_2' title='This iframe contains the logic required to handle Ajax powered Gravity Forms.'></iframe>
+		                <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+gform.initializeOnLoaded( function() {gformInitSpinner( 2, 'https://coastwatch.com.au/wp-content/themes/coastwatch/dist/images/spinner_6d1bc648.svg', true );jQuery('#gform_ajax_frame_2').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_2');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_2').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_2').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_2').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_2').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */  }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_2').val();gformInitSpinner( 2, 'https://coastwatch.com.au/wp-content/themes/coastwatch/dist/images/spinner_6d1bc648.svg', true );jQuery(document).trigger('gform_page_loaded', [2, current_page]);window['gf_submitting_2'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}jQuery('#gform_wrapper_2').replaceWith(confirmation_content);jQuery(document).trigger('gform_confirmation_loaded', [2]);window['gf_submitting_2'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_2').text());}else{jQuery('#gform_2').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger("gform_pre_post_render", [{ formId: "2", currentPage: "current_page", abort: function() { this.preventDefault(); } }]);        if (event && event.defaultPrevented) {                return;        }        const gformWrapperDiv = document.getElementById( "gform_wrapper_2" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_2";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_2" );        let postRenderFired = false;        function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 2, current_page );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );} );
+</script>
+
+
+      
+      
+          </div>
+  </div>
+</section>
+
+  <div class="bg-primary-dark s-py-md">
+    <div class="container">
+      <figure class="text-center d-md-none mb-5">
+        <a href="https://coastwatch.com.au" class="d-block">
+          <img src="/wp-content/uploads/2024/04/logo-alt.svg"
+               alt="Coastal Weather, Boating, Fishing &amp;amp; Cooking Videos &amp;#8211; Coastwatch"
+               class="skip-lazy" height="89" width="115"/>
+        </a>
+      </figure>
+
+      <div class="row justify-content-between footer-grid s-mb-sm">
+                  <div class="col-6 col-md-3 footer-grid-col mb-3 mb-lg-0">
+            <div class="text-secondary ts-16 ff-alt font-weight-bold mb-2">Navigation</div>
+            <ul id="footer-links-navigation" class="footer-menu list-unstyled mb-n1"><li class="nav-m-item menu-item menu-weather"><a class="nav-m-link" href="https://coastwatch.com.au/weather/">Weather</a></li>
+<li class="nav-m-item menu-item menu-surf-beach-reports"><a class="nav-m-link" href="https://coastwatch.com.au/surf-and-beach-reports/">Surf &#038; Beach Reports</a></li>
+<li class="nav-m-item menu-item menu-weekend-outlook"><a class="nav-m-link" href="https://coastwatch.com.au/se-qld-weekend-coastal-weather-outlook/">Weekend Outlook</a></li>
+<li class="nav-m-item menu-item menu-fishing-reports"><a class="nav-m-link" href="https://coastwatch.com.au/fishing-reports/">Fishing Reports</a></li>
+<li class="nav-m-item menu-item menu-tides-moon"><a class="nav-m-link" href="https://coastwatch.com.au/tides-moon/">Tides &#038; Moon</a></li>
+<li class="nav-m-item menu-item menu-articles active"><a class="nav-m-link" href="https://coastwatch.com.au/articles/">Articles</a></li>
+<li class="nav-m-item menu-item menu-videos"><a class="nav-m-link" href="https://coastwatch.com.au/videos/">Videos</a></li>
+<li class="nav-m-item menu-item menu-coastwatch-vault"><a class="nav-m-link" href="https://coastwatch.com.au/coastwatch-vault/">Coastwatch Vault</a></li>
+<li class="nav-m-item menu-item menu-coastal-aerials"><a class="nav-m-link" href="https://coastwatch.com.au/coastal-aerials/">Coastal Aerials</a></li>
+</ul>
+          </div>
+                          <div class="col-6 col-md-3 footer-grid-col mb-3 mb-lg-0">
+            <div class="text-secondary ts-16 ff-alt font-weight-bold mb-2">Info</div>
+            <ul id="footer-info-navigation" class="footer-menu list-unstyled mb-n1"><li class="nav-m-item menu-item menu-about-us"><a class="nav-m-link" href="https://coastwatch.com.au/about-us/">About Us</a></li>
+<li class="nav-m-item menu-item menu-contact"><a class="nav-m-link" href="https://coastwatch.com.au/contact/">Contact</a></li>
+<li class="nav-m-item menu-item menu-terms-of-use"><a class="nav-m-link" href="https://coastwatch.com.au/terms-of-use/">Terms of Use</a></li>
+<li class="nav-m-item menu-item menu-privacy-policy"><a class="nav-m-link" href="https://coastwatch.com.au/privacy-policy/">Privacy Policy</a></li>
+</ul>
+          </div>
+                          <div class="col-md mb-4 mb-lg-0">
+            <div class="text-secondary ts-16 ff-alt font-weight-bold mb-2">Coastal Conditions</div>
+            <ul id="costal-conditions-navigation" class="footer-menu footer-menu-inline d-flexx flex-wrap list-unstyled mb-n1"><li class="nav-m-item menu-item menu-byron-coast"><a class="nav-m-link" href="https://coastwatch.com.au/weather/byron-coast/">Byron Coast</a></li>
+<li class="nav-m-item menu-item menu-gold-coast"><a class="nav-m-link" href="https://coastwatch.com.au/weather/gold-coast/">Gold Coast</a></li>
+<li class="nav-m-item menu-item menu-moreton-bay"><a class="nav-m-link" href="https://coastwatch.com.au/weather/moreton-bay/">Moreton Bay</a></li>
+<li class="nav-m-item menu-item menu-sunshine-coast"><a class="nav-m-link" href="https://coastwatch.com.au/weather/sunshine-coast/">Sunshine Coast</a></li>
+<li class="nav-m-item menu-item menu-fraser-island-coast"><a class="nav-m-link" href="https://coastwatch.com.au/weather/fraser-island-coast/">Fraser Island Coast</a></li>
+<li class="nav-m-item menu-item menu-hervey-bay"><a class="nav-m-link" href="https://coastwatch.com.au/weather/hervey-bay/">Hervey Bay</a></li>
+<li class="nav-m-item menu-item menu-capricornia-coast"><a class="nav-m-link" href="https://coastwatch.com.au/weather/capricornia-coast/">Capricornia Coast</a></li>
+<li class="nav-m-item menu-item menu-mackay-coast"><a class="nav-m-link" href="https://coastwatch.com.au/weather/mackay-coast/">Mackay Coast</a></li>
+<li class="nav-m-item menu-item menu-townsville-coast"><a class="nav-m-link" href="https://coastwatch.com.au/weather/townsville-coast/">Townsville Coast</a></li>
+<li class="nav-m-item menu-item menu-cairns-coast"><a class="nav-m-link" href="https://coastwatch.com.au/weather/cairns-coast/">Cairns Coast</a></li>
+<li class="nav-m-item menu-item menu-cooktown-coast"><a class="nav-m-link" href="https://coastwatch.com.au/weather/cooktown-coast/">Cooktown Coast</a></li>
+<li class="nav-m-item menu-item menu-peninsula-coast"><a class="nav-m-link" href="https://coastwatch.com.au/weather/peninsula-coast/">Peninsula Coast</a></li>
+<li class="nav-m-item menu-item menu-torres-strait"><a class="nav-m-link" href="https://coastwatch.com.au/weather/torres-strait/">Torres Strait</a></li>
+<li class="nav-m-item menu-item menu-ne-gulf-carpenteria"><a class="nav-m-link" href="https://coastwatch.com.au/weather/ne-gulf-carpenteria/">NE Gulf Carpenteria</a></li>
+<li class="nav-m-item menu-item menu-se-gulf-carpenteria"><a class="nav-m-link" href="https://coastwatch.com.au/weather/se-gulf-carpenteria/">SE Gulf Carpenteria</a></li>
+</ul>
+          </div>
+                <div class="col-md-12 col-lg-auto footer-grid-col-alt">
+          <div class="text-secondary ts-16 ff-alt font-weight-bold d-none d-lg-block mb-2">Contact</div>
+          <div class="row">
+            <div class="col-md-6 col-lg-12 mb-3 mb-md-0 mb-lg-3">
+              <div class="text-secondary ts-16 ff-alt font-weight-bold d-lg-none mb-2">Contact</div>
+
+                              <p class="mb-1"><span class="font-weight-bold">Email:</span> <a href="/cdn-cgi/l/email-protection#ee87808881ae8d818f9d9a998f9a8d86c08d8183c08f9b" class="link-no-dec"><span class="__cf_email__" data-cfemail="81e8efe7eec1e2eee0f2f5f6e0f5e2e9afe2eeecafe0f4">[email&#160;protected]</span></a></p>
+                                                      </div>
+                          <div class="col-md col-lg-12">
+                <div class="text-secondary ts-16 ff-alt font-weight-bold mb-2">Social Media</div>
+                <ul
+                  class="d-flex flex-wrap list-unstyled mr-n12 mb-n1">
+                                      <li class="mr-12 mb-1">
+                      <a href="https://www.facebook.com/profile.php?id=100063563514833" class="ts-24 l-h-1" target="_blank"
+                         rel="noopener" aria-label="Facebook"><i
+                          class="icon icon-facebook text-inherit" aria-hidden="true"></i></a>
+                    </li>
+                                      <li class="mr-12 mb-1">
+                      <a href="https://www.instagram.com/coastwatch.au/" class="ts-24 l-h-1" target="_blank"
+                         rel="noopener" aria-label="Instagram"><i
+                          class="icon icon-instagram text-inherit" aria-hidden="true"></i></a>
+                    </li>
+                                      <li class="mr-12 mb-1">
+                      <a href="https://www.linkedin.com/company/coastwatch/" class="ts-24 l-h-1" target="_blank"
+                         rel="noopener" aria-label="LinkedIn"><i
+                          class="icon icon-linkedin text-inherit" aria-hidden="true"></i></a>
+                    </li>
+                                      <li class="mr-12 mb-1">
+                      <a href="https://www.youtube.com/@Coastwatch1" class="ts-24 l-h-1" target="_blank"
+                         rel="noopener" aria-label="Youtube"><i
+                          class="icon icon-youtube text-inherit" aria-hidden="true"></i></a>
+                    </li>
+                                  </ul>
+              </div>
+                      </div>
+        </div>
+      </div>
+
+      
+      <div class="row align-items-md-end">
+        <div class="col-md">
+          <div class="pr-md-5">
+                          <div class="h2 ff-tertiary text-secondary">Don’t destroy what you came to enjoy</div>
+                                      <div class="footer-intro mb-2">
+                <p>Coastwatch is your premier digital gateway to the captivating world of Australian coastal leisure. Our platform redefines the coastal experience by offering a rich tapestry of expert-curated content, spanning from weather updates to in-depth articles covering boating, fishing, surfing, coastal lifestyle, and more.</p>
+              </div>
+            
+                          <div class="footer-copyright">
+                <p class="text-primary-100">Copyright 2026 Coastwatch, All rights reserved</p>
+              </div>
+                      </div>
+        </div>
+        <div class="col-md-auto d-none d-md-block ml-md-auto">
+          <a href="https://coastwatch.com.au" class="d-block">
+            <img src="/wp-content/uploads/2024/04/logo-alt.svg"
+                 alt="Coastal Weather, Boating, Fishing &amp;amp; Cooking Videos &amp;#8211; Coastwatch"
+                 class="skip-lazy" height="89" width="115"/>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/coastwatch/resources/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+		<!-- Memberships powered by Paid Memberships Pro v3.1. -->
+	<style id="wp-block-heading-inline-css">
+h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-background,h3:where(.wp-block-heading).has-background,h4:where(.wp-block-heading).has-background,h5:where(.wp-block-heading).has-background,h6:where(.wp-block-heading).has-background{padding:1.25em 2.375em}h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]){rotate:180deg}
+/*# sourceURL=https://coastwatch.com.au/wp-includes/blocks/heading/style.min.css */
+</style>
+<style id="wp-block-paragraph-inline-css">
+.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
+/*# sourceURL=https://coastwatch.com.au/wp-includes/blocks/paragraph/style.min.css */
+</style>
+<style id="wp-block-table-inline-css">
+.wp-block-table{overflow-x:auto}.wp-block-table table{border-collapse:collapse;width:100%}.wp-block-table thead{border-bottom:3px solid}.wp-block-table tfoot{border-top:3px solid}.wp-block-table td,.wp-block-table th{border:1px solid;padding:.5em}.wp-block-table .has-fixed-layout{table-layout:fixed;width:100%}.wp-block-table .has-fixed-layout td,.wp-block-table .has-fixed-layout th{word-break:break-word}.wp-block-table.aligncenter,.wp-block-table.alignleft,.wp-block-table.alignright{display:table;width:auto}.wp-block-table.aligncenter td,.wp-block-table.aligncenter th,.wp-block-table.alignleft td,.wp-block-table.alignleft th,.wp-block-table.alignright td,.wp-block-table.alignright th{word-break:break-word}.wp-block-table .has-subtle-light-gray-background-color{background-color:#f3f4f5}.wp-block-table .has-subtle-pale-green-background-color{background-color:#e9fbe5}.wp-block-table .has-subtle-pale-blue-background-color{background-color:#e7f5fe}.wp-block-table .has-subtle-pale-pink-background-color{background-color:#fcf0ef}.wp-block-table.is-style-stripes{background-color:transparent;border-collapse:inherit;border-spacing:0}.wp-block-table.is-style-stripes tbody tr:nth-child(odd){background-color:#f0f0f0}.wp-block-table.is-style-stripes.has-subtle-light-gray-background-color tbody tr:nth-child(odd){background-color:#f3f4f5}.wp-block-table.is-style-stripes.has-subtle-pale-green-background-color tbody tr:nth-child(odd){background-color:#e9fbe5}.wp-block-table.is-style-stripes.has-subtle-pale-blue-background-color tbody tr:nth-child(odd){background-color:#e7f5fe}.wp-block-table.is-style-stripes.has-subtle-pale-pink-background-color tbody tr:nth-child(odd){background-color:#fcf0ef}.wp-block-table.is-style-stripes td,.wp-block-table.is-style-stripes th{border-color:transparent}.wp-block-table.is-style-stripes{border-bottom:1px solid #f0f0f0}.wp-block-table .has-border-color td,.wp-block-table .has-border-color th,.wp-block-table .has-border-color tr,.wp-block-table .has-border-color>*{border-color:inherit}.wp-block-table table[style*=border-top-color] tr:first-child,.wp-block-table table[style*=border-top-color] tr:first-child td,.wp-block-table table[style*=border-top-color] tr:first-child th,.wp-block-table table[style*=border-top-color]>*,.wp-block-table table[style*=border-top-color]>* td,.wp-block-table table[style*=border-top-color]>* th{border-top-color:inherit}.wp-block-table table[style*=border-top-color] tr:not(:first-child){border-top-color:currentColor}.wp-block-table table[style*=border-right-color] td:last-child,.wp-block-table table[style*=border-right-color] th,.wp-block-table table[style*=border-right-color] tr,.wp-block-table table[style*=border-right-color]>*{border-right-color:inherit}.wp-block-table table[style*=border-bottom-color] tr:last-child,.wp-block-table table[style*=border-bottom-color] tr:last-child td,.wp-block-table table[style*=border-bottom-color] tr:last-child th,.wp-block-table table[style*=border-bottom-color]>*,.wp-block-table table[style*=border-bottom-color]>* td,.wp-block-table table[style*=border-bottom-color]>* th{border-bottom-color:inherit}.wp-block-table table[style*=border-bottom-color] tr:not(:last-child){border-bottom-color:currentColor}.wp-block-table table[style*=border-left-color] td:first-child,.wp-block-table table[style*=border-left-color] th,.wp-block-table table[style*=border-left-color] tr,.wp-block-table table[style*=border-left-color]>*{border-left-color:inherit}.wp-block-table table[style*=border-style] td,.wp-block-table table[style*=border-style] th,.wp-block-table table[style*=border-style] tr,.wp-block-table table[style*=border-style]>*{border-style:inherit}.wp-block-table table[style*=border-width] td,.wp-block-table table[style*=border-width] th,.wp-block-table table[style*=border-width] tr,.wp-block-table table[style*=border-width]>*{border-style:inherit;border-width:inherit}
+/*# sourceURL=https://coastwatch.com.au/wp-includes/blocks/table/style.min.css */
+</style>
+<style id="wp-block-image-inline-css">
+.wp-block-image>a,.wp-block-image>figure>a{display:inline-block}.wp-block-image img{box-sizing:border-box;height:auto;max-width:100%;vertical-align:bottom}@media not (prefers-reduced-motion){.wp-block-image img.hide{visibility:hidden}.wp-block-image img.show{animation:show-content-image .4s}}.wp-block-image[style*=border-radius] img,.wp-block-image[style*=border-radius]>a{border-radius:inherit}.wp-block-image.has-custom-border img{box-sizing:border-box}.wp-block-image.aligncenter{text-align:center}.wp-block-image.alignfull>a,.wp-block-image.alignwide>a{width:100%}.wp-block-image.alignfull img,.wp-block-image.alignwide img{height:auto;width:100%}.wp-block-image .aligncenter,.wp-block-image .alignleft,.wp-block-image .alignright,.wp-block-image.aligncenter,.wp-block-image.alignleft,.wp-block-image.alignright{display:table}.wp-block-image .aligncenter>figcaption,.wp-block-image .alignleft>figcaption,.wp-block-image .alignright>figcaption,.wp-block-image.aligncenter>figcaption,.wp-block-image.alignleft>figcaption,.wp-block-image.alignright>figcaption{caption-side:bottom;display:table-caption}.wp-block-image .alignleft{float:left;margin:.5em 1em .5em 0}.wp-block-image .alignright{float:right;margin:.5em 0 .5em 1em}.wp-block-image .aligncenter{margin-left:auto;margin-right:auto}.wp-block-image :where(figcaption){margin-bottom:1em;margin-top:.5em}.wp-block-image.is-style-circle-mask img{border-radius:9999px}@supports ((-webkit-mask-image:none) or (mask-image:none)) or (-webkit-mask-image:none){.wp-block-image.is-style-circle-mask img{border-radius:0;-webkit-mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-mode:alpha;-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:contain;mask-size:contain}}:root :where(.wp-block-image.is-style-rounded img,.wp-block-image .is-style-rounded img){border-radius:9999px}.wp-block-image figure{margin:0}.wp-lightbox-container{display:flex;flex-direction:column;position:relative}.wp-lightbox-container img{cursor:zoom-in}.wp-lightbox-container img:hover+button{opacity:1}.wp-lightbox-container button{align-items:center;backdrop-filter:blur(16px) saturate(180%);background-color:rgba(90,90,90,.25);border:none;border-radius:4px;cursor:zoom-in;display:flex;height:20px;justify-content:center;opacity:0;padding:0;position:absolute;right:16px;text-align:center;top:16px;width:20px;z-index:100}@media not (prefers-reduced-motion){.wp-lightbox-container button{transition:opacity .2s ease}}.wp-lightbox-container button:focus-visible{outline:3px auto rgba(90,90,90,.25);outline:3px auto -webkit-focus-ring-color;outline-offset:3px}.wp-lightbox-container button:hover{cursor:pointer;opacity:1}.wp-lightbox-container button:focus{opacity:1}.wp-lightbox-container button:focus,.wp-lightbox-container button:hover,.wp-lightbox-container button:not(:hover):not(:active):not(.has-background){background-color:rgba(90,90,90,.25);border:none}.wp-lightbox-overlay{box-sizing:border-box;cursor:zoom-out;height:100vh;left:0;overflow:hidden;position:fixed;top:0;visibility:hidden;width:100%;z-index:100000}.wp-lightbox-overlay .wp-lightbox-close-button{align-items:center;cursor:pointer;display:flex;font-family:inherit;gap:8px;justify-content:center;line-height:1;min-height:40px;min-width:40px;padding:0 4px;position:absolute;right:calc(env(safe-area-inset-right) + 16px);top:calc(env(safe-area-inset-top) + 16px);z-index:5000000}.wp-lightbox-overlay .wp-lightbox-close-button:focus,.wp-lightbox-overlay .wp-lightbox-close-button:hover,.wp-lightbox-overlay .wp-lightbox-close-button:not(:hover):not(:active):not(.has-background){background:none;border:none}.wp-lightbox-overlay .wp-lightbox-close-button:has(.wp-lightbox-close-text:not([hidden])) .wp-lightbox-close-icon svg{height:1em;width:1em}.wp-lightbox-overlay .wp-lightbox-close-icon svg{display:block}.wp-lightbox-overlay .wp-lightbox-navigation-button-next,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev{align-items:center;bottom:16px;cursor:pointer;display:flex;font-family:inherit;gap:4px;justify-content:center;line-height:1;min-height:40px;min-width:40px;padding:0 8px;position:absolute;z-index:2000002}.wp-lightbox-overlay .wp-lightbox-navigation-button-next[hidden],.wp-lightbox-overlay .wp-lightbox-navigation-button-prev[hidden]{display:none}@media (min-width:960px){.wp-lightbox-overlay .wp-lightbox-navigation-button-next,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev{bottom:50%;transform:translateY(-50%)}}.wp-lightbox-overlay .wp-lightbox-navigation-button-next:focus,.wp-lightbox-overlay .wp-lightbox-navigation-button-next:hover,.wp-lightbox-overlay .wp-lightbox-navigation-button-next:not(:hover):not(:active):not(.has-background),.wp-lightbox-overlay .wp-lightbox-navigation-button-prev:focus,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev:hover,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev:not(:hover):not(:active):not(.has-background){background:none;border:none;padding:0 8px}.wp-lightbox-overlay .wp-lightbox-navigation-button-next:has(.wp-lightbox-navigation-text:not([hidden])) .wp-lightbox-navigation-icon svg,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev:has(.wp-lightbox-navigation-text:not([hidden])) .wp-lightbox-navigation-icon svg{display:block;height:1.5em;width:1.5em}.wp-lightbox-overlay .wp-lightbox-navigation-button-prev{left:calc(env(safe-area-inset-left) + 16px)}.wp-lightbox-overlay .wp-lightbox-navigation-button-next{right:calc(env(safe-area-inset-right) + 16px)}.wp-lightbox-overlay .wp-lightbox-navigation-icon svg{vertical-align:middle}.wp-lightbox-overlay .lightbox-image-container{height:var(--wp--lightbox-container-height);left:50%;overflow:hidden;position:absolute;top:50%;transform:translate(-50%,-50%);transform-origin:top left;width:var(--wp--lightbox-container-width);z-index:2000001}.wp-lightbox-overlay .wp-block-image{align-items:center;box-sizing:border-box;display:flex;height:100%;justify-content:center;margin:0;position:relative;transform-origin:0 0;width:100%;z-index:3000000}.wp-lightbox-overlay .wp-block-image img{height:var(--wp--lightbox-image-height);min-height:var(--wp--lightbox-image-height);min-width:var(--wp--lightbox-image-width);width:var(--wp--lightbox-image-width)}.wp-lightbox-overlay .wp-block-image figcaption{display:none}.wp-lightbox-overlay button{background:none;border:none}.wp-lightbox-overlay .scrim{background-color:#fff;height:100%;opacity:.9;position:absolute;width:100%;z-index:2000000}.wp-lightbox-overlay.active{visibility:visible}@media not (prefers-reduced-motion){.wp-lightbox-overlay.active{animation:turn-on-visibility .25s both}.wp-lightbox-overlay.active img{animation:turn-on-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active){animation:turn-off-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active) img{animation:turn-off-visibility .25s both}.wp-lightbox-overlay.zoom.active{animation:none;opacity:1;visibility:visible}.wp-lightbox-overlay.zoom.active .lightbox-image-container{animation:lightbox-zoom-in .4s}.wp-lightbox-overlay.zoom.active .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.active .scrim{animation:turn-on-visibility .4s forwards}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active){animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container{animation:lightbox-zoom-out .4s}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .scrim{animation:turn-off-visibility .4s forwards}}@keyframes show-content-image{0%{visibility:hidden}99%{visibility:hidden}to{visibility:visible}}@keyframes turn-on-visibility{0%{opacity:0}to{opacity:1}}@keyframes turn-off-visibility{0%{opacity:1;visibility:visible}99%{opacity:0;visibility:visible}to{opacity:0;visibility:hidden}}@keyframes lightbox-zoom-in{0%{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale))}to{transform:translate(-50%,-50%) scale(1)}}@keyframes lightbox-zoom-out{0%{transform:translate(-50%,-50%) scale(1);visibility:visible}99%{visibility:visible}to{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale));visibility:hidden}}
+/*# sourceURL=https://coastwatch.com.au/wp-includes/blocks/image/style.min.css */
+</style>
+<style id="wp-block-gallery-inline-css">
+.blocks-gallery-grid:not(.has-nested-images),.wp-block-gallery:not(.has-nested-images){display:flex;flex-wrap:wrap;list-style-type:none;margin:0;padding:0}.blocks-gallery-grid:not(.has-nested-images) .blocks-gallery-image,.blocks-gallery-grid:not(.has-nested-images) .blocks-gallery-item,.wp-block-gallery:not(.has-nested-images) .blocks-gallery-image,.wp-block-gallery:not(.has-nested-images) .blocks-gallery-item{display:flex;flex-direction:column;flex-grow:1;justify-content:center;margin:0 1em 1em 0;position:relative;width:calc(50% - 1em)}.blocks-gallery-grid:not(.has-nested-images) .blocks-gallery-image:nth-of-type(2n),.blocks-gallery-grid:not(.has-nested-images) .blocks-gallery-item:nth-of-type(2n),.wp-block-gallery:not(.has-nested-images) .blocks-gallery-image:nth-of-type(2n),.wp-block-gallery:not(.has-nested-images) .blocks-gallery-item:nth-of-type(2n){margin-right:0}.blocks-gallery-grid:not(.has-nested-images) .blocks-gallery-image figure,.blocks-gallery-grid:not(.has-nested-images) .blocks-gallery-item figure,.wp-block-gallery:not(.has-nested-images) .blocks-gallery-image figure,.wp-block-gallery:not(.has-nested-images) .blocks-gallery-item figure{align-items:flex-end;display:flex;height:100%;justify-content:flex-start;margin:0}.blocks-gallery-grid:not(.has-nested-images) .blocks-gallery-image img,.blocks-gallery-grid:not(.has-nested-images) .blocks-gallery-item img,.wp-block-gallery:not(.has-nested-images) .blocks-gallery-image img,.wp-block-gallery:not(.has-nested-images) .blocks-gallery-item img{display:block;height:auto;max-width:100%;width:auto}.blocks-gallery-grid:not(.has-nested-images) .blocks-gallery-image figcaption,.blocks-gallery-grid:not(.has-nested-images) .blocks-gallery-item figcaption,.wp-block-gallery:not(.has-nested-images) .blocks-gallery-image figcaption,.wp-block-gallery:not(.has-nested-images) .blocks-gallery-item figcaption{background:linear-gradient(0deg,rgba(0,0,0,.7),rgba(0,0,0,.3) 70%,transparent);bottom:0;box-sizing:border-box;color:#fff;font-size:.8em;margin:0;max-height:100%;overflow:auto;padding:3em .77em .7em;position:absolute;text-align:center;width:100%;z-index:2}.blocks-gallery-grid:not(.has-nested-images) .blocks-gallery-image figcaption img,.blocks-gallery-grid:not(.has-nested-images) .blocks-gallery-item figcaption img,.wp-block-gallery:not(.has-nested-images) .blocks-gallery-image figcaption img,.wp-block-gallery:not(.has-nested-images) .blocks-gallery-item figcaption img{display:inline}.blocks-gallery-grid:not(.has-nested-images) figcaption,.wp-block-gallery:not(.has-nested-images) figcaption{flex-grow:1}.blocks-gallery-grid:not(.has-nested-images).is-cropped .blocks-gallery-image a,.blocks-gallery-grid:not(.has-nested-images).is-cropped .blocks-gallery-image img,.blocks-gallery-grid:not(.has-nested-images).is-cropped .blocks-gallery-item a,.blocks-gallery-grid:not(.has-nested-images).is-cropped .blocks-gallery-item img,.wp-block-gallery:not(.has-nested-images).is-cropped .blocks-gallery-image a,.wp-block-gallery:not(.has-nested-images).is-cropped .blocks-gallery-image img,.wp-block-gallery:not(.has-nested-images).is-cropped .blocks-gallery-item a,.wp-block-gallery:not(.has-nested-images).is-cropped .blocks-gallery-item img{flex:1;height:100%;-o-object-fit:cover;object-fit:cover;width:100%}.blocks-gallery-grid:not(.has-nested-images).columns-1 .blocks-gallery-image,.blocks-gallery-grid:not(.has-nested-images).columns-1 .blocks-gallery-item,.wp-block-gallery:not(.has-nested-images).columns-1 .blocks-gallery-image,.wp-block-gallery:not(.has-nested-images).columns-1 .blocks-gallery-item{margin-right:0;width:100%}@media (min-width:600px){.blocks-gallery-grid:not(.has-nested-images).columns-3 .blocks-gallery-image,.blocks-gallery-grid:not(.has-nested-images).columns-3 .blocks-gallery-item,.wp-block-gallery:not(.has-nested-images).columns-3 .blocks-gallery-image,.wp-block-gallery:not(.has-nested-images).columns-3 .blocks-gallery-item{margin-right:1em;width:calc(33.33333% - .66667em)}.blocks-gallery-grid:not(.has-nested-images).columns-4 .blocks-gallery-image,.blocks-gallery-grid:not(.has-nested-images).columns-4 .blocks-gallery-item,.wp-block-gallery:not(.has-nested-images).columns-4 .blocks-gallery-image,.wp-block-gallery:not(.has-nested-images).columns-4 .blocks-gallery-item{margin-right:1em;width:calc(25% - .75em)}.blocks-gallery-grid:not(.has-nested-images).columns-5 .blocks-gallery-image,.blocks-gallery-grid:not(.has-nested-images).columns-5 .blocks-gallery-item,.wp-block-gallery:not(.has-nested-images).columns-5 .blocks-gallery-image,.wp-block-gallery:not(.has-nested-images).columns-5 .blocks-gallery-item{margin-right:1em;width:calc(20% - .8em)}.blocks-gallery-grid:not(.has-nested-images).columns-6 .blocks-gallery-image,.blocks-gallery-grid:not(.has-nested-images).columns-6 .blocks-gallery-item,.wp-block-gallery:not(.has-nested-images).columns-6 .blocks-gallery-image,.wp-block-gallery:not(.has-nested-images).columns-6 .blocks-gallery-item{margin-right:1em;width:calc(16.66667% - .83333em)}.blocks-gallery-grid:not(.has-nested-images).columns-7 .blocks-gallery-image,.blocks-gallery-grid:not(.has-nested-images).columns-7 .blocks-gallery-item,.wp-block-gallery:not(.has-nested-images).columns-7 .blocks-gallery-image,.wp-block-gallery:not(.has-nested-images).columns-7 .blocks-gallery-item{margin-right:1em;width:calc(14.28571% - .85714em)}.blocks-gallery-grid:not(.has-nested-images).columns-8 .blocks-gallery-image,.blocks-gallery-grid:not(.has-nested-images).columns-8 .blocks-gallery-item,.wp-block-gallery:not(.has-nested-images).columns-8 .blocks-gallery-image,.wp-block-gallery:not(.has-nested-images).columns-8 .blocks-gallery-item{margin-right:1em;width:calc(12.5% - .875em)}.blocks-gallery-grid:not(.has-nested-images).columns-1 .blocks-gallery-image:nth-of-type(1n),.blocks-gallery-grid:not(.has-nested-images).columns-1 .blocks-gallery-item:nth-of-type(1n),.blocks-gallery-grid:not(.has-nested-images).columns-2 .blocks-gallery-image:nth-of-type(2n),.blocks-gallery-grid:not(.has-nested-images).columns-2 .blocks-gallery-item:nth-of-type(2n),.blocks-gallery-grid:not(.has-nested-images).columns-3 .blocks-gallery-image:nth-of-type(3n),.blocks-gallery-grid:not(.has-nested-images).columns-3 .blocks-gallery-item:nth-of-type(3n),.blocks-gallery-grid:not(.has-nested-images).columns-4 .blocks-gallery-image:nth-of-type(4n),.blocks-gallery-grid:not(.has-nested-images).columns-4 .blocks-gallery-item:nth-of-type(4n),.blocks-gallery-grid:not(.has-nested-images).columns-5 .blocks-gallery-image:nth-of-type(5n),.blocks-gallery-grid:not(.has-nested-images).columns-5 .blocks-gallery-item:nth-of-type(5n),.blocks-gallery-grid:not(.has-nested-images).columns-6 .blocks-gallery-image:nth-of-type(6n),.blocks-gallery-grid:not(.has-nested-images).columns-6 .blocks-gallery-item:nth-of-type(6n),.blocks-gallery-grid:not(.has-nested-images).columns-7 .blocks-gallery-image:nth-of-type(7n),.blocks-gallery-grid:not(.has-nested-images).columns-7 .blocks-gallery-item:nth-of-type(7n),.blocks-gallery-grid:not(.has-nested-images).columns-8 .blocks-gallery-image:nth-of-type(8n),.blocks-gallery-grid:not(.has-nested-images).columns-8 .blocks-gallery-item:nth-of-type(8n),.wp-block-gallery:not(.has-nested-images).columns-1 .blocks-gallery-image:nth-of-type(1n),.wp-block-gallery:not(.has-nested-images).columns-1 .blocks-gallery-item:nth-of-type(1n),.wp-block-gallery:not(.has-nested-images).columns-2 .blocks-gallery-image:nth-of-type(2n),.wp-block-gallery:not(.has-nested-images).columns-2 .blocks-gallery-item:nth-of-type(2n),.wp-block-gallery:not(.has-nested-images).columns-3 .blocks-gallery-image:nth-of-type(3n),.wp-block-gallery:not(.has-nested-images).columns-3 .blocks-gallery-item:nth-of-type(3n),.wp-block-gallery:not(.has-nested-images).columns-4 .blocks-gallery-image:nth-of-type(4n),.wp-block-gallery:not(.has-nested-images).columns-4 .blocks-gallery-item:nth-of-type(4n),.wp-block-gallery:not(.has-nested-images).columns-5 .blocks-gallery-image:nth-of-type(5n),.wp-block-gallery:not(.has-nested-images).columns-5 .blocks-gallery-item:nth-of-type(5n),.wp-block-gallery:not(.has-nested-images).columns-6 .blocks-gallery-image:nth-of-type(6n),.wp-block-gallery:not(.has-nested-images).columns-6 .blocks-gallery-item:nth-of-type(6n),.wp-block-gallery:not(.has-nested-images).columns-7 .blocks-gallery-image:nth-of-type(7n),.wp-block-gallery:not(.has-nested-images).columns-7 .blocks-gallery-item:nth-of-type(7n),.wp-block-gallery:not(.has-nested-images).columns-8 .blocks-gallery-image:nth-of-type(8n),.wp-block-gallery:not(.has-nested-images).columns-8 .blocks-gallery-item:nth-of-type(8n){margin-right:0}}.blocks-gallery-grid:not(.has-nested-images) .blocks-gallery-image:last-child,.blocks-gallery-grid:not(.has-nested-images) .blocks-gallery-item:last-child,.wp-block-gallery:not(.has-nested-images) .blocks-gallery-image:last-child,.wp-block-gallery:not(.has-nested-images) .blocks-gallery-item:last-child{margin-right:0}.blocks-gallery-grid:not(.has-nested-images).alignleft,.blocks-gallery-grid:not(.has-nested-images).alignright,.wp-block-gallery:not(.has-nested-images).alignleft,.wp-block-gallery:not(.has-nested-images).alignright{max-width:420px;width:100%}.blocks-gallery-grid:not(.has-nested-images).aligncenter .blocks-gallery-item figure,.wp-block-gallery:not(.has-nested-images).aligncenter .blocks-gallery-item figure{justify-content:center}.wp-block-gallery:not(.is-cropped) .blocks-gallery-item{align-self:flex-start}figure.wp-block-gallery.has-nested-images{align-items:normal}.wp-block-gallery.has-nested-images figure.wp-block-image:not(#individual-image){margin:0;width:calc(50% - var(--wp--style--unstable-gallery-gap, 16px)/2)}.wp-block-gallery.has-nested-images figure.wp-block-image{box-sizing:border-box;display:flex;flex-direction:column;flex-grow:1;justify-content:center;max-width:100%;position:relative}.wp-block-gallery.has-nested-images figure.wp-block-image>a,.wp-block-gallery.has-nested-images figure.wp-block-image>div{flex-direction:column;flex-grow:1;margin:0}.wp-block-gallery.has-nested-images figure.wp-block-image img{display:block;height:auto;max-width:100%!important;width:auto}.wp-block-gallery.has-nested-images figure.wp-block-image figcaption,.wp-block-gallery.has-nested-images figure.wp-block-image:has(figcaption):before{bottom:0;left:0;max-height:100%;position:absolute;right:0}.wp-block-gallery.has-nested-images figure.wp-block-image:has(figcaption):before{backdrop-filter:blur(3px);content:"";height:100%;-webkit-mask-image:linear-gradient(0deg,#000 20%,transparent);mask-image:linear-gradient(0deg,#000 20%,transparent);max-height:3em;pointer-events:none}.wp-block-gallery.has-nested-images figure.wp-block-image figcaption{box-sizing:border-box;color:#fff;font-size:13px;margin:0;overflow:auto;padding:1em;text-align:center;text-shadow:0 0 1.5px #000}.wp-block-gallery.has-nested-images figure.wp-block-image figcaption::-webkit-scrollbar{height:12px;width:12px}.wp-block-gallery.has-nested-images figure.wp-block-image figcaption::-webkit-scrollbar-track{background-color:transparent}.wp-block-gallery.has-nested-images figure.wp-block-image figcaption::-webkit-scrollbar-thumb{background-clip:padding-box;background-color:transparent;border:3px solid transparent;border-radius:8px}.wp-block-gallery.has-nested-images figure.wp-block-image figcaption:focus-within::-webkit-scrollbar-thumb,.wp-block-gallery.has-nested-images figure.wp-block-image figcaption:focus::-webkit-scrollbar-thumb,.wp-block-gallery.has-nested-images figure.wp-block-image figcaption:hover::-webkit-scrollbar-thumb{background-color:hsla(0,0%,100%,.8)}.wp-block-gallery.has-nested-images figure.wp-block-image figcaption{scrollbar-color:transparent transparent;scrollbar-gutter:stable both-edges;scrollbar-width:thin}.wp-block-gallery.has-nested-images figure.wp-block-image figcaption:focus,.wp-block-gallery.has-nested-images figure.wp-block-image figcaption:focus-within,.wp-block-gallery.has-nested-images figure.wp-block-image figcaption:hover{scrollbar-color:hsla(0,0%,100%,.8) transparent}.wp-block-gallery.has-nested-images figure.wp-block-image figcaption{will-change:transform}@media (hover:none){.wp-block-gallery.has-nested-images figure.wp-block-image figcaption{scrollbar-color:hsla(0,0%,100%,.8) transparent}}.wp-block-gallery.has-nested-images figure.wp-block-image figcaption{background:linear-gradient(0deg,rgba(0,0,0,.4),transparent)}.wp-block-gallery.has-nested-images figure.wp-block-image figcaption img{display:inline}.wp-block-gallery.has-nested-images figure.wp-block-image figcaption a{color:inherit}.wp-block-gallery.has-nested-images figure.wp-block-image.has-custom-border img{box-sizing:border-box}.wp-block-gallery.has-nested-images figure.wp-block-image.has-custom-border>a,.wp-block-gallery.has-nested-images figure.wp-block-image.has-custom-border>div,.wp-block-gallery.has-nested-images figure.wp-block-image.is-style-rounded>a,.wp-block-gallery.has-nested-images figure.wp-block-image.is-style-rounded>div{flex:1 1 auto}.wp-block-gallery.has-nested-images figure.wp-block-image.has-custom-border figcaption,.wp-block-gallery.has-nested-images figure.wp-block-image.is-style-rounded figcaption{background:none;color:inherit;flex:initial;margin:0;padding:10px 10px 9px;position:relative;text-shadow:none}.wp-block-gallery.has-nested-images figure.wp-block-image.has-custom-border:before,.wp-block-gallery.has-nested-images figure.wp-block-image.is-style-rounded:before{content:none}.wp-block-gallery.has-nested-images figcaption{flex-basis:100%;flex-grow:1;text-align:center}.wp-block-gallery.has-nested-images:not(.is-cropped) figure.wp-block-image:not(#individual-image){margin-bottom:auto;margin-top:0}.wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image){align-self:inherit}.wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image)>a,.wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image)>div:not(.components-drop-zone){display:flex}.wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image) a,.wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image) img{flex:1 0 0%;height:100%;-o-object-fit:cover;object-fit:cover;width:100%}.wp-block-gallery.has-nested-images.columns-1 figure.wp-block-image:not(#individual-image){width:100%}@media (min-width:600px){.wp-block-gallery.has-nested-images.columns-3 figure.wp-block-image:not(#individual-image){width:calc(33.33333% - var(--wp--style--unstable-gallery-gap, 16px)*.66667)}.wp-block-gallery.has-nested-images.columns-4 figure.wp-block-image:not(#individual-image){width:calc(25% - var(--wp--style--unstable-gallery-gap, 16px)*.75)}.wp-block-gallery.has-nested-images.columns-5 figure.wp-block-image:not(#individual-image){width:calc(20% - var(--wp--style--unstable-gallery-gap, 16px)*.8)}.wp-block-gallery.has-nested-images.columns-6 figure.wp-block-image:not(#individual-image){width:calc(16.66667% - var(--wp--style--unstable-gallery-gap, 16px)*.83333)}.wp-block-gallery.has-nested-images.columns-7 figure.wp-block-image:not(#individual-image){width:calc(14.28571% - var(--wp--style--unstable-gallery-gap, 16px)*.85714)}.wp-block-gallery.has-nested-images.columns-8 figure.wp-block-image:not(#individual-image){width:calc(12.5% - var(--wp--style--unstable-gallery-gap, 16px)*.875)}.wp-block-gallery.has-nested-images.columns-default figure.wp-block-image:not(#individual-image){width:calc(33.33% - var(--wp--style--unstable-gallery-gap, 16px)*.66667)}.wp-block-gallery.has-nested-images.columns-default figure.wp-block-image:not(#individual-image):first-child:nth-last-child(2),.wp-block-gallery.has-nested-images.columns-default figure.wp-block-image:not(#individual-image):first-child:nth-last-child(2)~figure.wp-block-image:not(#individual-image){width:calc(50% - var(--wp--style--unstable-gallery-gap, 16px)*.5)}.wp-block-gallery.has-nested-images.columns-default figure.wp-block-image:not(#individual-image):first-child:last-child{width:100%}}.wp-block-gallery.has-nested-images.alignleft,.wp-block-gallery.has-nested-images.alignright{max-width:420px;width:100%}.wp-block-gallery.has-nested-images.aligncenter{justify-content:center}
+/*# sourceURL=https://coastwatch.com.au/wp-includes/blocks/gallery/style.min.css */
+</style>
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--blue: #0053FF;--wp--preset--color--navy-blue: #022979;--wp--preset--color--yellow: #FFB800;--wp--preset--color--green: #79be70;--wp--preset--color--red: #AE0012;--wp--preset--color--gray: #585858;--wp--preset--color--dark: #000000;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-blue-color{color: var(--wp--preset--color--blue) !important;}.has-navy-blue-color{color: var(--wp--preset--color--navy-blue) !important;}.has-yellow-color{color: var(--wp--preset--color--yellow) !important;}.has-green-color{color: var(--wp--preset--color--green) !important;}.has-red-color{color: var(--wp--preset--color--red) !important;}.has-gray-color{color: var(--wp--preset--color--gray) !important;}.has-dark-color{color: var(--wp--preset--color--dark) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-blue-background-color{background-color: var(--wp--preset--color--blue) !important;}.has-navy-blue-background-color{background-color: var(--wp--preset--color--navy-blue) !important;}.has-yellow-background-color{background-color: var(--wp--preset--color--yellow) !important;}.has-green-background-color{background-color: var(--wp--preset--color--green) !important;}.has-red-background-color{background-color: var(--wp--preset--color--red) !important;}.has-gray-background-color{background-color: var(--wp--preset--color--gray) !important;}.has-dark-background-color{background-color: var(--wp--preset--color--dark) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-blue-border-color{border-color: var(--wp--preset--color--blue) !important;}.has-navy-blue-border-color{border-color: var(--wp--preset--color--navy-blue) !important;}.has-yellow-border-color{border-color: var(--wp--preset--color--yellow) !important;}.has-green-border-color{border-color: var(--wp--preset--color--green) !important;}.has-red-border-color{border-color: var(--wp--preset--color--red) !important;}.has-gray-border-color{border-color: var(--wp--preset--color--gray) !important;}.has-dark-border-color{border-color: var(--wp--preset--color--dark) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-gallery.is-layout-flex){gap: var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );}:where(.wp-block-gallery.is-layout-grid){gap: var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );}
+/*# sourceURL=global-styles-inline-css */
+</style>
+<style id="core-block-supports-inline-css">
+.wp-block-gallery.wp-block-gallery-1{--wp--style--unstable-gallery-gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );}.wp-block-gallery.wp-block-gallery-2{--wp--style--unstable-gallery-gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );}
+/*# sourceURL=core-block-supports-inline-css */
+</style>
+<script id="advanced-ads-find-adblocker-js" src="/wp-content/plugins/advanced-ads/admin/assets/js/advertisement.js"></script>
+<script id="main.js-js-extra">
+var coastwatch = {"ajax_url":"https://coastwatch.com.au/wp-admin/admin-ajax.php","nonce":"76e3687de4"};
+//# sourceURL=main.js-js-extra
+</script>
+<script id="main.js-js" src="/wp-content/themes/coastwatch/dist/scripts/main_5262e66a.js"></script>
+<script id="wp-dom-ready-js" src="/wp-includes/js/dist/dom-ready.min.js"></script>
+<script id="wp-hooks-js" src="/wp-includes/js/dist/hooks.min.js"></script>
+<script id="wp-i18n-js" src="/wp-includes/js/dist/i18n.min.js"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { "text direction\u0004ltr": [ "ltr" ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="wp-a11y-js" src="/wp-includes/js/dist/a11y.min.js"></script>
+<script id="gform_json-js" defer='defer' src="/wp-content/plugins/gravityforms/js/jquery.json.min.js"></script>
+<script id="gform_gravityforms-js-extra">
+var gform_i18n = {"datepicker":{"days":{"monday":"Mo","tuesday":"Tu","wednesday":"We","thursday":"Th","friday":"Fr","saturday":"Sa","sunday":"Su"},"months":{"january":"January","february":"February","march":"March","april":"April","may":"May","june":"June","july":"July","august":"August","september":"September","october":"October","november":"November","december":"December"},"firstDay":1,"iconText":"Select date"}};
+var gf_legacy_multi = [];
+var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file is not allowed. Must be one of the following:","file_uploaded":"File uploaded","delete_file":"Delete this file","in_progress":"in progress","file_exceeds_limit":"File exceeds size limit","illegal_extension":"This type of file is not allowed.","max_reached":"Maximum number of files reached","unknown_error":"There was a problem while saving the file on the server","currently_uploading":"Please wait for the uploading to complete","cancel":"Cancel","cancel_upload":"Cancel this upload","cancelled":"Cancelled","error":"Error","message":"Message"},"vars":{"images_url":"https://coastwatch.com.au/wp-content/plugins/gravityforms/images"}};
+var gf_global = {"gf_currency_config":{"name":"Australian Dollar","symbol_left":"$","symbol_right":"","symbol_padding":" ","thousand_separator":",","decimal_separator":".","decimals":2,"code":"AUD"},"base_url":"https://coastwatch.com.au/wp-content/plugins/gravityforms","number_formats":[],"spinnerUrl":"https://coastwatch.com.au/wp-content/plugins/gravityforms/images/spinner.svg","version_hash":"10a7af63af0891afe05e5343b041f56f","strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+//# sourceURL=gform_gravityforms-js-extra
+</script>
+<script id="gform_gravityforms-js" defer='defer' src="/wp-content/plugins/gravityforms/js/gravityforms.min.js"></script>
+<script id="gform_gravityforms_utils-js" defer='defer' src="/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js"></script>
+<script id="gform_gravityforms_theme_vendors-js" defer='defer' src="/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js"></script>
+<script id="gform_gravityforms_theme-js-extra">
+var gform_theme_config = {"common":{"form":{"honeypot":{"version_hash":"10a7af63af0891afe05e5343b041f56f"},"ajax":{"ajaxurl":"https://coastwatch.com.au/wp-admin/admin-ajax.php","ajax_submission_nonce":"cb3b648df2","i18n":{"step_announcement":"Step %1$s of %2$s, %3$s","unknown_error":"There was an unknown error processing your request. Please try again.","error_403":"The request was blocked (403 error) for unknown security reasons. Remove any code-like text (scripts or DB queries) and try again."}}}},"hmr_dev":"","public_path":"https://coastwatch.com.au/wp-content/plugins/gravityforms/assets/js/dist/","config_nonce":"a299482610"};
+//# sourceURL=gform_gravityforms_theme-js-extra
+</script>
+<script id="gform_gravityforms_theme-js" defer='defer' src="/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js"></script>
+<script>!function(){window.advanced_ads_ready_queue=window.advanced_ads_ready_queue||[],advanced_ads_ready_queue.push=window.advanced_ads_ready;for(var d=0,a=advanced_ads_ready_queue.length;d<a;d++)advanced_ads_ready(advanced_ads_ready_queue[d])}();</script><script>
+gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 2) {if(typeof Placeholders != 'undefined'){
+                        Placeholders.enable();
+                    }jQuery( "#gform_2" ).on( 'submit', function( event ) {
+	jQuery( '<input>' )
+		.attr( 'type', 'hidden' )
+		.attr( 'name', 'gf_zero_spam_key' )
+		.attr( 'value', 'LPdR8MbOSmiGjX3jIeIfo8QPSZpXOGP5kHpAXuVjXOiANKvO2EQ78MO2zxpNTq9s' )
+		.attr( 'autocomplete', 'new-password' )
+		.appendTo( jQuery( this ) );
+} );} } );jQuery(document).on('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } );
+</script>
+<script>
+gform.initializeOnLoaded( function() {jQuery(document).trigger("gform_pre_post_render", [{ formId: "2", currentPage: "1", abort: function() { this.preventDefault(); } }]);        if (event && event.defaultPrevented) {                return;        }        const gformWrapperDiv = document.getElementById( "gform_wrapper_2" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_2";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_2" );        let postRenderFired = false;        function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 2, 1 );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );
+</script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"b79b835f3b0a4ff1a9fbe6c15e20addb","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+<!-- Cached by Staq (https://www.wpstaq.com): 2026-10-21 18:32:30 GMT -->
