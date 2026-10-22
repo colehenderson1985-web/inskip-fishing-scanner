@@ -6,10 +6,75 @@
         <title>Park alerts for Sunshine Coast</title>
         <link>https://parks.qld.gov.au/park-alerts</link>
         <description>Changes to conditions in Queensland's national parks, marine parks and forests - Sunshine Coast.</description>
-        <pubDate>Thu, 22 Oct 2026 07:29:00 +1000</pubDate>
-        <lastBuildDate>Thu, 22 Oct 2026 07:29:00 +1000</lastBuildDate>
+        <pubDate>Thu, 22 Oct 2026 22:24:00 +1000</pubDate>
+        <lastBuildDate>Thu, 22 Oct 2026 22:24:00 +1000</lastBuildDate>
         <language>en-au</language>
         <ttl>1440</ttl>
+
+
+
+
+
+    <item>
+        <title>Wet weather access Conondale National Park (update)</title>
+        <description><![CDATA[As a result of wet weather, access is restricted, and some areas are closed until declared safe.  Affected parks: Imbil State Forest; Conondale National Park]]></description>
+        <link>https://parks.qld.gov.au/park-alerts/27107</link>
+        <guid>https://parks.qld.gov.au/park-alerts/27107?v=2</guid>
+        <pubDate>Thu, 22 Oct 2026 14:47:23 +1000</pubDate>
+    </item>
+
+
+    <item>
+        <title>Temporary closure of shared trails and mountain bike trails- Tewantin NP and Parklands CP</title>
+        <description><![CDATA[Due to current rainfall on saturated ground, all mountain bike trails within Tewantin National Park (Wooroi section) and Parklands Conservation Park are closed between Thursday 22 October and Tuesday 27 October, 2026. Affected parks: Parklands Conservation Park; Tewantin National Park]]></description>
+        <link>https://parks.qld.gov.au/park-alerts/27133</link>
+        <guid>https://parks.qld.gov.au/park-alerts/27133?v=1</guid>
+        <pubDate>Thu, 22 Oct 2026 13:33:04 +1000</pubDate>
+    </item>
+
+
+    <item>
+        <title>Kondalilla National Park - Wet Weather Access</title>
+        <description><![CDATA[As a result of wet weather, access is restricted and some areas are closed until declared safe. Affected parks: Kondalilla National Park]]></description>
+        <link>https://parks.qld.gov.au/park-alerts/27132</link>
+        <guid>https://parks.qld.gov.au/park-alerts/27132?v=1</guid>
+        <pubDate>Thu, 22 Oct 2026 13:19:27 +1000</pubDate>
+    </item>
+
+
+
+
+
+
+
+
+
+
+
+
+    <item>
+        <title>Mount Beerwah temporarily closed</title>
+        <description><![CDATA[Mount Beerwah is temporarily closed due to recent heavy rainfall. All access routes on Mount Beerwah are closed as a precautionary measure following significant rainfall events, as the risk of rockfall is considerably higher. Affected parks: Glass House Mountains National Park]]></description>
+        <link>https://parks.qld.gov.au/park-alerts/27125</link>
+        <guid>https://parks.qld.gov.au/park-alerts/27125?v=1</guid>
+        <pubDate>Thu, 22 Oct 2026 09:07:59 +1000</pubDate>
+    </item>
+
+
+    <item>
+        <title>Ewen Maddock mountain Bike trail temporarily closed</title>
+        <description><![CDATA[The Ewen Maddock Mountain Bike Trail is currently heavily waterlogged due to recent wet weather. To prevent further trail damage, QPWS requests that riders avoid using the trail until conditions improve and sufficient dry weather has allowed the ground to recover. Affected parks: Beerburrum and Beerwah State Forests]]></description>
+        <link>https://parks.qld.gov.au/park-alerts/27121</link>
+        <guid>https://parks.qld.gov.au/park-alerts/27121?v=1</guid>
+        <pubDate>Thu, 22 Oct 2026 07:44:58 +1000</pubDate>
+    </item>
+
+
+
+
+
+
+
 
 
 
@@ -53,15 +118,6 @@
 
 
 
-
-
-    <item>
-        <title>Wet weather access Conondale National Park</title>
-        <description><![CDATA[As a result of wet weather, access is restricted, and some areas are closed until declared safe. Affected parks: Imbil State Forest; Conondale National Park]]></description>
-        <link>https://parks.qld.gov.au/park-alerts/27107</link>
-        <guid>https://parks.qld.gov.au/park-alerts/27107?v=1</guid>
-        <pubDate>Tue, 20 Oct 2026 09:16:24 +1000</pubDate>
-    </item>
 
 
     <item>
@@ -307,8 +363,6 @@
 
 
 
-
-
     <item>
         <title>Glass House Mountains Lookout BBQ Closure</title>
         <description><![CDATA[Glass House Mountains Lookout day use area no longer has BBQ's facilities. Affected parks: Beerburrum and Beerwah State Forests]]></description>
@@ -344,8 +398,6 @@
         <guid>https://parks.qld.gov.au/park-alerts/26837?v=1</guid>
         <pubDate>Tue, 04 Aug 2026 10:44:30 +1000</pubDate>
     </item>
-
-
 
 
 
