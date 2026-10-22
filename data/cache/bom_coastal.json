@@ -1,28 +1,19 @@
 {
- "issued": "2026-10-22T21:08:25+10:00",
+ "issued": "2026-10-23T03:00:00+10:00",
  "areas": {
   "K'gari Coast: Sandy Cape to Double Island Point": {
    "periods": [
     {
      "index": "0",
-     "start": "2026-10-22T21:00:00+10:00",
-     "end": "2026-10-23T00:00:00+10:00",
-     "forecast_winds": "Northeasterly 10 to 15 knots.",
-     "forecast_seas": "Around 1 metre.",
-     "forecast_swell1": "Easterly around 1 metre.",
-     "forecast_weather": "Partly cloudy. The chance of a thunderstorm."
-    },
-    {
-     "index": "1",
-     "start": "2026-10-23T00:00:00+10:00",
+     "start": "2026-10-23T03:00:00+10:00",
      "end": "2026-10-24T00:00:00+10:00",
      "forecast_winds": "Northeasterly 15 to 20 knots.",
      "forecast_seas": "Around 1 metre, increasing to 1 to 1.5 metres offshore.",
-     "forecast_swell1": "Easterly around 1 metre.",
-     "forecast_weather": "Partly cloudy. 90% chance of showers inshore, 60% chance elsewhere. The chance of a thunderstorm in the evening."
+     "forecast_swell1": "East to northeasterly around 1 metre.",
+     "forecast_weather": "Partly cloudy. 80% chance of showers inshore, 50% chance elsewhere. The chance of a thunderstorm this evening."
     },
     {
-     "index": "2",
+     "index": "1",
      "start": "2026-10-24T00:00:00+10:00",
      "end": "2026-10-25T00:00:00+10:00",
      "forecast_winds": "Northeasterly 15 to 20 knots.",
@@ -31,13 +22,13 @@
      "forecast_weather": "Partly cloudy. 70% chance of showers. The chance of a thunderstorm in the evening."
     },
     {
-     "index": "3",
+     "index": "2",
      "start": "2026-10-25T00:00:00+10:00",
      "end": "2026-10-26T00:00:00+10:00",
      "forecast_winds": "Northerly 15 to 20 knots.",
-     "forecast_seas": "Around 1 metre, increasing to 1 to 1.5 metres during the afternoon.",
+     "forecast_seas": "Around 1 metre, increasing to 1 to 1.5 metres during the morning.",
      "forecast_swell1": "Northeasterly around 1 metre.",
-     "forecast_weather": "Partly cloudy. 60% chance of showers. The chance of a thunderstorm in the evening."
+     "forecast_weather": "Partly cloudy. 70% chance of showers. The chance of a thunderstorm in the evening."
     }
    ],
    "warning_summary": "",
@@ -47,24 +38,15 @@
    "periods": [
     {
      "index": "0",
-     "start": "2026-10-22T21:00:00+10:00",
-     "end": "2026-10-23T00:00:00+10:00",
-     "forecast_winds": "Northeasterly 10 to 15 knots.",
-     "forecast_seas": "Around 1 metre.",
-     "forecast_swell1": "Easterly around 1 metre.",
-     "forecast_weather": "Partly cloudy. The chance of a thunderstorm."
+     "start": "2026-10-23T03:00:00+10:00",
+     "end": "2026-10-24T00:00:00+10:00",
+     "forecast_winds": "Northeasterly 15 to 20 knots.",
+     "forecast_seas": "1 to 1.5 metres, decreasing to 1 metre during the morning, then increasing to 1 to 1.5 metres during the afternoon.",
+     "forecast_swell1": "East to northeasterly around 1 metre.",
+     "forecast_weather": "Partly cloudy. 70% chance of showers. The chance of a thunderstorm."
     },
     {
      "index": "1",
-     "start": "2026-10-23T00:00:00+10:00",
-     "end": "2026-10-24T00:00:00+10:00",
-     "forecast_winds": "Northeasterly 15 to 20 knots.",
-     "forecast_seas": "Around 1 metre, increasing to 1 to 1.5 metres offshore.",
-     "forecast_swell1": "East to northeasterly around 1 metre.",
-     "forecast_weather": "Partly cloudy. 80% chance of showers. The chance of a thunderstorm."
-    },
-    {
-     "index": "2",
      "start": "2026-10-24T00:00:00+10:00",
      "end": "2026-10-25T00:00:00+10:00",
      "forecast_winds": "Northerly 15 to 20 knots.",
@@ -73,13 +55,13 @@
      "forecast_weather": "Cloudy. 90% chance of showers. The chance of a thunderstorm."
     },
     {
-     "index": "3",
+     "index": "2",
      "start": "2026-10-25T00:00:00+10:00",
      "end": "2026-10-26T00:00:00+10:00",
      "forecast_winds": "Northerly 15 to 25 knots.",
      "forecast_seas": "1 to 1.5 metres, increasing to 1.5 to 2 metres during the afternoon or evening.",
      "forecast_swell1": "Easterly around 1 metre.",
-     "forecast_weather": "Partly cloudy. 80% chance of showers. The chance of a thunderstorm in the evening."
+     "forecast_weather": "Partly cloudy. 80% chance of showers. The chance of a thunderstorm in the afternoon and evening."
     }
    ],
    "warning_summary": "",
@@ -87,5 +69,5 @@
   }
  },
  "warning_active": false,
- "fetched_at": "2026-10-22T22:25:00+10:00"
+ "fetched_at": "2026-10-23T07:33:22+10:00"
 }
