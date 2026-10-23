@@ -1,28 +1,19 @@
 {
- "issued": "2026-10-23T21:00:00+10:00",
+ "issued": "2026-10-24T03:00:00+10:00",
  "areas": {
   "K'gari Coast: Sandy Cape to Double Island Point": {
    "periods": [
     {
      "index": "0",
-     "start": "2026-10-23T21:00:00+10:00",
-     "end": "2026-10-24T00:00:00+10:00",
-     "forecast_winds": "Northeasterly 10 to 15 knots, reaching up to 20 knots offshore.",
-     "forecast_seas": "Around 1 metre, increasing to 1 to 1.5 metres offshore.",
-     "forecast_swell1": "Easterly around 1 metre.",
-     "forecast_weather": "Partly cloudy. The chance of a thunderstorm offshore."
-    },
-    {
-     "index": "1",
-     "start": "2026-10-24T00:00:00+10:00",
+     "start": "2026-10-24T03:00:00+10:00",
      "end": "2026-10-25T00:00:00+10:00",
      "forecast_winds": "Northeasterly 15 to 20 knots.",
-     "forecast_seas": "Around 1 metre, increasing to 1 to 1.5 metres offshore.",
+     "forecast_seas": "Around 1 metre.",
      "forecast_swell1": "East to northeasterly around 1 metre.",
      "forecast_weather": "Cloudy. 80% chance of rain. The chance of a thunderstorm."
     },
     {
-     "index": "2",
+     "index": "1",
      "start": "2026-10-25T00:00:00+10:00",
      "end": "2026-10-26T00:00:00+10:00",
      "forecast_winds": "Northeasterly 15 to 20 knots turning northerly early in the morning.",
@@ -31,7 +22,7 @@
      "forecast_weather": "Partly cloudy. 80% chance of showers. The chance of a thunderstorm in the evening."
     },
     {
-     "index": "3",
+     "index": "2",
      "start": "2026-10-26T00:00:00+10:00",
      "end": "2026-10-27T00:00:00+10:00",
      "forecast_winds": "Northerly 15 to 20 knots turning northwesterly during the day.",
@@ -47,16 +38,7 @@
    "periods": [
     {
      "index": "0",
-     "start": "2026-10-23T21:00:00+10:00",
-     "end": "2026-10-24T00:00:00+10:00",
-     "forecast_winds": "North to northeasterly 10 to 15 knots, reaching up to 20 knots offshore.",
-     "forecast_seas": "Around 1 metre, increasing to 1.5 metres offshore.",
-     "forecast_swell1": "East to northeasterly around 1 metre.",
-     "forecast_weather": "Partly cloudy. The chance of a thunderstorm south of Maroochydore."
-    },
-    {
-     "index": "1",
-     "start": "2026-10-24T00:00:00+10:00",
+     "start": "2026-10-24T03:00:00+10:00",
      "end": "2026-10-25T00:00:00+10:00",
      "forecast_winds": "North to northeasterly 15 to 20 knots.",
      "forecast_seas": "1 to 1.5 metres.",
@@ -64,16 +46,16 @@
      "forecast_weather": "Cloudy. 90% chance of rain. The chance of a thunderstorm."
     },
     {
-     "index": "2",
+     "index": "1",
      "start": "2026-10-25T00:00:00+10:00",
      "end": "2026-10-26T00:00:00+10:00",
-     "forecast_winds": "Northerly 15 to 25 knots.",
+     "forecast_winds": "Northerly 15 to 20 knots, reaching up to 25 knots offshore during the afternoon and evening.",
      "forecast_seas": "1 to 1.5 metres, increasing to 1.5 to 2 metres during the afternoon.",
      "forecast_swell1": "Easterly around 1 metre.",
-     "forecast_weather": "Partly cloudy. 90% chance of showers. The chance of a thunderstorm in the late afternoon and evening."
+     "forecast_weather": "Partly cloudy. 90% chance of showers. The chance of a thunderstorm in the afternoon and evening."
     },
     {
-     "index": "3",
+     "index": "2",
      "start": "2026-10-26T00:00:00+10:00",
      "end": "2026-10-27T00:00:00+10:00",
      "forecast_winds": "Northerly 20 to 25 knots turning northwesterly 15 to 20 knots during the evening.",
@@ -87,5 +69,5 @@
   }
  },
  "warning_active": false,
- "fetched_at": "2026-10-23T22:06:36+10:00"
+ "fetched_at": "2026-10-24T07:22:27+10:00"
 }
