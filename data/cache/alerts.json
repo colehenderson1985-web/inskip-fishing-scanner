@@ -1,5 +1,19 @@
 [
  {
+  "id": "https://parks.qld.gov.au/park-alerts/26456?v=3",
+  "title": "Upper Noosa River – Campsite 3 – partial jetty closure (update 26 Oct)",
+  "summary": "Recent flooding events in the Upper Noosa River have caused damage to the southern day-use jetty at Campsite 3. The jetty has been closed until repairs can be completed. Affected parks: Cooloola (Noosa River) Resources Reserve; Cooloola Recreation Area, Great Sandy National Park",
+  "link": "https://parks.qld.gov.au/park-alerts/26456",
+  "published": "2026-10-26T08:25:22+10:00",
+  "severity": "warning",
+  "locations": [
+   "rainbow_to_dip",
+   "dip_north",
+   "teewah"
+  ],
+  "source": "QPWS park alerts"
+ },
+ {
   "id": "https://parks.qld.gov.au/park-alerts/27156?v=1",
   "title": "Upper Noosa River CLOSED due to flooding",
   "summary": "Recent heavy rain is causing flooding to occur in the Upper Noosa River. Travel on water upstream of Fig Tree Point is unsafe due to the large volume of fast flowing water and hazards caused by submerged objects in the “The Narrows” section of the Noosa River. Affected parks: Cooloola (Noosa River) Resources Reserve; Cooloola Recreation Area, Great Sandy National Park",
