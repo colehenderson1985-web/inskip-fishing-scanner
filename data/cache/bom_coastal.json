@@ -1,37 +1,28 @@
 {
- "issued": "2026-10-28T21:00:00+10:00",
+ "issued": "2026-10-29T03:00:00+10:00",
  "areas": {
   "K'gari Coast: Sandy Cape to Double Island Point": {
    "periods": [
     {
      "index": "0",
-     "start": "2026-10-28T21:00:00+10:00",
-     "end": "2026-10-29T00:00:00+10:00",
-     "forecast_winds": "Variable below 10 knots.",
-     "forecast_seas": "Below 1 metre.",
-     "forecast_swell1": "South to southeasterly below 1 metre.",
-     "forecast_weather": "Cloudy. 50% chance of showers offshore, near zero chance elsewhere. The chance of a thunderstorm offshore."
-    },
-    {
-     "index": "1",
-     "start": "2026-10-29T00:00:00+10:00",
+     "start": "2026-10-29T03:00:00+10:00",
      "end": "2026-10-30T00:00:00+10:00",
      "forecast_winds": "Southerly 10 to 15 knots turning east to southeasterly in the late morning and afternoon. Winds reaching up to 20 knots offshore during the afternoon and evening.",
      "forecast_seas": "Below 1 metre, increasing to 1 to 1.5 metres around midday.",
      "forecast_swell1": "Southerly below 1 metre.",
-     "forecast_weather": "The chance of a thunderstorm offshore in the early morning. Mostly sunny day."
+     "forecast_weather": "Mostly sunny."
     },
     {
-     "index": "2",
+     "index": "1",
      "start": "2026-10-30T00:00:00+10:00",
      "end": "2026-10-31T00:00:00+10:00",
      "forecast_winds": "Southeasterly 10 to 15 knots turning easterly in the evening.",
      "forecast_seas": "Around 1 metre.",
      "forecast_swell1": "Southeasterly around 1 metre inshore, increasing to 1 to 1.5 metres offshore during the morning.",
-     "forecast_weather": "Partly cloudy."
+     "forecast_weather": "Mostly sunny."
     },
     {
-     "index": "3",
+     "index": "2",
      "start": "2026-10-31T00:00:00+10:00",
      "end": "2026-11-01T00:00:00+10:00",
      "forecast_winds": "Easterly 10 to 15 knots becoming northeasterly about 10 knots during the afternoon.",
@@ -47,16 +38,7 @@
    "periods": [
     {
      "index": "0",
-     "start": "2026-10-28T21:00:00+10:00",
-     "end": "2026-10-29T00:00:00+10:00",
-     "forecast_winds": "Variable below 10 knots.",
-     "forecast_seas": "Below 0.5 metres.",
-     "forecast_swell1": "Easterly below 1 metre.",
-     "forecast_weather": "Partly cloudy."
-    },
-    {
-     "index": "1",
-     "start": "2026-10-29T00:00:00+10:00",
+     "start": "2026-10-29T03:00:00+10:00",
      "end": "2026-10-30T00:00:00+10:00",
      "forecast_winds": "South to southwesterly 10 to 15 knots turning east to southeasterly during the morning and early afternoon.",
      "forecast_seas": "Around 1 metre.",
@@ -64,7 +46,7 @@
      "forecast_weather": "Sunny."
     },
     {
-     "index": "2",
+     "index": "1",
      "start": "2026-10-30T00:00:00+10:00",
      "end": "2026-10-31T00:00:00+10:00",
      "forecast_winds": "Southeasterly 10 to 15 knots turning easterly in the evening.",
@@ -73,7 +55,7 @@
      "forecast_weather": "Mostly sunny."
     },
     {
-     "index": "3",
+     "index": "2",
      "start": "2026-10-31T00:00:00+10:00",
      "end": "2026-11-01T00:00:00+10:00",
      "forecast_winds": "East to northeasterly about 10 knots tending north to northeasterly 10 to 15 knots during the day.",
@@ -87,5 +69,5 @@
   }
  },
  "warning_active": false,
- "fetched_at": "2026-10-28T23:31:42+10:00"
+ "fetched_at": "2026-10-29T08:32:28+10:00"
 }
