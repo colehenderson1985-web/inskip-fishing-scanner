@@ -14,6 +14,20 @@
   "source": "QPWS park alerts"
  },
  {
+  "id": "https://parks.qld.gov.au/park-alerts/27156?v=1",
+  "title": "Upper Noosa River CLOSED due to flooding",
+  "summary": "Recent heavy rain is causing flooding to occur in the Upper Noosa River. Travel on water upstream of Fig Tree Point is unsafe due to the large volume of fast flowing water and hazards caused by submerged objects in the “The Narrows” section of the Noosa River. Affected parks: Cooloola (Noosa River) Resources Reserve; Cooloola Recreation Area, Great Sandy National Park",
+  "link": "https://parks.qld.gov.au/park-alerts/27156",
+  "published": "2026-10-25T09:41:50+10:00",
+  "severity": "warning",
+  "locations": [
+   "rainbow_to_dip",
+   "dip_north",
+   "teewah"
+  ],
+  "source": "QPWS park alerts"
+ },
+ {
   "id": "https://parks.qld.gov.au/park-alerts/27114?v=1",
   "title": "Drive with care during marine turtle nesting season",
   "summary": "From November to May, you may see turtles crossing the beach to lay their eggs or hatchlings making their way to the water for the first time. Motorists and visitors to the Cooloola and K’gari recreation areas within Great Sandy National Park, and the Inskip Peninsula Recreation Area, are asked to minimise disturbance and human impacts on nesting marine turtles and emerging hatchlings Affected parks: Inskip Peninsula Recreation Area; Cooloola Recreation Area, Great Sandy National Park; K'gari, Great Sandy National Park",
