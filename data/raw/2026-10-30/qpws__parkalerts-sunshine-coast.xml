@@ -6,10 +6,35 @@
         <title>Park alerts for Sunshine Coast</title>
         <link>https://parks.qld.gov.au/park-alerts</link>
         <description>Changes to conditions in Queensland's national parks, marine parks and forests - Sunshine Coast.</description>
-        <pubDate>Thu, 29 Oct 2026 23:42:00 +1000</pubDate>
-        <lastBuildDate>Thu, 29 Oct 2026 23:42:00 +1000</lastBuildDate>
+        <pubDate>Fri, 30 Oct 2026 23:34:00 +1000</pubDate>
+        <lastBuildDate>Fri, 30 Oct 2026 23:34:00 +1000</lastBuildDate>
         <language>en-au</language>
         <ttl>1440</ttl>
+
+
+
+
+
+
+
+
+
+
+
+    <item>
+        <title>Ex HMAS Tobruk public mooring temporary closed (update 30 Oct)</title>
+        <description><![CDATA[Visitors are advised that the Ex HMAS Tobruk public mooring is temporarily closed due to mooring line repairs. Affected parks: Great Sandy Marine Park]]></description>
+        <link>https://parks.qld.gov.au/park-alerts/26880</link>
+        <guid>https://parks.qld.gov.au/park-alerts/26880?v=4</guid>
+        <pubDate>Fri, 30 Oct 2026 10:08:54 +1000</pubDate>
+    </item>
+
+
+
+
+
+
+
 
 
 
@@ -106,29 +131,12 @@
 
 
 
-
-
-
-
-
-
     <item>
         <title>Upper Noosa River – Campsite 3 – partial jetty closure (update 26 Oct)</title>
         <description><![CDATA[Recent flooding events in the Upper Noosa River have caused damage to the southern day-use jetty at Campsite 3. The jetty has been closed until repairs can be completed. Affected parks: Cooloola (Noosa River) Resources Reserve; Cooloola Recreation Area, Great Sandy National Park]]></description>
         <link>https://parks.qld.gov.au/park-alerts/26456</link>
         <guid>https://parks.qld.gov.au/park-alerts/26456?v=3</guid>
         <pubDate>Mon, 26 Oct 2026 08:25:22 +1000</pubDate>
-    </item>
-
-
-
-
-    <item>
-        <title>Upper Noosa River CLOSED due to flooding</title>
-        <description><![CDATA[Recent heavy rain is causing flooding to occur in the Upper Noosa River. Travel on water upstream of Fig Tree Point is unsafe due to the large volume of fast flowing water and hazards caused by submerged objects in the “The Narrows” section of the Noosa River. Affected parks: Cooloola (Noosa River) Resources Reserve; Cooloola Recreation Area, Great Sandy National Park]]></description>
-        <link>https://parks.qld.gov.au/park-alerts/27156</link>
-        <guid>https://parks.qld.gov.au/park-alerts/27156?v=1</guid>
-        <pubDate>Sun, 25 Oct 2026 09:41:50 +1000</pubDate>
     </item>
 
 
@@ -164,15 +172,6 @@
 
 
 
-
-
-    <item>
-        <title>Ewen Maddock mountain Bike trail temporarily closed</title>
-        <description><![CDATA[The Ewen Maddock Mountain Bike Trail is currently heavily waterlogged due to recent wet weather. To prevent further trail damage, QPWS requests that riders avoid using the trail until conditions improve and sufficient dry weather has allowed the ground to recover. Affected parks: Beerburrum and Beerwah State Forests]]></description>
-        <link>https://parks.qld.gov.au/park-alerts/27121</link>
-        <guid>https://parks.qld.gov.au/park-alerts/27121?v=1</guid>
-        <pubDate>Thu, 22 Oct 2026 07:44:58 +1000</pubDate>
-    </item>
 
 
 
@@ -289,8 +288,6 @@
 
 
 
-
-
     <item>
         <title>Safety Alert - Fallen trees and planned works on Conondale Range Great Walk (update 29 Sep)</title>
         <description><![CDATA[Queensland Parks and Wildlife Service (QPWS) will be conducting a maintenance program on the Conondale Range Great Walk from 1 May to 30 November (weather permitting). Affected parks: Imbil State Forest; Conondale National Park; Conondale Range Great Walk]]></description>
@@ -302,15 +299,6 @@
 
 
 
-
-
-    <item>
-        <title>Ex HMAS Tobruk public mooring temporary closed (update 28 Sep)</title>
-        <description><![CDATA[Visitors are advised that the Ex HMAS Tobruk public mooring is temporarily closed due to mooring line repairs. Affected parks: Great Sandy Marine Park]]></description>
-        <link>https://parks.qld.gov.au/park-alerts/26880</link>
-        <guid>https://parks.qld.gov.au/park-alerts/26880?v=3</guid>
-        <pubDate>Mon, 28 Sep 2026 09:41:21 +1000</pubDate>
-    </item>
 
 
 
@@ -326,8 +314,6 @@
         <guid>https://parks.qld.gov.au/park-alerts/26960?v=2</guid>
         <pubDate>Wed, 23 Sep 2026 10:10:15 +1000</pubDate>
     </item>
-
-
 
 
 
