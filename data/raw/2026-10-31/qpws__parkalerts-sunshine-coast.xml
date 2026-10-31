@@ -6,10 +6,31 @@
         <title>Park alerts for Sunshine Coast</title>
         <link>https://parks.qld.gov.au/park-alerts</link>
         <description>Changes to conditions in Queensland's national parks, marine parks and forests - Sunshine Coast.</description>
-        <pubDate>Fri, 30 Oct 2026 08:43:00 +1000</pubDate>
-        <lastBuildDate>Fri, 30 Oct 2026 08:43:00 +1000</lastBuildDate>
+        <pubDate>Sat, 31 Oct 2026 08:16:00 +1000</pubDate>
+        <lastBuildDate>Sat, 31 Oct 2026 08:16:00 +1000</lastBuildDate>
         <language>en-au</language>
         <ttl>1440</ttl>
+
+
+
+
+
+
+
+
+
+
+
+    <item>
+        <title>Ex HMAS Tobruk public mooring temporary closed (update 30 Oct)</title>
+        <description><![CDATA[Visitors are advised that the Ex HMAS Tobruk public mooring is temporarily closed due to mooring line repairs. Affected parks: Great Sandy Marine Park]]></description>
+        <link>https://parks.qld.gov.au/park-alerts/26880</link>
+        <guid>https://parks.qld.gov.au/park-alerts/26880?v=4</guid>
+        <pubDate>Fri, 30 Oct 2026 10:08:54 +1000</pubDate>
+    </item>
+
+
+
 
 
 
@@ -100,18 +121,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     <item>
         <title>Upper Noosa River – Campsite 3 – partial jetty closure (update 26 Oct)</title>
         <description><![CDATA[Recent flooding events in the Upper Noosa River have caused damage to the southern day-use jetty at Campsite 3. The jetty has been closed until repairs can be completed. Affected parks: Cooloola (Noosa River) Resources Reserve; Cooloola Recreation Area, Great Sandy National Park]]></description>
@@ -121,13 +130,6 @@
     </item>
 
 
-    <item>
-        <title>Upper Noosa River CLOSED due to flooding</title>
-        <description><![CDATA[Recent heavy rain is causing flooding to occur in the Upper Noosa River. Travel on water upstream of Fig Tree Point is unsafe due to the large volume of fast flowing water and hazards caused by submerged objects in the “The Narrows” section of the Noosa River. Affected parks: Cooloola (Noosa River) Resources Reserve; Cooloola Recreation Area, Great Sandy National Park]]></description>
-        <link>https://parks.qld.gov.au/park-alerts/27156</link>
-        <guid>https://parks.qld.gov.au/park-alerts/27156?v=1</guid>
-        <pubDate>Sun, 25 Oct 2026 09:41:50 +1000</pubDate>
-    </item>
 
 
 
@@ -136,19 +138,6 @@
 
 
 
-
-
-
-
-
-
-    <item>
-        <title>Sunshine Coast Hinterland Great Walk - temporary closure due to extended wet weather conditions (update)</title>
-        <description><![CDATA[Following severe rainfall events, all Great Walk walkers&#039; camps will be closed for camping. Affected parks: Sunshine Coast Hinterland Great Walk; Mapleton National Park; Kondalilla National Park]]></description>
-        <link>https://parks.qld.gov.au/park-alerts/27139</link>
-        <guid>https://parks.qld.gov.au/park-alerts/27139?v=2</guid>
-        <pubDate>Fri, 23 Oct 2026 08:55:58 +1000</pubDate>
-    </item>
 
 
     <item>
@@ -166,10 +155,6 @@
 
 
 
-
-
-
-
     <item>
         <title>Drive with care during marine turtle nesting season</title>
         <description><![CDATA[From November to May, you may see turtles crossing the beach to lay their eggs or hatchlings making their way to the water for the first time. Motorists and visitors to the Cooloola and K’gari recreation areas within Great Sandy National Park, and the Inskip Peninsula Recreation Area, are asked to minimise disturbance and human impacts on nesting marine turtles and emerging hatchlings Affected parks: Inskip Peninsula Recreation Area; Cooloola Recreation Area, Great Sandy National Park; K'gari, Great Sandy National Park]]></description>
@@ -177,8 +162,6 @@
         <guid>https://parks.qld.gov.au/park-alerts/27114?v=1</guid>
         <pubDate>Wed, 21 Oct 2026 10:32:23 +1000</pubDate>
     </item>
-
-
 
 
 
@@ -274,12 +257,6 @@
 
 
 
-
-
-
-
-
-
     <item>
         <title>Safety Alert - Fallen trees and planned works on Conondale Range Great Walk (update 29 Sep)</title>
         <description><![CDATA[Queensland Parks and Wildlife Service (QPWS) will be conducting a maintenance program on the Conondale Range Great Walk from 1 May to 30 November (weather permitting). Affected parks: Imbil State Forest; Conondale National Park; Conondale Range Great Walk]]></description>
@@ -291,15 +268,6 @@
 
 
 
-
-
-    <item>
-        <title>Ex HMAS Tobruk public mooring temporary closed (update 28 Sep)</title>
-        <description><![CDATA[Visitors are advised that the Ex HMAS Tobruk public mooring is temporarily closed due to mooring line repairs. Affected parks: Great Sandy Marine Park]]></description>
-        <link>https://parks.qld.gov.au/park-alerts/26880</link>
-        <guid>https://parks.qld.gov.au/park-alerts/26880?v=3</guid>
-        <pubDate>Mon, 28 Sep 2026 09:41:21 +1000</pubDate>
-    </item>
 
 
 
@@ -315,8 +283,6 @@
         <guid>https://parks.qld.gov.au/park-alerts/26960?v=2</guid>
         <pubDate>Wed, 23 Sep 2026 10:10:15 +1000</pubDate>
     </item>
-
-
 
 
 
@@ -475,8 +441,6 @@
         <guid>https://parks.qld.gov.au/park-alerts/21110?v=12</guid>
         <pubDate>Mon, 08 Jun 2026 15:12:47 +1000</pubDate>
     </item>
-
-
 
 
 
