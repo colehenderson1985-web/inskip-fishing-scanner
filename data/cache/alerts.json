@@ -1,5 +1,23 @@
 [
  {
+  "id": "https://parks.qld.gov.au/park-alerts/27208?v=1",
+  "title": "QPWS Rainbow Beach Information Centre Closed",
+  "summary": "The Rainbow Beach QPWS Information Centre will be closed from 5th November to 24th November (Inclusive). Affected parks: K'gari, Great Sandy National Park; Inskip Peninsula Recreation Area; Cooloola Great Walk; Cooloola Recreation Area, Great Sandy National Park",
+  "link": "https://parks.qld.gov.au/park-alerts/27208",
+  "published": "2026-11-04T15:57:17+10:00",
+  "severity": "closure",
+  "locations": [
+   "inskip_ocean",
+   "inskip_bay",
+   "rainbow_town",
+   "rainbow_north",
+   "rainbow_to_dip",
+   "dip_north",
+   "teewah"
+  ],
+  "source": "QPWS park alerts"
+ },
+ {
   "id": "https://parks.qld.gov.au/park-alerts/26456?v=3",
   "title": "Upper Noosa River – Campsite 3 – partial jetty closure (update 26 Oct)",
   "summary": "Recent flooding events in the Upper Noosa River have caused damage to the southern day-use jetty at Campsite 3. The jetty has been closed until repairs can be completed. Affected parks: Cooloola (Noosa River) Resources Reserve; Cooloola Recreation Area, Great Sandy National Park",
