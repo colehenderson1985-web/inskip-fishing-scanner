@@ -89,20 +89,6 @@
   "source": "QPWS park alerts"
  },
  {
-  "id": "https://parks.qld.gov.au/park-alerts/26964?v=1",
-  "title": "Water across Cooloola Wilderness Trail",
-  "summary": "Walkers on the Cooloola Wilderness Trail are advised of water across the track in multiple sections Affected parks: Cooloola Recreation Area, Great Sandy National Park",
-  "link": "https://parks.qld.gov.au/park-alerts/26964",
-  "published": "2026-09-08T10:08:30+10:00",
-  "severity": "info",
-  "locations": [
-   "rainbow_to_dip",
-   "dip_north",
-   "teewah"
-  ],
-  "source": "QPWS park alerts"
- },
- {
   "id": "https://parks.qld.gov.au/park-alerts/20766?v=15",
   "title": "Permanent fire prohibition on Teewah Beach (update 3 Jul)",
   "summary": "A QPWS imposed fire prohibition is in place in the Cooloola Recreation Area, except at Poverty Point camping area. Camp fires must not be lit anywhere else in the recreation area including in the Teewah Beach camping zones 1-7. Affected parks: Cooloola Recreation Area, Great Sandy National Park",
