@@ -3,6 +3,267 @@
  "name": "Double Island Point",
  "obs": [
   {
+   "t": "20261111010000",
+   "wind_dir": "NNW",
+   "wind_kn": 3.2,
+   "gust_kn": 5.9,
+   "pressure_hpa": 1018.1,
+   "temp_c": 22.2,
+   "rain_mm": "0.0"
+  },
+  {
+   "t": "20261111003000",
+   "wind_dir": "ENE",
+   "wind_kn": 3.2,
+   "gust_kn": 4.9,
+   "pressure_hpa": 1018.4,
+   "temp_c": 22.3,
+   "rain_mm": "0.0"
+  },
+  {
+   "t": "20261111000000",
+   "wind_dir": "NE",
+   "wind_kn": 3.2,
+   "gust_kn": 4.9,
+   "pressure_hpa": 1018.7,
+   "temp_c": 22.3,
+   "rain_mm": "0.0"
+  },
+  {
+   "t": "20261110233000",
+   "wind_dir": "SE",
+   "wind_kn": 3.2,
+   "gust_kn": 4.9,
+   "pressure_hpa": 1018.8,
+   "temp_c": 22.4,
+   "rain_mm": "0.0"
+  },
+  {
+   "t": "20261110230000",
+   "wind_dir": "N",
+   "wind_kn": 3.2,
+   "gust_kn": 3.8,
+   "pressure_hpa": 1019.1,
+   "temp_c": 22.5,
+   "rain_mm": "0.0"
+  },
+  {
+   "t": "20261110223000",
+   "wind_dir": "ESE",
+   "wind_kn": 3.2,
+   "gust_kn": 5.9,
+   "pressure_hpa": 1019.3,
+   "temp_c": 22.6,
+   "rain_mm": "0.0"
+  },
+  {
+   "t": "20261110220000",
+   "wind_dir": "NNE",
+   "wind_kn": 3.8,
+   "gust_kn": 4.9,
+   "pressure_hpa": 1019.2,
+   "temp_c": 22.7,
+   "rain_mm": "0.0"
+  },
+  {
+   "t": "20261110213000",
+   "wind_dir": "ESE",
+   "wind_kn": 1.1,
+   "gust_kn": 3.8,
+   "pressure_hpa": 1019.3,
+   "temp_c": 23.0,
+   "rain_mm": "0.0"
+  },
+  {
+   "t": "20261110210000",
+   "wind_dir": "WSW",
+   "wind_kn": 3.8,
+   "gust_kn": 5.9,
+   "pressure_hpa": 1019.0,
+   "temp_c": 22.9,
+   "rain_mm": "0.0"
+  },
+  {
+   "t": "20261110203000",
+   "wind_dir": "SW",
+   "wind_kn": 3.8,
+   "gust_kn": 7.0,
+   "pressure_hpa": 1018.7,
+   "temp_c": 22.8,
+   "rain_mm": "0.0"
+  },
+  {
+   "t": "20261110200000",
+   "wind_dir": "S",
+   "wind_kn": 4.9,
+   "gust_kn": 8.1,
+   "pressure_hpa": 1018.3,
+   "temp_c": 22.9,
+   "rain_mm": "0.0"
+  },
+  {
+   "t": "20261110193000",
+   "wind_dir": "SW",
+   "wind_kn": 4.9,
+   "gust_kn": 7.0,
+   "pressure_hpa": 1017.9,
+   "temp_c": 22.9,
+   "rain_mm": "0.0"
+  },
+  {
+   "t": "20261110190000",
+   "wind_dir": "SSW",
+   "wind_kn": 4.9,
+   "gust_kn": 8.1,
+   "pressure_hpa": 1017.9,
+   "temp_c": 22.9,
+   "rain_mm": "0.0"
+  },
+  {
+   "t": "20261110183000",
+   "wind_dir": "NW",
+   "wind_kn": 7.0,
+   "gust_kn": 15.1,
+   "pressure_hpa": 1017.5,
+   "temp_c": 23.0,
+   "rain_mm": "0.0"
+  },
+  {
+   "t": "20261110180000",
+   "wind_dir": "NNW",
+   "wind_kn": 8.1,
+   "gust_kn": 21.1,
+   "pressure_hpa": 1017.2,
+   "temp_c": 23.2,
+   "rain_mm": "0.0"
+  },
+  {
+   "t": "20261110173000",
+   "wind_dir": "NW",
+   "wind_kn": 8.1,
+   "gust_kn": 18.9,
+   "pressure_hpa": 1016.8,
+   "temp_c": 23.7,
+   "rain_mm": "0.0"
+  },
+  {
+   "t": "20261110170000",
+   "wind_dir": "NNW",
+   "wind_kn": 8.1,
+   "gust_kn": 20.0,
+   "pressure_hpa": 1016.3,
+   "temp_c": 24.3,
+   "rain_mm": "0.0"
+  },
+  {
+   "t": "20261110163000",
+   "wind_dir": "N",
+   "wind_kn": 10.8,
+   "gust_kn": 22.1,
+   "pressure_hpa": 1015.9,
+   "temp_c": 24.8,
+   "rain_mm": "0.0"
+  },
+  {
+   "t": "20261110160000",
+   "wind_dir": "N",
+   "wind_kn": 13.0,
+   "gust_kn": 23.2,
+   "pressure_hpa": 1015.9,
+   "temp_c": 25.3,
+   "rain_mm": "0.0"
+  },
+  {
+   "t": "20261110153000",
+   "wind_dir": "N",
+   "wind_kn": 13.0,
+   "gust_kn": 22.1,
+   "pressure_hpa": 1016.2,
+   "temp_c": 25.5,
+   "rain_mm": "0.0"
+  },
+  {
+   "t": "20261110152700",
+   "wind_dir": "N",
+   "wind_kn": 11.9,
+   "gust_kn": 22.1,
+   "pressure_hpa": 1016.3,
+   "temp_c": 25.8,
+   "rain_mm": "0.0"
+  },
+  {
+   "t": "20261110150000",
+   "wind_dir": "N",
+   "wind_kn": 20.0,
+   "gust_kn": 25.9,
+   "pressure_hpa": 1016.0,
+   "temp_c": 25.4,
+   "rain_mm": "0.0"
+  },
+  {
+   "t": "20261110143000",
+   "wind_dir": "N",
+   "wind_kn": 17.3,
+   "gust_kn": 22.1,
+   "pressure_hpa": 1016.5,
+   "temp_c": 25.8,
+   "rain_mm": "0.0"
+  },
+  {
+   "t": "20261110140000",
+   "wind_dir": "NNE",
+   "wind_kn": 15.1,
+   "gust_kn": 18.9,
+   "pressure_hpa": 1016.9,
+   "temp_c": 26.4,
+   "rain_mm": "0.0"
+  },
+  {
+   "t": "20261110133000",
+   "wind_dir": "N",
+   "wind_kn": 17.8,
+   "gust_kn": 21.1,
+   "pressure_hpa": 1017.3,
+   "temp_c": 26.0,
+   "rain_mm": "0.0"
+  },
+  {
+   "t": "20261110130000",
+   "wind_dir": "N",
+   "wind_kn": 17.3,
+   "gust_kn": 21.1,
+   "pressure_hpa": 1017.5,
+   "temp_c": 26.1,
+   "rain_mm": "0.0"
+  },
+  {
+   "t": "20261110123000",
+   "wind_dir": "NNE",
+   "wind_kn": 15.1,
+   "gust_kn": 20.0,
+   "pressure_hpa": 1017.7,
+   "temp_c": 26.1,
+   "rain_mm": "0.0"
+  },
+  {
+   "t": "20261110120000",
+   "wind_dir": "N",
+   "wind_kn": 15.1,
+   "gust_kn": 20.0,
+   "pressure_hpa": 1018.3,
+   "temp_c": 26.1,
+   "rain_mm": "0.0"
+  },
+  {
+   "t": "20261110113000",
+   "wind_dir": "NNE",
+   "wind_kn": 11.9,
+   "gust_kn": 17.3,
+   "pressure_hpa": 1018.6,
+   "temp_c": 26.3,
+   "rain_mm": "0.0"
+  },
+  {
    "t": "20261110110000",
    "wind_dir": "NNE",
    "wind_kn": 10.8,
@@ -388,268 +649,7 @@
    "pressure_hpa": 1016.9,
    "temp_c": 23.8,
    "rain_mm": "0.2"
-  },
-  {
-   "t": "20261109133000",
-   "wind_dir": "ESE",
-   "wind_kn": 7.0,
-   "gust_kn": 10.3,
-   "pressure_hpa": 1017.4,
-   "temp_c": 23.6,
-   "rain_mm": "0.2"
-  },
-  {
-   "t": "20261109130000",
-   "wind_dir": "E",
-   "wind_kn": 5.9,
-   "gust_kn": 8.1,
-   "pressure_hpa": 1017.7,
-   "temp_c": 24.1,
-   "rain_mm": "0.2"
-  },
-  {
-   "t": "20261109123000",
-   "wind_dir": "E",
-   "wind_kn": 5.9,
-   "gust_kn": 8.1,
-   "pressure_hpa": 1018.0,
-   "temp_c": 23.8,
-   "rain_mm": "0.0"
-  },
-  {
-   "t": "20261109120000",
-   "wind_dir": "ESE",
-   "wind_kn": 9.2,
-   "gust_kn": 10.8,
-   "pressure_hpa": 1017.9,
-   "temp_c": 24.8,
-   "rain_mm": "0.0"
-  },
-  {
-   "t": "20261109113000",
-   "wind_dir": "SE",
-   "wind_kn": 11.9,
-   "gust_kn": 16.2,
-   "pressure_hpa": 1018.4,
-   "temp_c": 21.5,
-   "rain_mm": "0.0"
-  },
-  {
-   "t": "20261109110000",
-   "wind_dir": "SE",
-   "wind_kn": 10.8,
-   "gust_kn": 14.0,
-   "pressure_hpa": 1018.4,
-   "temp_c": 21.9,
-   "rain_mm": "0.0"
-  },
-  {
-   "t": "20261109103000",
-   "wind_dir": "ESE",
-   "wind_kn": 10.3,
-   "gust_kn": 14.0,
-   "pressure_hpa": 1018.6,
-   "temp_c": 23.0,
-   "rain_mm": "0.0"
-  },
-  {
-   "t": "20261109100000",
-   "wind_dir": "SE",
-   "wind_kn": 10.8,
-   "gust_kn": 15.1,
-   "pressure_hpa": 1018.8,
-   "temp_c": 21.7,
-   "rain_mm": "0.0"
-  },
-  {
-   "t": "20261109093000",
-   "wind_dir": "SSE",
-   "wind_kn": 15.1,
-   "gust_kn": 17.8,
-   "pressure_hpa": 1018.7,
-   "temp_c": 20.8,
-   "rain_mm": "0.0"
-  },
-  {
-   "t": "20261109090000",
-   "wind_dir": "SSE",
-   "wind_kn": 13.0,
-   "gust_kn": 20.0,
-   "pressure_hpa": 1018.8,
-   "temp_c": 21.4,
-   "rain_mm": "0.2"
-  },
-  {
-   "t": "20261109083000",
-   "wind_dir": "ESE",
-   "wind_kn": 10.8,
-   "gust_kn": 15.1,
-   "pressure_hpa": 1018.9,
-   "temp_c": 23.6,
-   "rain_mm": "0.2"
-  },
-  {
-   "t": "20261109080000",
-   "wind_dir": "ESE",
-   "wind_kn": 11.9,
-   "gust_kn": 16.2,
-   "pressure_hpa": 1018.7,
-   "temp_c": 21.1,
-   "rain_mm": "0.2"
-  },
-  {
-   "t": "20261109073000",
-   "wind_dir": "SE",
-   "wind_kn": 15.1,
-   "gust_kn": 17.3,
-   "pressure_hpa": 1018.3,
-   "temp_c": 20.8,
-   "rain_mm": "0.2"
-  },
-  {
-   "t": "20261109070000",
-   "wind_dir": "SE",
-   "wind_kn": 20.0,
-   "gust_kn": 23.2,
-   "pressure_hpa": 1018.1,
-   "temp_c": 20.6,
-   "rain_mm": "0.2"
-  },
-  {
-   "t": "20261109063000",
-   "wind_dir": "ESE",
-   "wind_kn": 16.2,
-   "gust_kn": 17.8,
-   "pressure_hpa": 1017.8,
-   "temp_c": 21.2,
-   "rain_mm": "0.2"
-  },
-  {
-   "t": "20261109060000",
-   "wind_dir": "ESE",
-   "wind_kn": 17.3,
-   "gust_kn": 18.9,
-   "pressure_hpa": 1017.6,
-   "temp_c": 20.6,
-   "rain_mm": "0.2"
-  },
-  {
-   "t": "20261109053000",
-   "wind_dir": "SE",
-   "wind_kn": 17.8,
-   "gust_kn": 23.8,
-   "pressure_hpa": 1017.4,
-   "temp_c": 20.5,
-   "rain_mm": "0.2"
-  },
-  {
-   "t": "20261109050000",
-   "wind_dir": "SE",
-   "wind_kn": 21.1,
-   "gust_kn": 25.9,
-   "pressure_hpa": 1016.7,
-   "temp_c": 20.4,
-   "rain_mm": "0.2"
-  },
-  {
-   "t": "20261109043000",
-   "wind_dir": "SE",
-   "wind_kn": 21.1,
-   "gust_kn": 24.8,
-   "pressure_hpa": 1016.6,
-   "temp_c": 20.3,
-   "rain_mm": "0.2"
-  },
-  {
-   "t": "20261109040000",
-   "wind_dir": "SE",
-   "wind_kn": 23.8,
-   "gust_kn": 28.1,
-   "pressure_hpa": 1016.4,
-   "temp_c": 20.3,
-   "rain_mm": "0.2"
-  },
-  {
-   "t": "20261109033000",
-   "wind_dir": "SE",
-   "wind_kn": 21.1,
-   "gust_kn": 23.8,
-   "pressure_hpa": 1016.5,
-   "temp_c": 20.3,
-   "rain_mm": "0.2"
-  },
-  {
-   "t": "20261109030000",
-   "wind_dir": "SE",
-   "wind_kn": 22.1,
-   "gust_kn": 25.9,
-   "pressure_hpa": 1016.6,
-   "temp_c": 20.2,
-   "rain_mm": "0.2"
-  },
-  {
-   "t": "20261109023000",
-   "wind_dir": "SE",
-   "wind_kn": 23.2,
-   "gust_kn": 25.9,
-   "pressure_hpa": 1016.5,
-   "temp_c": 20.2,
-   "rain_mm": "0.2"
-  },
-  {
-   "t": "20261109020000",
-   "wind_dir": "SE",
-   "wind_kn": 24.8,
-   "gust_kn": 29.2,
-   "pressure_hpa": 1016.4,
-   "temp_c": 20.0,
-   "rain_mm": "0.2"
-  },
-  {
-   "t": "20261109013000",
-   "wind_dir": "SE",
-   "wind_kn": 25.9,
-   "gust_kn": 30.2,
-   "pressure_hpa": 1016.2,
-   "temp_c": 20.1,
-   "rain_mm": "0.2"
-  },
-  {
-   "t": "20261109010000",
-   "wind_dir": "SE",
-   "wind_kn": 27.0,
-   "gust_kn": 30.2,
-   "pressure_hpa": 1016.5,
-   "temp_c": 20.2,
-   "rain_mm": "0.2"
-  },
-  {
-   "t": "20261109003000",
-   "wind_dir": "SE",
-   "wind_kn": 25.9,
-   "gust_kn": 31.9,
-   "pressure_hpa": 1016.9,
-   "temp_c": 20.3,
-   "rain_mm": "0.2"
-  },
-  {
-   "t": "20261109000000",
-   "wind_dir": "SE",
-   "wind_kn": 25.9,
-   "gust_kn": 30.2,
-   "pressure_hpa": 1017.6,
-   "temp_c": 20.2,
-   "rain_mm": "0.2"
-  },
-  {
-   "t": "20261108233000",
-   "wind_dir": "SE",
-   "wind_kn": 28.1,
-   "gust_kn": 31.9,
-   "pressure_hpa": 1017.8,
-   "temp_c": 20.3,
-   "rain_mm": "0.2"
   }
  ],
- "fetched_at": "2026-11-10T11:29:30+10:00"
+ "fetched_at": "2026-11-11T01:14:29+10:00"
 }
