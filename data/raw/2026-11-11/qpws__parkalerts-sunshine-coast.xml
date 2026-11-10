@@ -6,10 +6,12 @@
         <title>Park alerts for Sunshine Coast</title>
         <link>https://parks.qld.gov.au/park-alerts</link>
         <description>Changes to conditions in Queensland's national parks, marine parks and forests - Sunshine Coast.</description>
-        <pubDate>Wed, 11 Nov 2026 01:14:00 +1000</pubDate>
-        <lastBuildDate>Wed, 11 Nov 2026 01:14:00 +1000</lastBuildDate>
+        <pubDate>Tue, 10 Nov 2026 20:13:00 +1000</pubDate>
+        <lastBuildDate>Tue, 10 Nov 2026 20:13:00 +1000</lastBuildDate>
         <language>en-au</language>
         <ttl>1440</ttl>
+
+
 
 
 
@@ -76,6 +78,8 @@
 
 
 
+
+
     <item>
         <title>Planned works Sunday Creek Road</title>
         <description><![CDATA[Due to planned works on Sunday Creek Road, a minor detour is in place to allow continued access to Imbil State Forest, Charlie Moreland Camping area and Conondale National Park. Affected parks: Conondale National Park; Imbil State Forest]]></description>
@@ -85,6 +89,19 @@
     </item>
 
 
+
+
+
+
+
+
+    <item>
+        <title>Wet weather access Conondale National Park (update 2 Nov)</title>
+        <description><![CDATA[As a result of wet weather, access is restricted, and some areas are closed until declared safe.  Affected parks: Imbil State Forest; Conondale National Park]]></description>
+        <link>https://parks.qld.gov.au/park-alerts/27107</link>
+        <guid>https://parks.qld.gov.au/park-alerts/27107?v=3</guid>
+        <pubDate>Mon, 02 Nov 2026 13:16:39 +1000</pubDate>
+    </item>
 
 
 
