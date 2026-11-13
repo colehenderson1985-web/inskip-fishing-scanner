@@ -1,24 +1,24 @@
 {
- "issued": "2026-11-13T09:31:34+10:00",
+ "issued": "2026-11-13T21:00:00+10:00",
  "areas": {
   "K'gari Coast: Sandy Cape to Double Island Point": {
    "periods": [
     {
      "index": "0",
-     "start": "2026-11-13T09:22:13+10:00",
+     "start": "2026-11-13T21:00:00+10:00",
      "end": "2026-11-14T00:00:00+10:00",
-     "forecast_winds": "North to northeasterly 10 to 15 knots, reaching up to 20 knots inshore in the early afternoon.",
+     "forecast_winds": "North to northeasterly 10 to 15 knots.",
      "forecast_seas": "Around 1 metre.",
-     "forecast_swell1": "Southeasterly below 1 metre.",
-     "forecast_weather": "Mostly sunny. The chance of a thunderstorm."
+     "forecast_swell1": "Below 0.5 metres.",
+     "forecast_weather": "Partly cloudy. The chance of a thunderstorm."
     },
     {
      "index": "1",
      "start": "2026-11-14T00:00:00+10:00",
      "end": "2026-11-15T00:00:00+10:00",
      "forecast_winds": "Northerly 10 to 15 knots, reaching up to 20 knots offshore in the early afternoon.",
-     "forecast_seas": "Around 1 metre.",
-     "forecast_swell1": "Northeast to southeasterly below 1 metre.",
+     "forecast_seas": "Around 1 metre, increasing to 1 to 1.5 metres offshore around midday.",
+     "forecast_swell1": "East to southeasterly below 1 metre.",
      "forecast_weather": "Partly cloudy. The chance of a thunderstorm in the evening."
     },
     {
@@ -28,7 +28,16 @@
      "forecast_winds": "Northerly 15 to 20 knots turning northwesterly during the day.",
      "forecast_seas": "Around 1 metre, increasing to 1 to 1.5 metres offshore.",
      "forecast_swell1": "Easterly below 1 metre.",
-     "forecast_weather": "Partly cloudy. 50% chance of showers. The chance of a thunderstorm in the afternoon and evening."
+     "forecast_weather": "Partly cloudy. 50% chance of showers. The chance of a thunderstorm in the late afternoon and evening."
+    },
+    {
+     "index": "3",
+     "start": "2026-11-16T00:00:00+10:00",
+     "end": "2026-11-17T00:00:00+10:00",
+     "forecast_winds": "Northwesterly 15 to 20 knots.",
+     "forecast_seas": "Below 1 metre, increasing to 1 to 1.5 metres offshore.",
+     "forecast_swell1": "Easterly below 1 metre.",
+     "forecast_weather": "Partly cloudy. 70% chance of showers. The chance of a thunderstorm."
     }
    ],
    "warning_summary": "",
@@ -38,10 +47,10 @@
    "periods": [
     {
      "index": "0",
-     "start": "2026-11-13T09:22:13+10:00",
+     "start": "2026-11-13T21:00:00+10:00",
      "end": "2026-11-14T00:00:00+10:00",
      "forecast_winds": "Northerly 15 to 20 knots.",
-     "forecast_seas": "Around 1 metre, increasing to 1 to 1.5 metres offshore south of Maroochydore by early evening.",
+     "forecast_seas": "Around 1 metre, increasing to 1 to 1.5 metres offshore south of Maroochydore.",
      "forecast_swell1": "Southeasterly below 1 metre.",
      "forecast_weather": "Partly cloudy. The chance of a thunderstorm."
     },
@@ -51,17 +60,26 @@
      "end": "2026-11-15T00:00:00+10:00",
      "forecast_winds": "Northerly 10 to 15 knots, reaching up to 20 knots offshore during the day.",
      "forecast_seas": "Around 1 metre, increasing to 1 to 1.5 metres offshore.",
-     "forecast_swell1": "Southeasterly below 1 metre.",
-     "forecast_weather": "Cloudy. 80% chance of showers. The chance of a thunderstorm in the late afternoon and evening."
+     "forecast_swell1": "Easterly below 1 metre.",
+     "forecast_weather": "Cloudy. 70% chance of showers. The chance of a thunderstorm in the late afternoon and evening."
     },
     {
      "index": "2",
      "start": "2026-11-15T00:00:00+10:00",
      "end": "2026-11-16T00:00:00+10:00",
      "forecast_winds": "North to northwesterly 15 to 20 knots.",
-     "forecast_seas": "Around 1 metre, increasing to 1 to 1.5 metres offshore.",
+     "forecast_seas": "Around 1 metre, increasing to 1 to 2 metres offshore.",
      "forecast_swell1": "Easterly below 1 metre.",
-     "forecast_weather": "Partly cloudy. 80% chance of showers. The chance of a thunderstorm in the afternoon and evening."
+     "forecast_weather": "Partly cloudy. 70% chance of showers. The chance of a thunderstorm in the afternoon and evening with possible squalls."
+    },
+    {
+     "index": "3",
+     "start": "2026-11-16T00:00:00+10:00",
+     "end": "2026-11-17T00:00:00+10:00",
+     "forecast_winds": "North to northwesterly 15 to 20 knots tending west to northwesterly 10 to 15 knots during the evening.",
+     "forecast_seas": "1 to 1.5 metres, decreasing to 1 metre during the afternoon.",
+     "forecast_swell1": "Easterly below 1 metre.",
+     "forecast_weather": "Partly cloudy. 80% chance of showers. A thunderstorm likely in the afternoon and evening with possible squalls."
     }
    ],
    "warning_summary": "",
@@ -69,5 +87,5 @@
   }
  },
  "warning_active": false,
- "fetched_at": "2026-11-13T09:35:41+10:00"
+ "fetched_at": "2026-11-14T00:55:02+10:00"
 }
