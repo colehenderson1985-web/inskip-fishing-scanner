@@ -1,20 +1,11 @@
 {
- "issued": "2026-11-20T21:00:00+10:00",
+ "issued": "2026-11-21T09:00:00+10:00",
  "areas": {
   "K'gari Coast: Sandy Cape to Double Island Point": {
    "periods": [
     {
      "index": "0",
-     "start": "2026-11-20T21:00:00+10:00",
-     "end": "2026-11-21T00:00:00+10:00",
-     "forecast_winds": "Easterly 10 to 15 knots.",
-     "forecast_seas": "Below 1 metre.",
-     "forecast_swell1": "Easterly around 1 metre.",
-     "forecast_weather": "Partly cloudy."
-    },
-    {
-     "index": "1",
-     "start": "2026-11-21T00:00:00+10:00",
+     "start": "2026-11-21T09:00:00+10:00",
      "end": "2026-11-22T00:00:00+10:00",
      "forecast_winds": "Easterly 10 to 15 knots.",
      "forecast_seas": "Below 1 metre.",
@@ -22,16 +13,16 @@
      "forecast_weather": "Partly cloudy."
     },
     {
-     "index": "2",
+     "index": "1",
      "start": "2026-11-22T00:00:00+10:00",
      "end": "2026-11-23T00:00:00+10:00",
-     "forecast_winds": "Easterly 10 to 15 knots.",
+     "forecast_winds": "Easterly 10 to 15 knots, reaching up to 20 knots offshore in the late evening.",
      "forecast_seas": "Around 1 metre.",
      "forecast_swell1": "Easterly around 1 metre.",
-     "forecast_weather": "Mostly sunny."
+     "forecast_weather": "Partly cloudy."
     },
     {
-     "index": "3",
+     "index": "2",
      "start": "2026-11-23T00:00:00+10:00",
      "end": "2026-11-24T00:00:00+10:00",
      "forecast_winds": "Easterly 10 to 15 knots.",
@@ -47,16 +38,7 @@
    "periods": [
     {
      "index": "0",
-     "start": "2026-11-20T21:00:00+10:00",
-     "end": "2026-11-21T00:00:00+10:00",
-     "forecast_winds": "East to northeasterly about 10 knots.",
-     "forecast_seas": "Below 1 metre.",
-     "forecast_swell1": "Easterly around 1 metre.",
-     "forecast_weather": "Partly cloudy."
-    },
-    {
-     "index": "1",
-     "start": "2026-11-21T00:00:00+10:00",
+     "start": "2026-11-21T09:00:00+10:00",
      "end": "2026-11-22T00:00:00+10:00",
      "forecast_winds": "Easterly 10 to 15 knots.",
      "forecast_seas": "Below 1 metre.",
@@ -64,19 +46,19 @@
      "forecast_weather": "Partly cloudy."
     },
     {
-     "index": "2",
+     "index": "1",
      "start": "2026-11-22T00:00:00+10:00",
      "end": "2026-11-23T00:00:00+10:00",
      "forecast_winds": "Easterly 10 to 15 knots.",
      "forecast_seas": "Below 1 metre.",
      "forecast_swell1": "Easterly around 1 metre.",
-     "forecast_weather": "Partly cloudy."
+     "forecast_weather": "Mostly sunny."
     },
     {
-     "index": "3",
+     "index": "2",
      "start": "2026-11-23T00:00:00+10:00",
      "end": "2026-11-24T00:00:00+10:00",
-     "forecast_winds": "East to northeasterly 10 to 15 knots.",
+     "forecast_winds": "Easterly 10 to 15 knots.",
      "forecast_seas": "Below 1 metre.",
      "forecast_swell1": "Easterly around 1 metre inshore, increasing to 1 to 1.5 metres offshore.",
      "forecast_weather": "Mostly sunny."
@@ -87,5 +69,5 @@
   }
  },
  "warning_active": false,
- "fetched_at": "2026-11-21T01:45:22+10:00"
+ "fetched_at": "2026-11-21T09:58:54+10:00"
 }
