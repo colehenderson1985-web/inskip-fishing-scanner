@@ -54,8 +54,8 @@
    },
    "top": [
     {
-     "location": "carlo_point",
-     "species": "grunter",
+     "location": "tin_can_bay",
+     "species": "mangrove_jack",
      "window": {
       "start": "03:48",
       "end": "06:18",
@@ -63,9 +63,9 @@
       "start_iso": "2026-11-23T03:48+10:00",
       "end_iso": "2026-11-23T06:18+10:00"
      },
-     "score": 93,
+     "score": 94,
      "colour": "green",
-     "confidence": "high",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season",
@@ -77,7 +77,90 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
+      "rain": 0.7,
+      "lunar": 0.63,
+      "reports": 0.71,
+      "water_temp": 0.94
+     },
+     "warnings": [],
+     "conditions": {
+      "wind_kn": 3,
+      "gust_kn": 6,
+      "wind_dir": "SSW",
+      "wind_relation": "offshore",
+      "effective_wind_kn": 0.2,
+      "seas_m": 1.0,
+      "swell_m": 1.0,
+      "swell_period_s": 5,
+      "sst_c": 23.6,
+      "tide_stage": "rising_late",
+      "tide_range_m": 1.93,
+      "tide_next": {
+       "t": "2026-11-23T08:13+10:00",
+       "h": 2.23,
+       "type": "H"
+      },
+      "light": "dawn",
+      "rain_24h_mm": 1.7
+     },
+     "evidence": [
+      {
+       "source": "Coastwatch weekly fishing report",
+       "credit": "Coastwatch (Tin Can Bay section by The Chandlery Bait & Tackle)",
+       "date": "2026-11-20",
+       "catch_date": null,
+       "url": "https://coastwatch.com.au/articles/fishing-report-for-20-november-2026/",
+       "provenance": "automated",
+       "age_days": 3,
+       "weight": 0.74,
+       "excerpt": "Up the creeks, mangrove jacks have started to fire up."
+      },
+      {
+       "source": "Coastwatch weekly fishing report",
+       "credit": "Coastwatch (Tin Can Bay section by The Chandlery Bait & Tackle)",
+       "date": "2026-10-30",
+       "catch_date": "2026-10-27",
+       "url": "https://coastwatch.com.au/articles/fishing-report-for-30-october-2026/",
+       "provenance": "automated",
+       "age_days": 27,
+       "weight": 0.07,
+       "excerpt": "Mangrove jacks should also be active on the back of the fresh water and run-in tides."
+      }
+     ],
+     "solunar": {
+      "day_rating": "Good",
+      "major": null,
+      "minor": null
+     },
+     "explain": "SSW wind at ~3 kn is offshore for this shore; the window covers the last of the run-in, which suits mangrove jack; dawn is a preferred time for this species; mangrove jack are in peak season; 2 recent reports mention mangrove jack nearby (latest The Chandlery (Coastwatch), 2026-11-20).",
+     "rank": 1
+    },
+    {
+     "location": "carlo_point",
+     "species": "grunter",
+     "window": {
+      "start": "03:48",
+      "end": "06:18",
+      "label": "dawn",
+      "start_iso": "2026-11-23T03:48+10:00",
+      "end_iso": "2026-11-23T06:18+10:00"
+     },
+     "score": 93,
+     "colour": "green",
+     "confidence": "low",
+     "basis": [
+      "conditions",
+      "season",
+      "reports"
+     ],
+     "factors": {
+      "tide": 1.0,
+      "wind": 1.0,
+      "swell": 0.8,
+      "light": 1.0,
+      "season": 1.0,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.63,
       "reports": 0.75
@@ -144,7 +227,7 @@
       "minor": null
      },
      "explain": "S wind at ~3 kn is offshore for this shore; the window covers the last of the run-in, which suits grunter; dawn is a preferred time for this species; grunter are in peak season; 3 recent reports mention grunter nearby (latest The Chandlery (Coastwatch), 2026-11-20).",
-     "rank": 1
+     "rank": 2
     },
     {
      "location": "tin_can_bay",
@@ -158,7 +241,7 @@
      },
      "score": 93,
      "colour": "green",
-     "confidence": "high",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season",
@@ -170,7 +253,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.63,
       "reports": 0.75
@@ -237,89 +320,6 @@
       "minor": null
      },
      "explain": "SSW wind at ~3 kn is offshore for this shore; the window covers the last of the run-in, which suits grunter; dawn is a preferred time for this species; grunter are in peak season; 3 recent reports mention grunter nearby (latest The Chandlery (Coastwatch), 2026-11-20).",
-     "rank": 2
-    },
-    {
-     "location": "tin_can_bay",
-     "species": "mangrove_jack",
-     "window": {
-      "start": "03:48",
-      "end": "06:18",
-      "label": "dawn",
-      "start_iso": "2026-11-23T03:48+10:00",
-      "end_iso": "2026-11-23T06:18+10:00"
-     },
-     "score": 93,
-     "colour": "green",
-     "confidence": "high",
-     "basis": [
-      "conditions",
-      "season",
-      "reports"
-     ],
-     "factors": {
-      "tide": 1.0,
-      "wind": 1.0,
-      "swell": 0.8,
-      "light": 1.0,
-      "season": 1.0,
-      "pressure": 0.75,
-      "rain": 0.7,
-      "lunar": 0.63,
-      "reports": 0.71,
-      "water_temp": 0.94
-     },
-     "warnings": [],
-     "conditions": {
-      "wind_kn": 3,
-      "gust_kn": 6,
-      "wind_dir": "SSW",
-      "wind_relation": "offshore",
-      "effective_wind_kn": 0.2,
-      "seas_m": 1.0,
-      "swell_m": 1.0,
-      "swell_period_s": 5,
-      "sst_c": 23.6,
-      "tide_stage": "rising_late",
-      "tide_range_m": 1.93,
-      "tide_next": {
-       "t": "2026-11-23T08:13+10:00",
-       "h": 2.23,
-       "type": "H"
-      },
-      "light": "dawn",
-      "rain_24h_mm": 1.7
-     },
-     "evidence": [
-      {
-       "source": "Coastwatch weekly fishing report",
-       "credit": "Coastwatch (Tin Can Bay section by The Chandlery Bait & Tackle)",
-       "date": "2026-11-20",
-       "catch_date": null,
-       "url": "https://coastwatch.com.au/articles/fishing-report-for-20-november-2026/",
-       "provenance": "automated",
-       "age_days": 3,
-       "weight": 0.74,
-       "excerpt": "Up the creeks, mangrove jacks have started to fire up."
-      },
-      {
-       "source": "Coastwatch weekly fishing report",
-       "credit": "Coastwatch (Tin Can Bay section by The Chandlery Bait & Tackle)",
-       "date": "2026-10-30",
-       "catch_date": "2026-10-27",
-       "url": "https://coastwatch.com.au/articles/fishing-report-for-30-october-2026/",
-       "provenance": "automated",
-       "age_days": 27,
-       "weight": 0.07,
-       "excerpt": "Mangrove jacks should also be active on the back of the fresh water and run-in tides."
-      }
-     ],
-     "solunar": {
-      "day_rating": "Good",
-      "major": null,
-      "minor": null
-     },
-     "explain": "SSW wind at ~3 kn is offshore for this shore; the window covers the last of the run-in, which suits mangrove jack; dawn is a preferred time for this species; mangrove jack are in peak season; 2 recent reports mention mangrove jack nearby (latest The Chandlery (Coastwatch), 2026-11-20).",
      "rank": 3
     },
     {
@@ -332,9 +332,9 @@
       "start_iso": "2026-11-23T03:48+10:00",
       "end_iso": "2026-11-23T06:18+10:00"
      },
-     "score": 91,
+     "score": 92,
      "colour": "green",
-     "confidence": "high",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season",
@@ -346,7 +346,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.63,
       "reports": 0.69
@@ -405,7 +405,7 @@
      },
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season"
@@ -416,7 +416,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.63,
       "reports": 0.35
@@ -465,7 +465,7 @@
      },
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season"
@@ -476,7 +476,7 @@
       "swell": 1.0,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.63,
       "reports": 0.35
@@ -525,7 +525,7 @@
      },
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season"
@@ -536,7 +536,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.63,
       "reports": 0.35
@@ -585,7 +585,7 @@
      },
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season"
@@ -596,7 +596,7 @@
       "swell": 1.0,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.63,
       "reports": 0.35
@@ -645,7 +645,7 @@
      },
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season"
@@ -656,7 +656,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.63,
       "reports": 0.35
@@ -705,7 +705,7 @@
      },
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season"
@@ -716,7 +716,7 @@
       "swell": 1.0,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.63,
       "reports": 0.35
@@ -758,7 +758,7 @@
     "rainbow_town": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "tailor",
@@ -830,7 +830,7 @@
     "rainbow_north": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "tailor",
@@ -903,7 +903,7 @@
     "inskip_ocean": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "tailor",
@@ -976,7 +976,7 @@
     "inskip_bay": {
      "score": 20,
      "colour": "red",
-     "confidence": "high",
+     "confidence": "low",
      "best_species": [
       {
        "species": "whiting",
@@ -1060,7 +1060,7 @@
     "carlo_point": {
      "score": 93,
      "colour": "green",
-     "confidence": "high",
+     "confidence": "low",
      "best_species": [
       {
        "species": "grunter",
@@ -1075,7 +1075,7 @@
       },
       {
        "species": "whiting",
-       "score": 91,
+       "score": 92,
        "window": {
         "start": "03:48",
         "end": "06:18",
@@ -1086,7 +1086,7 @@
       },
       {
        "species": "mangrove_jack",
-       "score": 86,
+       "score": 87,
        "window": {
         "start": "03:48",
         "end": "06:18",
@@ -1162,10 +1162,21 @@
      ]
     },
     "tin_can_bay": {
-     "score": 93,
+     "score": 94,
      "colour": "green",
-     "confidence": "high",
+     "confidence": "low",
      "best_species": [
+      {
+       "species": "mangrove_jack",
+       "score": 94,
+       "window": {
+        "start": "03:48",
+        "end": "06:18",
+        "label": "dawn",
+        "start_iso": "2026-11-23T03:48+10:00",
+        "end_iso": "2026-11-23T06:18+10:00"
+       }
+      },
       {
        "species": "grunter",
        "score": 93,
@@ -1178,19 +1189,8 @@
        }
       },
       {
-       "species": "mangrove_jack",
-       "score": 93,
-       "window": {
-        "start": "03:48",
-        "end": "06:18",
-        "label": "dawn",
-        "start_iso": "2026-11-23T03:48+10:00",
-        "end_iso": "2026-11-23T06:18+10:00"
-       }
-      },
-      {
        "species": "whiting",
-       "score": 91,
+       "score": 92,
        "window": {
         "start": "03:48",
         "end": "06:18",
@@ -1228,7 +1228,7 @@
       "rain_24h_mm": 1.7
      },
      "warnings": [],
-     "explain": "SSW wind at ~3 kn is offshore for this shore; the window covers the last of the run-in, which suits grunter; dawn is a preferred time for this species; grunter are in peak season; 3 recent reports mention grunter nearby (latest The Chandlery (Coastwatch), 2026-11-20).",
+     "explain": "SSW wind at ~3 kn is offshore for this shore; the window covers the last of the run-in, which suits mangrove jack; dawn is a preferred time for this species; mangrove jack are in peak season; 2 recent reports mention mangrove jack nearby (latest The Chandlery (Coastwatch), 2026-11-20).",
      "evidence": [
       {
        "source": "Coastwatch weekly fishing report",
@@ -1239,18 +1239,7 @@
        "provenance": "automated",
        "age_days": 3,
        "weight": 0.74,
-       "excerpt": "The deeper holes in Teebar and Kauri creeks are also producing some quality grunter, with 3-inch prawn-profile lures and 80mm vibes proving particularly effective."
-      },
-      {
-       "source": "Coastwatch weekly fishing report",
-       "credit": "Coastwatch (Tin Can Bay section by The Chandlery Bait & Tackle)",
-       "date": "2026-11-06",
-       "catch_date": "2026-11-03",
-       "url": "https://coastwatch.com.au/articles/fishing-report-for-30-october-2026-2/",
-       "provenance": "automated",
-       "age_days": 20,
-       "weight": 0.14,
-       "excerpt": "Grunter have been reported in good numbers recently, while a few quality kingfish are still being caught in local creeks."
+       "excerpt": "Up the creeks, mangrove jacks have started to fire up."
       },
       {
        "source": "Coastwatch weekly fishing report",
@@ -1261,14 +1250,14 @@
        "provenance": "automated",
        "age_days": 27,
        "weight": 0.07,
-       "excerpt": "There have also been continued reports of quality grunter over recent weeks, while a few good king threadfin are still being caught throughout the local creek systems."
+       "excerpt": "Mangrove jacks should also be active on the back of the fresh water and run-in tides."
       }
      ]
     },
     "rainbow_to_dip": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "tailor",
@@ -1341,7 +1330,7 @@
     "dip_north": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "tailor",
@@ -1413,7 +1402,7 @@
     "teewah": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "tailor",
@@ -1485,6 +1474,47 @@
    },
    "all_count": 330,
    "species_best": {
+    "mangrove_jack": [
+     {
+      "location": "tin_can_bay",
+      "score": 94,
+      "window": {
+       "start": "03:48",
+       "end": "06:18",
+       "label": "dawn",
+       "start_iso": "2026-11-23T03:48+10:00",
+       "end_iso": "2026-11-23T06:18+10:00"
+      },
+      "confidence": "low",
+      "colour": "green"
+     },
+     {
+      "location": "carlo_point",
+      "score": 87,
+      "window": {
+       "start": "03:48",
+       "end": "06:18",
+       "label": "dawn",
+       "start_iso": "2026-11-23T03:48+10:00",
+       "end_iso": "2026-11-23T06:18+10:00"
+      },
+      "confidence": "low",
+      "colour": "green"
+     },
+     {
+      "location": "inskip_bay",
+      "score": 20,
+      "window": {
+       "start": "00:00",
+       "end": "01:50",
+       "label": "low tide 00:50",
+       "start_iso": "2026-11-23T00:00+10:00",
+       "end_iso": "2026-11-23T01:50+10:00"
+      },
+      "confidence": "low",
+      "colour": "red"
+     }
+    ],
     "grunter": [
      {
       "location": "carlo_point",
@@ -1496,7 +1526,7 @@
        "start_iso": "2026-11-23T03:48+10:00",
        "end_iso": "2026-11-23T06:18+10:00"
       },
-      "confidence": "high",
+      "confidence": "low",
       "colour": "green"
      },
      {
@@ -1509,7 +1539,7 @@
        "start_iso": "2026-11-23T03:48+10:00",
        "end_iso": "2026-11-23T06:18+10:00"
       },
-      "confidence": "high",
+      "confidence": "low",
       "colour": "green"
      },
      {
@@ -1522,55 +1552,14 @@
        "start_iso": "2026-11-23T00:00+10:00",
        "end_iso": "2026-11-23T01:50+10:00"
       },
-      "confidence": "high",
-      "colour": "red"
-     }
-    ],
-    "mangrove_jack": [
-     {
-      "location": "tin_can_bay",
-      "score": 93,
-      "window": {
-       "start": "03:48",
-       "end": "06:18",
-       "label": "dawn",
-       "start_iso": "2026-11-23T03:48+10:00",
-       "end_iso": "2026-11-23T06:18+10:00"
-      },
-      "confidence": "high",
-      "colour": "green"
-     },
-     {
-      "location": "carlo_point",
-      "score": 86,
-      "window": {
-       "start": "03:48",
-       "end": "06:18",
-       "label": "dawn",
-       "start_iso": "2026-11-23T03:48+10:00",
-       "end_iso": "2026-11-23T06:18+10:00"
-      },
-      "confidence": "high",
-      "colour": "green"
-     },
-     {
-      "location": "inskip_bay",
-      "score": 20,
-      "window": {
-       "start": "00:00",
-       "end": "01:50",
-       "label": "low tide 00:50",
-       "start_iso": "2026-11-23T00:00+10:00",
-       "end_iso": "2026-11-23T01:50+10:00"
-      },
-      "confidence": "high",
+      "confidence": "low",
       "colour": "red"
      }
     ],
     "whiting": [
      {
       "location": "carlo_point",
-      "score": 91,
+      "score": 92,
       "window": {
        "start": "03:48",
        "end": "06:18",
@@ -1578,12 +1567,12 @@
        "start_iso": "2026-11-23T03:48+10:00",
        "end_iso": "2026-11-23T06:18+10:00"
       },
-      "confidence": "high",
+      "confidence": "low",
       "colour": "green"
      },
      {
       "location": "tin_can_bay",
-      "score": 91,
+      "score": 92,
       "window": {
        "start": "03:48",
        "end": "06:18",
@@ -1591,7 +1580,7 @@
        "start_iso": "2026-11-23T03:48+10:00",
        "end_iso": "2026-11-23T06:18+10:00"
       },
-      "confidence": "high",
+      "confidence": "low",
       "colour": "green"
      },
      {
@@ -1604,7 +1593,7 @@
        "start_iso": "2026-11-23T00:00+10:00",
        "end_iso": "2026-11-23T01:02+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -1617,14 +1606,14 @@
        "start_iso": "2026-11-23T00:00+10:00",
        "end_iso": "2026-11-23T01:02+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      }
     ],
     "flathead": [
      {
       "location": "carlo_point",
-      "score": 71,
+      "score": 72,
       "window": {
        "start": "03:48",
        "end": "06:18",
@@ -1632,12 +1621,12 @@
        "start_iso": "2026-11-23T03:48+10:00",
        "end_iso": "2026-11-23T06:18+10:00"
       },
-      "confidence": "high",
+      "confidence": "low",
       "colour": "green"
      },
      {
       "location": "tin_can_bay",
-      "score": 71,
+      "score": 72,
       "window": {
        "start": "03:48",
        "end": "06:18",
@@ -1645,7 +1634,7 @@
        "start_iso": "2026-11-23T03:48+10:00",
        "end_iso": "2026-11-23T06:18+10:00"
       },
-      "confidence": "high",
+      "confidence": "low",
       "colour": "green"
      },
      {
@@ -1658,7 +1647,7 @@
        "start_iso": "2026-11-23T00:00+10:00",
        "end_iso": "2026-11-23T01:02+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -1671,14 +1660,14 @@
        "start_iso": "2026-11-23T00:00+10:00",
        "end_iso": "2026-11-23T01:02+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      }
     ],
     "trevally": [
      {
       "location": "carlo_point",
-      "score": 71,
+      "score": 72,
       "window": {
        "start": "16:49",
        "end": "23:37",
@@ -1686,7 +1675,7 @@
        "start_iso": "2026-11-23T16:49+10:00",
        "end_iso": "2026-11-23T23:37+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "green"
      },
      {
@@ -1699,7 +1688,7 @@
        "start_iso": "2026-11-23T16:49+10:00",
        "end_iso": "2026-11-23T23:37+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "green"
      },
      {
@@ -1712,7 +1701,7 @@
        "start_iso": "2026-11-23T00:00+10:00",
        "end_iso": "2026-11-23T01:02+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -1725,14 +1714,14 @@
        "start_iso": "2026-11-23T00:00+10:00",
        "end_iso": "2026-11-23T01:02+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      }
     ],
     "bream": [
      {
       "location": "carlo_point",
-      "score": 67,
+      "score": 68,
       "window": {
        "start": "00:00",
        "end": "01:50",
@@ -1740,12 +1729,12 @@
        "start_iso": "2026-11-23T00:00+10:00",
        "end_iso": "2026-11-23T01:50+10:00"
       },
-      "confidence": "high",
+      "confidence": "low",
       "colour": "green"
      },
      {
       "location": "tin_can_bay",
-      "score": 67,
+      "score": 68,
       "window": {
        "start": "00:00",
        "end": "01:50",
@@ -1753,7 +1742,7 @@
        "start_iso": "2026-11-23T00:00+10:00",
        "end_iso": "2026-11-23T01:50+10:00"
       },
-      "confidence": "high",
+      "confidence": "low",
       "colour": "green"
      },
      {
@@ -1766,7 +1755,7 @@
        "start_iso": "2026-11-23T00:00+10:00",
        "end_iso": "2026-11-23T01:02+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -1779,7 +1768,7 @@
        "start_iso": "2026-11-23T00:00+10:00",
        "end_iso": "2026-11-23T01:02+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      }
     ],
@@ -1794,7 +1783,7 @@
        "start_iso": "2026-11-23T00:00+10:00",
        "end_iso": "2026-11-23T01:02+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -1807,7 +1796,7 @@
        "start_iso": "2026-11-23T00:00+10:00",
        "end_iso": "2026-11-23T01:02+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -1820,7 +1809,7 @@
        "start_iso": "2026-11-23T00:00+10:00",
        "end_iso": "2026-11-23T01:02+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -1833,7 +1822,7 @@
        "start_iso": "2026-11-23T00:00+10:00",
        "end_iso": "2026-11-23T01:02+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      }
     ],
@@ -1848,7 +1837,7 @@
        "start_iso": "2026-11-23T00:00+10:00",
        "end_iso": "2026-11-23T01:02+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -1861,7 +1850,7 @@
        "start_iso": "2026-11-23T00:00+10:00",
        "end_iso": "2026-11-23T01:02+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -1874,7 +1863,7 @@
        "start_iso": "2026-11-23T00:00+10:00",
        "end_iso": "2026-11-23T01:02+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -1887,7 +1876,7 @@
        "start_iso": "2026-11-23T00:00+10:00",
        "end_iso": "2026-11-23T01:02+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      }
     ],
@@ -1902,7 +1891,7 @@
        "start_iso": "2026-11-23T00:00+10:00",
        "end_iso": "2026-11-23T01:02+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -1915,7 +1904,7 @@
        "start_iso": "2026-11-23T00:00+10:00",
        "end_iso": "2026-11-23T01:02+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -1928,7 +1917,7 @@
        "start_iso": "2026-11-23T00:00+10:00",
        "end_iso": "2026-11-23T01:02+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -1941,7 +1930,7 @@
        "start_iso": "2026-11-23T00:00+10:00",
        "end_iso": "2026-11-23T01:02+10:00"
       },
-      "confidence": "high",
+      "confidence": "low",
       "colour": "red"
      }
     ],
@@ -1956,7 +1945,7 @@
        "start_iso": "2026-11-23T00:00+10:00",
        "end_iso": "2026-11-23T01:02+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -1969,7 +1958,7 @@
        "start_iso": "2026-11-23T00:00+10:00",
        "end_iso": "2026-11-23T01:02+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      }
     ],
@@ -1984,7 +1973,7 @@
        "start_iso": "2026-11-23T00:00+10:00",
        "end_iso": "2026-11-23T01:02+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -1997,7 +1986,7 @@
        "start_iso": "2026-11-23T00:00+10:00",
        "end_iso": "2026-11-23T01:02+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      }
     ],
@@ -2012,7 +2001,7 @@
        "start_iso": "2026-11-23T00:00+10:00",
        "end_iso": "2026-11-23T01:02+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -2025,7 +2014,7 @@
        "start_iso": "2026-11-23T00:00+10:00",
        "end_iso": "2026-11-23T01:02+10:00"
       },
-      "confidence": "high",
+      "confidence": "low",
       "colour": "red"
      }
     ]
@@ -2096,7 +2085,7 @@
      },
      "score": 93,
      "colour": "green",
-     "confidence": "high",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season",
@@ -2108,7 +2097,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.84,
       "reports": 0.67
@@ -2167,7 +2156,7 @@
      },
      "score": 93,
      "colour": "green",
-     "confidence": "high",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season",
@@ -2179,7 +2168,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.84,
       "reports": 0.67
@@ -2228,77 +2217,6 @@
     },
     {
      "location": "carlo_point",
-     "species": "whiting",
-     "window": {
-      "start": "07:36",
-      "end": "12:10",
-      "label": "high tide 09:06 + major bite 10:55",
-      "start_iso": "2026-11-24T07:36+10:00",
-      "end_iso": "2026-11-24T12:10+10:00"
-     },
-     "score": 90,
-     "colour": "green",
-     "confidence": "high",
-     "basis": [
-      "conditions",
-      "season",
-      "reports"
-     ],
-     "factors": {
-      "tide": 0.99,
-      "wind": 0.83,
-      "swell": 0.8,
-      "light": 1.0,
-      "season": 1.0,
-      "pressure": 0.75,
-      "rain": 0.7,
-      "lunar": 0.94,
-      "reports": 0.67
-     },
-     "warnings": [],
-     "conditions": {
-      "wind_kn": 6,
-      "gust_kn": 15,
-      "wind_dir": "ENE",
-      "wind_relation": "onshore",
-      "effective_wind_kn": 5.7,
-      "seas_m": 1.1,
-      "swell_m": 1.1,
-      "swell_period_s": 7,
-      "sst_c": 23.9,
-      "tide_stage": "high_turn",
-      "tide_range_m": 1.81,
-      "tide_next": {
-       "t": "2026-11-24T14:29+10:00",
-       "h": 0.59,
-       "type": "L"
-      },
-      "light": "day",
-      "rain_24h_mm": 0.4
-     },
-     "evidence": [
-      {
-       "source": "Coastwatch weekly fishing report",
-       "credit": "Coastwatch (Tin Can Bay section by The Chandlery Bait & Tackle)",
-       "date": "2026-11-20",
-       "catch_date": null,
-       "url": "https://coastwatch.com.au/articles/fishing-report-for-20-november-2026/",
-       "provenance": "automated",
-       "age_days": 4,
-       "weight": 0.67,
-       "excerpt": "Whiting remain in good numbers and the lead-up to Wednesday’s full moon should see the evening high tides this weekend fish particularly well."
-      }
-     ],
-     "solunar": {
-      "day_rating": "Best",
-      "major": "underfoot",
-      "minor": null
-     },
-     "explain": "ENE wind at ~6 kn is onshore; the window covers the top of the tide, which suits whiting; day is a preferred time for this species; the window also catches a major bite time (moon underfoot 10:55) on a best lunar day; whiting are in peak season; 1 recent report mentions whiting nearby (latest The Chandlery (Coastwatch), 2026-11-20).",
-     "rank": 3
-    },
-    {
-     "location": "carlo_point",
      "species": "grunter",
      "window": {
       "start": "22:09",
@@ -2307,9 +2225,9 @@
       "start_iso": "2026-11-24T22:09+10:00",
       "end_iso": "2026-11-24T23:59+10:00"
      },
-     "score": 90,
+     "score": 91,
      "colour": "green",
-     "confidence": "high",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season",
@@ -2321,7 +2239,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.73
@@ -2388,6 +2306,77 @@
       "minor": null
      },
      "explain": "NE wind at ~6 kn is onshore; the window covers the start of the run-out, which suits grunter; night is a preferred time for this species; the window also catches a major bite time (moon overhead 23:24) on a best lunar day; grunter are in peak season; 3 recent reports mention grunter nearby (latest The Chandlery (Coastwatch), 2026-11-20).",
+     "rank": 3
+    },
+    {
+     "location": "carlo_point",
+     "species": "whiting",
+     "window": {
+      "start": "03:48",
+      "end": "06:18",
+      "label": "dawn",
+      "start_iso": "2026-11-24T03:48+10:00",
+      "end_iso": "2026-11-24T06:18+10:00"
+     },
+     "score": 90,
+     "colour": "green",
+     "confidence": "low",
+     "basis": [
+      "conditions",
+      "season",
+      "reports"
+     ],
+     "factors": {
+      "tide": 1.0,
+      "wind": 0.83,
+      "swell": 0.8,
+      "light": 1.0,
+      "season": 1.0,
+      "pressure": 0.8,
+      "rain": 0.7,
+      "lunar": 0.84,
+      "reports": 0.67
+     },
+     "warnings": [],
+     "conditions": {
+      "wind_kn": 2,
+      "gust_kn": 4,
+      "wind_dir": "NE",
+      "wind_relation": "onshore",
+      "effective_wind_kn": 1.6,
+      "seas_m": 1.1,
+      "swell_m": 1.1,
+      "swell_period_s": 6,
+      "sst_c": 23.6,
+      "tide_stage": "rising_early",
+      "tide_range_m": 2.15,
+      "tide_next": {
+       "t": "2026-11-24T09:06+10:00",
+       "h": 2.4,
+       "type": "H"
+      },
+      "light": "dawn",
+      "rain_24h_mm": 0.4
+     },
+     "evidence": [
+      {
+       "source": "Coastwatch weekly fishing report",
+       "credit": "Coastwatch (Tin Can Bay section by The Chandlery Bait & Tackle)",
+       "date": "2026-11-20",
+       "catch_date": null,
+       "url": "https://coastwatch.com.au/articles/fishing-report-for-20-november-2026/",
+       "provenance": "automated",
+       "age_days": 4,
+       "weight": 0.67,
+       "excerpt": "Whiting remain in good numbers and the lead-up to Wednesday’s full moon should see the evening high tides this weekend fish particularly well."
+      }
+     ],
+     "solunar": {
+      "day_rating": "Best",
+      "major": null,
+      "minor": "moonset"
+     },
+     "explain": "NE wind at ~2 kn is onshore; the window covers the early run-in, which suits whiting; dawn is a preferred time for this species; the window also catches a minor bite time (moonset 03:51); whiting are in peak season; 1 recent report mentions whiting nearby (latest The Chandlery (Coastwatch), 2026-11-20).",
      "rank": 4
     },
     {
@@ -2402,7 +2391,7 @@
      },
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season"
@@ -2413,7 +2402,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.72,
       "reports": 0.35
@@ -2462,7 +2451,7 @@
      },
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season"
@@ -2473,7 +2462,7 @@
       "swell": 1.0,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.72,
       "reports": 0.35
@@ -2522,7 +2511,7 @@
      },
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season"
@@ -2533,7 +2522,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.72,
       "reports": 0.35
@@ -2582,7 +2571,7 @@
      },
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season"
@@ -2593,7 +2582,7 @@
       "swell": 1.0,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.72,
       "reports": 0.35
@@ -2642,7 +2631,7 @@
      },
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season"
@@ -2653,7 +2642,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.72,
       "reports": 0.35
@@ -2702,7 +2691,7 @@
      },
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season"
@@ -2713,7 +2702,7 @@
       "swell": 1.0,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.72,
       "reports": 0.35
@@ -2755,7 +2744,7 @@
     "rainbow_town": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "tailor",
@@ -2827,7 +2816,7 @@
     "rainbow_north": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "tailor",
@@ -2900,7 +2889,7 @@
     "inskip_ocean": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "tailor",
@@ -2973,7 +2962,7 @@
     "inskip_bay": {
      "score": 20,
      "colour": "red",
-     "confidence": "high",
+     "confidence": "low",
      "best_species": [
       {
        "species": "whiting",
@@ -3055,24 +3044,13 @@
      ]
     },
     "carlo_point": {
-     "score": 90,
+     "score": 91,
      "colour": "green",
-     "confidence": "high",
+     "confidence": "low",
      "best_species": [
       {
-       "species": "whiting",
-       "score": 90,
-       "window": {
-        "start": "07:36",
-        "end": "12:10",
-        "label": "high tide 09:06 + major bite 10:55",
-        "start_iso": "2026-11-24T07:36+10:00",
-        "end_iso": "2026-11-24T12:10+10:00"
-       }
-      },
-      {
        "species": "grunter",
-       "score": 90,
+       "score": 91,
        "window": {
         "start": "22:09",
         "end": "23:59",
@@ -3082,8 +3060,19 @@
        }
       },
       {
+       "species": "whiting",
+       "score": 90,
+       "window": {
+        "start": "03:48",
+        "end": "06:18",
+        "label": "dawn",
+        "start_iso": "2026-11-24T03:48+10:00",
+        "end_iso": "2026-11-24T06:18+10:00"
+       }
+      },
+      {
        "species": "flathead",
-       "score": 89,
+       "score": 90,
        "window": {
         "start": "03:48",
         "end": "06:18",
@@ -3094,34 +3083,34 @@
       }
      ],
      "best_window": {
-      "start": "07:36",
-      "end": "12:10",
-      "label": "high tide 09:06 + major bite 10:55",
-      "start_iso": "2026-11-24T07:36+10:00",
-      "end_iso": "2026-11-24T12:10+10:00"
+      "start": "22:09",
+      "end": "23:59",
+      "label": "major bite 23:24",
+      "start_iso": "2026-11-24T22:09+10:00",
+      "end_iso": "2026-11-24T23:59+10:00"
      },
      "conditions": {
       "wind_kn": 6,
-      "gust_kn": 15,
-      "wind_dir": "ENE",
+      "gust_kn": 12,
+      "wind_dir": "NE",
       "wind_relation": "onshore",
-      "effective_wind_kn": 5.7,
-      "seas_m": 1.1,
-      "swell_m": 1.1,
+      "effective_wind_kn": 5.8,
+      "seas_m": 1.3,
+      "swell_m": 1.2,
       "swell_period_s": 7,
       "sst_c": 23.9,
-      "tide_stage": "high_turn",
-      "tide_range_m": 1.81,
+      "tide_stage": "falling_early",
+      "tide_range_m": 1.64,
       "tide_next": {
-       "t": "2026-11-24T14:29+10:00",
-       "h": 0.59,
+       "t": "2026-11-25T02:14+10:00",
+       "h": 0.25,
        "type": "L"
       },
-      "light": "day",
-      "rain_24h_mm": 0.4
+      "light": "night",
+      "rain_24h_mm": 0
      },
      "warnings": [],
-     "explain": "ENE wind at ~6 kn is onshore; the window covers the top of the tide, which suits whiting; day is a preferred time for this species; the window also catches a major bite time (moon underfoot 10:55) on a best lunar day; whiting are in peak season; 1 recent report mentions whiting nearby (latest The Chandlery (Coastwatch), 2026-11-20).",
+     "explain": "NE wind at ~6 kn is onshore; the window covers the start of the run-out, which suits grunter; night is a preferred time for this species; the window also catches a major bite time (moon overhead 23:24) on a best lunar day; grunter are in peak season; 3 recent reports mention grunter nearby (latest The Chandlery (Coastwatch), 2026-11-20).",
      "evidence": [
       {
        "source": "Coastwatch weekly fishing report",
@@ -3132,14 +3121,36 @@
        "provenance": "automated",
        "age_days": 4,
        "weight": 0.67,
-       "excerpt": "Whiting remain in good numbers and the lead-up to Wednesday’s full moon should see the evening high tides this weekend fish particularly well."
+       "excerpt": "The deeper holes in Teebar and Kauri creeks are also producing some quality grunter, with 3-inch prawn-profile lures and 80mm vibes proving particularly effective."
+      },
+      {
+       "source": "Coastwatch weekly fishing report",
+       "credit": "Coastwatch (Tin Can Bay section by The Chandlery Bait & Tackle)",
+       "date": "2026-11-06",
+       "catch_date": "2026-11-03",
+       "url": "https://coastwatch.com.au/articles/fishing-report-for-30-october-2026-2/",
+       "provenance": "automated",
+       "age_days": 21,
+       "weight": 0.12,
+       "excerpt": "Grunter have been reported in good numbers recently, while a few quality kingfish are still being caught in local creeks."
+      },
+      {
+       "source": "Coastwatch weekly fishing report",
+       "credit": "Coastwatch (Tin Can Bay section by The Chandlery Bait & Tackle)",
+       "date": "2026-10-30",
+       "catch_date": "2026-10-27",
+       "url": "https://coastwatch.com.au/articles/fishing-report-for-30-october-2026/",
+       "provenance": "automated",
+       "age_days": 28,
+       "weight": 0.06,
+       "excerpt": "There have also been continued reports of quality grunter over recent weeks, while a few good king threadfin are still being caught throughout the local creek systems."
       }
      ]
     },
     "tin_can_bay": {
      "score": 93,
      "colour": "green",
-     "confidence": "high",
+     "confidence": "low",
      "best_species": [
       {
        "species": "whiting",
@@ -3165,7 +3176,7 @@
       },
       {
        "species": "grunter",
-       "score": 90,
+       "score": 91,
        "window": {
         "start": "22:09",
         "end": "23:59",
@@ -3221,7 +3232,7 @@
     "rainbow_to_dip": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "tailor",
@@ -3294,7 +3305,7 @@
     "dip_north": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "tailor",
@@ -3366,7 +3377,7 @@
     "teewah": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "tailor",
@@ -3449,20 +3460,20 @@
        "start_iso": "2026-11-24T03:48+10:00",
        "end_iso": "2026-11-24T06:18+10:00"
       },
-      "confidence": "high",
+      "confidence": "low",
       "colour": "green"
      },
      {
       "location": "carlo_point",
       "score": 90,
       "window": {
-       "start": "07:36",
-       "end": "12:10",
-       "label": "high tide 09:06 + major bite 10:55",
-       "start_iso": "2026-11-24T07:36+10:00",
-       "end_iso": "2026-11-24T12:10+10:00"
+       "start": "03:48",
+       "end": "06:18",
+       "label": "dawn",
+       "start_iso": "2026-11-24T03:48+10:00",
+       "end_iso": "2026-11-24T06:18+10:00"
       },
-      "confidence": "high",
+      "confidence": "low",
       "colour": "green"
      },
      {
@@ -3475,7 +3486,7 @@
        "start_iso": "2026-11-24T00:00+10:00",
        "end_iso": "2026-11-24T01:42+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -3488,7 +3499,7 @@
        "start_iso": "2026-11-24T00:00+10:00",
        "end_iso": "2026-11-24T01:42+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      }
     ],
@@ -3503,12 +3514,12 @@
        "start_iso": "2026-11-24T03:48+10:00",
        "end_iso": "2026-11-24T06:18+10:00"
       },
-      "confidence": "high",
+      "confidence": "low",
       "colour": "green"
      },
      {
       "location": "carlo_point",
-      "score": 89,
+      "score": 90,
       "window": {
        "start": "03:48",
        "end": "06:18",
@@ -3516,7 +3527,7 @@
        "start_iso": "2026-11-24T03:48+10:00",
        "end_iso": "2026-11-24T06:18+10:00"
       },
-      "confidence": "high",
+      "confidence": "low",
       "colour": "green"
      },
      {
@@ -3529,7 +3540,7 @@
        "start_iso": "2026-11-24T00:00+10:00",
        "end_iso": "2026-11-24T01:42+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -3542,22 +3553,63 @@
        "start_iso": "2026-11-24T00:00+10:00",
        "end_iso": "2026-11-24T01:42+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
+      "colour": "red"
+     }
+    ],
+    "grunter": [
+     {
+      "location": "carlo_point",
+      "score": 91,
+      "window": {
+       "start": "22:09",
+       "end": "23:59",
+       "label": "major bite 23:24",
+       "start_iso": "2026-11-24T22:09+10:00",
+       "end_iso": "2026-11-24T23:59+10:00"
+      },
+      "confidence": "low",
+      "colour": "green"
+     },
+     {
+      "location": "tin_can_bay",
+      "score": 91,
+      "window": {
+       "start": "22:09",
+       "end": "23:59",
+       "label": "major bite 23:24",
+       "start_iso": "2026-11-24T22:09+10:00",
+       "end_iso": "2026-11-24T23:59+10:00"
+      },
+      "confidence": "low",
+      "colour": "green"
+     },
+     {
+      "location": "inskip_bay",
+      "score": 20,
+      "window": {
+       "start": "00:01",
+       "end": "02:31",
+       "label": "low tide 01:31",
+       "start_iso": "2026-11-24T00:01+10:00",
+       "end_iso": "2026-11-24T02:31+10:00"
+      },
+      "confidence": "low",
       "colour": "red"
      }
     ],
     "mangrove_jack": [
      {
       "location": "tin_can_bay",
-      "score": 90,
+      "score": 91,
       "window": {
-       "start": "16:50",
-       "end": "19:20",
-       "label": "dusk",
-       "start_iso": "2026-11-24T16:50+10:00",
-       "end_iso": "2026-11-24T19:20+10:00"
+       "start": "22:09",
+       "end": "23:59",
+       "label": "major bite 23:24",
+       "start_iso": "2026-11-24T22:09+10:00",
+       "end_iso": "2026-11-24T23:59+10:00"
       },
-      "confidence": "high",
+      "confidence": "low",
       "colour": "green"
      },
      {
@@ -3570,7 +3622,7 @@
        "start_iso": "2026-11-24T22:09+10:00",
        "end_iso": "2026-11-24T23:59+10:00"
       },
-      "confidence": "high",
+      "confidence": "low",
       "colour": "green"
      },
      {
@@ -3583,55 +3635,14 @@
        "start_iso": "2026-11-24T00:01+10:00",
        "end_iso": "2026-11-24T02:31+10:00"
       },
-      "confidence": "high",
-      "colour": "red"
-     }
-    ],
-    "grunter": [
-     {
-      "location": "carlo_point",
-      "score": 90,
-      "window": {
-       "start": "22:09",
-       "end": "23:59",
-       "label": "major bite 23:24",
-       "start_iso": "2026-11-24T22:09+10:00",
-       "end_iso": "2026-11-24T23:59+10:00"
-      },
-      "confidence": "high",
-      "colour": "green"
-     },
-     {
-      "location": "tin_can_bay",
-      "score": 90,
-      "window": {
-       "start": "22:09",
-       "end": "23:59",
-       "label": "major bite 23:24",
-       "start_iso": "2026-11-24T22:09+10:00",
-       "end_iso": "2026-11-24T23:59+10:00"
-      },
-      "confidence": "high",
-      "colour": "green"
-     },
-     {
-      "location": "inskip_bay",
-      "score": 20,
-      "window": {
-       "start": "00:01",
-       "end": "02:31",
-       "label": "low tide 01:31",
-       "start_iso": "2026-11-24T00:01+10:00",
-       "end_iso": "2026-11-24T02:31+10:00"
-      },
-      "confidence": "high",
+      "confidence": "low",
       "colour": "red"
      }
     ],
     "bream": [
      {
       "location": "tin_can_bay",
-      "score": 71,
+      "score": 72,
       "window": {
        "start": "03:48",
        "end": "06:18",
@@ -3639,12 +3650,12 @@
        "start_iso": "2026-11-24T03:48+10:00",
        "end_iso": "2026-11-24T06:18+10:00"
       },
-      "confidence": "high",
+      "confidence": "low",
       "colour": "green"
      },
      {
       "location": "carlo_point",
-      "score": 67,
+      "score": 68,
       "window": {
        "start": "03:48",
        "end": "06:18",
@@ -3652,7 +3663,7 @@
        "start_iso": "2026-11-24T03:48+10:00",
        "end_iso": "2026-11-24T06:18+10:00"
       },
-      "confidence": "high",
+      "confidence": "low",
       "colour": "green"
      },
      {
@@ -3665,7 +3676,7 @@
        "start_iso": "2026-11-24T00:00+10:00",
        "end_iso": "2026-11-24T01:42+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -3678,7 +3689,7 @@
        "start_iso": "2026-11-24T00:00+10:00",
        "end_iso": "2026-11-24T01:42+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      }
     ],
@@ -3693,7 +3704,7 @@
        "start_iso": "2026-11-24T22:09+10:00",
        "end_iso": "2026-11-24T23:59+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "green"
      },
      {
@@ -3706,7 +3717,7 @@
        "start_iso": "2026-11-24T22:09+10:00",
        "end_iso": "2026-11-24T23:59+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "green"
      },
      {
@@ -3719,7 +3730,7 @@
        "start_iso": "2026-11-24T00:00+10:00",
        "end_iso": "2026-11-24T01:42+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -3732,7 +3743,7 @@
        "start_iso": "2026-11-24T00:00+10:00",
        "end_iso": "2026-11-24T01:42+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      }
     ],
@@ -3747,7 +3758,7 @@
        "start_iso": "2026-11-24T00:00+10:00",
        "end_iso": "2026-11-24T01:42+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -3760,7 +3771,7 @@
        "start_iso": "2026-11-24T00:00+10:00",
        "end_iso": "2026-11-24T01:42+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -3773,7 +3784,7 @@
        "start_iso": "2026-11-24T00:00+10:00",
        "end_iso": "2026-11-24T01:42+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -3786,7 +3797,7 @@
        "start_iso": "2026-11-24T00:00+10:00",
        "end_iso": "2026-11-24T01:42+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      }
     ],
@@ -3801,7 +3812,7 @@
        "start_iso": "2026-11-24T00:00+10:00",
        "end_iso": "2026-11-24T01:42+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -3814,7 +3825,7 @@
        "start_iso": "2026-11-24T00:00+10:00",
        "end_iso": "2026-11-24T01:42+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -3827,7 +3838,7 @@
        "start_iso": "2026-11-24T00:00+10:00",
        "end_iso": "2026-11-24T01:42+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -3840,7 +3851,7 @@
        "start_iso": "2026-11-24T00:00+10:00",
        "end_iso": "2026-11-24T01:42+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      }
     ],
@@ -3855,7 +3866,7 @@
        "start_iso": "2026-11-24T00:00+10:00",
        "end_iso": "2026-11-24T01:42+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -3868,7 +3879,7 @@
        "start_iso": "2026-11-24T00:00+10:00",
        "end_iso": "2026-11-24T01:42+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -3881,7 +3892,7 @@
        "start_iso": "2026-11-24T00:00+10:00",
        "end_iso": "2026-11-24T01:42+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -3894,7 +3905,7 @@
        "start_iso": "2026-11-24T00:00+10:00",
        "end_iso": "2026-11-24T01:42+10:00"
       },
-      "confidence": "high",
+      "confidence": "low",
       "colour": "red"
      }
     ],
@@ -3909,7 +3920,7 @@
        "start_iso": "2026-11-24T00:00+10:00",
        "end_iso": "2026-11-24T01:42+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -3922,7 +3933,7 @@
        "start_iso": "2026-11-24T00:00+10:00",
        "end_iso": "2026-11-24T01:42+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      }
     ],
@@ -3937,7 +3948,7 @@
        "start_iso": "2026-11-24T00:00+10:00",
        "end_iso": "2026-11-24T01:42+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -3950,7 +3961,7 @@
        "start_iso": "2026-11-24T00:00+10:00",
        "end_iso": "2026-11-24T01:42+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      }
     ],
@@ -3965,7 +3976,7 @@
        "start_iso": "2026-11-24T00:00+10:00",
        "end_iso": "2026-11-24T01:42+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -3978,7 +3989,7 @@
        "start_iso": "2026-11-24T00:00+10:00",
        "end_iso": "2026-11-24T01:42+10:00"
       },
-      "confidence": "high",
+      "confidence": "low",
       "colour": "red"
      }
     ]
@@ -4035,86 +4046,15 @@
      "location": "carlo_point",
      "species": "whiting",
      "window": {
-      "start": "08:27",
-      "end": "13:14",
-      "label": "high tide 09:57 + major bite 11:59",
-      "start_iso": "2026-11-25T08:27+10:00",
-      "end_iso": "2026-11-25T13:14+10:00"
-     },
-     "score": 91,
-     "colour": "green",
-     "confidence": "high",
-     "basis": [
-      "conditions",
-      "season",
-      "reports"
-     ],
-     "factors": {
-      "tide": 1.0,
-      "wind": 0.89,
-      "swell": 0.8,
-      "light": 1.0,
-      "season": 1.0,
-      "pressure": 0.75,
-      "rain": 0.7,
-      "lunar": 0.94,
-      "reports": 0.65
-     },
-     "warnings": [],
-     "conditions": {
-      "wind_kn": 8,
-      "gust_kn": 20,
-      "wind_dir": "E",
-      "wind_relation": "cross",
-      "effective_wind_kn": 8.1,
-      "seas_m": 1.2,
-      "swell_m": 1.2,
-      "swell_period_s": 7,
-      "sst_c": 24.0,
-      "tide_stage": "high_turn",
-      "tide_range_m": 1.96,
-      "tide_next": {
-       "t": "2026-11-25T15:19+10:00",
-       "h": 0.57,
-       "type": "L"
-      },
-      "light": "day",
-      "rain_24h_mm": 0.9
-     },
-     "evidence": [
-      {
-       "source": "Coastwatch weekly fishing report",
-       "credit": "Coastwatch (Tin Can Bay section by The Chandlery Bait & Tackle)",
-       "date": "2026-11-20",
-       "catch_date": null,
-       "url": "https://coastwatch.com.au/articles/fishing-report-for-20-november-2026/",
-       "provenance": "automated",
-       "age_days": 5,
-       "weight": 0.61,
-       "excerpt": "Whiting remain in good numbers and the lead-up to Wednesday’s full moon should see the evening high tides this weekend fish particularly well."
-      }
-     ],
-     "solunar": {
-      "day_rating": "Best",
-      "major": "underfoot",
-      "minor": null
-     },
-     "explain": "E wind at ~8 kn is across the beach; the window covers the top of the tide, which suits whiting; day is a preferred time for this species; the window also catches a major bite time (moon underfoot 11:59) on a best lunar day; whiting are in peak season; 1 recent report mentions whiting nearby (latest The Chandlery (Coastwatch), 2026-11-20).",
-     "rank": 1
-    },
-    {
-     "location": "carlo_point",
-     "species": "whiting",
-     "window": {
       "start": "03:48",
       "end": "06:18",
       "label": "dawn",
       "start_iso": "2026-11-25T03:48+10:00",
       "end_iso": "2026-11-25T06:18+10:00"
      },
-     "score": 90,
+     "score": 91,
      "colour": "green",
-     "confidence": "high",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season",
@@ -4126,7 +4066,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.84,
       "reports": 0.65
@@ -4171,6 +4111,77 @@
       "minor": "moonset"
      },
      "explain": "ESE wind at ~3 kn is across the beach; the window covers the early run-in, which suits whiting; dawn is a preferred time for this species; the window also catches a minor bite time (moonset 04:44); whiting are in peak season; 1 recent report mentions whiting nearby (latest The Chandlery (Coastwatch), 2026-11-20).",
+     "rank": 1
+    },
+    {
+     "location": "carlo_point",
+     "species": "flathead",
+     "window": {
+      "start": "03:48",
+      "end": "06:18",
+      "label": "dawn",
+      "start_iso": "2026-11-25T03:48+10:00",
+      "end_iso": "2026-11-25T06:18+10:00"
+     },
+     "score": 91,
+     "colour": "green",
+     "confidence": "low",
+     "basis": [
+      "conditions",
+      "season",
+      "reports"
+     ],
+     "factors": {
+      "tide": 1.0,
+      "wind": 0.89,
+      "swell": 0.8,
+      "light": 1.0,
+      "season": 1.0,
+      "pressure": 0.8,
+      "rain": 0.7,
+      "lunar": 0.84,
+      "reports": 0.65
+     },
+     "warnings": [],
+     "conditions": {
+      "wind_kn": 3,
+      "gust_kn": 7,
+      "wind_dir": "ESE",
+      "wind_relation": "cross",
+      "effective_wind_kn": 3.4,
+      "seas_m": 1.2,
+      "swell_m": 1.2,
+      "swell_period_s": 7,
+      "sst_c": 23.8,
+      "tide_stage": "rising_early",
+      "tide_range_m": 2.28,
+      "tide_next": {
+       "t": "2026-11-25T09:57+10:00",
+       "h": 2.53,
+       "type": "H"
+      },
+      "light": "dawn",
+      "rain_24h_mm": 0
+     },
+     "evidence": [
+      {
+       "source": "Coastwatch weekly fishing report",
+       "credit": "Coastwatch (Tin Can Bay section by The Chandlery Bait & Tackle)",
+       "date": "2026-11-20",
+       "catch_date": null,
+       "url": "https://coastwatch.com.au/articles/fishing-report-for-20-november-2026/",
+       "provenance": "automated",
+       "age_days": 5,
+       "weight": 0.61,
+       "excerpt": "Within the bay, some nice flathead are coming from the weed beds and drop-offs."
+      }
+     ],
+     "solunar": {
+      "day_rating": "Best",
+      "major": null,
+      "minor": "moonset"
+     },
+     "explain": "ESE wind at ~3 kn is across the beach; the window covers the early run-in, which suits flathead; dawn is a preferred time for this species; the window also catches a minor bite time (moonset 04:44); flathead are in peak season; 1 recent report mentions flathead nearby (latest The Chandlery (Coastwatch), 2026-11-20).",
      "rank": 2
     },
     {
@@ -4183,9 +4194,9 @@
       "start_iso": "2026-11-25T03:48+10:00",
       "end_iso": "2026-11-25T06:18+10:00"
      },
-     "score": 90,
+     "score": 91,
      "colour": "green",
-     "confidence": "high",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season",
@@ -4197,7 +4208,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.84,
       "reports": 0.65
@@ -4254,9 +4265,9 @@
       "start_iso": "2026-11-25T03:48+10:00",
       "end_iso": "2026-11-25T06:18+10:00"
      },
-     "score": 90,
+     "score": 91,
      "colour": "green",
-     "confidence": "high",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season",
@@ -4268,7 +4279,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.84,
       "reports": 0.65
@@ -4327,7 +4338,7 @@
      },
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season"
@@ -4338,7 +4349,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.72,
       "reports": 0.35
@@ -4387,7 +4398,7 @@
      },
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season"
@@ -4398,7 +4409,7 @@
       "swell": 0.93,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.72,
       "reports": 0.35
@@ -4447,7 +4458,7 @@
      },
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season"
@@ -4458,7 +4469,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.72,
       "reports": 0.35
@@ -4507,7 +4518,7 @@
      },
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season"
@@ -4518,7 +4529,7 @@
       "swell": 0.93,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.72,
       "reports": 0.35
@@ -4567,7 +4578,7 @@
      },
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season"
@@ -4578,7 +4589,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.72,
       "reports": 0.35
@@ -4627,7 +4638,7 @@
      },
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season"
@@ -4638,7 +4649,7 @@
       "swell": 1.0,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.72,
       "reports": 0.35
@@ -4680,7 +4691,7 @@
     "rainbow_town": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "tailor",
@@ -4752,7 +4763,7 @@
     "rainbow_north": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "tailor",
@@ -4825,7 +4836,7 @@
     "inskip_ocean": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "tailor",
@@ -4898,7 +4909,7 @@
     "inskip_bay": {
      "score": 20,
      "colour": "red",
-     "confidence": "high",
+     "confidence": "low",
      "best_species": [
       {
        "species": "whiting",
@@ -4982,22 +4993,22 @@
     "carlo_point": {
      "score": 91,
      "colour": "green",
-     "confidence": "high",
+     "confidence": "low",
      "best_species": [
       {
        "species": "whiting",
        "score": 91,
        "window": {
-        "start": "08:27",
-        "end": "13:14",
-        "label": "high tide 09:57 + major bite 11:59",
-        "start_iso": "2026-11-25T08:27+10:00",
-        "end_iso": "2026-11-25T13:14+10:00"
+        "start": "03:48",
+        "end": "06:18",
+        "label": "dawn",
+        "start_iso": "2026-11-25T03:48+10:00",
+        "end_iso": "2026-11-25T06:18+10:00"
        }
       },
       {
        "species": "flathead",
-       "score": 90,
+       "score": 91,
        "window": {
         "start": "03:48",
         "end": "06:18",
@@ -5008,7 +5019,7 @@
       },
       {
        "species": "grunter",
-       "score": 88,
+       "score": 89,
        "window": {
         "start": "20:27",
         "end": "22:57",
@@ -5019,34 +5030,34 @@
       }
      ],
      "best_window": {
-      "start": "08:27",
-      "end": "13:14",
-      "label": "high tide 09:57 + major bite 11:59",
-      "start_iso": "2026-11-25T08:27+10:00",
-      "end_iso": "2026-11-25T13:14+10:00"
+      "start": "03:48",
+      "end": "06:18",
+      "label": "dawn",
+      "start_iso": "2026-11-25T03:48+10:00",
+      "end_iso": "2026-11-25T06:18+10:00"
      },
      "conditions": {
-      "wind_kn": 8,
-      "gust_kn": 20,
-      "wind_dir": "E",
+      "wind_kn": 3,
+      "gust_kn": 7,
+      "wind_dir": "ESE",
       "wind_relation": "cross",
-      "effective_wind_kn": 8.1,
+      "effective_wind_kn": 3.4,
       "seas_m": 1.2,
       "swell_m": 1.2,
       "swell_period_s": 7,
-      "sst_c": 24.0,
-      "tide_stage": "high_turn",
-      "tide_range_m": 1.96,
+      "sst_c": 23.8,
+      "tide_stage": "rising_early",
+      "tide_range_m": 2.28,
       "tide_next": {
-       "t": "2026-11-25T15:19+10:00",
-       "h": 0.57,
-       "type": "L"
+       "t": "2026-11-25T09:57+10:00",
+       "h": 2.53,
+       "type": "H"
       },
-      "light": "day",
-      "rain_24h_mm": 0.9
+      "light": "dawn",
+      "rain_24h_mm": 0
      },
      "warnings": [],
-     "explain": "E wind at ~8 kn is across the beach; the window covers the top of the tide, which suits whiting; day is a preferred time for this species; the window also catches a major bite time (moon underfoot 11:59) on a best lunar day; whiting are in peak season; 1 recent report mentions whiting nearby (latest The Chandlery (Coastwatch), 2026-11-20).",
+     "explain": "ESE wind at ~3 kn is across the beach; the window covers the early run-in, which suits whiting; dawn is a preferred time for this species; the window also catches a minor bite time (moonset 04:44); whiting are in peak season; 1 recent report mentions whiting nearby (latest The Chandlery (Coastwatch), 2026-11-20).",
      "evidence": [
       {
        "source": "Coastwatch weekly fishing report",
@@ -5062,13 +5073,13 @@
      ]
     },
     "tin_can_bay": {
-     "score": 90,
+     "score": 91,
      "colour": "green",
-     "confidence": "high",
+     "confidence": "low",
      "best_species": [
       {
        "species": "whiting",
-       "score": 90,
+       "score": 91,
        "window": {
         "start": "03:48",
         "end": "06:18",
@@ -5079,7 +5090,7 @@
       },
       {
        "species": "flathead",
-       "score": 90,
+       "score": 91,
        "window": {
         "start": "03:48",
         "end": "06:18",
@@ -5090,7 +5101,7 @@
       },
       {
        "species": "grunter",
-       "score": 88,
+       "score": 89,
        "window": {
         "start": "20:27",
         "end": "22:57",
@@ -5146,7 +5157,7 @@
     "rainbow_to_dip": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "tailor",
@@ -5219,7 +5230,7 @@
     "dip_north": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "tailor",
@@ -5291,7 +5302,7 @@
     "teewah": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "tailor",
@@ -5368,18 +5379,18 @@
       "location": "carlo_point",
       "score": 91,
       "window": {
-       "start": "08:27",
-       "end": "13:14",
-       "label": "high tide 09:57 + major bite 11:59",
-       "start_iso": "2026-11-25T08:27+10:00",
-       "end_iso": "2026-11-25T13:14+10:00"
+       "start": "03:48",
+       "end": "06:18",
+       "label": "dawn",
+       "start_iso": "2026-11-25T03:48+10:00",
+       "end_iso": "2026-11-25T06:18+10:00"
       },
-      "confidence": "high",
+      "confidence": "low",
       "colour": "green"
      },
      {
       "location": "tin_can_bay",
-      "score": 90,
+      "score": 91,
       "window": {
        "start": "03:48",
        "end": "06:18",
@@ -5387,7 +5398,7 @@
        "start_iso": "2026-11-25T03:48+10:00",
        "end_iso": "2026-11-25T06:18+10:00"
       },
-      "confidence": "high",
+      "confidence": "low",
       "colour": "green"
      },
      {
@@ -5400,7 +5411,7 @@
        "start_iso": "2026-11-25T00:00+10:00",
        "end_iso": "2026-11-25T02:25+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -5413,14 +5424,14 @@
        "start_iso": "2026-11-25T00:00+10:00",
        "end_iso": "2026-11-25T02:25+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      }
     ],
     "flathead": [
      {
       "location": "carlo_point",
-      "score": 90,
+      "score": 91,
       "window": {
        "start": "03:48",
        "end": "06:18",
@@ -5428,12 +5439,12 @@
        "start_iso": "2026-11-25T03:48+10:00",
        "end_iso": "2026-11-25T06:18+10:00"
       },
-      "confidence": "high",
+      "confidence": "low",
       "colour": "green"
      },
      {
       "location": "tin_can_bay",
-      "score": 90,
+      "score": 91,
       "window": {
        "start": "03:48",
        "end": "06:18",
@@ -5441,7 +5452,7 @@
        "start_iso": "2026-11-25T03:48+10:00",
        "end_iso": "2026-11-25T06:18+10:00"
       },
-      "confidence": "high",
+      "confidence": "low",
       "colour": "green"
      },
      {
@@ -5454,7 +5465,7 @@
        "start_iso": "2026-11-25T00:00+10:00",
        "end_iso": "2026-11-25T02:25+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -5467,14 +5478,14 @@
        "start_iso": "2026-11-25T00:00+10:00",
        "end_iso": "2026-11-25T02:25+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      }
     ],
     "grunter": [
      {
       "location": "carlo_point",
-      "score": 88,
+      "score": 89,
       "window": {
        "start": "20:27",
        "end": "22:57",
@@ -5482,12 +5493,12 @@
        "start_iso": "2026-11-25T20:27+10:00",
        "end_iso": "2026-11-25T22:57+10:00"
       },
-      "confidence": "high",
+      "confidence": "low",
       "colour": "green"
      },
      {
       "location": "tin_can_bay",
-      "score": 88,
+      "score": 89,
       "window": {
        "start": "20:27",
        "end": "22:57",
@@ -5495,7 +5506,7 @@
        "start_iso": "2026-11-25T20:27+10:00",
        "end_iso": "2026-11-25T22:57+10:00"
       },
-      "confidence": "high",
+      "confidence": "low",
       "colour": "green"
      },
      {
@@ -5508,14 +5519,14 @@
        "start_iso": "2026-11-25T00:44+10:00",
        "end_iso": "2026-11-25T03:14+10:00"
       },
-      "confidence": "high",
+      "confidence": "low",
       "colour": "red"
      }
     ],
     "mangrove_jack": [
      {
       "location": "tin_can_bay",
-      "score": 71,
+      "score": 72,
       "window": {
        "start": "03:48",
        "end": "06:18",
@@ -5523,7 +5534,7 @@
        "start_iso": "2026-11-25T03:48+10:00",
        "end_iso": "2026-11-25T06:18+10:00"
       },
-      "confidence": "high",
+      "confidence": "low",
       "colour": "green"
      },
      {
@@ -5536,7 +5547,7 @@
        "start_iso": "2026-11-25T03:48+10:00",
        "end_iso": "2026-11-25T06:18+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "green"
      },
      {
@@ -5549,14 +5560,14 @@
        "start_iso": "2026-11-25T00:44+10:00",
        "end_iso": "2026-11-25T03:14+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      }
     ],
     "trevally": [
      {
       "location": "carlo_point",
-      "score": 69,
+      "score": 70,
       "window": {
        "start": "20:27",
        "end": "22:57",
@@ -5564,12 +5575,12 @@
        "start_iso": "2026-11-25T20:27+10:00",
        "end_iso": "2026-11-25T22:57+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "green"
      },
      {
       "location": "tin_can_bay",
-      "score": 69,
+      "score": 70,
       "window": {
        "start": "20:27",
        "end": "22:57",
@@ -5577,7 +5588,7 @@
        "start_iso": "2026-11-25T20:27+10:00",
        "end_iso": "2026-11-25T22:57+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "green"
      },
      {
@@ -5590,7 +5601,7 @@
        "start_iso": "2026-11-25T00:00+10:00",
        "end_iso": "2026-11-25T02:25+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -5603,14 +5614,14 @@
        "start_iso": "2026-11-25T00:00+10:00",
        "end_iso": "2026-11-25T02:25+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      }
     ],
     "bream": [
      {
       "location": "carlo_point",
-      "score": 68,
+      "score": 69,
       "window": {
        "start": "03:48",
        "end": "06:18",
@@ -5618,12 +5629,12 @@
        "start_iso": "2026-11-25T03:48+10:00",
        "end_iso": "2026-11-25T06:18+10:00"
       },
-      "confidence": "high",
+      "confidence": "low",
       "colour": "green"
      },
      {
       "location": "tin_can_bay",
-      "score": 68,
+      "score": 69,
       "window": {
        "start": "03:48",
        "end": "06:18",
@@ -5631,7 +5642,7 @@
        "start_iso": "2026-11-25T03:48+10:00",
        "end_iso": "2026-11-25T06:18+10:00"
       },
-      "confidence": "high",
+      "confidence": "low",
       "colour": "green"
      },
      {
@@ -5644,7 +5655,7 @@
        "start_iso": "2026-11-25T00:00+10:00",
        "end_iso": "2026-11-25T02:25+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -5657,7 +5668,7 @@
        "start_iso": "2026-11-25T00:00+10:00",
        "end_iso": "2026-11-25T02:25+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      }
     ],
@@ -5672,7 +5683,7 @@
        "start_iso": "2026-11-25T00:00+10:00",
        "end_iso": "2026-11-25T02:25+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -5685,7 +5696,7 @@
        "start_iso": "2026-11-25T00:00+10:00",
        "end_iso": "2026-11-25T02:25+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -5698,7 +5709,7 @@
        "start_iso": "2026-11-25T00:00+10:00",
        "end_iso": "2026-11-25T02:25+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -5711,7 +5722,7 @@
        "start_iso": "2026-11-25T00:00+10:00",
        "end_iso": "2026-11-25T02:25+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      }
     ],
@@ -5726,7 +5737,7 @@
        "start_iso": "2026-11-25T00:00+10:00",
        "end_iso": "2026-11-25T02:25+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -5739,7 +5750,7 @@
        "start_iso": "2026-11-25T00:00+10:00",
        "end_iso": "2026-11-25T02:25+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -5752,7 +5763,7 @@
        "start_iso": "2026-11-25T00:00+10:00",
        "end_iso": "2026-11-25T02:25+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -5765,7 +5776,7 @@
        "start_iso": "2026-11-25T00:00+10:00",
        "end_iso": "2026-11-25T02:25+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      }
     ],
@@ -5780,7 +5791,7 @@
        "start_iso": "2026-11-25T00:00+10:00",
        "end_iso": "2026-11-25T02:25+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -5793,7 +5804,7 @@
        "start_iso": "2026-11-25T00:00+10:00",
        "end_iso": "2026-11-25T02:25+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -5806,7 +5817,7 @@
        "start_iso": "2026-11-25T00:00+10:00",
        "end_iso": "2026-11-25T02:25+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -5819,7 +5830,7 @@
        "start_iso": "2026-11-25T00:00+10:00",
        "end_iso": "2026-11-25T02:25+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      }
     ],
@@ -5834,7 +5845,7 @@
        "start_iso": "2026-11-25T00:00+10:00",
        "end_iso": "2026-11-25T02:25+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -5847,7 +5858,7 @@
        "start_iso": "2026-11-25T00:00+10:00",
        "end_iso": "2026-11-25T02:25+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      }
     ],
@@ -5862,7 +5873,7 @@
        "start_iso": "2026-11-25T00:00+10:00",
        "end_iso": "2026-11-25T02:25+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -5875,7 +5886,7 @@
        "start_iso": "2026-11-25T00:00+10:00",
        "end_iso": "2026-11-25T02:25+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      }
     ],
@@ -5890,7 +5901,7 @@
        "start_iso": "2026-11-25T00:00+10:00",
        "end_iso": "2026-11-25T02:25+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      },
      {
@@ -5903,7 +5914,7 @@
        "start_iso": "2026-11-25T00:00+10:00",
        "end_iso": "2026-11-25T02:25+10:00"
       },
-      "confidence": "high",
+      "confidence": "low",
       "colour": "red"
      }
     ]
@@ -5972,9 +5983,9 @@
       "start_iso": "2026-11-26T11:50+10:00",
       "end_iso": "2026-11-26T14:20+10:00"
      },
-     "score": 90,
+     "score": 91,
      "colour": "green",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season",
@@ -5986,7 +5997,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.63
@@ -6043,9 +6054,9 @@
       "start_iso": "2026-11-26T11:50+10:00",
       "end_iso": "2026-11-26T14:20+10:00"
      },
-     "score": 90,
+     "score": 91,
      "colour": "green",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season",
@@ -6057,7 +6068,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.63
@@ -6114,9 +6125,9 @@
       "start_iso": "2026-11-26T09:15+10:00",
       "end_iso": "2026-11-26T11:45+10:00"
      },
-     "score": 88,
+     "score": 89,
      "colour": "green",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season",
@@ -6128,7 +6139,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.72,
       "reports": 0.63
@@ -6185,9 +6196,9 @@
       "start_iso": "2026-11-26T09:15+10:00",
       "end_iso": "2026-11-26T11:45+10:00"
      },
-     "score": 88,
+     "score": 89,
      "colour": "green",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season",
@@ -6199,7 +6210,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.72,
       "reports": 0.63
@@ -6269,7 +6280,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.35
@@ -6329,7 +6340,7 @@
       "swell": 0.8,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.35
@@ -6389,7 +6400,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.35
@@ -6449,7 +6460,7 @@
       "swell": 0.8,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.35
@@ -6509,7 +6520,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.35
@@ -6569,7 +6580,7 @@
       "swell": 1.0,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.35
@@ -6829,7 +6840,7 @@
     "inskip_bay": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "whiting",
@@ -6911,13 +6922,13 @@
      ]
     },
     "carlo_point": {
-     "score": 90,
+     "score": 91,
      "colour": "green",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "flathead",
-       "score": 90,
+       "score": 91,
        "window": {
         "start": "11:50",
         "end": "14:20",
@@ -6928,7 +6939,7 @@
       },
       {
        "species": "whiting",
-       "score": 88,
+       "score": 89,
        "window": {
         "start": "09:15",
         "end": "11:45",
@@ -6939,7 +6950,7 @@
       },
       {
        "species": "grunter",
-       "score": 87,
+       "score": 88,
        "window": {
         "start": "21:20",
         "end": "23:50",
@@ -6993,13 +7004,13 @@
      ]
     },
     "tin_can_bay": {
-     "score": 90,
+     "score": 91,
      "colour": "green",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "flathead",
-       "score": 90,
+       "score": 91,
        "window": {
         "start": "11:50",
         "end": "14:20",
@@ -7010,7 +7021,7 @@
       },
       {
        "species": "whiting",
-       "score": 88,
+       "score": 89,
        "window": {
         "start": "09:15",
         "end": "11:45",
@@ -7021,7 +7032,7 @@
       },
       {
        "species": "grunter",
-       "score": 87,
+       "score": 88,
        "window": {
         "start": "21:20",
         "end": "23:50",
@@ -7297,7 +7308,7 @@
     "flathead": [
      {
       "location": "carlo_point",
-      "score": 90,
+      "score": 91,
       "window": {
        "start": "11:50",
        "end": "14:20",
@@ -7305,12 +7316,12 @@
        "start_iso": "2026-11-26T11:50+10:00",
        "end_iso": "2026-11-26T14:20+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "green"
      },
      {
       "location": "tin_can_bay",
-      "score": 90,
+      "score": 91,
       "window": {
        "start": "11:50",
        "end": "14:20",
@@ -7318,7 +7329,7 @@
        "start_iso": "2026-11-26T11:50+10:00",
        "end_iso": "2026-11-26T14:20+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "green"
      },
      {
@@ -7351,7 +7362,7 @@
     "whiting": [
      {
       "location": "carlo_point",
-      "score": 88,
+      "score": 89,
       "window": {
        "start": "09:15",
        "end": "11:45",
@@ -7359,12 +7370,12 @@
        "start_iso": "2026-11-26T09:15+10:00",
        "end_iso": "2026-11-26T11:45+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "green"
      },
      {
       "location": "tin_can_bay",
-      "score": 88,
+      "score": 89,
       "window": {
        "start": "09:15",
        "end": "11:45",
@@ -7372,7 +7383,7 @@
        "start_iso": "2026-11-26T09:15+10:00",
        "end_iso": "2026-11-26T11:45+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "green"
      },
      {
@@ -7405,7 +7416,7 @@
     "grunter": [
      {
       "location": "carlo_point",
-      "score": 87,
+      "score": 88,
       "window": {
        "start": "21:20",
        "end": "23:50",
@@ -7413,12 +7424,12 @@
        "start_iso": "2026-11-26T21:20+10:00",
        "end_iso": "2026-11-26T23:50+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "green"
      },
      {
       "location": "tin_can_bay",
-      "score": 87,
+      "score": 88,
       "window": {
        "start": "21:20",
        "end": "23:50",
@@ -7426,7 +7437,7 @@
        "start_iso": "2026-11-26T21:20+10:00",
        "end_iso": "2026-11-26T23:50+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "green"
      },
      {
@@ -7439,7 +7450,7 @@
        "start_iso": "2026-11-26T00:00+10:00",
        "end_iso": "2026-11-26T06:18+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      }
     ],
@@ -7454,7 +7465,7 @@
        "start_iso": "2026-11-26T11:50+10:00",
        "end_iso": "2026-11-26T14:20+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "green"
      },
      {
@@ -7495,7 +7506,7 @@
        "start_iso": "2026-11-26T00:00+10:00",
        "end_iso": "2026-11-26T06:18+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "green"
      },
      {
@@ -7508,7 +7519,7 @@
        "start_iso": "2026-11-26T00:00+10:00",
        "end_iso": "2026-11-26T06:18+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "green"
      },
      {
@@ -7834,7 +7845,7 @@
        "start_iso": "2026-11-26T00:00+10:00",
        "end_iso": "2026-11-26T03:11+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      }
     ]
@@ -7905,7 +7916,7 @@
      },
      "score": 92,
      "colour": "green",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season",
@@ -7917,7 +7928,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.85,
       "lunar": 0.94,
       "reports": 0.61
@@ -7976,7 +7987,7 @@
      },
      "score": 90,
      "colour": "green",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season",
@@ -7988,7 +7999,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.85,
       "lunar": 0.72,
       "reports": 0.61
@@ -8047,7 +8058,7 @@
      },
      "score": 89,
      "colour": "green",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season",
@@ -8059,7 +8070,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.85,
       "lunar": 0.94,
       "reports": 0.61
@@ -8108,53 +8119,53 @@
     },
     {
      "location": "tin_can_bay",
-     "species": "whiting",
+     "species": "grunter",
      "window": {
-      "start": "10:04",
-      "end": "12:34",
-      "label": "high tide 11:34",
-      "start_iso": "2026-11-27T10:04+10:00",
-      "end_iso": "2026-11-27T12:34+10:00"
+      "start": "22:13",
+      "end": "23:59",
+      "label": "high tide 23:43",
+      "start_iso": "2026-11-27T22:13+10:00",
+      "end_iso": "2026-11-27T23:59+10:00"
      },
-     "score": 87,
+     "score": 88,
      "colour": "green",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season",
       "reports"
      ],
      "factors": {
-      "tide": 1.0,
-      "wind": 0.75,
+      "tide": 0.96,
+      "wind": 0.83,
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.85,
       "lunar": 0.72,
-      "reports": 0.61
+      "reports": 0.64
      },
      "warnings": [],
      "conditions": {
-      "wind_kn": 8,
-      "gust_kn": 20,
+      "wind_kn": 4,
+      "gust_kn": 8,
       "wind_dir": "E",
       "wind_relation": "onshore",
-      "effective_wind_kn": 8.1,
-      "seas_m": 1.2,
+      "effective_wind_kn": 3.5,
+      "seas_m": 1.1,
       "swell_m": 1.1,
       "swell_period_s": 6,
-      "sst_c": 24.7,
+      "sst_c": 24.8,
       "tide_stage": "high_turn",
-      "tide_range_m": 2.19,
+      "tide_range_m": 1.23,
       "tide_next": {
-       "t": "2026-11-27T11:34+10:00",
-       "h": 2.59,
+       "t": "2026-11-27T23:43+10:00",
+       "h": 1.86,
        "type": "H"
       },
-      "light": "day",
-      "rain_24h_mm": 4.5
+      "light": "night",
+      "rain_24h_mm": 6.5
      },
      "evidence": [
       {
@@ -8166,7 +8177,18 @@
        "provenance": "automated",
        "age_days": 7,
        "weight": 0.5,
-       "excerpt": "Whiting remain in good numbers and the lead-up to Wednesday’s full moon should see the evening high tides this weekend fish particularly well."
+       "excerpt": "The deeper holes in Teebar and Kauri creeks are also producing some quality grunter, with 3-inch prawn-profile lures and 80mm vibes proving particularly effective."
+      },
+      {
+       "source": "Coastwatch weekly fishing report",
+       "credit": "Coastwatch (Tin Can Bay section by The Chandlery Bait & Tackle)",
+       "date": "2026-11-06",
+       "catch_date": "2026-11-03",
+       "url": "https://coastwatch.com.au/articles/fishing-report-for-30-october-2026-2/",
+       "provenance": "automated",
+       "age_days": 24,
+       "weight": 0.09,
+       "excerpt": "Grunter have been reported in good numbers recently, while a few quality kingfish are still being caught in local creeks."
       }
      ],
      "solunar": {
@@ -8174,7 +8196,7 @@
       "major": null,
       "minor": null
      },
-     "explain": "E wind at ~8 kn is onshore; the window covers the top of the tide, which suits whiting; day is a preferred time for this species; whiting are in peak season; 1 recent report mentions whiting nearby (latest The Chandlery (Coastwatch), 2026-11-20).",
+     "explain": "E wind at ~4 kn is onshore; the window covers the top of the tide, which suits grunter; night is a preferred time for this species; grunter are in peak season; 2 recent reports mention grunter nearby (latest The Chandlery (Coastwatch), 2026-11-20).",
      "rank": 4
     },
     {
@@ -8200,7 +8222,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.35
@@ -8260,7 +8282,7 @@
       "swell": 0.84,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.35
@@ -8320,7 +8342,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.35
@@ -8380,7 +8402,7 @@
       "swell": 0.84,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.35
@@ -8440,7 +8462,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.35
@@ -8500,7 +8522,7 @@
       "swell": 1.0,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.35
@@ -8760,7 +8782,7 @@
     "inskip_bay": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "whiting",
@@ -8844,7 +8866,7 @@
     "carlo_point": {
      "score": 92,
      "colour": "green",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "flathead",
@@ -8870,7 +8892,7 @@
       },
       {
        "species": "grunter",
-       "score": 87,
+       "score": 88,
        "window": {
         "start": "22:13",
         "end": "23:59",
@@ -8926,7 +8948,7 @@
     "tin_can_bay": {
      "score": 89,
      "colour": "green",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "flathead",
@@ -8940,6 +8962,17 @@
        }
       },
       {
+       "species": "grunter",
+       "score": 88,
+       "window": {
+        "start": "22:13",
+        "end": "23:59",
+        "label": "high tide 23:43",
+        "start_iso": "2026-11-27T22:13+10:00",
+        "end_iso": "2026-11-27T23:59+10:00"
+       }
+      },
+      {
        "species": "whiting",
        "score": 87,
        "window": {
@@ -8948,17 +8981,6 @@
         "label": "high tide 11:34",
         "start_iso": "2026-11-27T10:04+10:00",
         "end_iso": "2026-11-27T12:34+10:00"
-       }
-      },
-      {
-       "species": "grunter",
-       "score": 87,
-       "window": {
-        "start": "22:13",
-        "end": "23:59",
-        "label": "high tide 23:43",
-        "start_iso": "2026-11-27T22:13+10:00",
-        "end_iso": "2026-11-27T23:59+10:00"
        }
       }
      ],
@@ -9236,7 +9258,7 @@
        "start_iso": "2026-11-27T12:56+10:00",
        "end_iso": "2026-11-27T15:26+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "green"
      },
      {
@@ -9249,7 +9271,7 @@
        "start_iso": "2026-11-27T12:56+10:00",
        "end_iso": "2026-11-27T15:26+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "green"
      },
      {
@@ -9290,7 +9312,7 @@
        "start_iso": "2026-11-27T10:04+10:00",
        "end_iso": "2026-11-27T12:34+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "green"
      },
      {
@@ -9303,7 +9325,7 @@
        "start_iso": "2026-11-27T10:04+10:00",
        "end_iso": "2026-11-27T12:34+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "green"
      },
      {
@@ -9336,7 +9358,7 @@
     "grunter": [
      {
       "location": "carlo_point",
-      "score": 87,
+      "score": 88,
       "window": {
        "start": "22:13",
        "end": "23:59",
@@ -9344,12 +9366,12 @@
        "start_iso": "2026-11-27T22:13+10:00",
        "end_iso": "2026-11-27T23:59+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "green"
      },
      {
       "location": "tin_can_bay",
-      "score": 87,
+      "score": 88,
       "window": {
        "start": "22:13",
        "end": "23:59",
@@ -9357,7 +9379,7 @@
        "start_iso": "2026-11-27T22:13+10:00",
        "end_iso": "2026-11-27T23:59+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "green"
      },
      {
@@ -9370,14 +9392,14 @@
        "start_iso": "2026-11-27T00:24+10:00",
        "end_iso": "2026-11-27T06:18+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      }
     ],
     "mangrove_jack": [
      {
       "location": "tin_can_bay",
-      "score": 72,
+      "score": 73,
       "window": {
        "start": "12:56",
        "end": "15:26",
@@ -9385,7 +9407,7 @@
        "start_iso": "2026-11-27T12:56+10:00",
        "end_iso": "2026-11-27T15:26+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "green"
      },
      {
@@ -9480,7 +9502,7 @@
        "start_iso": "2026-11-27T00:24+10:00",
        "end_iso": "2026-11-27T06:18+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "green"
      },
      {
@@ -9493,7 +9515,7 @@
        "start_iso": "2026-11-27T00:24+10:00",
        "end_iso": "2026-11-27T06:18+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "green"
      },
      {
@@ -9765,7 +9787,7 @@
        "start_iso": "2026-11-27T00:24+10:00",
        "end_iso": "2026-11-27T06:18+10:00"
       },
-      "confidence": "medium",
+      "confidence": "low",
       "colour": "red"
      }
     ]
@@ -9848,7 +9870,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.85,
       "lunar": 0.94,
       "reports": 0.59
@@ -9919,7 +9941,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.85,
       "lunar": 0.94,
       "reports": 0.59
@@ -9976,7 +9998,7 @@
       "start_iso": "2026-11-28T10:55+10:00",
       "end_iso": "2026-11-28T13:25+10:00"
      },
-     "score": 86,
+     "score": 87,
      "colour": "green",
      "confidence": "low",
      "basis": [
@@ -9990,7 +10012,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.85,
       "lunar": 0.72,
       "reports": 0.59
@@ -10047,7 +10069,7 @@
       "start_iso": "2026-11-28T10:55+10:00",
       "end_iso": "2026-11-28T13:25+10:00"
      },
-     "score": 86,
+     "score": 87,
      "colour": "green",
      "confidence": "low",
      "basis": [
@@ -10061,7 +10083,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.85,
       "lunar": 0.72,
       "reports": 0.59
@@ -10131,7 +10153,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.35
@@ -10191,7 +10213,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.35
@@ -10251,7 +10273,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.35
@@ -10311,7 +10333,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.35
@@ -10371,7 +10393,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.35
@@ -10431,7 +10453,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.35
@@ -10790,7 +10812,7 @@
       },
       {
        "species": "whiting",
-       "score": 86,
+       "score": 87,
        "window": {
         "start": "10:55",
         "end": "13:25",
@@ -10872,7 +10894,7 @@
       },
       {
        "species": "whiting",
-       "score": 86,
+       "score": 87,
        "window": {
         "start": "10:55",
         "end": "13:25",
@@ -10882,8 +10904,8 @@
        }
       },
       {
-       "species": "grunter",
-       "score": 71,
+       "species": "mangrove_jack",
+       "score": 72,
        "window": {
         "start": "13:58",
         "end": "16:28",
@@ -11213,7 +11235,7 @@
     "whiting": [
      {
       "location": "carlo_point",
-      "score": 86,
+      "score": 87,
       "window": {
        "start": "10:55",
        "end": "13:25",
@@ -11226,7 +11248,7 @@
      },
      {
       "location": "tin_can_bay",
-      "score": 86,
+      "score": 87,
       "window": {
        "start": "10:55",
        "end": "13:25",
@@ -11267,13 +11289,13 @@
     "mangrove_jack": [
      {
       "location": "tin_can_bay",
-      "score": 71,
+      "score": 72,
       "window": {
-       "start": "01:30",
-       "end": "06:17",
-       "label": "major bite 02:45 + low tide 04:32 + dawn",
-       "start_iso": "2026-11-28T01:30+10:00",
-       "end_iso": "2026-11-28T06:17+10:00"
+       "start": "13:58",
+       "end": "16:28",
+       "label": "major bite 15:13",
+       "start_iso": "2026-11-28T13:58+10:00",
+       "end_iso": "2026-11-28T16:28+10:00"
       },
       "confidence": "low",
       "colour": "green"
@@ -11349,7 +11371,7 @@
     "bream": [
      {
       "location": "tin_can_bay",
-      "score": 68,
+      "score": 69,
       "window": {
        "start": "01:30",
        "end": "06:17",
@@ -11362,7 +11384,7 @@
      },
      {
       "location": "carlo_point",
-      "score": 67,
+      "score": 68,
       "window": {
        "start": "01:30",
        "end": "06:17",
@@ -11773,7 +11795,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.85,
       "lunar": 0.64,
       "reports": 0.57,
@@ -11845,7 +11867,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.85,
       "lunar": 0.64,
       "reports": 0.57,
@@ -11903,7 +11925,7 @@
       "start_iso": "2026-11-29T14:55+10:00",
       "end_iso": "2026-11-29T20:11+10:00"
      },
-     "score": 86,
+     "score": 87,
      "colour": "green",
      "confidence": "low",
      "basis": [
@@ -11917,7 +11939,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.85,
       "lunar": 0.64,
       "reports": 0.57
@@ -11974,7 +11996,7 @@
       "start_iso": "2026-11-29T02:31+10:00",
       "end_iso": "2026-11-29T06:28+10:00"
      },
-     "score": 85,
+     "score": 86,
      "colour": "green",
      "confidence": "low",
      "basis": [
@@ -11988,7 +12010,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.85,
       "lunar": 0.64,
       "reports": 0.57
@@ -12059,7 +12081,7 @@
       "swell": 0.8,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.85,
       "lunar": 0.42,
       "reports": 0.57
@@ -12132,7 +12154,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 0.15,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.85,
       "lunar": 0.42,
       "reports": 0.57
@@ -12204,7 +12226,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.64,
       "reports": 0.35
@@ -12264,7 +12286,7 @@
       "swell": 0.97,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.64,
       "reports": 0.35
@@ -12324,7 +12346,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.64,
       "reports": 0.35
@@ -12384,7 +12406,7 @@
       "swell": 0.97,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.64,
       "reports": 0.35
@@ -12726,13 +12748,13 @@
      ]
     },
     "carlo_point": {
-     "score": 86,
+     "score": 87,
      "colour": "green",
      "confidence": "low",
      "best_species": [
       {
        "species": "flathead",
-       "score": 86,
+       "score": 87,
        "window": {
         "start": "14:55",
         "end": "20:11",
@@ -12753,14 +12775,14 @@
        }
       },
       {
-       "species": "whiting",
-       "score": 83,
+       "species": "mangrove_jack",
+       "score": 84,
        "window": {
-        "start": "11:47",
-        "end": "14:17",
-        "label": "high tide 13:17",
-        "start_iso": "2026-11-29T11:47+10:00",
-        "end_iso": "2026-11-29T14:17+10:00"
+        "start": "14:55",
+        "end": "20:11",
+        "label": "major bite 16:10 + dusk + low tide 19:11",
+        "start_iso": "2026-11-29T14:55+10:00",
+        "end_iso": "2026-11-29T20:11+10:00"
        }
       }
      ],
@@ -12825,7 +12847,7 @@
       },
       {
        "species": "flathead",
-       "score": 87,
+       "score": 88,
        "window": {
         "start": "14:55",
         "end": "20:11",
@@ -13125,7 +13147,7 @@
      },
      {
       "location": "carlo_point",
-      "score": 83,
+      "score": 84,
       "window": {
        "start": "14:55",
        "end": "20:11",
@@ -13153,7 +13175,7 @@
     "flathead": [
      {
       "location": "tin_can_bay",
-      "score": 87,
+      "score": 88,
       "window": {
        "start": "14:55",
        "end": "20:11",
@@ -13166,7 +13188,7 @@
      },
      {
       "location": "carlo_point",
-      "score": 86,
+      "score": 87,
       "window": {
        "start": "14:55",
        "end": "20:11",
@@ -13199,6 +13221,47 @@
        "label": "major bite 03:46 + low tide 04:53 + dawn",
        "start_iso": "2026-11-29T02:31+10:00",
        "end_iso": "2026-11-29T06:17+10:00"
+      },
+      "confidence": "low",
+      "colour": "red"
+     }
+    ],
+    "grunter": [
+     {
+      "location": "tin_can_bay",
+      "score": 86,
+      "window": {
+       "start": "00:00",
+       "end": "01:36",
+       "label": "high tide 00:36",
+       "start_iso": "2026-11-29T00:00+10:00",
+       "end_iso": "2026-11-29T01:36+10:00"
+      },
+      "confidence": "low",
+      "colour": "green"
+     },
+     {
+      "location": "carlo_point",
+      "score": 84,
+      "window": {
+       "start": "00:00",
+       "end": "01:36",
+       "label": "high tide 00:36",
+       "start_iso": "2026-11-29T00:00+10:00",
+       "end_iso": "2026-11-29T01:36+10:00"
+      },
+      "confidence": "low",
+      "colour": "green"
+     },
+     {
+      "location": "inskip_bay",
+      "score": 20,
+      "window": {
+       "start": "00:00",
+       "end": "01:36",
+       "label": "high tide 00:36",
+       "start_iso": "2026-11-29T00:00+10:00",
+       "end_iso": "2026-11-29T01:36+10:00"
       },
       "confidence": "low",
       "colour": "red"
@@ -13258,51 +13321,10 @@
       "colour": "red"
      }
     ],
-    "grunter": [
-     {
-      "location": "tin_can_bay",
-      "score": 85,
-      "window": {
-       "start": "00:00",
-       "end": "01:36",
-       "label": "high tide 00:36",
-       "start_iso": "2026-11-29T00:00+10:00",
-       "end_iso": "2026-11-29T01:36+10:00"
-      },
-      "confidence": "low",
-      "colour": "green"
-     },
-     {
-      "location": "carlo_point",
-      "score": 84,
-      "window": {
-       "start": "00:00",
-       "end": "01:36",
-       "label": "high tide 00:36",
-       "start_iso": "2026-11-29T00:00+10:00",
-       "end_iso": "2026-11-29T01:36+10:00"
-      },
-      "confidence": "low",
-      "colour": "green"
-     },
-     {
-      "location": "inskip_bay",
-      "score": 20,
-      "window": {
-       "start": "00:00",
-       "end": "01:36",
-       "label": "high tide 00:36",
-       "start_iso": "2026-11-29T00:00+10:00",
-       "end_iso": "2026-11-29T01:36+10:00"
-      },
-      "confidence": "low",
-      "colour": "red"
-     }
-    ],
     "trevally": [
      {
       "location": "tin_can_bay",
-      "score": 68,
+      "score": 69,
       "window": {
        "start": "00:00",
        "end": "01:36",
@@ -13369,7 +13391,7 @@
      },
      {
       "location": "carlo_point",
-      "score": 64,
+      "score": 65,
       "window": {
        "start": "14:55",
        "end": "20:11",
@@ -13378,7 +13400,7 @@
        "end_iso": "2026-11-29T20:11+10:00"
       },
       "confidence": "low",
-      "colour": "amber"
+      "colour": "green"
      },
      {
       "location": "inskip_bay",
@@ -13732,7 +13754,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.85,
       "lunar": 0.64,
       "reports": 0.55,
@@ -13804,7 +13826,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.85,
       "lunar": 0.64,
       "reports": 0.55
@@ -13875,7 +13897,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.85,
       "lunar": 0.64,
       "reports": 0.55
@@ -13932,7 +13954,7 @@
       "start_iso": "2026-11-30T03:25+10:00",
       "end_iso": "2026-11-30T07:29+10:00"
      },
-     "score": 85,
+     "score": 86,
      "colour": "green",
      "confidence": "low",
      "basis": [
@@ -13946,7 +13968,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.85,
       "lunar": 0.64,
       "reports": 0.55
@@ -14016,7 +14038,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.42,
       "reports": 0.35
@@ -14076,7 +14098,7 @@
       "swell": 1.0,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.42,
       "reports": 0.35
@@ -14136,7 +14158,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.42,
       "reports": 0.35
@@ -14197,7 +14219,7 @@
       "swell": 1.0,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.42,
       "reports": 0.35
@@ -14258,7 +14280,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.42,
       "reports": 0.35
@@ -14319,7 +14341,7 @@
       "swell": 1.0,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.42,
       "reports": 0.35
@@ -14689,14 +14711,14 @@
        }
       },
       {
-       "species": "mangrove_jack",
+       "species": "grunter",
        "score": 85,
        "window": {
-        "start": "15:47",
-        "end": "21:17",
-        "label": "major bite 17:02 + dusk + low tide 20:17",
-        "start_iso": "2026-11-30T15:47+10:00",
-        "end_iso": "2026-11-30T21:17+10:00"
+        "start": "00:02",
+        "end": "02:32",
+        "label": "high tide 01:32",
+        "start_iso": "2026-11-30T00:02+10:00",
+        "end_iso": "2026-11-30T02:32+10:00"
        }
       }
      ],
@@ -14771,14 +14793,14 @@
        }
       },
       {
-       "species": "whiting",
-       "score": 84,
+       "species": "grunter",
+       "score": 85,
        "window": {
-        "start": "12:45",
-        "end": "15:15",
-        "label": "high tide 14:15",
-        "start_iso": "2026-11-30T12:45+10:00",
-        "end_iso": "2026-11-30T15:15+10:00"
+        "start": "00:02",
+        "end": "02:32",
+        "label": "high tide 01:32",
+        "start_iso": "2026-11-30T00:02+10:00",
+        "end_iso": "2026-11-30T02:32+10:00"
        }
       }
      ],
@@ -15140,6 +15162,47 @@
       "colour": "red"
      }
     ],
+    "grunter": [
+     {
+      "location": "carlo_point",
+      "score": 85,
+      "window": {
+       "start": "00:02",
+       "end": "02:32",
+       "label": "high tide 01:32",
+       "start_iso": "2026-11-30T00:02+10:00",
+       "end_iso": "2026-11-30T02:32+10:00"
+      },
+      "confidence": "low",
+      "colour": "green"
+     },
+     {
+      "location": "tin_can_bay",
+      "score": 85,
+      "window": {
+       "start": "00:02",
+       "end": "02:32",
+       "label": "high tide 01:32",
+       "start_iso": "2026-11-30T00:02+10:00",
+       "end_iso": "2026-11-30T02:32+10:00"
+      },
+      "confidence": "low",
+      "colour": "green"
+     },
+     {
+      "location": "inskip_bay",
+      "score": 20,
+      "window": {
+       "start": "00:02",
+       "end": "02:32",
+       "label": "high tide 01:32",
+       "start_iso": "2026-11-30T00:02+10:00",
+       "end_iso": "2026-11-30T02:32+10:00"
+      },
+      "confidence": "low",
+      "colour": "red"
+     }
+    ],
     "whiting": [
      {
       "location": "carlo_point",
@@ -15189,47 +15252,6 @@
        "label": "high tide 00:10",
        "start_iso": "2026-11-30T00:00+10:00",
        "end_iso": "2026-11-30T01:10+10:00"
-      },
-      "confidence": "low",
-      "colour": "red"
-     }
-    ],
-    "grunter": [
-     {
-      "location": "carlo_point",
-      "score": 84,
-      "window": {
-       "start": "00:02",
-       "end": "02:32",
-       "label": "high tide 01:32",
-       "start_iso": "2026-11-30T00:02+10:00",
-       "end_iso": "2026-11-30T02:32+10:00"
-      },
-      "confidence": "low",
-      "colour": "green"
-     },
-     {
-      "location": "tin_can_bay",
-      "score": 84,
-      "window": {
-       "start": "00:02",
-       "end": "02:32",
-       "label": "high tide 01:32",
-       "start_iso": "2026-11-30T00:02+10:00",
-       "end_iso": "2026-11-30T02:32+10:00"
-      },
-      "confidence": "low",
-      "colour": "green"
-     },
-     {
-      "location": "inskip_bay",
-      "score": 20,
-      "window": {
-       "start": "00:02",
-       "end": "02:32",
-       "label": "high tide 01:32",
-       "start_iso": "2026-11-30T00:02+10:00",
-       "end_iso": "2026-11-30T02:32+10:00"
       },
       "confidence": "low",
       "colour": "red"
@@ -15292,7 +15314,7 @@
     "bream": [
      {
       "location": "tin_can_bay",
-      "score": 66,
+      "score": 67,
       "window": {
        "start": "03:25",
        "end": "07:29",
@@ -15305,7 +15327,7 @@
      },
      {
       "location": "carlo_point",
-      "score": 65,
+      "score": 66,
       "window": {
        "start": "15:47",
        "end": "21:17",
@@ -15593,20 +15615,20 @@
   }
  ],
  "health": {
-  "generated_at": "2026-11-23T00:54:27+10:00",
-  "next_scheduled": "2026-11-23T04:30:00+10:00",
+  "generated_at": "2026-11-23T09:36:16+10:00",
+  "next_scheduled": "2026-11-24T04:30:00+10:00",
   "sources": {
    "open_meteo_forecast": {
-    "ok": true,
+    "ok": false,
     "last_success": "2026-11-23T00:54:07+10:00",
     "items": 9,
-    "note": null,
-    "error": null,
-    "category": "weather"
+    "error": "HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=40)",
+    "category": "weather",
+    "stale": true
    },
    "open_meteo_marine": {
     "ok": true,
-    "last_success": "2026-11-23T00:54:08+10:00",
+    "last_success": "2026-11-23T09:35:56+10:00",
     "items": 2,
     "note": null,
     "error": null,
@@ -15614,7 +15636,7 @@
    },
    "bom_coastal": {
     "ok": true,
-    "last_success": "2026-11-23T00:54:11+10:00",
+    "last_success": "2026-11-23T09:35:59+10:00",
     "items": 2,
     "note": null,
     "error": null,
@@ -15622,7 +15644,7 @@
    },
    "bom_obs": {
     "ok": true,
-    "last_success": "2026-11-23T00:54:14+10:00",
+    "last_success": "2026-11-23T09:36:02+10:00",
     "items": 72,
     "note": null,
     "error": null,
@@ -15630,7 +15652,7 @@
    },
    "tides_noosa_head": {
     "ok": true,
-    "last_success": "2026-11-23T00:54:08+10:00",
+    "last_success": "2026-11-23T09:35:56+10:00",
     "items": 1410,
     "note": "cached",
     "error": null,
@@ -15638,7 +15660,7 @@
    },
    "tides_tin_can_bay": {
     "ok": true,
-    "last_success": "2026-11-23T00:54:08+10:00",
+    "last_success": "2026-11-23T09:35:56+10:00",
     "items": 1411,
     "note": "cached",
     "error": null,
@@ -15646,7 +15668,7 @@
    },
    "qpws_alerts": {
     "ok": true,
-    "last_success": "2026-11-23T00:54:08+10:00",
+    "last_success": "2026-11-23T09:35:57+10:00",
     "items": 12,
     "note": null,
     "error": null,
@@ -15654,7 +15676,7 @@
    },
    "coastwatch": {
     "ok": true,
-    "last_success": "2026-11-23T00:54:26+10:00",
+    "last_success": "2026-11-23T09:36:14+10:00",
     "items": 3,
     "note": "Fishing Report for 20 November 2026",
     "error": null,
@@ -15662,7 +15684,7 @@
    },
    "fishos": {
     "ok": true,
-    "last_success": "2026-11-23T00:54:27+10:00",
+    "last_success": "2026-11-23T09:36:15+10:00",
     "items": 3,
     "note": null,
     "error": null,
@@ -15670,7 +15692,7 @@
    },
    "gardiners_blog": {
     "ok": true,
-    "last_success": "2026-11-23T00:54:27+10:00",
+    "last_success": "2026-11-23T09:36:16+10:00",
     "items": 4,
     "note": null,
     "error": null,
@@ -15686,15 +15708,17 @@
    },
    "gsmp_zones": {
     "ok": true,
-    "last_success": "2026-11-23T00:54:27+10:00",
+    "last_success": "2026-11-23T09:36:16+10:00",
     "items": -1,
     "note": "cached",
     "error": null,
     "category": "map"
    }
   },
-  "stale_categories": [],
-  "overall": "ok"
+  "stale_categories": [
+   "weather"
+  ],
+  "overall": "degraded"
  },
- "generated_at": "2026-11-23T00:54:30+10:00"
+ "generated_at": "2026-11-23T09:36:18+10:00"
 }

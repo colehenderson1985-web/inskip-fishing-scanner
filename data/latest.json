@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T00:54:30+10:00",
+ "generated_at": "2026-11-23T09:36:18+10:00",
  "timezone": "Australia/Brisbane",
  "region": {
   "id": "inskip_rainbow",
@@ -46,27 +46,27 @@
  "brief": {
   "outlook": "good",
   "headline": "Good day to be out",
-  "summary": "S wind ~3 kn (offshore at Carlo Point), seas ~1.0 m. Best bet is grunter at Carlo Point 03:48–06:18 on the last of the run-in. The Chandlery (Coastwatch) reported grunter around Carlo Point on 20 Nov.",
+  "summary": "SSW wind ~3 kn (offshore at Tin Can Bay), seas ~1.0 m. Best bet is mangrove jack at Tin Can Bay 03:48–06:18 on the last of the run-in. The Chandlery (Coastwatch) reported mangrove jack around Tin Can Bay on 20 Nov.",
   "best_location": {
-   "id": "carlo_point",
-   "name": "Carlo Point",
-   "short": "Carlo Point",
-   "score": 93
+   "id": "tin_can_bay",
+   "name": "Tin Can Bay — foreshore & Snapper Creek",
+   "short": "Tin Can Bay",
+   "score": 94
   },
   "best_species": {
-   "id": "grunter",
-   "name": "Barred javelin (grunter)"
+   "id": "mangrove_jack",
+   "name": "Mangrove jack"
   },
   "windows": [
    {
-    "location": "Carlo Point",
-    "species": "Barred javelin (grunter)",
+    "location": "Tin Can Bay",
+    "species": "Mangrove jack",
     "start": "03:48",
     "end": "06:18",
-    "score": 93
+    "score": 94
    },
    {
-    "location": "Tin Can Bay",
+    "location": "Carlo Point",
     "species": "Barred javelin (grunter)",
     "start": "03:48",
     "end": "06:18",
@@ -86,7 +86,7 @@
    "Time of day (strong)",
    "Season (strong)"
   ],
-  "confidence": "high",
+  "confidence": "low",
   "warnings": [
    "QPWS Rainbow Beach Information Centre Closed",
    "Upper Noosa River – Campsite 3 – partial jetty closure (update 26 Oct)",
@@ -101,27 +101,27 @@
    "brief": {
     "outlook": "good",
     "headline": "Good day to be out",
-    "summary": "S wind ~3 kn (offshore at Carlo Point), seas ~1.0 m. Best bet is grunter at Carlo Point 03:48–06:18 on the last of the run-in. The Chandlery (Coastwatch) reported grunter around Carlo Point on 20 Nov.",
+    "summary": "SSW wind ~3 kn (offshore at Tin Can Bay), seas ~1.0 m. Best bet is mangrove jack at Tin Can Bay 03:48–06:18 on the last of the run-in. The Chandlery (Coastwatch) reported mangrove jack around Tin Can Bay on 20 Nov.",
     "best_location": {
-     "id": "carlo_point",
-     "name": "Carlo Point",
-     "short": "Carlo Point",
-     "score": 93
+     "id": "tin_can_bay",
+     "name": "Tin Can Bay — foreshore & Snapper Creek",
+     "short": "Tin Can Bay",
+     "score": 94
     },
     "best_species": {
-     "id": "grunter",
-     "name": "Barred javelin (grunter)"
+     "id": "mangrove_jack",
+     "name": "Mangrove jack"
     },
     "windows": [
      {
-      "location": "Carlo Point",
-      "species": "Barred javelin (grunter)",
+      "location": "Tin Can Bay",
+      "species": "Mangrove jack",
       "start": "03:48",
       "end": "06:18",
-      "score": 93
+      "score": 94
      },
      {
-      "location": "Tin Can Bay",
+      "location": "Carlo Point",
       "species": "Barred javelin (grunter)",
       "start": "03:48",
       "end": "06:18",
@@ -141,7 +141,7 @@
      "Time of day (strong)",
      "Season (strong)"
     ],
-    "confidence": "high",
+    "confidence": "low",
     "warnings": [
      "QPWS Rainbow Beach Information Centre Closed",
      "Upper Noosa River – Campsite 3 – partial jetty closure (update 26 Oct)",
@@ -202,8 +202,8 @@
    },
    "top": [
     {
-     "location": "carlo_point",
-     "species": "grunter",
+     "location": "tin_can_bay",
+     "species": "mangrove_jack",
      "window": {
       "start": "03:48",
       "end": "06:18",
@@ -211,9 +211,9 @@
       "start_iso": "2026-11-23T03:48+10:00",
       "end_iso": "2026-11-23T06:18+10:00"
      },
-     "score": 93,
+     "score": 94,
      "colour": "green",
-     "confidence": "high",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season",
@@ -225,7 +225,90 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
+      "rain": 0.7,
+      "lunar": 0.63,
+      "reports": 0.71,
+      "water_temp": 0.94
+     },
+     "warnings": [],
+     "conditions": {
+      "wind_kn": 3,
+      "gust_kn": 6,
+      "wind_dir": "SSW",
+      "wind_relation": "offshore",
+      "effective_wind_kn": 0.2,
+      "seas_m": 1.0,
+      "swell_m": 1.0,
+      "swell_period_s": 5,
+      "sst_c": 23.6,
+      "tide_stage": "rising_late",
+      "tide_range_m": 1.93,
+      "tide_next": {
+       "t": "2026-11-23T08:13+10:00",
+       "h": 2.23,
+       "type": "H"
+      },
+      "light": "dawn",
+      "rain_24h_mm": 1.7
+     },
+     "evidence": [
+      {
+       "source": "Coastwatch weekly fishing report",
+       "credit": "Coastwatch (Tin Can Bay section by The Chandlery Bait & Tackle)",
+       "date": "2026-11-20",
+       "catch_date": null,
+       "url": "https://coastwatch.com.au/articles/fishing-report-for-20-november-2026/",
+       "provenance": "automated",
+       "age_days": 3,
+       "weight": 0.74,
+       "excerpt": "Up the creeks, mangrove jacks have started to fire up."
+      },
+      {
+       "source": "Coastwatch weekly fishing report",
+       "credit": "Coastwatch (Tin Can Bay section by The Chandlery Bait & Tackle)",
+       "date": "2026-10-30",
+       "catch_date": "2026-10-27",
+       "url": "https://coastwatch.com.au/articles/fishing-report-for-30-october-2026/",
+       "provenance": "automated",
+       "age_days": 27,
+       "weight": 0.07,
+       "excerpt": "Mangrove jacks should also be active on the back of the fresh water and run-in tides."
+      }
+     ],
+     "solunar": {
+      "day_rating": "Good",
+      "major": null,
+      "minor": null
+     },
+     "explain": "SSW wind at ~3 kn is offshore for this shore; the window covers the last of the run-in, which suits mangrove jack; dawn is a preferred time for this species; mangrove jack are in peak season; 2 recent reports mention mangrove jack nearby (latest The Chandlery (Coastwatch), 2026-11-20).",
+     "rank": 1
+    },
+    {
+     "location": "carlo_point",
+     "species": "grunter",
+     "window": {
+      "start": "03:48",
+      "end": "06:18",
+      "label": "dawn",
+      "start_iso": "2026-11-23T03:48+10:00",
+      "end_iso": "2026-11-23T06:18+10:00"
+     },
+     "score": 93,
+     "colour": "green",
+     "confidence": "low",
+     "basis": [
+      "conditions",
+      "season",
+      "reports"
+     ],
+     "factors": {
+      "tide": 1.0,
+      "wind": 1.0,
+      "swell": 0.8,
+      "light": 1.0,
+      "season": 1.0,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.63,
       "reports": 0.75
@@ -292,7 +375,7 @@
       "minor": null
      },
      "explain": "S wind at ~3 kn is offshore for this shore; the window covers the last of the run-in, which suits grunter; dawn is a preferred time for this species; grunter are in peak season; 3 recent reports mention grunter nearby (latest The Chandlery (Coastwatch), 2026-11-20).",
-     "rank": 1
+     "rank": 2
     },
     {
      "location": "tin_can_bay",
@@ -306,7 +389,7 @@
      },
      "score": 93,
      "colour": "green",
-     "confidence": "high",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season",
@@ -318,7 +401,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.63,
       "reports": 0.75
@@ -385,89 +468,6 @@
       "minor": null
      },
      "explain": "SSW wind at ~3 kn is offshore for this shore; the window covers the last of the run-in, which suits grunter; dawn is a preferred time for this species; grunter are in peak season; 3 recent reports mention grunter nearby (latest The Chandlery (Coastwatch), 2026-11-20).",
-     "rank": 2
-    },
-    {
-     "location": "tin_can_bay",
-     "species": "mangrove_jack",
-     "window": {
-      "start": "03:48",
-      "end": "06:18",
-      "label": "dawn",
-      "start_iso": "2026-11-23T03:48+10:00",
-      "end_iso": "2026-11-23T06:18+10:00"
-     },
-     "score": 93,
-     "colour": "green",
-     "confidence": "high",
-     "basis": [
-      "conditions",
-      "season",
-      "reports"
-     ],
-     "factors": {
-      "tide": 1.0,
-      "wind": 1.0,
-      "swell": 0.8,
-      "light": 1.0,
-      "season": 1.0,
-      "pressure": 0.75,
-      "rain": 0.7,
-      "lunar": 0.63,
-      "reports": 0.71,
-      "water_temp": 0.94
-     },
-     "warnings": [],
-     "conditions": {
-      "wind_kn": 3,
-      "gust_kn": 6,
-      "wind_dir": "SSW",
-      "wind_relation": "offshore",
-      "effective_wind_kn": 0.2,
-      "seas_m": 1.0,
-      "swell_m": 1.0,
-      "swell_period_s": 5,
-      "sst_c": 23.6,
-      "tide_stage": "rising_late",
-      "tide_range_m": 1.93,
-      "tide_next": {
-       "t": "2026-11-23T08:13+10:00",
-       "h": 2.23,
-       "type": "H"
-      },
-      "light": "dawn",
-      "rain_24h_mm": 1.7
-     },
-     "evidence": [
-      {
-       "source": "Coastwatch weekly fishing report",
-       "credit": "Coastwatch (Tin Can Bay section by The Chandlery Bait & Tackle)",
-       "date": "2026-11-20",
-       "catch_date": null,
-       "url": "https://coastwatch.com.au/articles/fishing-report-for-20-november-2026/",
-       "provenance": "automated",
-       "age_days": 3,
-       "weight": 0.74,
-       "excerpt": "Up the creeks, mangrove jacks have started to fire up."
-      },
-      {
-       "source": "Coastwatch weekly fishing report",
-       "credit": "Coastwatch (Tin Can Bay section by The Chandlery Bait & Tackle)",
-       "date": "2026-10-30",
-       "catch_date": "2026-10-27",
-       "url": "https://coastwatch.com.au/articles/fishing-report-for-30-october-2026/",
-       "provenance": "automated",
-       "age_days": 27,
-       "weight": 0.07,
-       "excerpt": "Mangrove jacks should also be active on the back of the fresh water and run-in tides."
-      }
-     ],
-     "solunar": {
-      "day_rating": "Good",
-      "major": null,
-      "minor": null
-     },
-     "explain": "SSW wind at ~3 kn is offshore for this shore; the window covers the last of the run-in, which suits mangrove jack; dawn is a preferred time for this species; mangrove jack are in peak season; 2 recent reports mention mangrove jack nearby (latest The Chandlery (Coastwatch), 2026-11-20).",
      "rank": 3
     },
     {
@@ -480,9 +480,9 @@
       "start_iso": "2026-11-23T03:48+10:00",
       "end_iso": "2026-11-23T06:18+10:00"
      },
-     "score": 91,
+     "score": 92,
      "colour": "green",
-     "confidence": "high",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season",
@@ -494,7 +494,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.63,
       "reports": 0.69
@@ -553,7 +553,7 @@
      },
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season"
@@ -564,7 +564,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.63,
       "reports": 0.35
@@ -613,7 +613,7 @@
      },
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season"
@@ -624,7 +624,7 @@
       "swell": 1.0,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.63,
       "reports": 0.35
@@ -673,7 +673,7 @@
      },
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season"
@@ -684,7 +684,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.63,
       "reports": 0.35
@@ -733,7 +733,7 @@
      },
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season"
@@ -744,7 +744,7 @@
       "swell": 1.0,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.63,
       "reports": 0.35
@@ -793,7 +793,7 @@
      },
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season"
@@ -804,7 +804,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.63,
       "reports": 0.35
@@ -853,7 +853,7 @@
      },
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season"
@@ -864,7 +864,7 @@
       "swell": 1.0,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.63,
       "reports": 0.35
@@ -906,7 +906,7 @@
     "rainbow_town": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "tailor",
@@ -978,7 +978,7 @@
     "rainbow_north": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "tailor",
@@ -1051,7 +1051,7 @@
     "inskip_ocean": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "tailor",
@@ -1124,7 +1124,7 @@
     "inskip_bay": {
      "score": 20,
      "colour": "red",
-     "confidence": "high",
+     "confidence": "low",
      "best_species": [
       {
        "species": "whiting",
@@ -1208,7 +1208,7 @@
     "carlo_point": {
      "score": 93,
      "colour": "green",
-     "confidence": "high",
+     "confidence": "low",
      "best_species": [
       {
        "species": "grunter",
@@ -1223,7 +1223,7 @@
       },
       {
        "species": "whiting",
-       "score": 91,
+       "score": 92,
        "window": {
         "start": "03:48",
         "end": "06:18",
@@ -1234,7 +1234,7 @@
       },
       {
        "species": "mangrove_jack",
-       "score": 86,
+       "score": 87,
        "window": {
         "start": "03:48",
         "end": "06:18",
@@ -1310,10 +1310,21 @@
      ]
     },
     "tin_can_bay": {
-     "score": 93,
+     "score": 94,
      "colour": "green",
-     "confidence": "high",
+     "confidence": "low",
      "best_species": [
+      {
+       "species": "mangrove_jack",
+       "score": 94,
+       "window": {
+        "start": "03:48",
+        "end": "06:18",
+        "label": "dawn",
+        "start_iso": "2026-11-23T03:48+10:00",
+        "end_iso": "2026-11-23T06:18+10:00"
+       }
+      },
       {
        "species": "grunter",
        "score": 93,
@@ -1326,19 +1337,8 @@
        }
       },
       {
-       "species": "mangrove_jack",
-       "score": 93,
-       "window": {
-        "start": "03:48",
-        "end": "06:18",
-        "label": "dawn",
-        "start_iso": "2026-11-23T03:48+10:00",
-        "end_iso": "2026-11-23T06:18+10:00"
-       }
-      },
-      {
        "species": "whiting",
-       "score": 91,
+       "score": 92,
        "window": {
         "start": "03:48",
         "end": "06:18",
@@ -1376,7 +1376,7 @@
       "rain_24h_mm": 1.7
      },
      "warnings": [],
-     "explain": "SSW wind at ~3 kn is offshore for this shore; the window covers the last of the run-in, which suits grunter; dawn is a preferred time for this species; grunter are in peak season; 3 recent reports mention grunter nearby (latest The Chandlery (Coastwatch), 2026-11-20).",
+     "explain": "SSW wind at ~3 kn is offshore for this shore; the window covers the last of the run-in, which suits mangrove jack; dawn is a preferred time for this species; mangrove jack are in peak season; 2 recent reports mention mangrove jack nearby (latest The Chandlery (Coastwatch), 2026-11-20).",
      "evidence": [
       {
        "source": "Coastwatch weekly fishing report",
@@ -1387,18 +1387,7 @@
        "provenance": "automated",
        "age_days": 3,
        "weight": 0.74,
-       "excerpt": "The deeper holes in Teebar and Kauri creeks are also producing some quality grunter, with 3-inch prawn-profile lures and 80mm vibes proving particularly effective."
-      },
-      {
-       "source": "Coastwatch weekly fishing report",
-       "credit": "Coastwatch (Tin Can Bay section by The Chandlery Bait & Tackle)",
-       "date": "2026-11-06",
-       "catch_date": "2026-11-03",
-       "url": "https://coastwatch.com.au/articles/fishing-report-for-30-october-2026-2/",
-       "provenance": "automated",
-       "age_days": 20,
-       "weight": 0.14,
-       "excerpt": "Grunter have been reported in good numbers recently, while a few quality kingfish are still being caught in local creeks."
+       "excerpt": "Up the creeks, mangrove jacks have started to fire up."
       },
       {
        "source": "Coastwatch weekly fishing report",
@@ -1409,14 +1398,14 @@
        "provenance": "automated",
        "age_days": 27,
        "weight": 0.07,
-       "excerpt": "There have also been continued reports of quality grunter over recent weeks, while a few good king threadfin are still being caught throughout the local creek systems."
+       "excerpt": "Mangrove jacks should also be active on the back of the fresh water and run-in tides."
       }
      ]
     },
     "rainbow_to_dip": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "tailor",
@@ -1489,7 +1478,7 @@
     "dip_north": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "tailor",
@@ -1561,7 +1550,7 @@
     "teewah": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "tailor",
@@ -1658,16 +1647,16 @@
      },
      {
       "location": "Carlo Point",
-      "species": "Sand (summer) whiting",
-      "start": "07:36",
-      "end": "12:10",
-      "score": 90
-     },
-     {
-      "location": "Carlo Point",
       "species": "Barred javelin (grunter)",
       "start": "22:09",
       "end": "23:59",
+      "score": 91
+     },
+     {
+      "location": "Carlo Point",
+      "species": "Sand (summer) whiting",
+      "start": "03:48",
+      "end": "06:18",
       "score": 90
      },
      {
@@ -1684,7 +1673,7 @@
      "Time of day (strong)",
      "Season (strong)"
     ],
-    "confidence": "high",
+    "confidence": "low",
     "warnings": [
      "QPWS Rainbow Beach Information Centre Closed",
      "Upper Noosa River – Campsite 3 – partial jetty closure (update 26 Oct)",
@@ -1756,7 +1745,7 @@
      },
      "score": 93,
      "colour": "green",
-     "confidence": "high",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season",
@@ -1768,7 +1757,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.84,
       "reports": 0.67
@@ -1827,7 +1816,7 @@
      },
      "score": 93,
      "colour": "green",
-     "confidence": "high",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season",
@@ -1839,7 +1828,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.84,
       "reports": 0.67
@@ -1888,77 +1877,6 @@
     },
     {
      "location": "carlo_point",
-     "species": "whiting",
-     "window": {
-      "start": "07:36",
-      "end": "12:10",
-      "label": "high tide 09:06 + major bite 10:55",
-      "start_iso": "2026-11-24T07:36+10:00",
-      "end_iso": "2026-11-24T12:10+10:00"
-     },
-     "score": 90,
-     "colour": "green",
-     "confidence": "high",
-     "basis": [
-      "conditions",
-      "season",
-      "reports"
-     ],
-     "factors": {
-      "tide": 0.99,
-      "wind": 0.83,
-      "swell": 0.8,
-      "light": 1.0,
-      "season": 1.0,
-      "pressure": 0.75,
-      "rain": 0.7,
-      "lunar": 0.94,
-      "reports": 0.67
-     },
-     "warnings": [],
-     "conditions": {
-      "wind_kn": 6,
-      "gust_kn": 15,
-      "wind_dir": "ENE",
-      "wind_relation": "onshore",
-      "effective_wind_kn": 5.7,
-      "seas_m": 1.1,
-      "swell_m": 1.1,
-      "swell_period_s": 7,
-      "sst_c": 23.9,
-      "tide_stage": "high_turn",
-      "tide_range_m": 1.81,
-      "tide_next": {
-       "t": "2026-11-24T14:29+10:00",
-       "h": 0.59,
-       "type": "L"
-      },
-      "light": "day",
-      "rain_24h_mm": 0.4
-     },
-     "evidence": [
-      {
-       "source": "Coastwatch weekly fishing report",
-       "credit": "Coastwatch (Tin Can Bay section by The Chandlery Bait & Tackle)",
-       "date": "2026-11-20",
-       "catch_date": null,
-       "url": "https://coastwatch.com.au/articles/fishing-report-for-20-november-2026/",
-       "provenance": "automated",
-       "age_days": 4,
-       "weight": 0.67,
-       "excerpt": "Whiting remain in good numbers and the lead-up to Wednesday’s full moon should see the evening high tides this weekend fish particularly well."
-      }
-     ],
-     "solunar": {
-      "day_rating": "Best",
-      "major": "underfoot",
-      "minor": null
-     },
-     "explain": "ENE wind at ~6 kn is onshore; the window covers the top of the tide, which suits whiting; day is a preferred time for this species; the window also catches a major bite time (moon underfoot 10:55) on a best lunar day; whiting are in peak season; 1 recent report mentions whiting nearby (latest The Chandlery (Coastwatch), 2026-11-20).",
-     "rank": 3
-    },
-    {
-     "location": "carlo_point",
      "species": "grunter",
      "window": {
       "start": "22:09",
@@ -1967,9 +1885,9 @@
       "start_iso": "2026-11-24T22:09+10:00",
       "end_iso": "2026-11-24T23:59+10:00"
      },
-     "score": 90,
+     "score": 91,
      "colour": "green",
-     "confidence": "high",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season",
@@ -1981,7 +1899,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.73
@@ -2048,6 +1966,77 @@
       "minor": null
      },
      "explain": "NE wind at ~6 kn is onshore; the window covers the start of the run-out, which suits grunter; night is a preferred time for this species; the window also catches a major bite time (moon overhead 23:24) on a best lunar day; grunter are in peak season; 3 recent reports mention grunter nearby (latest The Chandlery (Coastwatch), 2026-11-20).",
+     "rank": 3
+    },
+    {
+     "location": "carlo_point",
+     "species": "whiting",
+     "window": {
+      "start": "03:48",
+      "end": "06:18",
+      "label": "dawn",
+      "start_iso": "2026-11-24T03:48+10:00",
+      "end_iso": "2026-11-24T06:18+10:00"
+     },
+     "score": 90,
+     "colour": "green",
+     "confidence": "low",
+     "basis": [
+      "conditions",
+      "season",
+      "reports"
+     ],
+     "factors": {
+      "tide": 1.0,
+      "wind": 0.83,
+      "swell": 0.8,
+      "light": 1.0,
+      "season": 1.0,
+      "pressure": 0.8,
+      "rain": 0.7,
+      "lunar": 0.84,
+      "reports": 0.67
+     },
+     "warnings": [],
+     "conditions": {
+      "wind_kn": 2,
+      "gust_kn": 4,
+      "wind_dir": "NE",
+      "wind_relation": "onshore",
+      "effective_wind_kn": 1.6,
+      "seas_m": 1.1,
+      "swell_m": 1.1,
+      "swell_period_s": 6,
+      "sst_c": 23.6,
+      "tide_stage": "rising_early",
+      "tide_range_m": 2.15,
+      "tide_next": {
+       "t": "2026-11-24T09:06+10:00",
+       "h": 2.4,
+       "type": "H"
+      },
+      "light": "dawn",
+      "rain_24h_mm": 0.4
+     },
+     "evidence": [
+      {
+       "source": "Coastwatch weekly fishing report",
+       "credit": "Coastwatch (Tin Can Bay section by The Chandlery Bait & Tackle)",
+       "date": "2026-11-20",
+       "catch_date": null,
+       "url": "https://coastwatch.com.au/articles/fishing-report-for-20-november-2026/",
+       "provenance": "automated",
+       "age_days": 4,
+       "weight": 0.67,
+       "excerpt": "Whiting remain in good numbers and the lead-up to Wednesday’s full moon should see the evening high tides this weekend fish particularly well."
+      }
+     ],
+     "solunar": {
+      "day_rating": "Best",
+      "major": null,
+      "minor": "moonset"
+     },
+     "explain": "NE wind at ~2 kn is onshore; the window covers the early run-in, which suits whiting; dawn is a preferred time for this species; the window also catches a minor bite time (moonset 03:51); whiting are in peak season; 1 recent report mentions whiting nearby (latest The Chandlery (Coastwatch), 2026-11-20).",
      "rank": 4
     },
     {
@@ -2062,7 +2051,7 @@
      },
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season"
@@ -2073,7 +2062,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.72,
       "reports": 0.35
@@ -2122,7 +2111,7 @@
      },
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season"
@@ -2133,7 +2122,7 @@
       "swell": 1.0,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.72,
       "reports": 0.35
@@ -2182,7 +2171,7 @@
      },
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season"
@@ -2193,7 +2182,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.72,
       "reports": 0.35
@@ -2242,7 +2231,7 @@
      },
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season"
@@ -2253,7 +2242,7 @@
       "swell": 1.0,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.72,
       "reports": 0.35
@@ -2302,7 +2291,7 @@
      },
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season"
@@ -2313,7 +2302,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.72,
       "reports": 0.35
@@ -2362,7 +2351,7 @@
      },
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season"
@@ -2373,7 +2362,7 @@
       "swell": 1.0,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.72,
       "reports": 0.35
@@ -2415,7 +2404,7 @@
     "rainbow_town": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "tailor",
@@ -2487,7 +2476,7 @@
     "rainbow_north": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "tailor",
@@ -2560,7 +2549,7 @@
     "inskip_ocean": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "tailor",
@@ -2633,7 +2622,7 @@
     "inskip_bay": {
      "score": 20,
      "colour": "red",
-     "confidence": "high",
+     "confidence": "low",
      "best_species": [
       {
        "species": "whiting",
@@ -2715,24 +2704,13 @@
      ]
     },
     "carlo_point": {
-     "score": 90,
+     "score": 91,
      "colour": "green",
-     "confidence": "high",
+     "confidence": "low",
      "best_species": [
       {
-       "species": "whiting",
-       "score": 90,
-       "window": {
-        "start": "07:36",
-        "end": "12:10",
-        "label": "high tide 09:06 + major bite 10:55",
-        "start_iso": "2026-11-24T07:36+10:00",
-        "end_iso": "2026-11-24T12:10+10:00"
-       }
-      },
-      {
        "species": "grunter",
-       "score": 90,
+       "score": 91,
        "window": {
         "start": "22:09",
         "end": "23:59",
@@ -2742,8 +2720,19 @@
        }
       },
       {
+       "species": "whiting",
+       "score": 90,
+       "window": {
+        "start": "03:48",
+        "end": "06:18",
+        "label": "dawn",
+        "start_iso": "2026-11-24T03:48+10:00",
+        "end_iso": "2026-11-24T06:18+10:00"
+       }
+      },
+      {
        "species": "flathead",
-       "score": 89,
+       "score": 90,
        "window": {
         "start": "03:48",
         "end": "06:18",
@@ -2754,34 +2743,34 @@
       }
      ],
      "best_window": {
-      "start": "07:36",
-      "end": "12:10",
-      "label": "high tide 09:06 + major bite 10:55",
-      "start_iso": "2026-11-24T07:36+10:00",
-      "end_iso": "2026-11-24T12:10+10:00"
+      "start": "22:09",
+      "end": "23:59",
+      "label": "major bite 23:24",
+      "start_iso": "2026-11-24T22:09+10:00",
+      "end_iso": "2026-11-24T23:59+10:00"
      },
      "conditions": {
       "wind_kn": 6,
-      "gust_kn": 15,
-      "wind_dir": "ENE",
+      "gust_kn": 12,
+      "wind_dir": "NE",
       "wind_relation": "onshore",
-      "effective_wind_kn": 5.7,
-      "seas_m": 1.1,
-      "swell_m": 1.1,
+      "effective_wind_kn": 5.8,
+      "seas_m": 1.3,
+      "swell_m": 1.2,
       "swell_period_s": 7,
       "sst_c": 23.9,
-      "tide_stage": "high_turn",
-      "tide_range_m": 1.81,
+      "tide_stage": "falling_early",
+      "tide_range_m": 1.64,
       "tide_next": {
-       "t": "2026-11-24T14:29+10:00",
-       "h": 0.59,
+       "t": "2026-11-25T02:14+10:00",
+       "h": 0.25,
        "type": "L"
       },
-      "light": "day",
-      "rain_24h_mm": 0.4
+      "light": "night",
+      "rain_24h_mm": 0
      },
      "warnings": [],
-     "explain": "ENE wind at ~6 kn is onshore; the window covers the top of the tide, which suits whiting; day is a preferred time for this species; the window also catches a major bite time (moon underfoot 10:55) on a best lunar day; whiting are in peak season; 1 recent report mentions whiting nearby (latest The Chandlery (Coastwatch), 2026-11-20).",
+     "explain": "NE wind at ~6 kn is onshore; the window covers the start of the run-out, which suits grunter; night is a preferred time for this species; the window also catches a major bite time (moon overhead 23:24) on a best lunar day; grunter are in peak season; 3 recent reports mention grunter nearby (latest The Chandlery (Coastwatch), 2026-11-20).",
      "evidence": [
       {
        "source": "Coastwatch weekly fishing report",
@@ -2792,14 +2781,36 @@
        "provenance": "automated",
        "age_days": 4,
        "weight": 0.67,
-       "excerpt": "Whiting remain in good numbers and the lead-up to Wednesday’s full moon should see the evening high tides this weekend fish particularly well."
+       "excerpt": "The deeper holes in Teebar and Kauri creeks are also producing some quality grunter, with 3-inch prawn-profile lures and 80mm vibes proving particularly effective."
+      },
+      {
+       "source": "Coastwatch weekly fishing report",
+       "credit": "Coastwatch (Tin Can Bay section by The Chandlery Bait & Tackle)",
+       "date": "2026-11-06",
+       "catch_date": "2026-11-03",
+       "url": "https://coastwatch.com.au/articles/fishing-report-for-30-october-2026-2/",
+       "provenance": "automated",
+       "age_days": 21,
+       "weight": 0.12,
+       "excerpt": "Grunter have been reported in good numbers recently, while a few quality kingfish are still being caught in local creeks."
+      },
+      {
+       "source": "Coastwatch weekly fishing report",
+       "credit": "Coastwatch (Tin Can Bay section by The Chandlery Bait & Tackle)",
+       "date": "2026-10-30",
+       "catch_date": "2026-10-27",
+       "url": "https://coastwatch.com.au/articles/fishing-report-for-30-october-2026/",
+       "provenance": "automated",
+       "age_days": 28,
+       "weight": 0.06,
+       "excerpt": "There have also been continued reports of quality grunter over recent weeks, while a few good king threadfin are still being caught throughout the local creek systems."
       }
      ]
     },
     "tin_can_bay": {
      "score": 93,
      "colour": "green",
-     "confidence": "high",
+     "confidence": "low",
      "best_species": [
       {
        "species": "whiting",
@@ -2825,7 +2836,7 @@
       },
       {
        "species": "grunter",
-       "score": 90,
+       "score": 91,
        "window": {
         "start": "22:09",
         "end": "23:59",
@@ -2881,7 +2892,7 @@
     "rainbow_to_dip": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "tailor",
@@ -2954,7 +2965,7 @@
     "dip_north": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "tailor",
@@ -3026,7 +3037,7 @@
     "teewah": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "tailor",
@@ -3102,7 +3113,7 @@
    "brief": {
     "outlook": "good",
     "headline": "Good day to be out",
-    "summary": "E wind ~8 kn (cross at Carlo Point), seas ~1.2 m. Best bet is whiting at Carlo Point 08:27–13:14 on the top of the tide. The Chandlery (Coastwatch) reported whiting around Carlo Point on 20 Nov.",
+    "summary": "ESE wind ~3 kn (cross at Carlo Point), seas ~1.2 m. Best bet is whiting at Carlo Point 03:48–06:18 on the early run-in. The Chandlery (Coastwatch) reported whiting around Carlo Point on 20 Nov.",
     "best_location": {
      "id": "carlo_point",
      "name": "Carlo Point",
@@ -3117,23 +3128,16 @@
      {
       "location": "Carlo Point",
       "species": "Sand (summer) whiting",
-      "start": "08:27",
-      "end": "13:14",
-      "score": 91
-     },
-     {
-      "location": "Carlo Point",
-      "species": "Sand (summer) whiting",
       "start": "03:48",
       "end": "06:18",
-      "score": 90
+      "score": 91
      },
      {
       "location": "Tin Can Bay",
       "species": "Sand (summer) whiting",
       "start": "03:48",
       "end": "06:18",
-      "score": 90
+      "score": 91
      },
      {
       "location": "Rainbow (town)",
@@ -3147,9 +3151,9 @@
      "Tide stage (strong)",
      "Time of day (strong)",
      "Season (strong)",
-     "Moon / bite times (strong)"
+     "Wind vs shore (strong)"
     ],
-    "confidence": "high",
+    "confidence": "low",
     "warnings": [
      "QPWS Rainbow Beach Information Centre Closed",
      "Upper Noosa River – Campsite 3 – partial jetty closure (update 26 Oct)",
@@ -3207,86 +3211,15 @@
      "location": "carlo_point",
      "species": "whiting",
      "window": {
-      "start": "08:27",
-      "end": "13:14",
-      "label": "high tide 09:57 + major bite 11:59",
-      "start_iso": "2026-11-25T08:27+10:00",
-      "end_iso": "2026-11-25T13:14+10:00"
-     },
-     "score": 91,
-     "colour": "green",
-     "confidence": "high",
-     "basis": [
-      "conditions",
-      "season",
-      "reports"
-     ],
-     "factors": {
-      "tide": 1.0,
-      "wind": 0.89,
-      "swell": 0.8,
-      "light": 1.0,
-      "season": 1.0,
-      "pressure": 0.75,
-      "rain": 0.7,
-      "lunar": 0.94,
-      "reports": 0.65
-     },
-     "warnings": [],
-     "conditions": {
-      "wind_kn": 8,
-      "gust_kn": 20,
-      "wind_dir": "E",
-      "wind_relation": "cross",
-      "effective_wind_kn": 8.1,
-      "seas_m": 1.2,
-      "swell_m": 1.2,
-      "swell_period_s": 7,
-      "sst_c": 24.0,
-      "tide_stage": "high_turn",
-      "tide_range_m": 1.96,
-      "tide_next": {
-       "t": "2026-11-25T15:19+10:00",
-       "h": 0.57,
-       "type": "L"
-      },
-      "light": "day",
-      "rain_24h_mm": 0.9
-     },
-     "evidence": [
-      {
-       "source": "Coastwatch weekly fishing report",
-       "credit": "Coastwatch (Tin Can Bay section by The Chandlery Bait & Tackle)",
-       "date": "2026-11-20",
-       "catch_date": null,
-       "url": "https://coastwatch.com.au/articles/fishing-report-for-20-november-2026/",
-       "provenance": "automated",
-       "age_days": 5,
-       "weight": 0.61,
-       "excerpt": "Whiting remain in good numbers and the lead-up to Wednesday’s full moon should see the evening high tides this weekend fish particularly well."
-      }
-     ],
-     "solunar": {
-      "day_rating": "Best",
-      "major": "underfoot",
-      "minor": null
-     },
-     "explain": "E wind at ~8 kn is across the beach; the window covers the top of the tide, which suits whiting; day is a preferred time for this species; the window also catches a major bite time (moon underfoot 11:59) on a best lunar day; whiting are in peak season; 1 recent report mentions whiting nearby (latest The Chandlery (Coastwatch), 2026-11-20).",
-     "rank": 1
-    },
-    {
-     "location": "carlo_point",
-     "species": "whiting",
-     "window": {
       "start": "03:48",
       "end": "06:18",
       "label": "dawn",
       "start_iso": "2026-11-25T03:48+10:00",
       "end_iso": "2026-11-25T06:18+10:00"
      },
-     "score": 90,
+     "score": 91,
      "colour": "green",
-     "confidence": "high",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season",
@@ -3298,7 +3231,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.84,
       "reports": 0.65
@@ -3343,6 +3276,77 @@
       "minor": "moonset"
      },
      "explain": "ESE wind at ~3 kn is across the beach; the window covers the early run-in, which suits whiting; dawn is a preferred time for this species; the window also catches a minor bite time (moonset 04:44); whiting are in peak season; 1 recent report mentions whiting nearby (latest The Chandlery (Coastwatch), 2026-11-20).",
+     "rank": 1
+    },
+    {
+     "location": "carlo_point",
+     "species": "flathead",
+     "window": {
+      "start": "03:48",
+      "end": "06:18",
+      "label": "dawn",
+      "start_iso": "2026-11-25T03:48+10:00",
+      "end_iso": "2026-11-25T06:18+10:00"
+     },
+     "score": 91,
+     "colour": "green",
+     "confidence": "low",
+     "basis": [
+      "conditions",
+      "season",
+      "reports"
+     ],
+     "factors": {
+      "tide": 1.0,
+      "wind": 0.89,
+      "swell": 0.8,
+      "light": 1.0,
+      "season": 1.0,
+      "pressure": 0.8,
+      "rain": 0.7,
+      "lunar": 0.84,
+      "reports": 0.65
+     },
+     "warnings": [],
+     "conditions": {
+      "wind_kn": 3,
+      "gust_kn": 7,
+      "wind_dir": "ESE",
+      "wind_relation": "cross",
+      "effective_wind_kn": 3.4,
+      "seas_m": 1.2,
+      "swell_m": 1.2,
+      "swell_period_s": 7,
+      "sst_c": 23.8,
+      "tide_stage": "rising_early",
+      "tide_range_m": 2.28,
+      "tide_next": {
+       "t": "2026-11-25T09:57+10:00",
+       "h": 2.53,
+       "type": "H"
+      },
+      "light": "dawn",
+      "rain_24h_mm": 0
+     },
+     "evidence": [
+      {
+       "source": "Coastwatch weekly fishing report",
+       "credit": "Coastwatch (Tin Can Bay section by The Chandlery Bait & Tackle)",
+       "date": "2026-11-20",
+       "catch_date": null,
+       "url": "https://coastwatch.com.au/articles/fishing-report-for-20-november-2026/",
+       "provenance": "automated",
+       "age_days": 5,
+       "weight": 0.61,
+       "excerpt": "Within the bay, some nice flathead are coming from the weed beds and drop-offs."
+      }
+     ],
+     "solunar": {
+      "day_rating": "Best",
+      "major": null,
+      "minor": "moonset"
+     },
+     "explain": "ESE wind at ~3 kn is across the beach; the window covers the early run-in, which suits flathead; dawn is a preferred time for this species; the window also catches a minor bite time (moonset 04:44); flathead are in peak season; 1 recent report mentions flathead nearby (latest The Chandlery (Coastwatch), 2026-11-20).",
      "rank": 2
     },
     {
@@ -3355,9 +3359,9 @@
       "start_iso": "2026-11-25T03:48+10:00",
       "end_iso": "2026-11-25T06:18+10:00"
      },
-     "score": 90,
+     "score": 91,
      "colour": "green",
-     "confidence": "high",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season",
@@ -3369,7 +3373,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.84,
       "reports": 0.65
@@ -3426,9 +3430,9 @@
       "start_iso": "2026-11-25T03:48+10:00",
       "end_iso": "2026-11-25T06:18+10:00"
      },
-     "score": 90,
+     "score": 91,
      "colour": "green",
-     "confidence": "high",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season",
@@ -3440,7 +3444,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.84,
       "reports": 0.65
@@ -3499,7 +3503,7 @@
      },
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season"
@@ -3510,7 +3514,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.72,
       "reports": 0.35
@@ -3559,7 +3563,7 @@
      },
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season"
@@ -3570,7 +3574,7 @@
       "swell": 0.93,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.72,
       "reports": 0.35
@@ -3619,7 +3623,7 @@
      },
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season"
@@ -3630,7 +3634,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.72,
       "reports": 0.35
@@ -3679,7 +3683,7 @@
      },
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season"
@@ -3690,7 +3694,7 @@
       "swell": 0.93,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.72,
       "reports": 0.35
@@ -3739,7 +3743,7 @@
      },
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season"
@@ -3750,7 +3754,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.72,
       "reports": 0.35
@@ -3799,7 +3803,7 @@
      },
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season"
@@ -3810,7 +3814,7 @@
       "swell": 1.0,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.72,
       "reports": 0.35
@@ -3852,7 +3856,7 @@
     "rainbow_town": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "tailor",
@@ -3924,7 +3928,7 @@
     "rainbow_north": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "tailor",
@@ -3997,7 +4001,7 @@
     "inskip_ocean": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "tailor",
@@ -4070,7 +4074,7 @@
     "inskip_bay": {
      "score": 20,
      "colour": "red",
-     "confidence": "high",
+     "confidence": "low",
      "best_species": [
       {
        "species": "whiting",
@@ -4154,22 +4158,22 @@
     "carlo_point": {
      "score": 91,
      "colour": "green",
-     "confidence": "high",
+     "confidence": "low",
      "best_species": [
       {
        "species": "whiting",
        "score": 91,
        "window": {
-        "start": "08:27",
-        "end": "13:14",
-        "label": "high tide 09:57 + major bite 11:59",
-        "start_iso": "2026-11-25T08:27+10:00",
-        "end_iso": "2026-11-25T13:14+10:00"
+        "start": "03:48",
+        "end": "06:18",
+        "label": "dawn",
+        "start_iso": "2026-11-25T03:48+10:00",
+        "end_iso": "2026-11-25T06:18+10:00"
        }
       },
       {
        "species": "flathead",
-       "score": 90,
+       "score": 91,
        "window": {
         "start": "03:48",
         "end": "06:18",
@@ -4180,7 +4184,7 @@
       },
       {
        "species": "grunter",
-       "score": 88,
+       "score": 89,
        "window": {
         "start": "20:27",
         "end": "22:57",
@@ -4191,34 +4195,34 @@
       }
      ],
      "best_window": {
-      "start": "08:27",
-      "end": "13:14",
-      "label": "high tide 09:57 + major bite 11:59",
-      "start_iso": "2026-11-25T08:27+10:00",
-      "end_iso": "2026-11-25T13:14+10:00"
+      "start": "03:48",
+      "end": "06:18",
+      "label": "dawn",
+      "start_iso": "2026-11-25T03:48+10:00",
+      "end_iso": "2026-11-25T06:18+10:00"
      },
      "conditions": {
-      "wind_kn": 8,
-      "gust_kn": 20,
-      "wind_dir": "E",
+      "wind_kn": 3,
+      "gust_kn": 7,
+      "wind_dir": "ESE",
       "wind_relation": "cross",
-      "effective_wind_kn": 8.1,
+      "effective_wind_kn": 3.4,
       "seas_m": 1.2,
       "swell_m": 1.2,
       "swell_period_s": 7,
-      "sst_c": 24.0,
-      "tide_stage": "high_turn",
-      "tide_range_m": 1.96,
+      "sst_c": 23.8,
+      "tide_stage": "rising_early",
+      "tide_range_m": 2.28,
       "tide_next": {
-       "t": "2026-11-25T15:19+10:00",
-       "h": 0.57,
-       "type": "L"
+       "t": "2026-11-25T09:57+10:00",
+       "h": 2.53,
+       "type": "H"
       },
-      "light": "day",
-      "rain_24h_mm": 0.9
+      "light": "dawn",
+      "rain_24h_mm": 0
      },
      "warnings": [],
-     "explain": "E wind at ~8 kn is across the beach; the window covers the top of the tide, which suits whiting; day is a preferred time for this species; the window also catches a major bite time (moon underfoot 11:59) on a best lunar day; whiting are in peak season; 1 recent report mentions whiting nearby (latest The Chandlery (Coastwatch), 2026-11-20).",
+     "explain": "ESE wind at ~3 kn is across the beach; the window covers the early run-in, which suits whiting; dawn is a preferred time for this species; the window also catches a minor bite time (moonset 04:44); whiting are in peak season; 1 recent report mentions whiting nearby (latest The Chandlery (Coastwatch), 2026-11-20).",
      "evidence": [
       {
        "source": "Coastwatch weekly fishing report",
@@ -4234,13 +4238,13 @@
      ]
     },
     "tin_can_bay": {
-     "score": 90,
+     "score": 91,
      "colour": "green",
-     "confidence": "high",
+     "confidence": "low",
      "best_species": [
       {
        "species": "whiting",
-       "score": 90,
+       "score": 91,
        "window": {
         "start": "03:48",
         "end": "06:18",
@@ -4251,7 +4255,7 @@
       },
       {
        "species": "flathead",
-       "score": 90,
+       "score": 91,
        "window": {
         "start": "03:48",
         "end": "06:18",
@@ -4262,7 +4266,7 @@
       },
       {
        "species": "grunter",
-       "score": 88,
+       "score": 89,
        "window": {
         "start": "20:27",
         "end": "22:57",
@@ -4318,7 +4322,7 @@
     "rainbow_to_dip": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "tailor",
@@ -4391,7 +4395,7 @@
     "dip_north": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "tailor",
@@ -4463,7 +4467,7 @@
     "teewah": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "tailor",
@@ -4544,7 +4548,7 @@
      "id": "carlo_point",
      "name": "Carlo Point",
      "short": "Carlo Point",
-     "score": 90
+     "score": 91
     },
     "best_species": {
      "id": "flathead",
@@ -4556,28 +4560,28 @@
       "species": "Dusky flathead",
       "start": "11:50",
       "end": "14:20",
-      "score": 90
+      "score": 91
      },
      {
       "location": "Tin Can Bay",
       "species": "Dusky flathead",
       "start": "11:50",
       "end": "14:20",
-      "score": 90
+      "score": 91
      },
      {
       "location": "Carlo Point",
       "species": "Sand (summer) whiting",
       "start": "09:15",
       "end": "11:45",
-      "score": 88
+      "score": 89
      },
      {
       "location": "Tin Can Bay",
       "species": "Sand (summer) whiting",
       "start": "09:15",
       "end": "11:45",
-      "score": 88
+      "score": 89
      }
     ],
     "drivers": [
@@ -4586,7 +4590,7 @@
      "Season (strong)",
      "Moon / bite times (strong)"
     ],
-    "confidence": "medium",
+    "confidence": "low",
     "warnings": [
      "QPWS Rainbow Beach Information Centre Closed",
      "Upper Noosa River – Campsite 3 – partial jetty closure (update 26 Oct)",
@@ -4656,9 +4660,9 @@
       "start_iso": "2026-11-26T11:50+10:00",
       "end_iso": "2026-11-26T14:20+10:00"
      },
-     "score": 90,
+     "score": 91,
      "colour": "green",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season",
@@ -4670,7 +4674,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.63
@@ -4727,9 +4731,9 @@
       "start_iso": "2026-11-26T11:50+10:00",
       "end_iso": "2026-11-26T14:20+10:00"
      },
-     "score": 90,
+     "score": 91,
      "colour": "green",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season",
@@ -4741,7 +4745,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.63
@@ -4798,9 +4802,9 @@
       "start_iso": "2026-11-26T09:15+10:00",
       "end_iso": "2026-11-26T11:45+10:00"
      },
-     "score": 88,
+     "score": 89,
      "colour": "green",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season",
@@ -4812,7 +4816,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.72,
       "reports": 0.63
@@ -4869,9 +4873,9 @@
       "start_iso": "2026-11-26T09:15+10:00",
       "end_iso": "2026-11-26T11:45+10:00"
      },
-     "score": 88,
+     "score": 89,
      "colour": "green",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season",
@@ -4883,7 +4887,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.72,
       "reports": 0.63
@@ -4953,7 +4957,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.35
@@ -5013,7 +5017,7 @@
       "swell": 0.8,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.35
@@ -5073,7 +5077,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.35
@@ -5133,7 +5137,7 @@
       "swell": 0.8,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.35
@@ -5193,7 +5197,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.35
@@ -5253,7 +5257,7 @@
       "swell": 1.0,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.35
@@ -5513,7 +5517,7 @@
     "inskip_bay": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "whiting",
@@ -5595,13 +5599,13 @@
      ]
     },
     "carlo_point": {
-     "score": 90,
+     "score": 91,
      "colour": "green",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "flathead",
-       "score": 90,
+       "score": 91,
        "window": {
         "start": "11:50",
         "end": "14:20",
@@ -5612,7 +5616,7 @@
       },
       {
        "species": "whiting",
-       "score": 88,
+       "score": 89,
        "window": {
         "start": "09:15",
         "end": "11:45",
@@ -5623,7 +5627,7 @@
       },
       {
        "species": "grunter",
-       "score": 87,
+       "score": 88,
        "window": {
         "start": "21:20",
         "end": "23:50",
@@ -5677,13 +5681,13 @@
      ]
     },
     "tin_can_bay": {
-     "score": 90,
+     "score": 91,
      "colour": "green",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "flathead",
-       "score": 90,
+       "score": 91,
        "window": {
         "start": "11:50",
         "end": "14:20",
@@ -5694,7 +5698,7 @@
       },
       {
        "species": "whiting",
-       "score": 88,
+       "score": 89,
        "window": {
         "start": "09:15",
         "end": "11:45",
@@ -5705,7 +5709,7 @@
       },
       {
        "species": "grunter",
-       "score": 87,
+       "score": 88,
        "window": {
         "start": "21:20",
         "end": "23:50",
@@ -6017,10 +6021,10 @@
      },
      {
       "location": "Tin Can Bay",
-      "species": "Sand (summer) whiting",
-      "start": "10:04",
-      "end": "12:34",
-      "score": 87
+      "species": "Barred javelin (grunter)",
+      "start": "22:13",
+      "end": "23:59",
+      "score": 88
      }
     ],
     "drivers": [
@@ -6029,7 +6033,7 @@
      "Season (strong)",
      "Moon / bite times (strong)"
     ],
-    "confidence": "medium",
+    "confidence": "low",
     "warnings": [
      "QPWS Rainbow Beach Information Centre Closed",
      "Upper Noosa River – Campsite 3 – partial jetty closure (update 26 Oct)",
@@ -6101,7 +6105,7 @@
      },
      "score": 92,
      "colour": "green",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season",
@@ -6113,7 +6117,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.85,
       "lunar": 0.94,
       "reports": 0.61
@@ -6172,7 +6176,7 @@
      },
      "score": 90,
      "colour": "green",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season",
@@ -6184,7 +6188,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.85,
       "lunar": 0.72,
       "reports": 0.61
@@ -6243,7 +6247,7 @@
      },
      "score": 89,
      "colour": "green",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season",
@@ -6255,7 +6259,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.85,
       "lunar": 0.94,
       "reports": 0.61
@@ -6304,53 +6308,53 @@
     },
     {
      "location": "tin_can_bay",
-     "species": "whiting",
+     "species": "grunter",
      "window": {
-      "start": "10:04",
-      "end": "12:34",
-      "label": "high tide 11:34",
-      "start_iso": "2026-11-27T10:04+10:00",
-      "end_iso": "2026-11-27T12:34+10:00"
+      "start": "22:13",
+      "end": "23:59",
+      "label": "high tide 23:43",
+      "start_iso": "2026-11-27T22:13+10:00",
+      "end_iso": "2026-11-27T23:59+10:00"
      },
-     "score": 87,
+     "score": 88,
      "colour": "green",
-     "confidence": "medium",
+     "confidence": "low",
      "basis": [
       "conditions",
       "season",
       "reports"
      ],
      "factors": {
-      "tide": 1.0,
-      "wind": 0.75,
+      "tide": 0.96,
+      "wind": 0.83,
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.85,
       "lunar": 0.72,
-      "reports": 0.61
+      "reports": 0.64
      },
      "warnings": [],
      "conditions": {
-      "wind_kn": 8,
-      "gust_kn": 20,
+      "wind_kn": 4,
+      "gust_kn": 8,
       "wind_dir": "E",
       "wind_relation": "onshore",
-      "effective_wind_kn": 8.1,
-      "seas_m": 1.2,
+      "effective_wind_kn": 3.5,
+      "seas_m": 1.1,
       "swell_m": 1.1,
       "swell_period_s": 6,
-      "sst_c": 24.7,
+      "sst_c": 24.8,
       "tide_stage": "high_turn",
-      "tide_range_m": 2.19,
+      "tide_range_m": 1.23,
       "tide_next": {
-       "t": "2026-11-27T11:34+10:00",
-       "h": 2.59,
+       "t": "2026-11-27T23:43+10:00",
+       "h": 1.86,
        "type": "H"
       },
-      "light": "day",
-      "rain_24h_mm": 4.5
+      "light": "night",
+      "rain_24h_mm": 6.5
      },
      "evidence": [
       {
@@ -6362,7 +6366,18 @@
        "provenance": "automated",
        "age_days": 7,
        "weight": 0.5,
-       "excerpt": "Whiting remain in good numbers and the lead-up to Wednesday’s full moon should see the evening high tides this weekend fish particularly well."
+       "excerpt": "The deeper holes in Teebar and Kauri creeks are also producing some quality grunter, with 3-inch prawn-profile lures and 80mm vibes proving particularly effective."
+      },
+      {
+       "source": "Coastwatch weekly fishing report",
+       "credit": "Coastwatch (Tin Can Bay section by The Chandlery Bait & Tackle)",
+       "date": "2026-11-06",
+       "catch_date": "2026-11-03",
+       "url": "https://coastwatch.com.au/articles/fishing-report-for-30-october-2026-2/",
+       "provenance": "automated",
+       "age_days": 24,
+       "weight": 0.09,
+       "excerpt": "Grunter have been reported in good numbers recently, while a few quality kingfish are still being caught in local creeks."
       }
      ],
      "solunar": {
@@ -6370,7 +6385,7 @@
       "major": null,
       "minor": null
      },
-     "explain": "E wind at ~8 kn is onshore; the window covers the top of the tide, which suits whiting; day is a preferred time for this species; whiting are in peak season; 1 recent report mentions whiting nearby (latest The Chandlery (Coastwatch), 2026-11-20).",
+     "explain": "E wind at ~4 kn is onshore; the window covers the top of the tide, which suits grunter; night is a preferred time for this species; grunter are in peak season; 2 recent reports mention grunter nearby (latest The Chandlery (Coastwatch), 2026-11-20).",
      "rank": 4
     },
     {
@@ -6396,7 +6411,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.35
@@ -6456,7 +6471,7 @@
       "swell": 0.84,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.35
@@ -6516,7 +6531,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.35
@@ -6576,7 +6591,7 @@
       "swell": 0.84,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.35
@@ -6636,7 +6651,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.35
@@ -6696,7 +6711,7 @@
       "swell": 1.0,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.35
@@ -6956,7 +6971,7 @@
     "inskip_bay": {
      "score": 20,
      "colour": "red",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "whiting",
@@ -7040,7 +7055,7 @@
     "carlo_point": {
      "score": 92,
      "colour": "green",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "flathead",
@@ -7066,7 +7081,7 @@
       },
       {
        "species": "grunter",
-       "score": 87,
+       "score": 88,
        "window": {
         "start": "22:13",
         "end": "23:59",
@@ -7122,7 +7137,7 @@
     "tin_can_bay": {
      "score": 89,
      "colour": "green",
-     "confidence": "medium",
+     "confidence": "low",
      "best_species": [
       {
        "species": "flathead",
@@ -7136,6 +7151,17 @@
        }
       },
       {
+       "species": "grunter",
+       "score": 88,
+       "window": {
+        "start": "22:13",
+        "end": "23:59",
+        "label": "high tide 23:43",
+        "start_iso": "2026-11-27T22:13+10:00",
+        "end_iso": "2026-11-27T23:59+10:00"
+       }
+      },
+      {
        "species": "whiting",
        "score": 87,
        "window": {
@@ -7144,17 +7170,6 @@
         "label": "high tide 11:34",
         "start_iso": "2026-11-27T10:04+10:00",
         "end_iso": "2026-11-27T12:34+10:00"
-       }
-      },
-      {
-       "species": "grunter",
-       "score": 87,
-       "window": {
-        "start": "22:13",
-        "end": "23:59",
-        "label": "high tide 23:43",
-        "start_iso": "2026-11-27T22:13+10:00",
-        "end_iso": "2026-11-27T23:59+10:00"
        }
       }
      ],
@@ -7456,14 +7471,14 @@
       "species": "Sand (summer) whiting",
       "start": "10:55",
       "end": "13:25",
-      "score": 86
+      "score": 87
      },
      {
       "location": "Tin Can Bay",
       "species": "Sand (summer) whiting",
       "start": "10:55",
       "end": "13:25",
-      "score": 86
+      "score": 87
      }
     ],
     "drivers": [
@@ -7556,7 +7571,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.85,
       "lunar": 0.94,
       "reports": 0.59
@@ -7627,7 +7642,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.85,
       "lunar": 0.94,
       "reports": 0.59
@@ -7684,7 +7699,7 @@
       "start_iso": "2026-11-28T10:55+10:00",
       "end_iso": "2026-11-28T13:25+10:00"
      },
-     "score": 86,
+     "score": 87,
      "colour": "green",
      "confidence": "low",
      "basis": [
@@ -7698,7 +7713,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.85,
       "lunar": 0.72,
       "reports": 0.59
@@ -7755,7 +7770,7 @@
       "start_iso": "2026-11-28T10:55+10:00",
       "end_iso": "2026-11-28T13:25+10:00"
      },
-     "score": 86,
+     "score": 87,
      "colour": "green",
      "confidence": "low",
      "basis": [
@@ -7769,7 +7784,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.85,
       "lunar": 0.72,
       "reports": 0.59
@@ -7839,7 +7854,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.35
@@ -7899,7 +7914,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.35
@@ -7959,7 +7974,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.35
@@ -8019,7 +8034,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.35
@@ -8079,7 +8094,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.35
@@ -8139,7 +8154,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.94,
       "reports": 0.35
@@ -8498,7 +8513,7 @@
       },
       {
        "species": "whiting",
-       "score": 86,
+       "score": 87,
        "window": {
         "start": "10:55",
         "end": "13:25",
@@ -8580,7 +8595,7 @@
       },
       {
        "species": "whiting",
-       "score": 86,
+       "score": 87,
        "window": {
         "start": "10:55",
         "end": "13:25",
@@ -8590,8 +8605,8 @@
        }
       },
       {
-       "species": "grunter",
-       "score": 71,
+       "species": "mangrove_jack",
+       "score": 72,
        "window": {
         "start": "13:58",
         "end": "16:28",
@@ -8899,14 +8914,14 @@
       "species": "Dusky flathead",
       "start": "14:55",
       "end": "20:11",
-      "score": 86
+      "score": 87
      },
      {
       "location": "Carlo Point",
       "species": "Dusky flathead",
       "start": "02:31",
       "end": "06:28",
-      "score": 85
+      "score": 86
      }
     ],
     "drivers": [
@@ -8993,7 +9008,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.85,
       "lunar": 0.64,
       "reports": 0.57,
@@ -9065,7 +9080,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.85,
       "lunar": 0.64,
       "reports": 0.57,
@@ -9123,7 +9138,7 @@
       "start_iso": "2026-11-29T14:55+10:00",
       "end_iso": "2026-11-29T20:11+10:00"
      },
-     "score": 86,
+     "score": 87,
      "colour": "green",
      "confidence": "low",
      "basis": [
@@ -9137,7 +9152,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.85,
       "lunar": 0.64,
       "reports": 0.57
@@ -9194,7 +9209,7 @@
       "start_iso": "2026-11-29T02:31+10:00",
       "end_iso": "2026-11-29T06:28+10:00"
      },
-     "score": 85,
+     "score": 86,
      "colour": "green",
      "confidence": "low",
      "basis": [
@@ -9208,7 +9223,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.85,
       "lunar": 0.64,
       "reports": 0.57
@@ -9279,7 +9294,7 @@
       "swell": 0.8,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.85,
       "lunar": 0.42,
       "reports": 0.57
@@ -9352,7 +9367,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 0.15,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.85,
       "lunar": 0.42,
       "reports": 0.57
@@ -9424,7 +9439,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.64,
       "reports": 0.35
@@ -9484,7 +9499,7 @@
       "swell": 0.97,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.64,
       "reports": 0.35
@@ -9544,7 +9559,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.64,
       "reports": 0.35
@@ -9604,7 +9619,7 @@
       "swell": 0.97,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.64,
       "reports": 0.35
@@ -9946,13 +9961,13 @@
      ]
     },
     "carlo_point": {
-     "score": 86,
+     "score": 87,
      "colour": "green",
      "confidence": "low",
      "best_species": [
       {
        "species": "flathead",
-       "score": 86,
+       "score": 87,
        "window": {
         "start": "14:55",
         "end": "20:11",
@@ -9973,14 +9988,14 @@
        }
       },
       {
-       "species": "whiting",
-       "score": 83,
+       "species": "mangrove_jack",
+       "score": 84,
        "window": {
-        "start": "11:47",
-        "end": "14:17",
-        "label": "high tide 13:17",
-        "start_iso": "2026-11-29T11:47+10:00",
-        "end_iso": "2026-11-29T14:17+10:00"
+        "start": "14:55",
+        "end": "20:11",
+        "label": "major bite 16:10 + dusk + low tide 19:11",
+        "start_iso": "2026-11-29T14:55+10:00",
+        "end_iso": "2026-11-29T20:11+10:00"
        }
       }
      ],
@@ -10045,7 +10060,7 @@
       },
       {
        "species": "flathead",
-       "score": 87,
+       "score": 88,
        "window": {
         "start": "14:55",
         "end": "20:11",
@@ -10364,7 +10379,7 @@
       "species": "Dusky flathead",
       "start": "03:25",
       "end": "07:29",
-      "score": 85
+      "score": 86
      },
      {
       "location": "Rainbow (town)",
@@ -10464,7 +10479,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.85,
       "lunar": 0.64,
       "reports": 0.55,
@@ -10536,7 +10551,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.85,
       "lunar": 0.64,
       "reports": 0.55
@@ -10607,7 +10622,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.85,
       "lunar": 0.64,
       "reports": 0.55
@@ -10664,7 +10679,7 @@
       "start_iso": "2026-11-30T03:25+10:00",
       "end_iso": "2026-11-30T07:29+10:00"
      },
-     "score": 85,
+     "score": 86,
      "colour": "green",
      "confidence": "low",
      "basis": [
@@ -10678,7 +10693,7 @@
       "swell": 0.8,
       "light": 1.0,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.85,
       "lunar": 0.64,
       "reports": 0.55
@@ -10748,7 +10763,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.42,
       "reports": 0.35
@@ -10808,7 +10823,7 @@
       "swell": 1.0,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.42,
       "reports": 0.35
@@ -10868,7 +10883,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.42,
       "reports": 0.35
@@ -10929,7 +10944,7 @@
       "swell": 1.0,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.42,
       "reports": 0.35
@@ -10990,7 +11005,7 @@
       "swell": 1.0,
       "light": 1.0,
       "season": 0.5,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.42,
       "reports": 0.35
@@ -11051,7 +11066,7 @@
       "swell": 1.0,
       "light": 0.55,
       "season": 1.0,
-      "pressure": 0.75,
+      "pressure": 0.8,
       "rain": 0.7,
       "lunar": 0.42,
       "reports": 0.35
@@ -11421,14 +11436,14 @@
        }
       },
       {
-       "species": "mangrove_jack",
+       "species": "grunter",
        "score": 85,
        "window": {
-        "start": "15:47",
-        "end": "21:17",
-        "label": "major bite 17:02 + dusk + low tide 20:17",
-        "start_iso": "2026-11-30T15:47+10:00",
-        "end_iso": "2026-11-30T21:17+10:00"
+        "start": "00:02",
+        "end": "02:32",
+        "label": "high tide 01:32",
+        "start_iso": "2026-11-30T00:02+10:00",
+        "end_iso": "2026-11-30T02:32+10:00"
        }
       }
      ],
@@ -11503,14 +11518,14 @@
        }
       },
       {
-       "species": "whiting",
-       "score": 84,
+       "species": "grunter",
+       "score": 85,
        "window": {
-        "start": "12:45",
-        "end": "15:15",
-        "label": "high tide 14:15",
-        "start_iso": "2026-11-30T12:45+10:00",
-        "end_iso": "2026-11-30T15:15+10:00"
+        "start": "00:02",
+        "end": "02:32",
+        "label": "high tide 01:32",
+        "start_iso": "2026-11-30T00:02+10:00",
+        "end_iso": "2026-11-30T02:32+10:00"
        }
       }
      ],
@@ -12205,6 +12220,133 @@
  ],
  "species": [
   {
+   "id": "mangrove_jack",
+   "name": "Mangrove jack",
+   "short": "Mangrove jack",
+   "outlook": "good",
+   "top_score": 94,
+   "season": "peak",
+   "season_months": {
+    "peak": [
+     11,
+     12,
+     1,
+     2,
+     3
+    ],
+    "shoulder": [
+     10,
+     4
+    ]
+   },
+   "best_locations": [
+    {
+     "location": "tin_can_bay",
+     "name": "Tin Can Bay",
+     "score": 94,
+     "window": {
+      "start": "03:48",
+      "end": "06:18",
+      "label": "dawn",
+      "start_iso": "2026-11-23T03:48+10:00",
+      "end_iso": "2026-11-23T06:18+10:00"
+     },
+     "date": "2026-11-23",
+     "confidence": "low"
+    },
+    {
+     "location": "carlo_point",
+     "name": "Carlo Point",
+     "score": 87,
+     "window": {
+      "start": "03:48",
+      "end": "06:18",
+      "label": "dawn",
+      "start_iso": "2026-11-23T03:48+10:00",
+      "end_iso": "2026-11-23T06:18+10:00"
+     },
+     "date": "2026-11-23",
+     "confidence": "low"
+    },
+    {
+     "location": "inskip_bay",
+     "name": "Inskip (bay)",
+     "score": 20,
+     "window": {
+      "start": "00:00",
+      "end": "01:50",
+      "label": "low tide 00:50",
+      "start_iso": "2026-11-23T00:00+10:00",
+      "end_iso": "2026-11-23T01:50+10:00"
+     },
+     "date": "2026-11-23",
+     "confidence": "low"
+    }
+   ],
+   "recent_reports": [
+    {
+     "source": "Coastwatch (Tin Can Bay section by The Chandlery Bait & Tackle)",
+     "date": "2026-11-20",
+     "catch_date": null,
+     "url": "https://coastwatch.com.au/articles/fishing-report-for-20-november-2026/",
+     "provenance": "automated",
+     "locations": [
+      "tin_can_bay"
+     ],
+     "excerpt": "Fishing around the bay has been fairly quiet over the past couple of weeks, largely due to the weather. However, with the wind forecast to ease over the coming days, many local anglers are preparing t"
+    },
+    {
+     "source": "Coastwatch (Tin Can Bay section by The Chandlery Bait & Tackle)",
+     "date": "2026-11-06",
+     "catch_date": "2026-11-03",
+     "url": "https://coastwatch.com.au/articles/fishing-report-for-30-october-2026-2/",
+     "provenance": "automated",
+     "locations": [
+      "tin_can_bay",
+      "teewah"
+     ],
+     "excerpt": "Fishing reports have been quieter this week, but improving weekend weather should provide opportunities, particularly offshore on Saturday. Recent rain should get mud crabs moving, with fresh bait soa"
+    },
+    {
+     "source": "Coastwatch (Tin Can Bay section by The Chandlery Bait & Tackle)",
+     "date": "2026-10-30",
+     "catch_date": "2026-10-27",
+     "url": "https://coastwatch.com.au/articles/fishing-report-for-30-october-2026/",
+     "provenance": "automated",
+     "locations": [
+      "tin_can_bay"
+     ],
+     "excerpt": "After a weather-affected week, conditions are looking far more favourable for the weekend, giving local anglers a chance to get back on the water. Offshore fishers may find Saturday offers the best op"
+    },
+    {
+     "source": "Coastwatch (Tin Can Bay section by The Chandlery Bait & Tackle)",
+     "date": "2026-10-23",
+     "catch_date": null,
+     "url": "https://coastwatch.com.au/articles/fishing-report-for-22-october-2026/",
+     "provenance": "automated",
+     "locations": [
+      "tin_can_bay"
+     ],
+     "excerpt": "It’s looking like a good weekend to be a duck, with plenty of rain in the forecast. The upside is that the wet weather should get the crabs on the move, making it well worth setting a few pots. For an"
+    }
+   ],
+   "days_since_report": 3,
+   "legal": {
+    "min_cm": 35,
+    "possession": 5,
+    "closures": []
+   },
+   "legal_note": null,
+   "closure_note": null,
+   "closures": [],
+   "techniques": [
+    "3–5 inch soft plastics or hardbodies tight to snags on the back of the run-out",
+    "Live bait (herring, prawn) on heavy leader at night"
+   ],
+   "confidence": "low",
+   "basis": "reports + conditions"
+  },
+  {
    "id": "whiting",
    "name": "Sand (summer) whiting",
    "short": "Whiting",
@@ -12238,12 +12380,12 @@
       "end_iso": "2026-11-24T06:18+10:00"
      },
      "date": "2026-11-24",
-     "confidence": "high"
+     "confidence": "low"
     },
     {
      "location": "carlo_point",
      "name": "Carlo Point",
-     "score": 91,
+     "score": 92,
      "window": {
       "start": "03:48",
       "end": "06:18",
@@ -12252,7 +12394,7 @@
       "end_iso": "2026-11-23T06:18+10:00"
      },
      "date": "2026-11-23",
-     "confidence": "high"
+     "confidence": "low"
     },
     {
      "location": "rainbow_town",
@@ -12266,7 +12408,7 @@
       "end_iso": "2026-11-23T01:02+10:00"
      },
      "date": "2026-11-23",
-     "confidence": "medium"
+     "confidence": "low"
     },
     {
      "location": "rainbow_north",
@@ -12280,7 +12422,7 @@
       "end_iso": "2026-11-23T01:02+10:00"
      },
      "date": "2026-11-23",
-     "confidence": "medium"
+     "confidence": "low"
     }
    ],
    "recent_reports": [
@@ -12350,7 +12492,7 @@
     "Live beach worms or yabbies on light line, long shank hooks, in shallow water on the flood",
     "Surface poppers/stickbaits over flats on calm mornings"
    ],
-   "confidence": "high",
+   "confidence": "low",
    "basis": "reports + conditions"
   },
   {
@@ -12387,12 +12529,12 @@
       "end_iso": "2026-11-24T06:18+10:00"
      },
      "date": "2026-11-24",
-     "confidence": "high"
+     "confidence": "low"
     },
     {
      "location": "carlo_point",
      "name": "Carlo Point",
-     "score": 90,
+     "score": 91,
      "window": {
       "start": "03:48",
       "end": "06:18",
@@ -12401,7 +12543,7 @@
       "end_iso": "2026-11-25T06:18+10:00"
      },
      "date": "2026-11-25",
-     "confidence": "high"
+     "confidence": "low"
     },
     {
      "location": "rainbow_town",
@@ -12415,7 +12557,7 @@
       "end_iso": "2026-11-23T01:02+10:00"
      },
      "date": "2026-11-23",
-     "confidence": "medium"
+     "confidence": "low"
     },
     {
      "location": "rainbow_north",
@@ -12429,7 +12571,7 @@
       "end_iso": "2026-11-23T01:02+10:00"
      },
      "date": "2026-11-23",
-     "confidence": "medium"
+     "confidence": "low"
     }
    ],
    "recent_reports": [
@@ -12487,134 +12629,7 @@
     "Soft plastics (3–5 inch) hopped along drop-offs and drains on the run-out",
     "Live or fresh bait drifted across sand flats near weed edges"
    ],
-   "confidence": "high",
-   "basis": "reports + conditions"
-  },
-  {
-   "id": "mangrove_jack",
-   "name": "Mangrove jack",
-   "short": "Mangrove jack",
-   "outlook": "good",
-   "top_score": 93,
-   "season": "peak",
-   "season_months": {
-    "peak": [
-     11,
-     12,
-     1,
-     2,
-     3
-    ],
-    "shoulder": [
-     10,
-     4
-    ]
-   },
-   "best_locations": [
-    {
-     "location": "tin_can_bay",
-     "name": "Tin Can Bay",
-     "score": 93,
-     "window": {
-      "start": "03:48",
-      "end": "06:18",
-      "label": "dawn",
-      "start_iso": "2026-11-23T03:48+10:00",
-      "end_iso": "2026-11-23T06:18+10:00"
-     },
-     "date": "2026-11-23",
-     "confidence": "high"
-    },
-    {
-     "location": "carlo_point",
-     "name": "Carlo Point",
-     "score": 86,
-     "window": {
-      "start": "03:48",
-      "end": "06:18",
-      "label": "dawn",
-      "start_iso": "2026-11-23T03:48+10:00",
-      "end_iso": "2026-11-23T06:18+10:00"
-     },
-     "date": "2026-11-23",
-     "confidence": "high"
-    },
-    {
-     "location": "inskip_bay",
-     "name": "Inskip (bay)",
-     "score": 20,
-     "window": {
-      "start": "00:00",
-      "end": "01:50",
-      "label": "low tide 00:50",
-      "start_iso": "2026-11-23T00:00+10:00",
-      "end_iso": "2026-11-23T01:50+10:00"
-     },
-     "date": "2026-11-23",
-     "confidence": "high"
-    }
-   ],
-   "recent_reports": [
-    {
-     "source": "Coastwatch (Tin Can Bay section by The Chandlery Bait & Tackle)",
-     "date": "2026-11-20",
-     "catch_date": null,
-     "url": "https://coastwatch.com.au/articles/fishing-report-for-20-november-2026/",
-     "provenance": "automated",
-     "locations": [
-      "tin_can_bay"
-     ],
-     "excerpt": "Fishing around the bay has been fairly quiet over the past couple of weeks, largely due to the weather. However, with the wind forecast to ease over the coming days, many local anglers are preparing t"
-    },
-    {
-     "source": "Coastwatch (Tin Can Bay section by The Chandlery Bait & Tackle)",
-     "date": "2026-11-06",
-     "catch_date": "2026-11-03",
-     "url": "https://coastwatch.com.au/articles/fishing-report-for-30-october-2026-2/",
-     "provenance": "automated",
-     "locations": [
-      "tin_can_bay",
-      "teewah"
-     ],
-     "excerpt": "Fishing reports have been quieter this week, but improving weekend weather should provide opportunities, particularly offshore on Saturday. Recent rain should get mud crabs moving, with fresh bait soa"
-    },
-    {
-     "source": "Coastwatch (Tin Can Bay section by The Chandlery Bait & Tackle)",
-     "date": "2026-10-30",
-     "catch_date": "2026-10-27",
-     "url": "https://coastwatch.com.au/articles/fishing-report-for-30-october-2026/",
-     "provenance": "automated",
-     "locations": [
-      "tin_can_bay"
-     ],
-     "excerpt": "After a weather-affected week, conditions are looking far more favourable for the weekend, giving local anglers a chance to get back on the water. Offshore fishers may find Saturday offers the best op"
-    },
-    {
-     "source": "Coastwatch (Tin Can Bay section by The Chandlery Bait & Tackle)",
-     "date": "2026-10-23",
-     "catch_date": null,
-     "url": "https://coastwatch.com.au/articles/fishing-report-for-22-october-2026/",
-     "provenance": "automated",
-     "locations": [
-      "tin_can_bay"
-     ],
-     "excerpt": "It’s looking like a good weekend to be a duck, with plenty of rain in the forecast. The upside is that the wet weather should get the crabs on the move, making it well worth setting a few pots. For an"
-    }
-   ],
-   "days_since_report": 3,
-   "legal": {
-    "min_cm": 35,
-    "possession": 5,
-    "closures": []
-   },
-   "legal_note": null,
-   "closure_note": null,
-   "closures": [],
-   "techniques": [
-    "3–5 inch soft plastics or hardbodies tight to snags on the back of the run-out",
-    "Live bait (herring, prawn) on heavy leader at night"
-   ],
-   "confidence": "high",
+   "confidence": "low",
    "basis": "reports + conditions"
   },
   {
@@ -12651,7 +12666,7 @@
       "end_iso": "2026-11-23T06:18+10:00"
      },
      "date": "2026-11-23",
-     "confidence": "high"
+     "confidence": "low"
     },
     {
      "location": "tin_can_bay",
@@ -12665,7 +12680,7 @@
       "end_iso": "2026-11-23T06:18+10:00"
      },
      "date": "2026-11-23",
-     "confidence": "high"
+     "confidence": "low"
     },
     {
      "location": "inskip_bay",
@@ -12679,7 +12694,7 @@
       "end_iso": "2026-11-23T01:50+10:00"
      },
      "date": "2026-11-23",
-     "confidence": "high"
+     "confidence": "low"
     }
    ],
    "recent_reports": [
@@ -12743,7 +12758,7 @@
     "Prawn-profile plastics and soft vibes in creek channels",
     "Fresh squid, prawn or mullet strips on the flood in the creeks"
    ],
-   "confidence": "high",
+   "confidence": "low",
    "basis": "reports + conditions"
   },
   {
@@ -12751,7 +12766,7 @@
    "name": "Yellowfin bream",
    "short": "Bream",
    "outlook": "good",
-   "top_score": 71,
+   "top_score": 72,
    "season": "off",
    "season_months": {
     "peak": [
@@ -12770,7 +12785,7 @@
     {
      "location": "tin_can_bay",
      "name": "Tin Can Bay",
-     "score": 71,
+     "score": 72,
      "window": {
       "start": "03:48",
       "end": "06:18",
@@ -12779,12 +12794,12 @@
       "end_iso": "2026-11-24T06:18+10:00"
      },
      "date": "2026-11-24",
-     "confidence": "high"
+     "confidence": "low"
     },
     {
      "location": "carlo_point",
      "name": "Carlo Point",
-     "score": 68,
+     "score": 69,
      "window": {
       "start": "03:48",
       "end": "06:18",
@@ -12793,7 +12808,7 @@
       "end_iso": "2026-11-25T06:18+10:00"
      },
      "date": "2026-11-25",
-     "confidence": "high"
+     "confidence": "low"
     },
     {
      "location": "rainbow_town",
@@ -12807,7 +12822,7 @@
       "end_iso": "2026-11-23T01:02+10:00"
      },
      "date": "2026-11-23",
-     "confidence": "medium"
+     "confidence": "low"
     },
     {
      "location": "rainbow_north",
@@ -12821,7 +12836,7 @@
       "end_iso": "2026-11-23T01:02+10:00"
      },
      "date": "2026-11-23",
-     "confidence": "medium"
+     "confidence": "low"
     }
    ],
    "recent_reports": [
@@ -12883,7 +12898,7 @@
     "Lightly weighted prawn, mullet strip or chicken gut around structure on the run-out",
     "2–3 inch soft plastics and small hardbodies along rock walls and snags"
    ],
-   "confidence": "high",
+   "confidence": "low",
    "basis": "reports + conditions"
   },
   {
@@ -12891,7 +12906,7 @@
    "name": "Trevally (GT / golden)",
    "short": "Trevally",
    "outlook": "good",
-   "top_score": 71,
+   "top_score": 72,
    "season": "peak",
    "season_months": {
     "peak": [
@@ -12911,7 +12926,7 @@
     {
      "location": "carlo_point",
      "name": "Carlo Point",
-     "score": 71,
+     "score": 72,
      "window": {
       "start": "16:49",
       "end": "23:37",
@@ -12920,7 +12935,7 @@
       "end_iso": "2026-11-23T23:37+10:00"
      },
      "date": "2026-11-23",
-     "confidence": "medium"
+     "confidence": "low"
     },
     {
      "location": "tin_can_bay",
@@ -12934,7 +12949,7 @@
       "end_iso": "2026-11-24T23:59+10:00"
      },
      "date": "2026-11-24",
-     "confidence": "medium"
+     "confidence": "low"
     },
     {
      "location": "rainbow_town",
@@ -12948,7 +12963,7 @@
       "end_iso": "2026-11-23T01:02+10:00"
      },
      "date": "2026-11-23",
-     "confidence": "medium"
+     "confidence": "low"
     },
     {
      "location": "rainbow_north",
@@ -12962,7 +12977,7 @@
       "end_iso": "2026-11-23T01:02+10:00"
      },
      "date": "2026-11-23",
-     "confidence": "medium"
+     "confidence": "low"
     }
    ],
    "recent_reports": [],
@@ -12979,7 +12994,7 @@
     "Metal slugs and poppers worked fast at first light",
     "Live bait or fresh strips around current lines and the bar"
    ],
-   "confidence": "medium",
+   "confidence": "low",
    "basis": "conditions + season"
   },
   {
@@ -13016,7 +13031,7 @@
       "end_iso": "2026-11-23T01:02+10:00"
      },
      "date": "2026-11-23",
-     "confidence": "medium"
+     "confidence": "low"
     },
     {
      "location": "rainbow_north",
@@ -13030,7 +13045,7 @@
       "end_iso": "2026-11-23T01:02+10:00"
      },
      "date": "2026-11-23",
-     "confidence": "medium"
+     "confidence": "low"
     },
     {
      "location": "inskip_ocean",
@@ -13044,7 +13059,7 @@
       "end_iso": "2026-11-23T01:02+10:00"
      },
      "date": "2026-11-23",
-     "confidence": "medium"
+     "confidence": "low"
     },
     {
      "location": "rainbow_to_dip",
@@ -13058,7 +13073,7 @@
       "end_iso": "2026-11-23T01:02+10:00"
      },
      "date": "2026-11-23",
-     "confidence": "medium"
+     "confidence": "low"
     }
    ],
    "recent_reports": [
@@ -13093,7 +13108,7 @@
     "Metal slugs 20–40 g cast past the break, fast retrieve",
     "Surface lures over shallow gutters on the rising tide"
    ],
-   "confidence": "medium",
+   "confidence": "low",
    "basis": "conditions + season"
   },
   {
@@ -13130,7 +13145,7 @@
       "end_iso": "2026-11-23T01:02+10:00"
      },
      "date": "2026-11-23",
-     "confidence": "medium"
+     "confidence": "low"
     },
     {
      "location": "rainbow_north",
@@ -13144,7 +13159,7 @@
       "end_iso": "2026-11-23T01:02+10:00"
      },
      "date": "2026-11-23",
-     "confidence": "medium"
+     "confidence": "low"
     },
     {
      "location": "inskip_ocean",
@@ -13158,7 +13173,7 @@
       "end_iso": "2026-11-23T01:02+10:00"
      },
      "date": "2026-11-23",
-     "confidence": "medium"
+     "confidence": "low"
     },
     {
      "location": "rainbow_to_dip",
@@ -13172,7 +13187,7 @@
       "end_iso": "2026-11-23T01:02+10:00"
      },
      "date": "2026-11-23",
-     "confidence": "medium"
+     "confidence": "low"
     }
    ],
    "recent_reports": [
@@ -13206,7 +13221,7 @@
     "Beach worms or pipis on size 2–1/0 long shank in the shore break",
     "Small metal slices and soft plastics cast at the edge of gutters"
    ],
-   "confidence": "medium",
+   "confidence": "low",
    "basis": "conditions + season"
   },
   {
@@ -13244,7 +13259,7 @@
       "end_iso": "2026-11-23T01:02+10:00"
      },
      "date": "2026-11-23",
-     "confidence": "medium"
+     "confidence": "low"
     },
     {
      "location": "rainbow_north",
@@ -13258,7 +13273,7 @@
       "end_iso": "2026-11-23T01:02+10:00"
      },
      "date": "2026-11-23",
-     "confidence": "medium"
+     "confidence": "low"
     },
     {
      "location": "inskip_ocean",
@@ -13272,7 +13287,7 @@
       "end_iso": "2026-11-23T01:02+10:00"
      },
      "date": "2026-11-23",
-     "confidence": "medium"
+     "confidence": "low"
     },
     {
      "location": "rainbow_to_dip",
@@ -13286,7 +13301,7 @@
       "end_iso": "2026-11-23T01:02+10:00"
      },
      "date": "2026-11-23",
-     "confidence": "high"
+     "confidence": "low"
     }
    ],
    "recent_reports": [
@@ -13332,7 +13347,7 @@
     "Large fresh baits (mullet fillet, squid, live yakka) in deep gutters after dark",
     "Big soft plastics worked slowly through the deepest water near the bar/headland"
    ],
-   "confidence": "medium",
+   "confidence": "low",
    "basis": "conditions + season"
   },
   {
@@ -13368,7 +13383,7 @@
       "end_iso": "2026-11-23T01:02+10:00"
      },
      "date": "2026-11-23",
-     "confidence": "medium"
+     "confidence": "low"
     },
     {
      "location": "dip_north",
@@ -13382,7 +13397,7 @@
       "end_iso": "2026-11-23T01:02+10:00"
      },
      "date": "2026-11-23",
-     "confidence": "high"
+     "confidence": "low"
     }
    ],
    "recent_reports": [
@@ -13457,7 +13472,7 @@
     "Lightly weighted pilchard or squid floated out from deep rock ledges or Inskip's deep water",
     "5–7 inch soft plastics on light jig heads at first light"
    ],
-   "confidence": "medium",
+   "confidence": "low",
    "basis": "conditions + season"
   },
   {
@@ -13494,7 +13509,7 @@
       "end_iso": "2026-11-23T01:02+10:00"
      },
      "date": "2026-11-23",
-     "confidence": "medium"
+     "confidence": "low"
     },
     {
      "location": "dip_north",
@@ -13508,7 +13523,7 @@
       "end_iso": "2026-11-23T01:02+10:00"
      },
      "date": "2026-11-23",
-     "confidence": "medium"
+     "confidence": "low"
     }
    ],
    "recent_reports": [],
@@ -13524,7 +13539,7 @@
    "techniques": [
     "Live bait under a float from Inskip's deep water or the headland"
    ],
-   "confidence": "medium",
+   "confidence": "low",
    "basis": "conditions + season"
   },
   {
@@ -13561,7 +13576,7 @@
       "end_iso": "2026-11-23T01:02+10:00"
      },
      "date": "2026-11-23",
-     "confidence": "medium"
+     "confidence": "low"
     },
     {
      "location": "dip_north",
@@ -13575,7 +13590,7 @@
       "end_iso": "2026-11-23T01:02+10:00"
      },
      "date": "2026-11-23",
-     "confidence": "medium"
+     "confidence": "low"
     }
    ],
    "recent_reports": [
@@ -13621,7 +13636,7 @@
     "Metal slugs cast and retrieved fast at dawn; pilchards on gangs under a float",
     "Reported near Big Mick and Inskip Point on the turn of the tide (Coastwatch, Oct 2026)"
    ],
-   "confidence": "medium",
+   "confidence": "low",
    "basis": "conditions + season"
   }
  ],
@@ -14984,30 +14999,21 @@
  ],
  "bom": {
   "coastal": {
-   "issued": "2026-11-22T21:00:00+10:00",
+   "issued": "2026-11-23T09:00:00+10:00",
    "areas": {
     "K'gari Coast: Sandy Cape to Double Island Point": {
      "periods": [
       {
        "index": "0",
-       "start": "2026-11-22T21:00:00+10:00",
-       "end": "2026-11-23T00:00:00+10:00",
-       "forecast_winds": "Easterly 10 to 15 knots, reaching up to 20 knots offshore.",
-       "forecast_seas": "Around 1 metre.",
-       "forecast_swell1": "Easterly around 1 metre.",
-       "forecast_weather": "Mostly clear."
-      },
-      {
-       "index": "1",
-       "start": "2026-11-23T00:00:00+10:00",
+       "start": "2026-11-23T09:00:00+10:00",
        "end": "2026-11-24T00:00:00+10:00",
        "forecast_winds": "Easterly 10 to 15 knots.",
-       "forecast_seas": "Around 1 metre.",
+       "forecast_seas": "Below 1 metre.",
        "forecast_swell1": "Easterly around 1 metre inshore, increasing to 1 to 1.5 metres offshore.",
        "forecast_weather": "Mostly sunny."
       },
       {
-       "index": "2",
+       "index": "1",
        "start": "2026-11-24T00:00:00+10:00",
        "end": "2026-11-25T00:00:00+10:00",
        "forecast_winds": "Easterly about 10 knots increasing to 10 to 15 knots in the evening.",
@@ -15016,13 +15022,13 @@
        "forecast_weather": "Mostly sunny."
       },
       {
-       "index": "3",
+       "index": "2",
        "start": "2026-11-25T00:00:00+10:00",
        "end": "2026-11-26T00:00:00+10:00",
        "forecast_winds": "Easterly 15 to 20 knots.",
-       "forecast_seas": "Around 1 metre, increasing to 1 to 1.5 metres offshore during the afternoon.",
+       "forecast_seas": "Around 1 metre, increasing to 1 to 1.5 metres offshore during the afternoon or evening.",
        "forecast_swell1": "Easterly 1 to 1.5 metres.",
-       "forecast_weather": "Mostly sunny day. The chance of a thunderstorm in the afternoon and evening."
+       "forecast_weather": "Mostly sunny day. The chance of a thunderstorm in the evening."
       }
      ],
      "warning_summary": "",
@@ -15032,16 +15038,7 @@
      "periods": [
       {
        "index": "0",
-       "start": "2026-11-22T21:00:00+10:00",
-       "end": "2026-11-23T00:00:00+10:00",
-       "forecast_winds": "Easterly 10 to 15 knots.",
-       "forecast_seas": "Below 1 metre.",
-       "forecast_swell1": "Easterly around 1 metre.",
-       "forecast_weather": "Mostly clear."
-      },
-      {
-       "index": "1",
-       "start": "2026-11-23T00:00:00+10:00",
+       "start": "2026-11-23T09:00:00+10:00",
        "end": "2026-11-24T00:00:00+10:00",
        "forecast_winds": "East to northeasterly 10 to 15 knots.",
        "forecast_seas": "Below 1 metre.",
@@ -15049,22 +15046,22 @@
        "forecast_weather": "Mostly sunny."
       },
       {
-       "index": "2",
+       "index": "1",
        "start": "2026-11-24T00:00:00+10:00",
        "end": "2026-11-25T00:00:00+10:00",
-       "forecast_winds": "Northeasterly about 10 knots increasing to 10 to 15 knots in the late afternoon.",
+       "forecast_winds": "Northeasterly about 10 knots increasing to 10 to 15 knots before dawn.",
        "forecast_seas": "Below 1 metre.",
        "forecast_swell1": "Easterly 1 to 1.5 metres.",
        "forecast_weather": "Mostly sunny."
       },
       {
-       "index": "3",
+       "index": "2",
        "start": "2026-11-25T00:00:00+10:00",
        "end": "2026-11-26T00:00:00+10:00",
-       "forecast_winds": "Northeasterly 10 to 15 knots tending easterly 15 to 20 knots during the morning.",
+       "forecast_winds": "Northeasterly 10 to 15 knots turning easterly 15 to 20 knots during the morning.",
        "forecast_seas": "Around 1 metre.",
        "forecast_swell1": "Easterly 1 to 1.5 metres.",
-       "forecast_weather": "Partly cloudy. The chance of a thunderstorm in the afternoon and evening."
+       "forecast_weather": "Partly cloudy. The chance of a thunderstorm in the evening."
       }
      ],
      "warning_summary": "",
@@ -15072,119 +15069,119 @@
     }
    },
    "warning_active": false,
-   "fetched_at": "2026-11-23T00:54:11+10:00"
+   "fetched_at": "2026-11-23T09:35:59+10:00"
   },
   "obs": [
    {
-    "t": "20261123003000",
-    "wind_dir": "ENE",
-    "wind_kn": 13.0,
-    "gust_kn": 15.1,
-    "pressure_hpa": 1019.1,
-    "temp_c": 22.0,
-    "rain_mm": "0.2"
-   },
-   {
-    "t": "20261123000000",
-    "wind_dir": "ENE",
-    "wind_kn": 14.0,
-    "gust_kn": 16.2,
-    "pressure_hpa": 1019.5,
-    "temp_c": 22.2,
-    "rain_mm": "0.2"
-   },
-   {
-    "t": "20261122233000",
-    "wind_dir": "ENE",
-    "wind_kn": 14.0,
-    "gust_kn": 16.2,
-    "pressure_hpa": 1019.9,
-    "temp_c": 22.1,
-    "rain_mm": "0.2"
-   },
-   {
-    "t": "20261122230000",
-    "wind_dir": "ENE",
-    "wind_kn": 14.0,
-    "gust_kn": 16.2,
-    "pressure_hpa": 1019.9,
-    "temp_c": 22.3,
-    "rain_mm": "0.2"
-   },
-   {
-    "t": "20261122223000",
-    "wind_dir": "ENE",
-    "wind_kn": 14.0,
-    "gust_kn": 17.3,
-    "pressure_hpa": 1020.0,
-    "temp_c": 22.3,
-    "rain_mm": "0.2"
-   },
-   {
-    "t": "20261122220000",
-    "wind_dir": "ENE",
-    "wind_kn": 15.1,
-    "gust_kn": 17.3,
-    "pressure_hpa": 1020.2,
-    "temp_c": 22.3,
-    "rain_mm": "0.2"
-   },
-   {
-    "t": "20261122213000",
-    "wind_dir": "ENE",
-    "wind_kn": 14.0,
-    "gust_kn": 16.2,
-    "pressure_hpa": 1020.2,
-    "temp_c": 22.5,
-    "rain_mm": "0.2"
-   },
-   {
-    "t": "20261122210000",
-    "wind_dir": "ENE",
-    "wind_kn": 15.1,
-    "gust_kn": 17.8,
-    "pressure_hpa": 1019.8,
-    "temp_c": 22.4,
-    "rain_mm": "0.2"
-   },
-   {
-    "t": "20261122203000",
-    "wind_dir": "ENE",
-    "wind_kn": 14.0,
-    "gust_kn": 16.2,
-    "pressure_hpa": 1019.7,
-    "temp_c": 22.2,
-    "rain_mm": "0.2"
-   },
-   {
-    "t": "20261122200000",
-    "wind_dir": "ENE",
-    "wind_kn": 16.2,
-    "gust_kn": 17.8,
-    "pressure_hpa": 1019.4,
-    "temp_c": 22.3,
-    "rain_mm": "0.2"
-   },
-   {
-    "t": "20261122193000",
-    "wind_dir": "E",
-    "wind_kn": 13.0,
-    "gust_kn": 14.0,
-    "pressure_hpa": 1019.1,
-    "temp_c": 22.1,
-    "rain_mm": "0.2"
-   },
-   {
-    "t": "20261122190000",
+    "t": "20261123093000",
     "wind_dir": "E",
     "wind_kn": 10.8,
     "gust_kn": 13.0,
-    "pressure_hpa": 1019.4,
-    "temp_c": 22.3,
+    "pressure_hpa": 1019.6,
+    "temp_c": 26.9,
+    "rain_mm": "0.0"
+   },
+   {
+    "t": "20261123090000",
+    "wind_dir": "ENE",
+    "wind_kn": 10.8,
+    "gust_kn": 15.1,
+    "pressure_hpa": 1019.6,
+    "temp_c": 25.9,
+    "rain_mm": "0.2"
+   },
+   {
+    "t": "20261123083000",
+    "wind_dir": "ENE",
+    "wind_kn": 11.9,
+    "gust_kn": 15.1,
+    "pressure_hpa": 1019.6,
+    "temp_c": 25.4,
+    "rain_mm": "0.2"
+   },
+   {
+    "t": "20261123080000",
+    "wind_dir": "ENE",
+    "wind_kn": 13.0,
+    "gust_kn": 15.1,
+    "pressure_hpa": 1019.6,
+    "temp_c": 24.8,
+    "rain_mm": "0.2"
+   },
+   {
+    "t": "20261123073000",
+    "wind_dir": "ENE",
+    "wind_kn": 10.8,
+    "gust_kn": 14.0,
+    "pressure_hpa": 1019.7,
+    "temp_c": 24.7,
+    "rain_mm": "0.2"
+   },
+   {
+    "t": "20261123070000",
+    "wind_dir": "ENE",
+    "wind_kn": 13.0,
+    "gust_kn": 17.3,
+    "pressure_hpa": 1019.3,
+    "temp_c": 24.2,
+    "rain_mm": "0.2"
+   },
+   {
+    "t": "20261123063000",
+    "wind_dir": "ENE",
+    "wind_kn": 11.9,
+    "gust_kn": 15.1,
+    "pressure_hpa": 1019.1,
+    "temp_c": 24.0,
+    "rain_mm": "0.2"
+   },
+   {
+    "t": "20261123060000",
+    "wind_dir": "ENE",
+    "wind_kn": 10.8,
+    "gust_kn": 14.0,
+    "pressure_hpa": 1018.9,
+    "temp_c": 23.3,
+    "rain_mm": "0.2"
+   },
+   {
+    "t": "20261123053000",
+    "wind_dir": "ENE",
+    "wind_kn": 11.9,
+    "gust_kn": 15.1,
+    "pressure_hpa": 1018.9,
+    "temp_c": 22.6,
+    "rain_mm": "0.2"
+   },
+   {
+    "t": "20261123050000",
+    "wind_dir": "NE",
+    "wind_kn": 11.9,
+    "gust_kn": 15.1,
+    "pressure_hpa": 1018.6,
+    "temp_c": 21.6,
+    "rain_mm": "0.2"
+   },
+   {
+    "t": "20261123043000",
+    "wind_dir": "NE",
+    "wind_kn": 10.8,
+    "gust_kn": 13.0,
+    "pressure_hpa": 1018.6,
+    "temp_c": 21.4,
+    "rain_mm": "0.2"
+   },
+   {
+    "t": "20261123040000",
+    "wind_dir": "NE",
+    "wind_kn": 9.2,
+    "gust_kn": 10.8,
+    "pressure_hpa": 1018.9,
+    "temp_c": 21.7,
     "rain_mm": "0.2"
    }
   ],
-  "pressure_trend": "steady",
+  "pressure_trend": "rising",
   "marine_warning": false
  },
  "tides": {
@@ -34968,20 +34965,20 @@
   }
  },
  "health": {
-  "generated_at": "2026-11-23T00:54:27+10:00",
-  "next_scheduled": "2026-11-23T04:30:00+10:00",
+  "generated_at": "2026-11-23T09:36:16+10:00",
+  "next_scheduled": "2026-11-24T04:30:00+10:00",
   "sources": {
    "open_meteo_forecast": {
-    "ok": true,
+    "ok": false,
     "last_success": "2026-11-23T00:54:07+10:00",
     "items": 9,
-    "note": null,
-    "error": null,
-    "category": "weather"
+    "error": "HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=40)",
+    "category": "weather",
+    "stale": true
    },
    "open_meteo_marine": {
     "ok": true,
-    "last_success": "2026-11-23T00:54:08+10:00",
+    "last_success": "2026-11-23T09:35:56+10:00",
     "items": 2,
     "note": null,
     "error": null,
@@ -34989,7 +34986,7 @@
    },
    "bom_coastal": {
     "ok": true,
-    "last_success": "2026-11-23T00:54:11+10:00",
+    "last_success": "2026-11-23T09:35:59+10:00",
     "items": 2,
     "note": null,
     "error": null,
@@ -34997,7 +34994,7 @@
    },
    "bom_obs": {
     "ok": true,
-    "last_success": "2026-11-23T00:54:14+10:00",
+    "last_success": "2026-11-23T09:36:02+10:00",
     "items": 72,
     "note": null,
     "error": null,
@@ -35005,7 +35002,7 @@
    },
    "tides_noosa_head": {
     "ok": true,
-    "last_success": "2026-11-23T00:54:08+10:00",
+    "last_success": "2026-11-23T09:35:56+10:00",
     "items": 1410,
     "note": "cached",
     "error": null,
@@ -35013,7 +35010,7 @@
    },
    "tides_tin_can_bay": {
     "ok": true,
-    "last_success": "2026-11-23T00:54:08+10:00",
+    "last_success": "2026-11-23T09:35:56+10:00",
     "items": 1411,
     "note": "cached",
     "error": null,
@@ -35021,7 +35018,7 @@
    },
    "qpws_alerts": {
     "ok": true,
-    "last_success": "2026-11-23T00:54:08+10:00",
+    "last_success": "2026-11-23T09:35:57+10:00",
     "items": 12,
     "note": null,
     "error": null,
@@ -35029,7 +35026,7 @@
    },
    "coastwatch": {
     "ok": true,
-    "last_success": "2026-11-23T00:54:26+10:00",
+    "last_success": "2026-11-23T09:36:14+10:00",
     "items": 3,
     "note": "Fishing Report for 20 November 2026",
     "error": null,
@@ -35037,7 +35034,7 @@
    },
    "fishos": {
     "ok": true,
-    "last_success": "2026-11-23T00:54:27+10:00",
+    "last_success": "2026-11-23T09:36:15+10:00",
     "items": 3,
     "note": null,
     "error": null,
@@ -35045,7 +35042,7 @@
    },
    "gardiners_blog": {
     "ok": true,
-    "last_success": "2026-11-23T00:54:27+10:00",
+    "last_success": "2026-11-23T09:36:16+10:00",
     "items": 4,
     "note": null,
     "error": null,
@@ -35061,15 +35058,17 @@
    },
    "gsmp_zones": {
     "ok": true,
-    "last_success": "2026-11-23T00:54:27+10:00",
+    "last_success": "2026-11-23T09:36:16+10:00",
     "items": -1,
     "note": "cached",
     "error": null,
     "category": "map"
    }
   },
-  "stale_categories": [],
-  "overall": "ok"
+  "stale_categories": [
+   "weather"
+  ],
+  "overall": "degraded"
  },
  "rules": {
   "zones": {
