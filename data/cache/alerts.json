@@ -57,20 +57,6 @@
   "source": "QPWS park alerts"
  },
  {
-  "id": "https://parks.qld.gov.au/park-alerts/26992?v=1",
-  "title": "Pest Control Program in Cooloola Recreation Area",
-  "summary": "QPWS rangers and contractors will be conducting a feral animal control program from 31 October 2026 through to 28 November 2026 within the Teewah Beach and Freshwater camping areas. Firearms, poisons or traps may be in use. Affected parks: Cooloola Recreation Area, Great Sandy National Park",
-  "link": "https://parks.qld.gov.au/park-alerts/26992",
-  "published": "2026-09-17T09:38:11+10:00",
-  "severity": "info",
-  "locations": [
-   "teewah",
-   "rainbow_to_dip",
-   "dip_north"
-  ],
-  "source": "QPWS park alerts"
- },
- {
   "id": "https://parks.qld.gov.au/park-alerts/20766?v=15",
   "title": "Permanent fire prohibition on Teewah Beach (update 3 Jul)",
   "summary": "A QPWS imposed fire prohibition is in place in the Cooloola Recreation Area, except at Poverty Point camping area. Camp fires must not be lit anywhere else in the recreation area including in the Teewah Beach camping zones 1-7. Affected parks: Cooloola Recreation Area, Great Sandy National Park",
